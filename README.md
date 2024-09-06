@@ -15,7 +15,7 @@
 
 ## 細菌集団の増殖・死滅挙動の評価
 
-Combase database　https://www.combase.cc　<br>
+Combase database　https://www.combase.cc<br>
 対象の細菌：リステリア、サルモネラ、<br>
 対象のパラメータ：温度、水分活性、pH<br>
 
