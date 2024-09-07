@@ -35,3 +35,5 @@ Combase database　https://www.combase.cc<br>
 - 対象のパラメータ：温度、水分活性、pH<br>
 
 <br />
+
+## 用量反応のDX化に向けた情報整理
