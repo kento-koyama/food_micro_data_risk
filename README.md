@@ -19,6 +19,7 @@
 汚染実態では食品中の陽性/陰性のみならず、汚染濃度が重要である。陽性/陰性の割合と汚染濃度のデータの両方を示す。
 ### 1.1. 陽性/陰性の割合
 - 2008-2018年度 [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html)
+- [Campylobacter contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247)
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 ### 1.2. 汚染濃度 CFU/g or MPN/g
