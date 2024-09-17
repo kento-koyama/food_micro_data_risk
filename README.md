@@ -35,6 +35,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 #### 1.2.3 腸管出血性大腸菌
 - 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
 - 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)
+- 1998年度　[イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html)
 <br />
 
 ## 2. 喫食量（国内）
