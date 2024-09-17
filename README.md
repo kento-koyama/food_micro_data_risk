@@ -23,8 +23,10 @@
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 ### 1.2. 汚染濃度 CFU/g or MPN/g
+#### 1.2.1 カンピロバクター
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)
 - 2010年度　[鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf)
+#### 1.2.2 リステリア
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
