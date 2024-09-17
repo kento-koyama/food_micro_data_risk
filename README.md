@@ -39,13 +39,12 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 1998年度　[イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html)
 - 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)
 - 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
-<br />
 #### 1.2.4 サルモネラ
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222)
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
 - 2006年度　財団法人国際医療情報センター：「食品により媒介される微生物に関する食品健康影響評価に係る情報収集調査」報告書
-
+<br />
 <br />
 
 ## 3. 温度履歴（国内）
