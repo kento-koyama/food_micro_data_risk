@@ -14,7 +14,7 @@
 
 <br />
 
-[食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu)
+
 
 ## 1. 汚染実態（国内）
 汚染実態では食品中の陽性/陰性のみならず、汚染濃度が重要である。陽性/陰性の割合と汚染濃度のデータの両方を示す。
@@ -67,3 +67,7 @@ Combase database　https://www.combase.cc<br>
 - 食中毒を引き起こす微生物は、ヒトに対する試験ができないことを念頭に置き、データを収集する。
 - 摂取された微生物数・微生物濃度のデータを収集するための地盤を形成する必要がある。
 - 年齢・性別・遺伝的特徴・細菌叢・その他特異的な特徴によって微生物感染・発症への感受性が異なる可能性がある。併せてデータ収集する必要性がある。
+
+
+## 6. Webサイト
+[食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu)
