@@ -14,6 +14,7 @@
 
 <br />
 
+[食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu)
 
 ## 1. 汚染実態（国内）
 汚染実態では食品中の陽性/陰性のみならず、汚染濃度が重要である。陽性/陰性の割合と汚染濃度のデータの両方を示す。
