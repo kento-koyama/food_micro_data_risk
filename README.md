@@ -21,7 +21,7 @@
 - 2008-2018年度 [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html)
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
-### 1.2. 汚染濃度
+### 1.2. 汚染濃度 CFU/g or MPN/g
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
