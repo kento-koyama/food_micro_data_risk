@@ -32,7 +32,7 @@
 - （参）カナダでの汚染実態調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 #### 1.2.2 リステリア
-- 2018年-2022年[スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf)
+- 2018年-2022年　[スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
