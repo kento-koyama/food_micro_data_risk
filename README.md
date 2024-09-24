@@ -32,7 +32,7 @@
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)
 - 2013年度　[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html)
 - 2010年度　[鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf)
-- （参）カナダでの汚染実態調査：[National Microbiological Baseline Study in Broiler Chicken
+- （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 #### 1.2.2 リステリア
 - 2024年度　[リステリア](https://www.niid.go.jp/niid/images/lab-manual/kisyo/18_R5_Listeria_Okada.pdf)
