@@ -36,10 +36,10 @@
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 #### 1.2.2 リステリア
 - 2024年度　[リステリア](https://www.niid.go.jp/niid/images/lab-manual/kisyo/18_R5_Listeria_Okada.pdf)
-- 2018年-2022年　[スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf)
-- 2016年　[食品からのListeria monocytogenes検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf)
+- 2018-2022年度　[スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf)
+- 2016年度　[食品からのListeria monocytogenes検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf)
 - 2012年度　[日本におけるリステリア感染症の状況](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=kai20120604bv1&fileId=230)
-- 2000年-2012年　[Prevalence and contamination levels of Listeria monocytogenes in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/)
+- 2000-2012年度　[Prevalence and contamination levels of Listeria monocytogenes in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/)
 - 2007年度　[辛子明太子におけるListeria monocytogenesの汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
