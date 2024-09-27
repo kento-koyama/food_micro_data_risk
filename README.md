@@ -1,6 +1,9 @@
 # food_micro_data_risk
 <br />
 
+*工事中　ウェブアプリ開発者向け<br>
+https://github.com/kento-koyama/risk_st_test<br>
+
 ## ばく露評価のDX化に向けた情報整理
 ばくろ評価とは、人が摂食する細菌数を推定することである。<br>
 国内でのリスク評価を行うためには、日ごろのデータ集収が必要である。<br>
