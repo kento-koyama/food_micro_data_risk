@@ -3,6 +3,8 @@
 
 *工事中　ウェブアプリ開発者向け<br>
 https://github.com/kento-koyama/risk_st_test<br>
+汚染率データセットに対する可視化のイメージ<br>
+https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 
 ## ばく露評価のDX化に向けた情報整理　（工事中）
 ばくろ評価とは、人が摂食する細菌数を推定することである。<br>
