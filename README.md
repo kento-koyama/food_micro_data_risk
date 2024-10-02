@@ -34,7 +34,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm^2]
    **[食中毒細菌汚染実態_汚染濃度.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/3adb67abbdea7e3d4c62560ac20a3695ca79af55/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv)** に整理
-#### 1.2.1 カンピロバクター
+#### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)　（記録済み）
 - 2020年度　[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf)　（記録済み）
 - 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録中）
@@ -42,7 +42,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 - 2010年度　[鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf)
 - （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
-#### 1.2.2 リステリア
+#### 1.2.2 リステリア (_Listeria monocytogenes_)
 - 2024年度　[リステリア](https://www.niid.go.jp/niid/images/lab-manual/kisyo/18_R5_Listeria_Okada.pdf)
 - 2018-2022年度　[スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf)
 - 2016年度　[食品からのListeria monocytogenes検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf)
@@ -52,12 +52,12 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
-#### 1.2.3 腸管出血性大腸菌
+#### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ : )
 - 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)
 - 1998年度　[イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html)
 - 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)
 - 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
-#### 1.2.4 サルモネラ
+#### 1.2.4 サルモネラ (_Salmonella_ spp.)
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222)
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
