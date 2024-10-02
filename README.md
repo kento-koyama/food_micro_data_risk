@@ -52,7 +52,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)
 ](https://mhlw-grants.niph.go.jp/project/5920)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
-#### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ : )
+#### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ : EHEC)
 - 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)
 - 1998年度　[イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html)
 - 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)
