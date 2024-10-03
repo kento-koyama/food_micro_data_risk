@@ -37,6 +37,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 #### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)　（記録済み）
 - 2020年度　[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf)　（記録済み）
+- 2020年度　[令和２年度厚生労働科学研究（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)
 - 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録中）
 - 2013年度　[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html)
 - 2010年度　[鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf)
