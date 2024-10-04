@@ -32,7 +32,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 - 2009年度　[Campylobacter contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247)
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
-### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm^2]
+### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
    **[食中毒細菌汚染実態_汚染濃度.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/3adb67abbdea7e3d4c62560ac20a3695ca79af55/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv)** に整理
 #### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)　（記録済み）
