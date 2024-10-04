@@ -39,7 +39,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 - 2020年度　[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf)　（記録済み）
 - 2020年度　[令和２年度厚生労働科学研究（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)
 - 2018, 2020年度　[2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf)
-- 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録中）
+- 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録済み）
 - 2014年度　[と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://warp.ndl.go.jp/info:ndljp/pid/12996513/mhlw-grants.niph.go.jp/project/24503)
 - 2013年度　[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html)
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html)
