@@ -41,7 +41,7 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 - 2020-2022年度　[と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
 - 2018, 2020年度　[2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf)　（記録済み）
 - 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録済み）
-- 2014年度　[と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://warp.ndl.go.jp/info:ndljp/pid/12996513/mhlw-grants.niph.go.jp/project/24503)
+- 2014年度　[と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://mhlw-grants.niph.go.jp/project/24503)
 - 2013年度　[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html)
 - 2012年度　[牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf)
 - 2011年度　[食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf)
