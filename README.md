@@ -69,8 +69,8 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)　（登録中）
 - 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
-- 2020年度　[令和２年度厚生労働科学研究費補助金（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-sokatsu.pdf)
-- 2019年度　[令和元年度 厚生労働科学研究費補助金（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf)
+- 2020年度　厚生労働科学研究費補助金（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-sokatsu.pdf)
+- 2019年度　厚生労働科学研究費補助金（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf)
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222)
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
