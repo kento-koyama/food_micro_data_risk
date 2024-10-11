@@ -8,7 +8,8 @@ https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 汚染濃度データセットに対する可視化のイメージ<br>
 アプリ開発用Github:
 - https://github.com/junpei05/FoodContamiRisk_AppTest<br>
-アプリ:
+
+アプリ:<br>
 - 開発用: https://foodcontamiriskapptest-snhhv2zpvszwfmbm6kwhhm.streamlit.app/<br>
 - 試作版: https://foodcontamiriskapptest-enafzxdmaz3bgp8ur4gvgk.streamlit.app<br>
 
