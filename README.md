@@ -6,7 +6,8 @@ https://github.com/kento-koyama/risk_st_test<br>
 汚染率データセットに対する可視化のイメージ<br>
 https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app<br>
 汚染濃度データセットに対する可視化のイメージ<br>
-https://foodcontamiriskapptest-enafzxdmaz3bgp8ur4gvgk.streamlit.app<br>
+Github: https://github.com/junpei05/FoodContamiRisk_AppTest<br>
+アプリ: https://foodcontamiriskapptest-enafzxdmaz3bgp8ur4gvgk.streamlit.app<br>
 
 ## 食中毒細菌に関するばく露評価のDX化に向けた情報整理
 ばくろ評価とは、人が摂食する細菌数を推定することである。<br>
