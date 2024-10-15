@@ -71,7 +71,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
 - 2021年度　厚生労働科学研究費（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書[「鶏肉加工製品におけるサルモネラの定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E5%B7%A5%E8%97%A4%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
 - 2020年度　厚生労働科学研究費（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書[「鶏肉加工製品におけるサルモネラ等の定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf)
-- 2019年度　厚生労働科学研究費（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf)
+- 2019年度　厚生労働科学研究費（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf)
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222)
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
