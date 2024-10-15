@@ -36,7 +36,7 @@
 #### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
 - 2021年度　[と畜検査員及び食鳥検査員による外部検証の実施について（生食発 0528 第6号 令和3年5月31日）](https://www.mhlw.go.jp/content/11130500/000803740.pdf)　（記録済み）
 - 2020年度　[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf)　（記録済み）
-- 2020年度　厚生労働科学研究（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)　（記録済み）
+- 2020年度　厚生労働科学研究（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)　（記録済み）
 - 2020-2022年度　[と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
 - 2018, 2020年度　[2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf)　（記録済み）
 - 2014-2015年度　[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf)　（記録済み）
@@ -69,7 +69,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)　（登録中）
 - 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
-- 2021年度 厚生労働科学研究費（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書「鶏肉加工製品におけるサルモネラの定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E5%B7%A5%E8%97%A4%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
+- 2021年度 厚生労働科学研究費（食品の安全確保推進研究事業）「畜産食品の生物学的ハザードとそのリスクを低減するための研究」分担研究報告書[「鶏肉加工製品におけるサルモネラの定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E5%B7%A5%E8%97%A4%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
 - 2020年度　厚生労働科学研究費補助金（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-sokatsu.pdf)
 - 2019年度　厚生労働科学研究費補助金（食品の安全確保推進研究事業）[「畜産食品の生物学的ハザードとそのリスクを低減するための研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf)
 - 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222)
