@@ -67,6 +67,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 ](https://mhlw-grants.niph.go.jp/project/5920)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
 - 1990-1991年度　[流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf)
+- 1990年度　[The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R)
 #### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ :EHEC, 例: O157 など)　
 - 2003年度　[夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf)
 - 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)　（記録済み）
