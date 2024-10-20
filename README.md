@@ -68,7 +68,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 2004-2008 [Risk of Listeria monocytogenes Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920)
 - 2000　[Occurrence of Listeria monocytogenes in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf)
-- 1999-2000年度　[Listeria monocytogenes isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk)
+- 1999-2000年度　[_Listeria monocytogenes_ isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk)
 - 1998-2001年度　[わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
 - 1990-1991年度　[流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf)
