@@ -65,6 +65,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 
 - 2000-2012年度　[Prevalence and contamination levels of Listeria monocytogenes in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/)
 - 2007年度　[辛子明太子におけるListeria monocytogenesの汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf)
+- 2006年度　宮城県保健環境センター年報　第25号 (p45~48)[_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1943/617283.pdf)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920)
 - 2004-2008 [Risk of Listeria monocytogenes Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09)
 - 1988-2004 [Overview of Listeria monocytogenes contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13)
