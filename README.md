@@ -53,7 +53,6 @@
 - 2000-2001年度　[鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941)
 - 2000年度　[市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja)
 - 1999-2002年度　[国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf)
-- 1998-2001年度　[わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja)
 - （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 #### 1.2.2 リステリア (_Listeria monocytogenes_)
@@ -69,10 +68,11 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 2004-2008 [Risk of Listeria monocytogenes Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920)
 - 2000　[Occurrence of Listeria monocytogenes in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf)
-- 1988-2004 [Overview of Listeria monocytogenes contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13)
+- 1998-2001年度　[わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja)
 - 1994年度　[リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf)
 - 1990-1991年度　[流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf)
 - 1990年度　[The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R)
+- 1988-2004　[Overview of Listeria monocytogenes contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13)
 #### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ :EHEC, 例: O157 など)　
 - 2003年度　[夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf)
 - 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)　（記録済み）
