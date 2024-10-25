@@ -27,7 +27,7 @@
 ### 1.1. 陽性/陰性の割合
   **[食中毒細菌汚染実態_汚染率.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv)** に整理
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | 2008-2018 | 厚生労働省 <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
 | 2005-2015 | 農林水産省 <br> [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) |  |
 | 2009 | [Campylobacter contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
