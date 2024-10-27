@@ -65,16 +65,6 @@
 | 2000 | [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
 | 1999-2002 | [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
 
-- 2014年度　[と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://mhlw-grants.niph.go.jp/project/24503)
-- 2013年度　[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html)
-- 2012年度　[牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf)
-- 2011年度　[食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf)
-- 2010年度　[ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html)
-- 2010年度　[鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf)
-- 2001年度　[MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en)
-- 2000-2001年度　[鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941)
-- 2000年度　[市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja)
-- 1999-2002年度　[国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf)
 - （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 
