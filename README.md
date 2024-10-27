@@ -77,14 +77,15 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 2021 | [複数の型が検出された _Listeria monocytogenes_ 集団感染事例―福岡市](https://www.niid.go.jp/niid/ja/l-monocytogenes-m/l-monocytogenes-iasrd/11432-510d05.html) |  |
 | 2018-2022 | [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2016 | [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf) | 済 |
+| 2000-2012 | [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/) |  |
+| 2007 | [辛子明太子における _Listeria monocytogenes_ の汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf) |  |
+| 2006 | [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1943/617283.pdf)<br>(宮城県保健環境センター年報　第25号 p45~48) |  |
+| 2004-2008 | [Risk of Listeria monocytogenes Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09) |  |
+| 2002-2003 | [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) |  |
 
 - ~2012年度　日本におけるリステリア感染症の状況~（データ確認中）[参考スライド](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=kai20120604bv1&fileId=230), [参考PDF](https://www.fsc.go.jp/sonota/risk_profile/listeriamonocytogenes.pdf)
 
-- 2000-2012年度　[Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/)
-- 2007年度　[辛子明太子における _Listeria monocytogenes_ の汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf)
-- 2006年度　[_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1943/617283.pdf) (宮城県保健環境センター年報　第25号 p45~48 )
-- 2004-2008年　[Risk of Listeria monocytogenes Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09)
-- 2002-2003年度　[Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf)
+
 - 2001年度　[An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497)
 - 2001年度　[食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920)
 - 2000年　[Occurrence of _Listeria monocytogenes_ in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf)
