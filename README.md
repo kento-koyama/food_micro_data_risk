@@ -127,7 +127,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 
 <br />
 
-## 4. 時間経過での細菌集団の増殖・死滅挙動の予測(国際)
+## 4. 時間経過での細菌集団の増殖・死滅挙動の予測（国際）
 ばく露評価における細菌集団の増殖・死滅を推定する<br>
 Combase database　https://www.combase.cc<br>
 - 対象の細菌：リステリア、サルモネラ、<br>
