@@ -35,8 +35,10 @@
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 
+
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
    **[食中毒細菌汚染実態_汚染濃度.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv)** に整理
+
 
 #### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
 
@@ -70,6 +72,7 @@
 - （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 
+
 #### 1.2.2 リステリア (_Listeria monocytogenes_)
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
@@ -96,6 +99,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 - 1990年度　[The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R)
 - 1988-2004　[Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13)
 
+
 #### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ :EHEC, 例: O157 など)　
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
@@ -106,13 +110,9 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1998 | [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 整理中 |
 | 1997 | [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
 
-- 2003年度　[夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf)
-- 1998年度　[保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf)　（記録済み）
-- 1998年度　[イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html)　（登録中）
-- 1998年度　[「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html)　（登録中）
-- 1997年度　[岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf)
 
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
+
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2021 | 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラの定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E5%B7%A5%E8%97%A4%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf) |  |
