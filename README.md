@@ -48,7 +48,6 @@
 | 2022 | 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) |  |
 | 2021 | [と畜検査員及び食鳥検査員による外部検証の実施について](https://www.mhlw.go.jp/content/11130500/000803740.pdf) <br>（生食発 0528 第6号 令和3年5月31日） | 済 |
 | 2021 | 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) |  |
-| 2020-2022 | [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144) |  |
 | 2020 | 国立医薬品食品衛生研究所<br>[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf) | 済 |
 | 2020 | 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf) | 済 |
 | 2019 | 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0004.pdf) |  |
@@ -65,6 +64,8 @@
 | 2000 | [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
 | 1999-2002 | [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
 
+- 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
+ - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)
 - （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
 December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
 
