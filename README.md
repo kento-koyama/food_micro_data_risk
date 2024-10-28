@@ -97,7 +97,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1998-2001 | **日本水産（株）食品分析センター** <br> [わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja) |  |
 | 1994 | **北海道立衛生研究所** <br> [リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf) |  |
 | 1990-1991 | [流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf) |  |
-| 1990 | **国立予防衛生研究所（現国立感染症研究所）** <br> [The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R) |  |
+| 1990 | **国立予防衛生研究所（現 国立感染症研究所）** <br> [The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R) |  |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) |  |
 
 - ~2012年度　日本におけるリステリア感染症の状況~（データ確認中）[参考スライド](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=kai20120604bv1&fileId=230), [参考PDF](https://www.fsc.go.jp/sonota/risk_profile/listeriamonocytogenes.pdf)
@@ -106,10 +106,10 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2003 | [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf) |  |
-| 1998 | [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
-| 1998 | [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 整理中 |
-| 1998 | [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 整理中 |
+| 2003 | **大阪市食肉衛生検査所** <br> [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf) |  |
+| 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
+| 1998 | **北海道立衛生研究所** <br> [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 整理中 |
+| 1998 | **神奈川県衛生研究所** <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 整理中 |
 | 1997 | [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
 
 
