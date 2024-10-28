@@ -34,12 +34,13 @@
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
-| 2005-2015 | **農林水産省** <br> [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) |  |
+| 2007-2011 | **農林水産省** <br> [食品安全に関する有害微生物の実態調査の結果集 畜産物編](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) |  |
 | 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査結果](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) |  |
 | 2009 | [Campylobacter contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 
+2005-2015  **農林水産省** [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) 
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
    **[食中毒細菌汚染実態_汚染濃度.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv)** に整理
