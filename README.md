@@ -3,7 +3,7 @@
 
 ## 微生物汚染実態データベースの見える化
 
-|病原微生物の汚染率|病原微生物の汚染濃度| 
+|汚染率|汚染濃度| 
 | --- | --- |
 |[可視化システム](https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app) |[可視化システム](https://foodcontamiriskapptest-snhhv2zpvszwfmbm6kwhhm.streamlit.app/)| 
 |[プログラムのソースコード](https://github.com/kento-koyama/risk_st_test)|[プログラムのソースコード](https://github.com/junpei05/FoodContamiRisk_AppTest)|
