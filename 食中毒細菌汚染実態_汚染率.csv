@@ -29,9 +29,9 @@
 2009,,,,豚肉,ミンチ肉(豚),,,Salmonella spp.,165.0,5.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2009,,,,鶏肉,ミンチ肉(鶏),,,Campylobacter spp.,216.0,65.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2009,,,,鶏肉,ミンチ肉(鶏),,,Salmonella spp.,216.0,105.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
-2009,,,,牛肉,牛レバ一(加熱加エ用),,,Campylobacter spp.,207.0,22.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
-2009,,,,牛肉,牛レバ一(加熱加エ用),,,Salmonella spp.,207.0,2.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
-2009,,,,牛肉,牛レバ一(加熱加エ用),,,Escherichia coli O157,207.0,2.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
+2009,,,,牛肉,牛レバ一(加熱加工用),,,Campylobacter spp.,207.0,22.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
+2009,,,,牛肉,牛レバ一(加熱加工用),,,Salmonella spp.,207.0,2.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
+2009,,,,牛肉,牛レバ一(加熱加工用),,,Escherichia coli O157,207.0,2.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2009,,,,牛肉,牛レバ一(生食用),,,Campylobacter spp.,17.0,3.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2009,,,,牛肉,牛結着肉,,,Salmonella spp.,197.0,1.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2009,,,,その他の肉類,馬刺,,,Campylobacter spp.,81.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
@@ -1145,12 +1145,12 @@
 2018,,,,青果物,キュウリ,,,Escherichia coli O145,37.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2018,,,,青果物,キュウリ,,,Escherichia coli O157,40.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2018,,,,青果物,キュウリ,,,Escherichia coli O26,40.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O103,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O111,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O121,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O145,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O157,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
-2018,,,,青果物,スブラウト,,,Escherichia coli O26,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O103,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O111,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O121,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O145,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O157,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
+2018,,,,青果物,スプラウト,,,Escherichia coli O26,2.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 実選施定自品治目体; "
 2018,,,,青果物,トマト,,,Escherichia coli O103,36.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2018,,,,青果物,トマト,,,Escherichia coli O111,37.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2018,,,,青果物,トマト,,,Escherichia coli O121,36.0,0.0,,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
@@ -1322,3 +1322,4 @@
 2006~2010,,,,その他の肉類,生ハム,,,Listeria monocytogenes,,,,,,,
 2006~2010,,,,その他の肉類,非加熱食肉製品,,,Listeria monocytogenes,,,,,,,
 2006~2010,,,,,,,,,,,,,,,
+1998,北海道,,,魚介類,イクラ醤油漬,,定性検査,Escherichia coli O157,399.0,17.0,,北海道立衛生研究所,,,
