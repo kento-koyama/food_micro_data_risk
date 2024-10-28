@@ -33,6 +33,7 @@
   
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
+| 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) |  |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) |  |
 | 2007-2011 | **農林水産省** <br> [食品安全に関する有害微生物の実態調査（畜産物）](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) |  |
@@ -51,24 +52,24 @@
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2022 | **国立医薬品食品衛生研究所**<br>厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) |  |
+| 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) |  |
 | 2021 | [と畜検査員及び食鳥検査員による外部検証の実施について](https://www.mhlw.go.jp/content/11130500/000803740.pdf) <br>（生食発 0528 第6号 令和3年5月31日） | 済 |
-| 2021 | **国立医薬品食品衛生研究所**<br>厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) |  |
-| 2020 | **国立医薬品食品衛生研究所**<br>[食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf) | 済 |
-| 2020 | **国立医薬品食品衛生研究所**<br>厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf) | 済 |
-| 2019 | **国立医薬品食品衛生研究所**<br>厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0004.pdf) |  |
-| 2018, 2020 | **国立医薬品食品衛生研究所**<br>[2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf)| 済 |
-| 2014-2015 | **一般社団法人岩手県獣医師会食烏検査センター**<br>[特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf) | 済 |
-| 2014 | **国立医薬品食品衛生研究所**<br>[と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://mhlw-grants.niph.go.jp/project/24503) |  |
-| 2013 | **農林水産省** <br>[ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) |  |
-| 2012 | **岐阜県食肉衛生検査所**<br>[牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) |  |
-| 2011 | **公益財団法人鹿児島市獣医公衆衛生協会**<br>[食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
-| 2010 | **農林水産省** <br>[ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) |  |
-| 2010 | [鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf) |  |
-| 2001 | **埼玉県衛生研究所**<br>[MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
-| 2000-2001 | **岩手大学**<br>[鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) |  |
-| 2000 | **埼玉県衛生研究所**<br>[市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
-| 1999-2002 | **埼玉県衛生研究所**<br>[国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
+| 2021 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) |  |
+| 2020 | **国立医薬品食品衛生研究所** <br> [食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf) | 済 |
+| 2020 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf) | 済 |
+| 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0004.pdf) |  |
+| 2018, 2020 | **国立医薬品食品衛生研究所** <br> [2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf)| 済 |
+| 2014-2015 | **一般社団法人岩手県獣医師会食烏検査センター** <br> [特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf) | 済 |
+| 2014 | **国立医薬品食品衛生研究所** <br> [と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://mhlw-grants.niph.go.jp/project/24503) |  |
+| 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) |  |
+| 2012 | **岐阜県食肉衛生検査所** <br> [牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) |  |
+| 2011 | **公益財団法人鹿児島市獣医公衆衛生協会** <br> [食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
+| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) |  |
+| 2010 | **農林水産省** <br> [鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf) |  |
+| 2001 | **埼玉県衛生研究所** <br> [MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
+| 2000-2001 | **岩手大学** <br> [鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) |  |
+| 2000 | **埼玉県衛生研究所** <br> [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
+| 1999-2002 | **埼玉県衛生研究所** <br> [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
 
 - 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
  - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)
@@ -80,9 +81,9 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2022 | **国立医薬品食品衛生研究所**<br>厚生労働科学研究費（食品の安全確保推進研究事業）<br>「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」<br>分担研究報告書[「と畜場におけるリステリア属菌の汚染実態とリスク管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/9.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A3%20p64-69.pdf) |  |
-| 2021 | **福岡市保健環境研究所**<br>[複数の型が検出された _Listeria monocytogenes_ 集団感染事例―福岡市](https://www.niid.go.jp/niid/ja/l-monocytogenes-m/l-monocytogenes-iasrd/11432-510d05.html) |  |
-| 2018-2022 | [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
+| 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」<br>分担研究報告書[「と畜場におけるリステリア属菌の汚染実態とリスク管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/9.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A3%20p64-69.pdf) |  |
+| 2021 | **福岡市保健環境研究所** <br> [複数の型が検出された _Listeria monocytogenes_ 集団感染事例―福岡市](https://www.niid.go.jp/niid/ja/l-monocytogenes-m/l-monocytogenes-iasrd/11432-510d05.html) |  |
+| 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2016 | [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf) | 済 |
 | 2000-2012 | [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/advpub/0/advpub_15-0708/_article/-char/ja/) |  |
 | 2007 | [辛子明太子における _Listeria monocytogenes_ の汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf) |  |
