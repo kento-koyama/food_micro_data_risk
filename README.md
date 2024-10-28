@@ -65,10 +65,10 @@
 | 2011 | **公益財団法人鹿児島市獣医公衆衛生協会**<br>[食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
 | 2010 | **農林水産省** <br>[ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) |  |
 | 2010 | [鶏肉のカンピロバクター（肉用鶏農場～食鳥処理場）](https://www.maff.go.jp/j/syouan/seisaku/risk_manage/seminar/pdf/siryou2-2_chicken-campylobacter.pdf) |  |
-| 2001 | [MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
-| 2000-2001 | [鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) |  |
-| 2000 | [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
-| 1999-2002 | [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
+| 2001 | **埼玉県衛生研究所**<br>[MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
+| 2000-2001 | **岩手大学**<br>[鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) |  |
+| 2000 | **埼玉県衛生研究所**<br>[市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
+| 1999-2002 | **埼玉県衛生研究所**<br>[国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
 
 - 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
  - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)
