@@ -96,7 +96,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1999-2000 | **大阪市立大学 / 大阪市立環境科学研究所** <br> [_Listeria monocytogenes_ isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk) |  |
 | 1998-2001 | **日本水産（株）食品分析センター** <br> [わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja) |  |
 | 1994 | **北海道立衛生研究所** <br> [リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf) |  |
-| 1990-1991 | [流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf) |  |
+| 1990-1991 | **兵庫県立衛生研究所微生物部** <br> [流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf) |  |
 | 1990 | **国立予防衛生研究所（現 国立感染症研究所）** <br> [The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R) |  |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) |  |
 
