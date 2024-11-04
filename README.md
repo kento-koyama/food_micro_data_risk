@@ -96,7 +96,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1999-2000 | **大阪市立大学 / 大阪市立環境科学研究所** <br> [_Listeria monocytogenes_ isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk) |  |
 | 1998-2001 | **日本水産（株）食品分析センター** <br> [わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja) |  |
 | 1994 | **北海道立衛生研究所** <br> [リステリア菌によるナチュラルチーズの汚染実態調査（道衛研所報　第44集）](https://www.iph.pref.hokkaido.jp/Kankobutsu/Shoho/annual44/shoho440305.pdf) |  |
-| 1990-1991 | **兵庫県立衛生研究所微生物部** <br> [流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf) |  |
+| 1990-1991 | **兵庫県立衛生研究所** <br> [流通過程における食肉のリステリア汚染状況](https://www.jstage.jst.go.jp/article/jsfm1984/10/3/10_3_139/_pdf) |  |
 | 1990 | **国立予防衛生研究所（現 国立感染症研究所）** <br> [The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R) |  |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) |  |
 
@@ -110,7 +110,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
 | 1998 | **北海道立衛生研究所** <br> [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 整理中 |
 | 1998 | **神奈川県衛生研究所** <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 整理中 |
-| 1997 | [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
+| 1997 | **岩手大学** <br> [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
 
 
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
