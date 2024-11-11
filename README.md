@@ -113,9 +113,9 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | --- | --- | --- |
 | 2016 | **神奈川県衛生研究所** <br> [冷凍メンチカツによる腸管出血性大腸菌O157 VT2の食中毒検査について―神奈川県](https://www.niid.go.jp/niid/ja/ehec-m/ehec-iasrs/6992-443p08.html) |  |
 | 2003 | **大阪市食肉衛生検査所** <br> [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf) | 済 |
-| 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 済 |
+| 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
 | 1998 | **北海道立衛生研究所** <br> [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 整理中 |
-| 1998 | **神奈川県衛生研究所** <br> [イクラからの志賀毒素産生性大腸菌O157:H7の分離と分離株のパルスフィールドゲル電気泳動パターン](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/73/1/73_1_20/_pdf) | 整理中 |
+| 1998 | **神奈川県衛生研究所** <br> [イクラからの志賀毒素産生性大腸菌O157:H7の分離と分離株のパルスフィールドゲル電気泳動パターン](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/73/1/73_1_20/_pdf) <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 整理中 |
 | 1997 | **岩手大学** <br> [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
 
 
