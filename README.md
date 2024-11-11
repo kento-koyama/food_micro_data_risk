@@ -124,7 +124,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2020 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf) | 済 |
-| 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) |  |
+| 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) |  |
 | 2006 | **宮城県保険環境センター** <br> [_Salmonella_ Montevideoが検出された食中毒事例について](https://www.pref.miyagi.jp/documents/1979/209933.pdf) |  |
 
