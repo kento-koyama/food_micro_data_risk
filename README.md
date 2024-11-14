@@ -123,6 +123,7 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
+| 2022 | **岐阜県保険環境研究所** <br> [_Salmonellα_ lnfantisにより軽度に汚染された保育園給食を原因とする食中毒事例](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2022/003901/007&name=0033-0037j&UserID=133.50.190.185&base=jamas_pdf) |  |
 | 2020 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf) | 済 |
 | 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) |  |
