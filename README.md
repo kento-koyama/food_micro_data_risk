@@ -5,9 +5,11 @@
 
 |汚染率|汚染濃度| 
 | --- | --- |
-|[**可視化ソフトウェア**](https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app) |[**可視化ソフトウェア**](https://foodcontamiriskapptest-snhhv2zpvszwfmbm6kwhhm.streamlit.app/)| 
+|📊[**可視化ソフトウェア**](https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app) |📊[**可視化ソフトウェア**](https://foodcontamiriskapptest-snhhv2zpvszwfmbm6kwhhm.streamlit.app/)| 
 |<a href="https://github.com/kento-koyama/risk_st_test" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"></a>[プログラムのソースコード](https://github.com/kento-koyama/risk_st_test)|<a href="https://github.com/junpei05/FoodContamiRisk_AppTest" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"></a>[プログラムのソースコード](https://github.com/junpei05/FoodContamiRisk_AppTest)|
-| [csvファイル](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv) | [csvファイル](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv) |
+|<a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px"> [csvファイル](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv) | <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">[csvファイル](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv) |
+
+
 
 ## 食中毒細菌に関するばく露評価のDX化に向けた情報整理
 ばくろ評価とは、人が摂食する細菌数を推定することである。<br>
