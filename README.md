@@ -47,7 +47,7 @@
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of Listeria monocytogenes from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
 | 2001 | **神戸市環境保健研究所** <br> [市販の輸入生野菜および果物における病原菌汚染の実態調査](https://www.jstage.jst.go.jp/article/jsfm1994/19/2/19_2_71/_pdf/-char/ja) |  |
-| 2000~2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
+| 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
 
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
