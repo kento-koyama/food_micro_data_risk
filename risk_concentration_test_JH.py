@@ -9,7 +9,7 @@ import os
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
     if pd.isna(number):  # NaN チェック
-        return number
+        return np.nan  # NaN をそのまま返す
     p = 10 ** ndigits
     return float(int(number * p + 0.5) / p)
 
