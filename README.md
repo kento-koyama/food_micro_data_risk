@@ -120,7 +120,6 @@ December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-ind
 | 1990 | **国立予防衛生研究所（現 国立感染症研究所）** <br> [The incidence of Listeria species in retail foods in Japan](https://www.sciencedirect.com/science/article/pii/016816059290009R) |  |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) |  |
 
-- ~2012年度　日本におけるリステリア感染症の状況~（データ確認中）[参考スライド](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=kai20120604bv1&fileId=230), [参考PDF](https://www.fsc.go.jp/sonota/risk_profile/listeriamonocytogenes.pdf)
 
 #### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ :EHEC, 例: O157 など)　
 
