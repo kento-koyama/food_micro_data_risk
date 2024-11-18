@@ -89,9 +89,6 @@
 
 - 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
  - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)
-- （参）カナダでの調査：[National Microbiological Baseline Study in Broiler Chicken
-December 2012 – December 2013](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/food-safety-testing-reports-and-journal-articles/december-2012-december-2013)
-
 
 #### 1.2.2 リステリア (_Listeria monocytogenes_)
 
