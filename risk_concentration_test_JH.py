@@ -138,7 +138,8 @@ with col3:
 
     # 汚染濃度の平均と標本標準偏差の計算
     mean_concentration = func_round(df_bacteria_counts['汚染濃度 [log CFU/g]'].mean(), ndigits=2)
-    std_concentration = func_round(df_bacteria_counts['汚染濃度 [log CFU/g]'].std(ddof=1), ndigits=2)
+    std_concentration = df_bacteria_counts['汚染濃度 [log CFU/g]'].std(ddof=1)
+    std_concentration = func_round(std_concentration, ndigits=2) if not pd.isna(std_concentration) else np.nan
     # 平均と標準偏差の表示用データフレームを作成
     stats_df = pd.DataFrame({
         '平均 [log CFU/g]': [format_number(mean_concentration, ndigits=2)],
@@ -188,7 +189,8 @@ for bacteria_name, df_bacteria in bacteria_data:
 
             # 汚染濃度の平均と標本標準偏差の計算
             mean_conc = func_round(df_bacteria_conc['汚染濃度 [log CFU/g]'].mean(), ndigits=2)
-            std_conc = func_round(df_bacteria_conc['汚染濃度 [log CFU/g]'].std(ddof=1), ndigits=2)
+            std_conc = df_bacteria_conc['汚染濃度 [log CFU/g]'].std(ddof=1)
+            std_conc = func_round(std_conc, ndigits=2) if not pd.isna(std_concentration) else np.nan
             # 平均と標準偏差の表示用データフレームを作成
             stats_df = pd.DataFrame({
                 '平均 [log CFU/g]': [format_number(mean_conc, ndigits=2)],
