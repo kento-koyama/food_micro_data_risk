@@ -53,7 +53,7 @@
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
 - 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 
-2005-2015  **農林水産省** [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) 
+2005-2015  **農林水産省** [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) （データ確認中）
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
@@ -88,8 +88,8 @@
 | 2000 | **埼玉県衛生研究所** <br> [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
 | 1999-2002 | **埼玉県衛生研究所** <br> [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
 
-- 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)
- - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)
+- 2020-2022  [と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究](https://mhlw-grants.niph.go.jp/project/165144)（データ確認中）
+ - [HACCP 検証の評価手法に関する研究](https://mhlw-grants.niph.go.jp/system/files/report_pdf/15.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A9%20p155-158.pdf)（データ確認中）
 
 #### 1.2.2 リステリア (_Listeria monocytogenes_)
 
