@@ -140,7 +140,7 @@
 | 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) |  |
 | 2006 | **宮城県保険環境センター** <br> [_Salmonella_ Montevideoが検出された食中毒事例について](https://www.pref.miyagi.jp/documents/1979/209933.pdf) |  |
-| 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2006/002303/011&name=0165-0169j&UserID=133.50.190.185&base=jamas_pdf) |  |
+| 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://www.jstage.jst.go.jp/article/jsfm1994/23/3/23_3_165/_pdf/-char/ja) |  |
 | 1999-2001 | **埼玉県衛生研究所** <br> [市販食肉におけるサルモネラとリステリアの汚染状況](https://www.jstage.jst.go.jp/article/jvma1951/56/3/56_3_167/_pdf/-char/en) |  |
 
 ## 2. 喫食量（国内）
