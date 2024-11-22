@@ -51,7 +51,6 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
 
 - 不確実性の推定のため、総試験数および陽性数が必要となる。
-- 国外・国内の差を考慮し、場合によっては地域ごとの差も考慮に入れる。
 
 2005-2015  **農林水産省** [食品の安全性に関するサーベイランス・モニタリングの結果【有害微生物】](https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/survei/result_micro.html#kekkasyuu) （データ確認中）
 
