@@ -34,7 +34,7 @@
   
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) |  |
+| 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) |  |
 | 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) |  |
