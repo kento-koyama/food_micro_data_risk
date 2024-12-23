@@ -1440,5 +1440,45 @@
 2007-2008,全国,,市販鶏卵,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,2030,0,,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
 2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況 調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
 2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況 調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2014,,,,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,,,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,
-2014,,,,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,,,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,2,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,36,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,2,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2013-2014,,,,青果物,レタス,結球,定性検査,Listeria monocytogenes,227,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2014-2015,,,,青果物,レタス,結球,定性検査,Listeria monocytogenes,358,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2013-2014,,,,青果物,レタス,結球,定性検査,Escherichia coli O157,227,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2014-2015,,,,青果物,レタス,結球,定性検査,Escherichia coli O157,358,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,きゅうり,,定性検査,Listeria monocytogenes,236,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,きゅうり,,定性検査,Listeria monocytogenes,244,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,きゅうり,,定性検査,Escherichia coli O157,236,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,きゅうり,,定性検査,Escherichia coli O157,244,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,きゅうり,,定性検査,Salmonella spp.,236,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,きゅうり,,定性検査,Salmonella spp.,244,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,トマト,,定性検査,Listeria monocytogenes,205,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,トマト,,定性検査,Listeria monocytogenes,226,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,トマト,,定性検査,Escherichia coli O157,205,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,トマト,,定性検査,Escherichia coli O157,226,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2015-2016,,,,青果物,トマト,,定性検査,Salmonella spp.,205,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2016-2017,,,,青果物,トマト,,定性検査,Salmonella spp.,226,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2013-2014,,,,青果物,はくさい,,定性検査,Listeria monocytogenes,113,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2014-2015,,,,青果物,はくさい,,定性検査,Listeria monocytogenes,192,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2013-2014,,,,青果物,はくさい,,定性検査,Escherichia coli O157,113,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2014-2015,,,,青果物,はくさい,,定性検査,Escherichia coli O157,192,0,,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
+2007,,,,青果物,レタス,,定性検査,Escherichia coli O157,840,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2007,,,,青果物,レタス,,定性検査,Escherichia coli O26,840,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2007,,,,青果物,キャベツ,,定性検査,Escherichia coli O157,425,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2007,,,,青果物,キャベツ,,定性検査,Escherichia coli O26,425,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,ねぎ,緑色部位,定性検査,Escherichia coli O157,480,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,ねぎ,白色部位,定性検査,Escherichia coli O157,480,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,ねぎ,緑色部位,定性検査,Escherichia coli O26,480,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,ねぎ,白色部位,定性検査,Escherichia coli O26,480,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,トマト,,定性検査,Escherichia coli O157,499,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,トマト,,定性検査,Escherichia coli O26,499,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,トマト,,定性検査,Salmonella spp.,499,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,きゅうり,,定性検査,Escherichia coli O157,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,きゅうり,,定性検査,Escherichia coli O26,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2008,,,,青果物,きゅうり,,定性検査,Salmonella spp.,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
