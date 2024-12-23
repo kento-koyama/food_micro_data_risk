@@ -43,7 +43,7 @@
 | 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) |  |
 | 2009 | **国立医薬品食品衛生研究所**<br>[_Campylobacter_ contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
 | 2007-2011 | **農林水産省** <br> [食品安全に関する有害微生物の実態調査（畜産物）](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> 関連リンク <br> [採卵鶏農場の鶏卵](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_03.html#22113) <br> [市販鶏卵](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) |  |
-| 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) |  |
+| 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) | 済 |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of Listeria monocytogenes from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) |  |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
