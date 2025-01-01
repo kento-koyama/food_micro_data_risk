@@ -1438,8 +1438,8 @@
 2020,全国,,市販鶏卵,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1870,1,,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html,
 2007-2008,全国,,市販鶏卵,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,2030,5,,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
 2007-2008,全国,,市販鶏卵,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,2030,0,,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況 調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況 調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1000,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
 2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,2,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
 2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
 2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,36,,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
@@ -1482,3 +1482,123 @@
 2008,,,,青果物,きゅうり,,定性検査,Escherichia coli O157,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
 2008,,,,青果物,きゅうり,,定性検査,Escherichia coli O26,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
 2008,,,,青果物,きゅうり,,定性検査,Salmonella spp.,683,0,,農林水産省,生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf,
+2009,,,,鶏肉,モモ肉,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",70,42,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ムネ肉,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",70,46,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ササミ,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",70,32,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,砂肝,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",70,41,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",70,19,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,モモ肉,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",50,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ムネ肉,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",50,6,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ササミ,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",50,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,砂肝,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",50,7,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,肝臓,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",50,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,ムネ肉,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",90,89,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,ササミ,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",90,67,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",90,90,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,ムネ肉,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",10,1,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,ササミ,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",10,2,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010-2011,,,,鶏肉,肝臓,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",10,5,,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,20,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,20,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,20,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,5,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,7,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,5,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,13,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,15,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,16,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,3,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,9,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,10,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2011-2012,,,,鶏肉,肝臓,,定性検査,"Campylobacter jejuni, Campylobacter coli",20,10,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2013,,,,鶏肉,ムネ肉,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",110,76,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html,
+2013,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",110,97,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html,
+2013,,,,鶏肉,ムネ肉,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",280,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html,
+2013,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",280,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html,
+2013,,,,鶏肉,ムネ肉,サルモネラ陽性鶏群,定性検査,Salmonella spp.,195,153,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html,
+2013,,,,鶏肉,肝臓,サルモネラ陽性鶏群,定性検査,Salmonella spp.,195,128,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html,
+2013,,,,鶏肉,ムネ肉,サルモネラ陰性鶏群,定性検査,Salmonella spp.,195,42,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html,
+2013,,,,鶏肉,肝臓,サルモネラ陰性鶏群,定性検査,Salmonella spp.,195,53,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html,
+2012,,,,鶏肉,ムネ肉,,定性検査,Listeria monocytogenes,25,13,,農林水産省,ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A;
+2012,,,,鶏肉,肝臓,,定性検査,Listeria monocytogenes,25,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A;
+2012,,,,鶏肉,ムネ肉,,定性検査,Listeria monocytogenes,100,20,,農林水産省,ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B;
+2012,,,,鶏肉,肝臓,,定性検査,Listeria monocytogenes,100,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B;
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Listeria monocytogenes,110,0,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A;
+2011-2012,,,,鶏肉,肝臓,,定性検査,Listeria monocytogenes,110,0,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A;
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Listeria monocytogenes,55,18,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 第1鶏群
+2011-2012,,,,鶏肉,肝臓,,定性検査,Listeria monocytogenes,55,6,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 第1鶏群
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Listeria monocytogenes,55,7,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 第2鶏群
+2011-2012,,,,鶏肉,肝臓,,定性検査,Listeria monocytogenes,55,1,,農林水産省,各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 第2鶏群
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,6,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 10月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,4,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,3,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,16,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 11月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,9,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,12,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,10,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 12月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,11,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,9,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,12,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 1月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,10,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,7,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,8,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 2月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,10,6,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,10,4,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,10,2,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場A; others: 3月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 9月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,7,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,18,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,14,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 10月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,16,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,17,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,14,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 11月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,11,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,12,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,14,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 12月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,4,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,3,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 1月
+2011-2012,,,,鶏肉,ムネ肉,,定性検査,Salmonella spp.,20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2011-2012,,,,鶏肉,モモ肉,,定性検査,Salmonella spp.,20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2011-2012,,,,鶏肉,肝臓,,定性検査,Salmonella spp.,20,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,origin: 処理場B; others: 2月
+2010-2011,,,,鶏肉,ムネ肉,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",30,18,,農林水産省,出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html,
+2010-2011,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",30,25,,農林水産省,出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html,
+2010-2011,,,,鶏肉,ムネ肉,カンピロバクター陰性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",95,0,,農林水産省,出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html,
+2010-2011,,,,鶏肉,肝臓,カンピロバクター陽性鶏群,定性検査,"Campylobacter jejuni, Campylobacter coli",95,0,,農林水産省,出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html,
+2009,,,,鶏肉,モモ肉,サルモネラ陽性鶏群,定性検査,Salmonella spp.,110,87,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ムネ肉,サルモネラ陽性鶏群,定性検査,Salmonella spp.,110,58,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ササミ,サルモネラ陽性鶏群,定性検査,Salmonella spp.,110,46,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,砂肝,サルモネラ陽性鶏群,定性検査,Salmonella spp.,110,27,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,肝臓,サルモネラ陽性鶏群,定性検査,Salmonella spp.,110,62,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,モモ肉,サルモネラ陰性鶏群,定性検査,Salmonella spp.,10,6,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ムネ肉,サルモネラ陰性鶏群,定性検査,Salmonella spp.,10,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,ササミ,サルモネラ陰性鶏群,定性検査,Salmonella spp.,10,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,砂肝,サルモネラ陰性鶏群,定性検査,Salmonella spp.,10,1,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2009,,,,鶏肉,肝臓,サルモネラ陰性鶏群,定性検査,Salmonella spp.,10,0,,農林水産省,ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
