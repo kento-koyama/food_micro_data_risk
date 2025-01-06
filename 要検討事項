@@ -5,6 +5,7 @@
 # 2024/1/5
 ・カンピロバクターの項目をCampirobacter spp.に絞る。
 　Campirobacter coliやCampirobacter jejuniなど細分化はしない。
+ Campirobacter spp.には、Campylobacter jejuniとCampylobacter coliのみが含まれているとする。（追記 1/6）
 # 2024/11/20 
 ・リステリアはListeria monocytogenesのみを対象にする。
 　他のListeriaは収集対象外であり、リストにもcsvにも記載しない。
