@@ -51,8 +51,8 @@
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
-| 2011 | **農林水産省** <br> [豚の肝臓のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/cam/02.html#24121) |  |
-| 2011 | **農林水産省** <br> [豚の肝臓のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/sal/02.html#24221) |  |
+| 2011 | **農林水産省** <br> [豚の肝臓のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/cam/02.html#24121) | 済 |
+| 2011 | **農林水産省** <br> [豚の肝臓のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/sal/02.html#24221) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/lis/02.html#24321) |  |
 | 2010 | **農林水産省** <br> [出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
