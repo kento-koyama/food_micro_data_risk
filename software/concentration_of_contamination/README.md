@@ -1,6 +1,6 @@
 # 食中毒細菌数可視化ソフトウェア
 
-この[**ソフトウェア**](https://foodcontamiriskapptest-snhhv2zpvszwfmbm6kwhhm.streamlit.app/)は、**食中毒細菌の汚染濃度**に関する統計データを簡単に可視化できるツールです。食品中の細菌の汚染濃度データを直感的に操作し、分かりやすく表示します。
+この[**ソフトウェア**](https://concentration-of-contamination1-624097414875.asia-northeast1.run.app)は、**食中毒細菌の汚染濃度**に関する統計データを簡単に可視化できるツールです。食品中の細菌の汚染濃度データを直感的に操作し、分かりやすく表示します。
 
 ---
 
