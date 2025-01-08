@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
+
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
