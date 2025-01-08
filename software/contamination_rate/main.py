@@ -64,19 +64,6 @@ elif selected_food == 'すべて':
 else:
     df_filtered = pd.DataFrame()  # 選択肢が"入力 または 選択"の場合は空のデータフレーム
 
-# サイドバーで細菌名を選択
-bacteria_names = df_filtered['細菌名'].unique() if not df_filtered.empty else []  # データが空の場合、細菌名リストも空にする
-options_bacteria = ['入力 または 選択'] + ['すべて'] + list(bacteria_names)  # 初期値として表示するオプションを追加
-selected_bacteria = st.sidebar.selectbox('細菌名を入力/選択してください:', options_bacteria, index=0)
-
-# 選択された細菌名に基づいてデータをフィルタリング
-if selected_bacteria not in ['入力 または 選択', 'すべて']:
-    df_filtered = df_filtered[df_filtered['細菌名'] == selected_bacteria]
-elif selected_bacteria == 'すべて':
-    df_filtered = df_filtered
-else:
-    df_filtered = pd.DataFrame()  # 選択肢が"入力 または 選択"の場合は空のデータフレーム
-
 
 # 細菌ごとの検体数と陽性数の合計を計算
 bacteria_counts = df_filtered.groupby('細菌名').agg({'検体数': 'sum', '陽性数': 'sum'}).reset_index()
