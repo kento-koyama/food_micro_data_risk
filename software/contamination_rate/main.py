@@ -40,7 +40,7 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 # サイドバーで食品カテゴリを選択
 food_groups = df['食品カテゴリ'].unique()  # ユニークな食品カテゴリを取得
 options_group = ['入力 または 選択'] + ['すべて'] + list(food_groups)  # 初期値として表示するオプションを追加
-selected_group = st.sidebar.selectbox('食品カテゴリを選択してください:', options_group, index=0)
+selected_group = st.sidebar.selectbox('食品カテゴリを入力/選択してください:', options_group, index=0)
 
 # 選択された食品カテゴリに基づいて食品名を動的に変更
 if selected_group not in ['入力 または 選択', 'すべて']:
@@ -54,7 +54,7 @@ else:
 # サイドバーで食品名を選択
 food_names = df_filtered['食品名'].unique() if not df_filtered.empty else []  # データが空の場合、食品名リストも空にする
 options_food = ['入力 または 選択'] + ['すべて'] + list(food_names)  # 初期値として表示するオプションを追加
-selected_food = st.sidebar.selectbox('食品名を選択してください:', options_food, index=0)
+selected_food = st.sidebar.selectbox('食品名を入力/選択してください:', options_food, index=0)
 
 # 選択された食品名に基づいてデータをフィルタリング
 if selected_food not in ['入力 または 選択', 'すべて']:
