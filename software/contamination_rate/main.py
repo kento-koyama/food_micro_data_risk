@@ -46,7 +46,7 @@ institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  # 実�
 selected_group = st.sidebar.selectbox(
     '食品カテゴリを入力/選択してください:',
     food_groups,
-    format_func=lambda x: "入力 または 選択" if x == "" else x,
+    format_func=lambda x: "" if x == "" else x,
     key="group_selected"
 )
 
@@ -58,7 +58,7 @@ food_names_filtered = [""] + ["すべて"] + list(df_filtered['食品名'].uniqu
 selected_food = st.sidebar.selectbox(
     '食品名を入力/選択してください:',
     food_names_filtered,
-    format_func=lambda x: "入力 または 選択" if x == "" else x,
+    format_func=lambda x: "" if x == "" else x,
     key="food_selected"
 )
 
@@ -70,7 +70,7 @@ bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].u
 selected_bacteria = st.sidebar.selectbox(
     '細菌名を入力/選択してください:',
     bacteria_names_filtered,
-    format_func=lambda x: "入力 または 選択" if x == "" else x,
+    format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
 
@@ -82,7 +82,7 @@ institutions_filtered = [""] + ["すべて"] + list(df_filtered['実施機関'].
 selected_institution = st.sidebar.selectbox(
     '実施機関を入力/選択してください:',
     institutions_filtered,
-    format_func=lambda x: "入力 または 選択" if x == "" else x,
+    format_func=lambda x: "" if x == "" else x,
     key="institution_selected"
 )
 
