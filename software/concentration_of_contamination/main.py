@@ -197,7 +197,7 @@ if selected_institution == "" and (selected_group != "" or selected_food != "" o
 group_title = f"（{selected_group} - {selected_food} - {selected_bacteria} - {selected_institution}）" if selected_group != 'すべて' or selected_food != 'すべて' or selected_bacteria != 'すべて' or selected_institution != 'すべて' else "（すべて）"
 
 # 表示条件を確認して出力制御
-if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
+if selected_group == None and selected_food == None and selected_bacteria == None and selected_institution == None:
     st.warning("入力または選択を行ってください。")
 
 # データがない場合は処理を中止して警告を表示
