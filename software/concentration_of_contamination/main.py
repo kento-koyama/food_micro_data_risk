@@ -131,16 +131,16 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14]]
 
 # 初期状態の選択肢
-food_categories = [None] + ["すべて"] + list(df['食品カテゴリ'].unique())
-food_names = [None] + ["すべて"] + list(df['食品名'].unique())
-bacteria_names = [None] + ["すべて"] + list(df['細菌名'].unique())
-institutions = [None] + ["すべて"] + list(df['実施機関'].unique())  
+food_categories = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
+food_names = [""] + ["すべて"] + list(df['食品名'].unique())
+bacteria_names = [""] + ["すべて"] + list(df['細菌名'].unique())
+institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  
 
 # サイドバーで食品カテゴリを選択
 selected_group = st.sidebar.selectbox(
     '食品カテゴリを入力 または 選択してください:',
     food_categories,
-    format_func=lambda x: "" if x == None else x,
+    format_func=lambda x: "" if x == "" else x,
     key="category_selected"
 )
 
@@ -152,7 +152,7 @@ food_names_filtered = [""] + ["すべて"] + list(df_filtered['食品名'].uniqu
 selected_food = st.sidebar.selectbox(
     '食品名を入力 または 選択してください:',
     food_names_filtered,
-    format_func=lambda x: "" if x == None else x,
+    format_func=lambda x: "" if x == "" else x,
     key="food_selected"
 )
 
@@ -164,7 +164,7 @@ bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].u
 selected_bacteria = st.sidebar.selectbox(
     '細菌名を入力 または 選択してください:',
     bacteria_names_filtered,
-    format_func=lambda x: "" if x == None else x,
+    format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
 
@@ -176,7 +176,7 @@ institutions_filtered = [""] + ["すべて"] + list(df_filtered['実施機関'].
 selected_institution = st.sidebar.selectbox(
     '実施機関を入力 または 選択してください:',
     institutions_filtered,
-    format_func=lambda x: "" if x == None else x,
+    format_func=lambda x: "" if x == "" else x,
     key="institution_selected"
 )
 
@@ -197,7 +197,7 @@ if selected_institution == "" and (selected_group != "" or selected_food != "" o
 group_title = f"（{selected_group} - {selected_food} - {selected_bacteria} - {selected_institution}）" if selected_group != 'すべて' or selected_food != 'すべて' or selected_bacteria != 'すべて' or selected_institution != 'すべて' else "（すべて）"
 
 # 表示条件を確認して出力制御
-if selected_group == None and selected_food == None and selected_bacteria == None and selected_institution == None:
+if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
     st.warning("入力または選択を行ってください。")
 
 # データがない場合は処理を中止して警告を表示
