@@ -8,7 +8,7 @@ st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 # CSVファイルのURL
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
-csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
+csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
 
 # フォントファイルのパスを設定
 font_path = 'NotoSansCJKjp-Regular.otf'
@@ -37,21 +37,39 @@ df = df[df['検体数'].notna() & df['陽性数'].notna()]
 df['細菌名_詳細'] = df['細菌名']
 df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 
-# 初期値として選択状況を管理する変数
-selected_group = st.sidebar.selectbox('食品カテゴリを入力/選択してください:', ['入力 または 選択'] + ['すべて'] + list(df['食品カテゴリ'].unique()), index=0)
-selected_food = st.sidebar.selectbox('食品名を入力/選択してください:', ['入力 または 選択'], index=0)
-selected_bacteria = st.sidebar.selectbox('細菌名を入力/選択してください:', ['入力 または 選択'], index=0)
+# サイドバーで食品カテゴリを選択
+food_groups = ['すべて'] + list(df['食品カテゴリ'].unique())
+selected_group = st.sidebar.selectbox(
+    '食品カテゴリを入力/選択してください:',
+    food_groups,
+    index=0,
+    format_func=lambda x: "入力 または 選択" if x == 'すべて' and st.session_state.get("group_selected", False) is None else x,
+    key="group_selected"
+)
 
-# 未選択の項目を「すべて」に設定するロジック
-if selected_group != "入力 または 選択" or selected_food != "入力 または 選択" or selected_bacteria != "入力 または 選択":
-    if selected_group == "入力 または 選択":
-        selected_group = "すべて"
-    if selected_food == "入力 または 選択":
-        selected_food = "すべて"
-    if selected_bacteria == "入力 または 選択":
-        selected_bacteria = "すべて"
+# サイドバーで食品名を選択
+df_filtered = df if selected_group == 'すべて' else df[df['食品カテゴリ'] == selected_group]
+food_names = ['すべて'] + list(df_filtered['食品名'].unique())
+selected_food = st.sidebar.selectbox(
+    '食品名を入力/選択してください:',
+    food_names,
+    index=0,
+    format_func=lambda x: "入力 または 選択" if x == 'すべて' and st.session_state.get("food_selected", False) is None else x,
+    key="food_selected"
+)
 
-# データのフィルタリング
+# サイドバーで細菌名を選択
+df_filtered = df_filtered if selected_food == 'すべて' else df_filtered[df_filtered['食品名'] == selected_food]
+bacteria_names = ['すべて'] + list(df_filtered['細菌名'].unique())
+selected_bacteria = st.sidebar.selectbox(
+    '細菌名を入力/選択してください:',
+    bacteria_names,
+    index=0,
+    format_func=lambda x: "入力 または 選択" if x == 'すべて' and st.session_state.get("bacteria_selected", False) is None else x,
+    key="bacteria_selected"
+)
+
+# フィルタリング処理
 df_filtered = df.copy()
 if selected_group != "すべて":
     df_filtered = df_filtered[df_filtered['食品カテゴリ'] == selected_group]
@@ -61,7 +79,7 @@ if selected_bacteria != "すべて":
     df_filtered = df_filtered[df_filtered['細菌名'] == selected_bacteria]
 
 # 表示条件を確認して出力制御
-if selected_group == "入力 または 選択" and selected_food == "入力 または 選択" and selected_bacteria == "入力 または 選択":
+if not any([selected_group != "すべて", selected_food != "すべて", selected_bacteria != "すべて"]):
     st.warning("入力または選択を行ってください。")
 else:
     # 細菌ごとの検体数と陽性数の合計を計算
