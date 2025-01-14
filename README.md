@@ -54,13 +54,13 @@
 | 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） |  |
 | 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) |  |
 | 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) |  |
-| 2010-2011 | **農林水産省** <br> [Prevalence and Characterization of Foodborne Pathogens in Dairy Cattle in the Eastern Part of Japan](https://www.jstage.jst.go.jp/article/jvms/75/4/75_12-0327/_pdf/-char/ja) |  |
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/cam/02.html#24121) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/sal/02.html#24221) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/lis/02.html#24321) | 済 |
+| 2010-2011 | **農林水産省** <br> [Prevalence and Characterization of Foodborne Pathogens in Dairy Cattle in the Eastern Part of Japan](https://www.jstage.jst.go.jp/article/jvms/75/4/75_12-0327/_pdf/-char/ja) |  |
 | 2010 | **農林水産省** <br> [出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) |  |
@@ -79,6 +79,7 @@
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) |  |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
 | 2001 | **神戸市環境保健研究所** <br> [市販の輸入生野菜および果物における病原菌汚染の実態調査](https://www.jstage.jst.go.jp/article/jsfm1994/19/2/19_2_71/_pdf/-char/ja) |  |
+| 2000-2015 | **東京都健康安全研究センター** <br> [食品からのListeria monocytogenes検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf/-char/ja) |  |
 | 2000-2012 | **東京都健康安全研究センター** <br> [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/78/7/78_15-0708/_pdf/-char/ja) <br> (JVMS 2016) | 済 |
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) |  |
