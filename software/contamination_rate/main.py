@@ -8,13 +8,14 @@ st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 # CSVファイルのURL
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
+csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
 
 # フォントファイルのパスを設定
 font_path = 'NotoSansCJKjp-Regular.otf'
 
 # Streamlit のアプリケーション
 st.title('食中毒細菌の陽性率の統計値')
-st.write("[食中毒細菌汚染実態_汚染率.csv](%s)の可視化です。" % csv_url)
+st.write("[食中毒細菌汚染実態_汚染率.csv](%s)の可視化です。" % csv_url_gui)
 st.write('各表をcsvファイルとしてダウンロードできます。')
 st.write('-----------')
 
@@ -40,7 +41,7 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 food_groups = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
 food_names = [""] + ["すべて"] + list(df['食品名'].unique())
 bacteria_names = [""] + ["すべて"] + list(df['細菌名'].unique())
-institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  # 実施機関の選択肢
+institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  
 
 # サイドバーで食品カテゴリを選択
 selected_group = st.sidebar.selectbox(
@@ -105,6 +106,9 @@ group_title = f"（{selected_group} - {selected_food} - {selected_bacteria} - {s
 # 表示条件を確認して出力制御
 if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
     st.warning("入力または選択を行ってください。")
+# データがない場合は処理を中止して警告を表示
+elif df_filtered.empty:
+    st.warning("該当するデータがありません。条件を変更してください。")
 else:
     if selected_bacteria == "すべて":  # 細菌名の絞り込みがない場合に表示
         # 細菌ごとの検体数と陽性数の合計を計算
