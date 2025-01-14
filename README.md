@@ -82,7 +82,7 @@
 | 2000-2012 | **東京都健康安全研究センター** <br> [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/78/7/78_15-0708/_pdf/-char/ja) <br> (JVMS 2016) | 済 |
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) |  |
-
+|  | **大阪健康安全基盤研究所** <br> [アイスクリーム製造施設の _Listeria monocytogenes_ 汚染状況](https://www.iph.osaka.jp/s004/060/reserch_annual_report-1_2017.pdf) <br>（大阪市立環科研報告 平成 28 年度 第 79 集，5-10 2017） |  |
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
