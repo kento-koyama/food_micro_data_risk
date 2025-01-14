@@ -66,8 +66,7 @@
 | 2009 | **天使大学** <br> [Prevalence and Characteristics of _Listeria monocytogenes_ in Bovine Colostrum in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23052547) |  |
 | 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) | 済 |
 | 2006-2008 | **国立医薬品食品衛生研究所** <br> [The Occurrence of _Listeria monocytogenes_ in Imported Ready-to-Eat Foods in Japan](https://www.jstage.jst.go.jp/article/jvms/74/3/74_11-0262/_pdf/-char/ja) |  |
-| 2004-2007 | **麻布大学** <br> [The sensitivity of commercial kits in detecting the genes of pathogenic bacteria
-in venison](https://www.jstage.jst.go.jp/article/jvms/80/4/80_17-0530/_pdf/-char/ja) |  |
+| 2004-2007 | **麻布大学** <br> [The sensitivity of commercial kits in detecting the genes of pathogenic bacteria in venison](https://www.jstage.jst.go.jp/article/jvms/80/4/80_17-0530/_pdf/-char/ja) |  |
 | 2007 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) | 済 |
 | 2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第25号　2007） |  |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of _Listeria monocytogenes_ from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
