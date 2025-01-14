@@ -63,6 +63,7 @@
 | 2009 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_06.html) | 済 |
 | 2009 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2009 | **国立医薬品食品衛生研究所**<br>[_Campylobacter_ contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
+| 2009 | **天使大学** <br> [Prevalence and Characteristics of _Listeria monocytogenes_ in Bovine Colostrum in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23052547) |  |
 | 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) | 済 |
 | 2007 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) | 済 |
 | 2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第25号　2007） |  |
