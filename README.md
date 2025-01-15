@@ -89,6 +89,7 @@
 | 1999-2001 | **横浜市衛生研究所** <br> 無加熱摂取食品から検出された _Listeria monocytogenes_ <br>（横浜市衛生研究所年報 2002 no.41 p91-93）|  |
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) |  |
 |  | **大阪健康安全基盤研究所** <br> [アイスクリーム製造施設の _Listeria monocytogenes_ 汚染状況](https://www.iph.osaka.jp/s004/060/reserch_annual_report-1_2017.pdf) <br>（大阪市立環科研報告 平成 28 年度 第 79 集，5-10 2017） |  |
+|  | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） |  |
 |  | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） |  |
 |  | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) <br>（京都市衛生公害研究所年報　2006） |  |
 
