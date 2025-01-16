@@ -323,7 +323,7 @@ contact_link = """
         position: fixed;
         bottom: 10px;
         right: 10px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .footer a {
         text-decoration: none;
@@ -334,6 +334,7 @@ contact_link = """
         お問い合わせは
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
         こちら</a>
+        から
     </div>
 """
 st.markdown(contact_link, unsafe_allow_html=True)
