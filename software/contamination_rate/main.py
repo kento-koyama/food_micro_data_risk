@@ -175,12 +175,7 @@ contact_link = """
         position: fixed;
         bottom: 10px;
         right: 10px;
-        font-size: 14px;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        padding: 5px 10px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        font-size: 18px;
     }
     .footer a {
         text-decoration: none;
@@ -188,9 +183,9 @@ contact_link = """
     }
     </style>
     <div class="footer">
-        お問い合わせはこちら
-        (<a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
-        フォームリンク</a>)
+        お問い合わせは
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
+        こちら</a>
     </div>
 """
 st.markdown(contact_link, unsafe_allow_html=True)
