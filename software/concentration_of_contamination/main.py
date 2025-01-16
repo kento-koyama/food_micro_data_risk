@@ -314,3 +314,26 @@ else:
     df_filtered.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered)
     st.write("*現在報告書から取得した統計処理済みの文献値（最大値・最小値・平均値など）が混在しているためグラフは参考。今後データ収集を行い分布を可視化していく")
+
+
+# お問い合わせリンクの追加
+contact_link = """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 18px;
+    }
+    .footer a {
+        text-decoration: none;
+        color: #0366d6;
+    }
+    </style>
+    <div class="footer">
+        お問い合わせは
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
+        こちら</a>
+    </div>
+"""
+st.markdown(contact_link, unsafe_allow_html=True)
