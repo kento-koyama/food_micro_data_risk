@@ -167,3 +167,30 @@ else:
     positive_df = df_filtered[df_filtered['陽性数'] >= 1]
     st.write(f'陽性数が1以上のデータ {group_title}')
     st.dataframe(positive_df, hide_index=True)
+
+# お問い合わせリンクの追加
+contact_link = """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .footer a {
+        text-decoration: none;
+        color: #0366d6;
+    }
+    </style>
+    <div class="footer">
+        お問い合わせはこちら
+        (<a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
+        フォームリンク</a>)
+    </div>
+"""
+st.markdown(contact_link, unsafe_allow_html=True)
