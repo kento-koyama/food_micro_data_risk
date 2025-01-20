@@ -2,6 +2,8 @@
 
 この[**ソフトウェア**](https://concentration-of-contamination1-624097414875.asia-northeast1.run.app)は、**食中毒細菌の汚染濃度**に関する統計データを簡単に可視化できるツールです。食品中の細菌の汚染濃度データを直感的に操作し、分かりやすく表示します。
 
+*お問い合わせやデータの提供については[こちら](https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header)から
+
 ---
 
 ## 🌟 主な機能
