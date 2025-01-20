@@ -1,6 +1,8 @@
 # 食中毒細菌陽性率可視化ソフトウェア
 この[**ソフトウェア**](https://contamination-rate1-624097414875.asia-northeast1.run.app)は、**食中毒細菌の陽性率**を可視化するツールです。食品カテゴリや食品名を選択し、関連するデータを簡単に調べたり、統計情報を視覚的に理解することができます。<br>
 
+*お問い合わせやデータの提供については[こちら](https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header)から
+
 ---
   
 ## 🌟 このソフトウェアでできること
