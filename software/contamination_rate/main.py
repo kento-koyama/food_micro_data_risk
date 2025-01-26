@@ -14,13 +14,13 @@ csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E
 font_path = 'NotoSansCJKjp-Regular.otf'
 
 # Streamlit のアプリケーション
-st.title('食中毒細菌の陽性率の統計値')
+st.write('### 食中毒細菌の陽性率の統計値')
 st.write("[食中毒細菌汚染実態_汚染率.csv](%s)の可視化です。" % csv_url_gui)
 st.write('各表をcsvファイルとしてダウンロードできます。')
 st.write('-----------')
 
 # サイドバーにタイトルを追加
-st.sidebar.title("検索")
+st.sidebar.write("### 検索")
 
 # フォントの設定
 fm.fontManager.addfont(font_path)
