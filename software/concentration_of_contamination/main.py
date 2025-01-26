@@ -70,7 +70,7 @@ size_title = 20
 
 
 # Streamlit のアプリケーション
-st.title('食中毒細菌の汚染濃度の統計値')
+st.write('### 食中毒細菌の汚染濃度の統計値')
 st.write("[食中毒細菌汚染実態_汚染濃度.csv](%s)の可視化です。" % csv_url_gui)
 st.write('各表をcsvファイルとしてダウンロードできます。')
 st.write('-----------')
