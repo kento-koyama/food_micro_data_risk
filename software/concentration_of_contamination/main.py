@@ -249,7 +249,7 @@ else:
 
         with col4:
             fig2, ax2 = plt.subplots(figsize=(8, 6))
-            ax2.hist(df_filtered['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_filtered['汚染濃度_logCFU/g'].astype(float).min()), int(df_filtered['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightgreen', edgecolor='black')
+            ax2.hist(df_filtered['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_filtered['汚染濃度_logCFU/g'].astype(float).min()), int(df_filtered['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
             ax2.set_xlim([0,10])
             ax2.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
             ax2.set_ylabel('頻度', fontsize=size_label)
@@ -301,7 +301,7 @@ else:
                 with col6:
                     fig3, ax3 = plt.subplots(figsize=(8, 6))
                     ax3.set_xlim([0,10])
-                    ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightgreen', edgecolor='black')
+                    ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
                     ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
                     ax3.set_ylabel('頻度', fontsize=size_label)
                     ax3.set_title(f'{bacteria_name}の汚染濃度の分布{group_title}', fontsize=size_title)
