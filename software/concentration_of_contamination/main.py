@@ -219,7 +219,7 @@ else:
             ax1.barh(bacteria_samplesize['細菌名'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
             ax1.set_ylabel('細菌名', fontsize=size_label)
-            ax1.set_title(f'細菌ごとの検体数{group_title}', fontsize=size_title)
+            ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)
             ax1.tick_params(axis='both', which='major', labelsize=size_label)
             st.pyplot(fig1)
 
