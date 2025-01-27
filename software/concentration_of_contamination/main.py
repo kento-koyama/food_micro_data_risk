@@ -206,7 +206,7 @@ elif df_filtered.empty:
 else:
     if selected_bacteria == "すべて":  # 細菌名の絞り込みがない場合に表示
         # 細菌ごとの検体数の合計を表示
-        st.subheader(f'細菌ごとの検体数{group_title}')
+        st.subheader(f'細菌ごとの食品検体数{group_title}')
         col1, col2 = st.columns(2)
 
         with col1:
