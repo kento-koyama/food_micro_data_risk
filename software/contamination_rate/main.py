@@ -105,7 +105,7 @@ group_title = f"（{selected_group} - {selected_food} - {selected_bacteria} - {s
 
 # 表示条件を確認して出力制御
 if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
-    st.warning("入力または選択を行ってください。")
+    st.info("入力または選択を行ってください。")
 # データがない場合は処理を中止して警告を表示
 elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
