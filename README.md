@@ -45,11 +45,11 @@
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, 2018） |  |
 | 2017 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2019/tbkj4001.pdf) <br> （東京都微生物検査情報 第40巻第1号） |  |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
-| 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) |  |
+| 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) | 済 |
 | 2012, 2017 |  **九州大学** <br> [Antimicrobial resistance profiles of _Listeria monocytogenes_ isolated from chicken meat in Fukuoka, Japan](https://www.sciencedirect.com/science/article/pii/S0168160519301291) | 済 |
 | 2015 | **千葉県衛生研究所** <br> [千葉県内流通浅漬けの _Listeria monocytogenes_ を中心とした汚染状況調査-平成27年度の収去および買い上げ検体微生物検査成績-](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/shuppanbutsu/nenpou/documents/64s-3.pdf) <br>（千葉県衛生研究所年報 第64号 2015年） |  |
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
-| 2012-2013 | **帯広畜産大学** <br> [Microbial Assessment and Prevalence of Foodborne Pathogens in Natural Cheeses in Japan](https://onlinelibrary.wiley.com/doi/full/10.1155/2013/205801) |  
+| 2012-2013 | **帯広畜産大学** <br> [Microbial Assessment and Prevalence of Foodborne Pathogens in Natural Cheeses in Japan](https://onlinelibrary.wiley.com/doi/full/10.1155/2013/205801) |  |
 | 2010-2013 | **東京都健康安全研究センター** <br> [東京都内に流通する牛内臓肉からの糞便系大腸菌群，ベロ毒素産生性大腸菌，_Campylobacter jejuni_/_coli_, _Salmonella_ および _Listeria monocytogenes_ 検出状況](https://www.jstage.jst.go.jp/article/jsfm/32/4/32_209/_pdf/-char/ja) |  |
 | 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) |  |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html) | 済 |
@@ -75,7 +75,7 @@
 | 2009 | **国立医薬品食品衛生研究所**<br>[_Campylobacter_ contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
 | 2009 | **天使大学** <br> [Prevalence and Characteristics of _Listeria monocytogenes_ in Bovine Colostrum in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23052547) | 済 |
 | 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) | 済 |
-| 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) |  |
+| 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
 | 2007 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) | 済 |
 | 2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第25号　2007） |  |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of _Listeria monocytogenes_ from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
@@ -138,6 +138,7 @@
 | 2021 | **福岡市保健環境研究所** <br> [複数の型が検出された _Listeria monocytogenes_ 集団感染事例―福岡市](https://www.niid.go.jp/niid/ja/l-monocytogenes-m/l-monocytogenes-iasrd/11432-510d05.html) | 済 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査の結果（概要）](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2016 | **東京都健康安全研究センター** <br> [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf) | 済 |
+| 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) |  |
 | 2000-2012 | **東京都健康安全研究センター** <br> [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/78/7/78_15-0708/_pdf/-char/ja) <br>(Jarnal o Veterinary Medical Science (JVMS), 2016) | 済 |
 | 2007 | **福岡市保険環境研究所 / 九州大学** <br> [辛子明太子における _Listeria monocytogenes_ の汚染実態と食品添加物による本菌の制御モデル実験](https://www.jstage.jst.go.jp/article/jsfm/24/3/24_3_122/_pdf) |  |
 | 2006 | [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1943/617283.pdf)<br>(宮城県保健環境センター年報　第25号 p45~48) |  |
