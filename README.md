@@ -39,7 +39,7 @@
 | 2020 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html) | 済 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2018-2019 | **神戸市環境保健研究所** <br> 神戸市内に流通する鶏肉の食中毒菌による汚染実態調査 <br>（神戸市環境保健研究所報）<br> - 館内限定公開：国立国会図書館（東京本館、関西館、国際子ども図書館）で閲覧可 |  |
-| 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) |  |
+| 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) <br>（日本獣医師会雑誌　2021） | 済 |
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) |  |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, 2018） |  |
