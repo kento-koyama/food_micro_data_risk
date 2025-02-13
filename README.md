@@ -51,7 +51,7 @@
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
 | 2012-2013 | **帯広畜産大学** <br> [Microbial Assessment and Prevalence of Foodborne Pathogens in Natural Cheeses in Japan](https://onlinelibrary.wiley.com/doi/full/10.1155/2013/205801) <br>（BioMed Research International Volume 2013, Issue 1 205801） | 済 |
 | 2010-2013 | **東京都健康安全研究センター** <br> [東京都内に流通する牛内臓肉からの糞便系大腸菌群，ベロ毒素産生性大腸菌，_Campylobacter jejuni_/_coli_, _Salmonella_ および _Listeria monocytogenes_ 検出状況](https://www.jstage.jst.go.jp/article/jsfm/32/4/32_209/_pdf/-char/ja) <br>（日本食品微生物学会雑誌　2015） | 済 |
-| 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) |  |
+| 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) <br>（日本食品微生物学会雑誌　2014） |  |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html) | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html) | 済 |
 | 2012 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
