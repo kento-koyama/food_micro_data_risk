@@ -43,7 +43,7 @@
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) |  |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, p.40-42, 2018） | 済 |
-| 2018 | **大阪健康安全基盤研究所** <br> Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察 <br> （大阪健康安全基盤研究所研究年報 2020 / 月刊 HACCP, 10, 20-25 (2022)）<br> 検査内容不明 | 済 |
+| 2018 | **大阪健康安全基盤研究所** <br> Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察 <br> （[大阪健康安全基盤研究所研究年報, p.107, 2020](http://www.iph.osaka.jp/s004/060/reserch_annual_report-7_2023.pdf) / 月刊 HACCP, 10, 20-25 (2022)）<br> 検査内容不明 | 済 |
 | 2017 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2019/tbkj4001.pdf) <br> （東京都微生物検査情報 第40巻第1号） |  |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
 | 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) <br> (Journal of Food Protection 2017) | 済 |
