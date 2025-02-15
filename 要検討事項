@@ -3,6 +3,7 @@
 # ルール
 # 2025/1/10
 ・カンピロバクターの表記は "Campirobacter spp." ではなく "Campylobacter jejuni/coli" の表記で統一する
+→ 文献中に "Campirobacter spp."と表記されており詳細が辿れていないものもあるため当分は "Campirobacter spp."と表記して可視化する
 # 2024/1/5
 ・カンピロバクターの項目をCampirobacter spp.に絞る。
 　Campirobacter coliやCampirobacter jejuniなど細分化はしない。
@@ -55,7 +56,6 @@
 
 # 2025/02/15（細江）
 ・乳牛の直腸スワブの場合、カテゴリーをどうするか？乳製品？牛肉？その他？一旦その他で登録。
-
 
 # 2025/1/15（細江）
 ・国内産の食品のみを対象とし輸入品は対象外とする
