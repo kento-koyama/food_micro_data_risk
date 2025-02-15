@@ -64,7 +64,7 @@
 | 2011 | **農林水産省** <br> [豚の肝臓のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/cam/02.html#24121) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/sal/02.html#24221) | 済 |
 | 2011 | **農林水産省** <br> [豚の肝臓のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/butaniku/lis/02.html#24321) | 済 |
-| 2010 | **農林水産省** <br> [Prevalence and Characterization of Foodborne Pathogens in Dairy Cattle in the Eastern Part of Japan](https://www.jstage.jst.go.jp/article/jvms/75/4/75_12-0327/_pdf/-char/ja) <br> （JVMS 2013） |  |
+| 2010 | **農林水産省** <br> [Prevalence and Characterization of Foodborne Pathogens in Dairy Cattle in the Eastern Part of Japan](https://www.jstage.jst.go.jp/article/jvms/75/4/75_12-0327/_pdf/-char/ja) <br> （Journal of Veterinary Medical Science 2013） | 済 |
 | 2010 | **農林水産省** <br> [出荷前後のブロイラー鶏群のカンピロバクター保有状況と、製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_14.html) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) |  |
