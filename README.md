@@ -77,14 +77,13 @@
 | 2009 | **国立医薬品食品衛生研究所**<br>[_Campylobacter_ contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) |  |
 | 2009 | **天使大学** <br> [Prevalence and Characteristics of _Listeria monocytogenes_ in Bovine Colostrum in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23052547) | 済 |
 | 2007-2008 | **農林水産省** <br> [生食用野菜における腸管出血性大腸菌及びサルモネラの実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/pdf/press.pdf) | 済 |
+| 2006-2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第26号, p.103-104,　2008） | 済 |
 | 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
 | 2007 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) | 済 |
-| 2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第25号　2007） |  |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of _Listeria monocytogenes_ from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) |  |
-| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153）| 済 |
+| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153）|  |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
-| 2001 | **神戸市環境保健研究所** <br> [市販の輸入生野菜および果物における病原菌汚染の実態調査](https://www.jstage.jst.go.jp/article/jsfm1994/19/2/19_2_71/_pdf/-char/ja) |  |
 | 2000-2015 | **東京都健康安全研究センター** <br> [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf/-char/ja) <br>（日本食品微生物学会雑誌、2016） | 済 |
 | 2000-2012 | **東京都健康安全研究センター** <br> [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/78/7/78_15-0708/_pdf/-char/ja) <br> (Jarnal o Veterinary Medical Science (JVMS), 2016) | 済 |
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
@@ -92,7 +91,7 @@
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) <br>（生活衛生 vol.50 No.4 175-184, 2006） | 元文献確認中 |
 |  | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） |  |
 |  | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） |  |
-|  | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) <br>（京都市衛生公害研究所年報　2006） |  |
+
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
