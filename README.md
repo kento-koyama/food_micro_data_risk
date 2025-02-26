@@ -82,6 +82,7 @@
 | 2007 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> -[関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_04.html#22121) | 済 |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of _Listeria monocytogenes_ from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) |  |
+| 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） | 済 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153）| 済 |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
 | 2000-2015 | **東京都健康安全研究センター** <br> [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf/-char/ja) <br>（日本食品微生物学会雑誌、2016） | 済 |
@@ -91,7 +92,6 @@
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) <br>（生活衛生 vol.50 No.4 175-184, 2006） | 元文献確認中 |
 |  | **和歌山県環境衛生研究センター** <br> [県内におけるサルモネラ属菌の薬剤耐性調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo66.pdf) <br>（和歌山県環境衛生研究センター年報, No.66, 2020 p.41-44） | 済 |
 |  | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） |  |
-|  | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） |  |
 
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g or CFU/cm<sup>2</sup>]
