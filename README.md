@@ -82,7 +82,7 @@
 | 2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第25号　2007） |  |
 | 2007 | **帯広畜産大学** <br> [Isolation and characterization of _Listeria monocytogenes_ from commercial asazuke (Japanese light pickles)](https://www.sciencedirect.com/science/article/pii/S0168160510001686?via%3Dihub) |  |
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) |  |
-| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153）|  |
+| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153）| 済 |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
 | 2001 | **神戸市環境保健研究所** <br> [市販の輸入生野菜および果物における病原菌汚染の実態調査](https://www.jstage.jst.go.jp/article/jsfm1994/19/2/19_2_71/_pdf/-char/ja) |  |
 | 2000-2015 | **東京都健康安全研究センター** <br> [食品からの _Listeria monocytogenes_ 検出法および定量法の比較](https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf/-char/ja) <br>（日本食品微生物学会雑誌、2016） | 済 |
@@ -147,7 +147,7 @@
 | 2005 | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) |  |
 | 2005 | **岡山県環境保健センター** <br> [動物を含めた環境中及び食肉のリステリア汚染状況と迅速な菌種同定](https://www.pref.okayama.jp/uploaded/life/49801_174922_misc.pdf) |  |
 | 2004 | **岡山県環境保健センター** <br> [動物を含めた環境中及び調理用食肉のリステリア汚染状況](https://www.pref.okayama.jp/uploaded/life/49802_174943_misc.pdf) |  |
-| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態調査について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br> (埼玉県衛生研究所報 2005, vol. 39, p.151-153) |  |
+| 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態調査について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br> (埼玉県衛生研究所報 2005, vol. 39, p.151-153) | 済 |
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) |  |
 | 2001 | **国立感染症研究所** <br> [食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920) |  |
 | 2000 | **北海道大学** <br> [Occurrence of _Listeria monocytogenes_ in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf) |  |
