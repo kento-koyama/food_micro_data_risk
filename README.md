@@ -42,6 +42,7 @@
 | 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) <br>（日本獣医師会雑誌　2021） | 済 |
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) |  |
 | 2008-2018 | **厚生労働省** <br> [食品中の食中毒菌汚染実態調査](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html) | 済 |
+| 2018-2019 | **和歌山県環境衛生研究センター** <br> [県内におけるサルモネラ属菌の薬剤耐性調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo66.pdf) <br>（和歌山県環境衛生研究センター年報, No.66, 2020 p.41-44） | 済 |
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, p.40-42, 2018） | 済 |
 | 2018 | **大阪健康安全基盤研究所** <br> Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察 <br> （[大阪健康安全基盤研究所研究年報, p.107, 2020](http://www.iph.osaka.jp/s004/060/reserch_annual_report-7_2023.pdf) / 月刊 HACCP, 10, 20-25 (2022)）<br> 検査内容不明 | 済 |
 | 2017 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2019/tbkj4001.pdf) <br> （東京都微生物検査情報 第40巻第1号） |  |
@@ -90,7 +91,6 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) |  |
 | 1999-2001 | **横浜市衛生研究所** <br> 無加熱摂取食品から検出された _Listeria monocytogenes_ <br>（横浜市衛生研究所年報 2002 no.41 p91-93）|  |
 | 1999-2000 | **大阪市立環境科学研究所** <br> [水産品のリステリア汚染](https://www.jstage.jst.go.jp/article/seikatsueisei/50/4/50_4_175/_pdf/-char/en) <br>（生活衛生 vol.50 No.4 175-184, 2006） | 元文献確認中 |
-|  | **和歌山県環境衛生研究センター** <br> [県内におけるサルモネラ属菌の薬剤耐性調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo66.pdf) <br>（和歌山県環境衛生研究センター年報, No.66, 2020 p.41-44） | 済 |
 |  | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） |  |
 
 
