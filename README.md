@@ -117,7 +117,7 @@
 | 2016-2017 | **新潟県長岡食肉衛生検査センター** <br> [新潟県における市販鶏肉のカンピロバクター汚染調査](https://www.jstage.jst.go.jp/article/jvma/71/3/71_149/_pdf) |  |
 | 2014-2015 | **一般社団法人岩手県獣医師会食烏検査センター** <br> [特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf) | 済 |
 | 2014 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br> [と畜・食鳥検査における疾病診断の標準化とカンピロバクター等の制御に関する研究](https://mhlw-grants.niph.go.jp/project/24503) |  |
-| 2014 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) | 済 |
+| 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) | 済 |
 | 2012 | **岐阜県食肉衛生検査所** <br> [牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) |  |
 | 2011 | **公益財団法人鹿児島市獣医公衆衛生協会** <br> [食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
 | 2010 | **農林水産省** <br> [Quantitative estimation of _Campylobacter_ cross-contamination in carcasses and chicken products at an abattoir](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) |  |
