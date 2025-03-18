@@ -286,14 +286,16 @@ else:
                     df_bacteria_conc.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品名', '食品詳細']
                     st.dataframe(df_bacteria_conc, height=calc_df_height(df_bacteria_conc), hide_index=True)
 
-                    # 汚染濃度の平均と標本標準偏差の計算
+                    # 汚染濃度の平均と標本標準偏差、サンプルサイズの計算
+                    n_bacteria_conc = len(df_bacteria_conc['汚染濃度 [log CFU/g]'])
                     mean_conc = func_round(df_bacteria_conc['汚染濃度 [log CFU/g]'].mean(), ndigits=2)
                     std_conc = df_bacteria_conc['汚染濃度 [log CFU/g]'].std(ddof=1)
                     std_conc = func_round(std_conc, ndigits=2) if not pd.isna(std_conc) else np.nan
                     # 平均と標準偏差の表示用データフレームを作成
                     stats_df = pd.DataFrame({
                         '平均 [log CFU/g]': [format_number(mean_conc, ndigits=2)],
-                        '標準偏差': [format_number(std_conc, ndigits=2)]
+                        '標準偏差': [format_number(std_conc, ndigits=2)], 
+                        'n': n_bacteria_conc
                     })
                     # 統計情報を表示
                     st.dataframe(stats_df, hide_index=True)
@@ -323,14 +325,16 @@ else:
                 df_bacteria_conc.columns = ['調査年', '食品名', '汚染濃度 [log CFU/g]']
                 st.dataframe(df_bacteria_conc, height=calc_df_height(df_bacteria_conc), hide_index=True)
 
-                # 統計情報（平均・標準偏差）
+                # 統計情報（平均・標準偏差・サンプルサイズ）
+                n_bacteria_conc = len(df_bacteria_conc['汚染濃度 [log CFU/g]'])
                 mean_conc = func_round(df_bacteria_conc['汚染濃度 [log CFU/g]'].mean(), ndigits=2)
                 std_conc = df_bacteria_conc['汚染濃度 [log CFU/g]'].std(ddof=1)
                 std_conc = func_round(std_conc, ndigits=2) if not pd.isna(std_conc) else np.nan
                 
                 stats_df = pd.DataFrame({
                     '平均 [log CFU/g]': [format_number(mean_conc, ndigits=2)],
-                    '標準偏差': [format_number(std_conc, ndigits=2)]
+                    '標準偏差': [format_number(std_conc, ndigits=2)], 
+                    'n': n_bacteria_conc
                 })
                 st.dataframe(stats_df, hide_index=True)
             
