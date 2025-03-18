@@ -310,7 +310,6 @@ else:
         st.write('-----------')
     
     else:
-        st.write('-----------')
         st.subheader(f'{selected_bacteria} の汚染濃度の分布')
         # 細菌ごとのデータ抽出
         df_bacteria = df_filtered[df_filtered['細菌名'] == selected_bacteria]
@@ -338,6 +337,7 @@ else:
             with col6:
                 # 汚染濃度のヒストグラム
                 fig3, ax3 = plt.subplots(figsize=(8, 6))
+                ax3.set_xlim([0,10])
                 ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
                 ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
                 ax3.set_ylabel('頻度', fontsize=size_label)
