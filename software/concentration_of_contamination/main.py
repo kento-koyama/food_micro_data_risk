@@ -259,7 +259,7 @@ else:
 
         # 特定の細菌のデータを取得
         df_Campylobacter_counts = df_filtered[df_filtered['細菌名'].str.contains('Campylobacter')]
-        df_Listeria_counts = df_filtered[df_filtered['細菌名'].str.contains('Listeria')]
+        df_Listeria_counts = df_filtered[df_filtered['細菌名'].str.contains('Listeria monocytogenes')]
         df_EHEC_counts = df_filtered[df_filtered['細菌名'].str.contains('Escherichia coli')]
         df_Salmonella_counts = df_filtered[df_filtered['細菌名'].str.contains('Salmonella')]
 
@@ -308,6 +308,42 @@ else:
                     ax3.tick_params(axis='both', which='major', labelsize=size_label)
                     st.pyplot(fig3)
         st.write('-----------')
+    
+    else:
+        st.write('-----------')
+        st.subheader(f'{selected_bacteria} の汚染濃度の分布')
+        # 細菌ごとのデータ抽出
+        df_bacteria_selected = df_filtered[df_filtered['細菌名'] == selected_bacteria]
+        
+        if not df_bacteria_selected.empty:
+            col5, col6 = st.columns(2)
+            
+            with col5:
+                # 汚染濃度データ表示
+                df_bacteria_concentration = df_bacteria_selected[['調査年', '食品名', '汚染濃度_logCFU/g']]
+                df_bacteria_concentration.columns = ['調査年', '食品名', '汚染濃度 [log CFU/g]']
+                st.dataframe(df_bacteria_concentration, height=calc_df_height(df_bacteria_concentration), hide_index=True)
+
+                # 統計情報（平均・標準偏差）
+                mean_concentration = func_round(df_bacteria_concentration['汚染濃度 [log CFU/g]'].mean(), ndigits=2)
+                std_concentration = df_bacteria_concentration['汚染濃度 [log CFU/g]'].std(ddof=1)
+                std_concentration = func_round(std_concentration, ndigits=2) if not pd.isna(std_concentration) else np.nan
+                
+                stats_df = pd.DataFrame({
+                    '平均 [log CFU/g]': [format_number(mean_concentration, ndigits=2)],
+                    '標準偏差': [format_number(std_concentration, ndigits=2)]
+                })
+                st.dataframe(stats_df, hide_index=True)
+            
+            with col6:
+                # 汚染濃度のヒストグラム
+                fig3, ax3 = plt.subplots(figsize=(8, 6))
+                ax3.hist(df_bacteria_selected['汚染濃度_logCFU/g'].astype(float), bins=10, color='lightblue', edgecolor='black')
+                ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
+                ax3.set_ylabel('頻度', fontsize=size_label)
+                ax3.set_title(f'{selected_bacteria} の汚染濃度分布', fontsize=size_title)
+                ax3.tick_params(axis='both', which='major', labelsize=size_label)
+                st.pyplot(fig3)
     
     # 選択された食品カテゴリと食品名に該当するデータを表示
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ{group_title}')
