@@ -3,6 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
+# 四捨五入で桁丸めるための関数を定義
+def func_round(number, ndigits=0):
+    if pd.isna(number):  # NaN チェック
+        return np.nan  # NaN をそのまま返す
+    p = 10 ** ndigits
+    return float(int(number * p + 0.5) / p)
+
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
@@ -138,6 +145,7 @@ else:
 
         # 陽性割合を計算
         bacteria_counts['陽性率 (%)'] = bacteria_counts['陽性数'] / bacteria_counts['検体数'] * 100
+        bacteria_counts["陽性率 (%)"] = bacteria_counts["陽性率 (%)"].apply(lambda x: func_round(x, ndigits=2))
 
         col3, col4 = st.columns(2)
 
