@@ -169,7 +169,6 @@
 | 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
 | 1998 | **北海道立衛生研究所** <br> [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 済 |
 | 1998 | **神奈川県衛生研究所** <br> [イクラからの志賀毒素産生性大腸菌O157:H7の分離と分離株のパルスフィールドゲル電気泳動パターン](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/73/1/73_1_20/_pdf) <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 済（保留） |
-| 1997 | **岩手大学** <br> [岩手県盛岡市における対応と課題](https://www.niph.go.jp/journal/data/46-2/199746020009.pdf) |  |
 
 
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
@@ -180,7 +179,7 @@
 | 2022 | **岐阜県保険環境研究所** <br> [_Salmonella_ lnfantisにより軽度に汚染された保育園給食を原因とする食中毒事例](https://www.jstage.jst.go.jp/article/jsfm/39/1/39_33/_pdf) | 済 |
 | 2020 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf) | 済 |
 | 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
-| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) |  |
+| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) | 済 |
 | 2006 | **宮城県保険環境センター** <br> [_Salmonella_ Montevideoが検出された食中毒事例について](https://www.pref.miyagi.jp/documents/1979/209933.pdf) |  |
 | 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://www.jstage.jst.go.jp/article/jsfm1994/23/3/23_3_165/_pdf/-char/ja) | 済 |
 | 1999-2001 | **埼玉県衛生研究所** <br> [市販食肉におけるサルモネラとリステリアの汚染状況](https://www.jstage.jst.go.jp/article/jvma1951/56/3/56_3_167/_pdf/-char/en) |  |
