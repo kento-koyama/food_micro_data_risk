@@ -105,7 +105,7 @@
 
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) <br> -[関連論文](https://www.jstage.jst.go.jp/article/jvms/84/3/84_21-0486/_pdf/-char/ja) |  |
+| 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) <br> -　関連論文の[リンク](https://www.jstage.jst.go.jp/article/jvms/84/3/84_21-0486/_pdf/-char/ja) |  |
 | 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「めん羊枝肉表面の切除法による細菌汚染状況」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/7.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A1%20p46-51.pdf) | 済 |
 | 2022 | **国立医薬品食品衛生研究所** <br> 食品健康影響評価技術研究 <br> [鶏肉のフードチェーンを通じたカンピロバクターの定量的動態解析とリスク低減効果の評価に向けた研究（鶏肉中のカンピロバクターのリスク評価手法に関する研究）](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=cho99920222202&fileId=001) |  |
 | 2021 | **厚生労働省** <br> [と畜検査員及び食鳥検査員による外部検証の実施について](https://www.mhlw.go.jp/content/11130500/000803740.pdf) <br>（生食発 0528 第6号 令和3年5月31日） | 済 |
@@ -120,7 +120,7 @@
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) | 済 |
 | 2012 | **岐阜県食肉衛生検査所** <br> [牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) |  |
 | 2011 | **公益財団法人鹿児島市獣医公衆衛生協会** <br> [食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
-| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) <br> [関連論文](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) | 済 |
+| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) <br> - 関連論文の[リンク](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) | 済 |
 | 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) |  |
 | 2004 | **宮城県保健環境センター** <br> [市販食肉等からのカンピロバクター検出と低温保存での菌消長](https://www.pref.miyagi.jp/documents/1979/209066.pdf) |  |
 | 2001 | **埼玉県衛生研究所** <br> [MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
