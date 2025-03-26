@@ -463,8 +463,94 @@
 2014,,,,鶏肉,盲腸内容物,,定性検査,Campylobacter jejuni/coli,Not detected,CFU/g,農林水産省,ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html,other: カンピロバクター陰性の鶏群だがと体から陽性検出されたサンプルの菌数
 2014,,,,鶏肉,盲腸内容物,,定性検査,Campylobacter jejuni/coli,Not detected,CFU/g,農林水産省,ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html,other: カンピロバクター陰性の鶏群だがと体から陽性検出されたサンプルの菌数
 2014,,,,鶏肉,盲腸内容物,,定性検査,Campylobacter jejuni/coli,Not detected,CFU/g,農林水産省,ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html,other: カンピロバクター陰性の鶏群だがと体から陽性検出されたサンプルの菌数
-2010~2011,,,,鶏肉,盲腸内容物,,MPN,Salmonella spp.,2.80E+03,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
-2010~2011,,,,鶏肉,盲腸内容物,,MPN,Salmonella spp.,7.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
-2010~2011,,,,鶏肉,盲腸内容物,,MPN,Salmonella spp.,9.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
-2010~2011,,,,鶏肉,盲腸内容物,,MPN,Salmonella spp.,-,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
-2010~2011,,,,鶏肉,盲腸内容物,,MPN,Salmonella spp.,-,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,盲腸内容物,鶏群A,MPN,Salmonella spp.,2.80E+03,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; 
+2010~2011,,,,鶏肉,盲腸内容物,鶏群B,MPN,Salmonella spp.,7.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; 
+2010~2011,,,,鶏肉,盲腸内容物,鶏群C,MPN,Salmonella spp.,9.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; 
+2010~2011,,,,鶏肉,盲腸内容物,鶏群D,MPN,Salmonella spp.,-,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; 
+2010~2011,,,,鶏肉,盲腸内容物,鶏群E,MPN,Salmonella spp.,-,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; 
+2010~2011,,,,鶏肉,中抜きと体,鶏群A,MPN,Salmonella spp.,8.00E+02,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,中抜きと体,鶏群B,MPN,Salmonella spp.,1.50E+02,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,中抜きと体,鶏群C,MPN,Salmonella spp.,7.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,中抜きと体,鶏群D,MPN,Salmonella spp.,1.10E+02,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,中抜きと体,鶏群E,MPN,Salmonella spp.,7.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: 中抜きと体1羽分の表面に付いているサルモネラを5 gの液体の中に濃縮し、その液100gあたりのサルモネラの菌数。中抜きと体100 gあたりの菌数ではない。
+2010~2011,,,,鶏肉,胸肉,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,胸肉,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,ササミ,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群A,MPN,Salmonella spp.,7.20E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群A,MPN,Salmonella spp.,1.50E+02,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群A,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群B,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群C,MPN,Salmonella spp.,3.60E+01,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群C,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群D,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,肝臓,鶏群E,MPN,Salmonella spp.,Not detected,MPN/100g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,,,鶏肉,盲腸内容物,,plate_count,Campylobacter jejuni/coli,1.00E+04 以上,CFU/g,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,"other: カンピロバクター陽性の鶏群, 168/188が1.0×104 CFU/g 以上"
+2010~2011,,,,鶏肉,中抜きと体,,plate_count,Campylobacter jejuni/coli,6.30E+03,CFU/と体,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: カンピロバクター陽性の 18 鶏群から製造された中抜きと体;
+2010~2011,,,,鶏肉,中抜きと体,,plate_count,Campylobacter jejuni/coli,6.00E+01,CFU/と体,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,"value: 平均値; other: カンピロバクター陰性の鶏群, 陽性鶏群の直後に処理された陰性鶏群から製造された中抜きと体;"
+2010~2011,,,,鶏肉,中抜きと体,,plate_count,Campylobacter jejuni/coli,5.0E+01未満,CFU/と体,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,"value: 平均値; other: カンピロバクター陰性の鶏群, 陽性鶏群より前に処理された陰性鶏群から製造された中抜きと体;"
+2010~2011,,,,鶏肉,肝臓,,plate_count,Campylobacter jejuni/coli,4.00E+02,CFU/ｇ,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: カンピロバクター陽性の鶏群;
+2010~2011,,,,鶏肉,肝臓,,plate_count,Campylobacter jejuni/coli,1.0E+02未満,CFU/ｇ,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: カンピロバクター陰性の鶏群;
