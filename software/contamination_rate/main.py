@@ -165,6 +165,37 @@ else:
 
         st.write('-----------')
 
+    # 細菌名が指定された場合（"すべて"以外が選択された場合）
+    elif selected_bacteria != "すべて":
+        # 食品カテゴリごとに集計
+        category_summary = df_filtered.groupby('食品カテゴリ').agg({'検体数': 'sum', '陽性数': 'sum'}).reset_index()
+        
+        # 陽性率を計算
+        category_summary['陽性率 (%)'] = category_summary['陽性数'] / category_summary['検体数'] * 100
+        category_summary["陽性率 (%)"] = category_summary["陽性率 (%)"].apply(lambda x: func_round(x, ndigits=2))
+
+        col5, col6 = st.columns(2)
+
+        with col5:
+            # テーブルを表示
+            st.write(f'食品カテゴリごとの陽性率 {group_title}')
+            st.dataframe(category_summary, hide_index=True)
+
+        with col6:
+            # 陽性率の棒グラフを作成
+            fig3, ax3 = plt.subplots(figsize=(8, 6))
+            ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
+            ax3.set_xlabel('陽性率 (%)', fontsize=14)
+            ax3.set_ylabel('食品カテゴリ', fontsize=14)
+            ax3.set_title(f'食品カテゴリごとの陽性率 {group_title}', fontsize=16)
+            ax3.tick_params(axis='both', which='major', labelsize=12)
+            ax3.invert_yaxis()
+            # グラフを表示
+            st.pyplot(fig3)
+
+        st.write('-----------')
+
+
     # 選択されたカテゴリと食品名に基づくデータの表示
     st.write(f'選択された食品カテゴリと食品名に該当するデータ {group_title}')
     st.dataframe(df_filtered, hide_index=True)
