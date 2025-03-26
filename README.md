@@ -120,8 +120,7 @@
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_13.html) | 済 |
 | 2012 | **岐阜県食肉衛生検査所** <br> [牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) |  |
 | 2011 | **公益財団法人鹿児島市獣医公衆衛生協会** <br> [食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) |  |
-| 2010 | **農林水産省** <br> [Quantitative estimation of _Campylobacter_ cross-contamination in carcasses and chicken products at an abattoir](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) |  |
-| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) | 済 |
+| 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) <br> [関連論文](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) | 済 |
 | 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) |  |
 | 2004 | **宮城県保健環境センター** <br> [市販食肉等からのカンピロバクター検出と低温保存での菌消長](https://www.pref.miyagi.jp/documents/1979/209066.pdf) |  |
 | 2001 | **埼玉県衛生研究所** <br> [MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) |  |
