@@ -172,7 +172,7 @@ else:
         bacteria_counts['陽性率 (%)'] = bacteria_counts['陽性率 (%)'].apply(lambda x: func_round(x, 2))
         # 表示用ラベル
         bacteria_counts.rename(columns={
-            '細菌名_html': '表示名_HTML',
+            '細菌名_html': 'バクテリア名',
             '細菌名_latex': '表示名_LaTeX'
         }, inplace=True)
 
@@ -180,7 +180,7 @@ else:
         col1, col2 = st.columns(2)
         with col1:
             render_bacteria_table(
-                bacteria_counts[['表示名_HTML', '検体数']],
+                bacteria_counts[['バクテリア名', '検体数']],
                 f'細菌別の食品検体数 {group_title}',
                 ['バクテリア名', '検体数']
             )
@@ -200,7 +200,7 @@ else:
         col3, col4 = st.columns(2)
         with col3:
             render_bacteria_table(
-                bacteria_counts[['表示名_HTML', '陽性率 (%)']],
+                bacteria_counts[['バクテリア名', '陽性率 (%)']],
                 f'細菌の陽性率 {group_title}',
                 ['バクテリア名', '陽性率 (%)']
             )
