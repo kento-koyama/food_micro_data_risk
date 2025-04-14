@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import re
+from IPython.display import display
+
 
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
@@ -31,11 +33,24 @@ def format_bacteria_name(name):
     match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
     if match:
         genus, species, rest = match.groups()
-        return rf"$\it{{{genus} {species}}}${rest}"
+        # 属名と種小名の間にバックスラッシュスペースを入れる
+        return rf"$\it{{{genus}\ {species}}}${rest}"
 
     # 属名だけなど、それ以外のケース
     return rf"$\it{{{name}}}$"
 
+
+# markdown + HTMLテーブルで表示する関数
+def render_bacteria_table(df, title, columns):
+    st.write(title)
+
+    html = "<table>"
+    html += "<tr>" + "".join([f"<th>{col}</th>" for col in columns]) + "</tr>"
+    for _, row in df.iterrows():
+        html += "<tr>" + "".join([f"<td>{row[col]}</td>" for col in columns]) + "</tr>"
+    html += "</table>"
+
+    st.markdown(html, unsafe_allow_html=True)
 
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
@@ -60,6 +75,7 @@ st.sidebar.write("### 検索")
 fm.fontManager.addfont(font_path)
 font_prop = fm.FontProperties(fname=font_path)
 plt.rcParams['font.family'] = font_prop.get_name()
+plt.rcParams['text.usetex'] = False  # mathtext を使用（標準の $\it{}$ が有効）
 
 # データの読み込み
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
@@ -163,8 +179,11 @@ else:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.write(f'細菌別の食品検体数 {group_title}')
-            st.dataframe(bacteria_counts[['細菌名', '検体数']], hide_index=True)
+            render_bacteria_table(
+                bacteria_counts[['細菌名_表示', '検体数']], 
+                f"細菌別の食品検体数 {group_title}", 
+                ['細菌名_表示', '検体数']
+                )
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(6, 6))
@@ -185,8 +204,11 @@ else:
         col3, col4 = st.columns(2)
 
         with col3:
-            st.write(f'細菌の陽性率 {group_title}')
-            st.dataframe(bacteria_counts[['細菌名', '陽性率 (%)']], hide_index=True)
+            render_bacteria_table(
+                bacteria_counts[['細菌名_表示', '陽性率 (%)']], 
+                f"細菌の陽性率 {group_title}", 
+                ['細菌名_表示', '陽性率 (%)']
+                )
 
         with col4:
             fig2, ax2 = plt.subplots(figsize=(6, 6))
