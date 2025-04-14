@@ -50,6 +50,32 @@ def calc_df_height(df, max_rows=5, row_height=35):
     rows_to_display = min(len(df), max_rows)+1
     return row_height * rows_to_display
 
+
+def format_bacteria_name(name):
+    """
+    細菌名を学名に応じて斜体のLaTeX形式に変換する。
+    - Escherichia coli O157 → Escherichia coli を斜体、O157は通常
+    - Salmonella spp. → Salmonella のみ斜体
+    - Listeria monocytogenes → 全部斜体
+    """
+    if pd.isna(name):
+        return name
+
+    # 正規表現で属名と種小名を抽出
+    match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)  # Ex: Escherichia coli O157
+    spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)  # Ex: Salmonella spp.
+
+    if spp_match:
+        genus, spp = spp_match.groups()
+        return rf"$\it{{{genus}}}$ {spp}"
+    elif match:
+        genus, species, rest = match.groups()
+        return rf"$\it{{{genus} {species}}}${rest}"
+    else:
+        # 属名だけある場合や、それ以外のケース
+        return rf"$\it{{{name}}}$"
+
+
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
@@ -127,6 +153,11 @@ df['汚染濃度_logCFU/g'] = df['汚染濃度_logCFU/g'].apply(lambda x: func_r
 # 細菌名を"Campylobacter spp."でまとめる
 df['細菌名_詳細'] = df['細菌名']
 df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
+df['細菌名_表示'] = df['細菌名'].apply(format_bacteria_name)
+# 細菌名マッピング（元の名前 <-> 表示名）
+bacteria_display_map = dict(zip(df['細菌名_表示'], df['細菌名']))
+bacteria_inverse_map = {v: k for k, v in bacteria_display_map.items()}
+
 
 df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14]]
 
@@ -160,13 +191,16 @@ selected_food = st.sidebar.selectbox(
 df_filtered = df_filtered if selected_food == "" or selected_food == "すべて" else df_filtered[df_filtered['食品名'] == selected_food]
 
 # サイドバーで細菌名を選択
-bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].unique())
-selected_bacteria = st.sidebar.selectbox(
+bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名_表示'].unique())
+selected_bacteria_display = st.sidebar.selectbox(
     '細菌名を入力 または 選択してください:',
     bacteria_names_filtered,
     format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
+
+# 選択された斜体表記から元の細菌名に変換
+selected_bacteria = bacteria_display_map.get(selected_bacteria_display, selected_bacteria_display)
 
 # データをフィルタリング（細菌名に基づく）
 df_filtered = df_filtered if selected_bacteria == "" or selected_bacteria == "すべて" else df_filtered[df_filtered['細菌名'] == selected_bacteria]
@@ -210,13 +244,13 @@ else:
         col1, col2 = st.columns(2)
 
         with col1:
-            bacteria_samplesize = df_filtered['細菌名'].value_counts().reset_index()
+            bacteria_samplesize = df_filtered['細菌名_表示'].value_counts().reset_index()
             bacteria_samplesize.columns = ['細菌名', '検体数']
             st.dataframe(bacteria_samplesize, hide_index=True)
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8,6))
-            ax1.barh(bacteria_samplesize['細菌名'], bacteria_samplesize['検体数'], color='skyblue')
+            ax1.barh(bacteria_samplesize['細菌名_表示'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
             ax1.set_ylabel('細菌名', fontsize=size_label)
             ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)

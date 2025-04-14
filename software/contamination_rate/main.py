@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
+import re
 
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
@@ -9,6 +10,32 @@ def func_round(number, ndigits=0):
         return np.nan  # NaN をそのまま返す
     p = 10 ** ndigits
     return float(int(number * p + 0.5) / p)
+
+def format_bacteria_name(name):
+    """
+    細菌名を斜体のLaTeX形式に変換して返す。
+    - Escherichia coli O157 → Escherichia coli を斜体、O157は通常
+    - Salmonella spp. → Salmonella のみ斜体
+    - Listeria monocytogenes → 全部斜体
+    """
+    if pd.isna(name):
+        return name
+
+    # Salmonella spp. のような spp. 系
+    spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
+    if spp_match:
+        genus, spp = spp_match.groups()
+        return rf"$\it{{{genus}}}$ {spp}"
+
+    # 学名（属 + 種 + オプション）の形式
+    match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
+    if match:
+        genus, species, rest = match.groups()
+        return rf"$\it{{{genus} {species}}}${rest}"
+
+    # 属名だけなど、それ以外のケース
+    return rf"$\it{{{name}}}$"
+
 
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
@@ -43,11 +70,16 @@ df = df[df['検体数'].notna() & df['陽性数'].notna()]
 # 細菌名を"Campylobacter spp."でまとめる
 df['細菌名_詳細'] = df['細菌名']
 df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
+df['細菌名_表示'] = df['細菌名'].apply(format_bacteria_name)
+
+# 細菌名マッピング（元の名前 <-> 表示名）
+bacteria_display_map = dict(zip(df['細菌名_表示'], df['細菌名']))
+bacteria_inverse_map = {v: k for k, v in bacteria_display_map.items()}
 
 # 初期状態の選択肢
 food_groups = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
 food_names = [""] + ["すべて"] + list(df['食品名'].unique())
-bacteria_names = [""] + ["すべて"] + list(df['細菌名'].unique())
+bacteria_names = [""] + ["すべて"] + list(df['細菌名_表示'].unique())
 institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  
 
 # サイドバーで食品カテゴリを選択
@@ -75,12 +107,15 @@ df_filtered = df_filtered if selected_food == "" or selected_food == "すべて"
 
 # サイドバーで細菌名を選択
 bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].unique())
-selected_bacteria = st.sidebar.selectbox(
+selected_bacteria_display = st.sidebar.selectbox(
     '細菌名を入力 または 選択してください:',
     bacteria_names_filtered,
     format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
+
+# 選択された斜体表記から元の細菌名に変換
+selected_bacteria = bacteria_display_map.get(selected_bacteria_display, selected_bacteria_display)
 
 # データをフィルタリング（細菌名に基づく）
 df_filtered = df_filtered if selected_bacteria == "" or selected_bacteria == "すべて" else df_filtered[df_filtered['細菌名'] == selected_bacteria]
@@ -119,21 +154,21 @@ elif df_filtered.empty:
 else:
     if selected_bacteria == "すべて":  # 細菌名の絞り込みがない場合に表示
         # 細菌ごとの検体数と陽性数の合計を計算
-        bacteria_counts = df_filtered.groupby('細菌名').agg({'検体数': 'sum', '陽性数': 'sum'}).reset_index()
+        bacteria_counts = df_filtered.groupby('細菌名_表示').agg({'検体数': 'sum', '陽性数': 'sum'}).reset_index()
 
         # カラム名の変更
-        bacteria_counts.columns = ['バクテリア名', '検体数', '陽性数']
+        bacteria_counts.columns = ['細菌名', '検体数', '陽性数']
 
         # サイドバイサイドのレイアウト for 検体数
         col1, col2 = st.columns(2)
 
         with col1:
             st.write(f'細菌別の食品検体数 {group_title}')
-            st.dataframe(bacteria_counts[['バクテリア名', '検体数']], hide_index=True)
+            st.dataframe(bacteria_counts[['細菌名', '検体数']], hide_index=True)
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(6, 6))
-            ax1.barh(bacteria_counts['バクテリア名'], bacteria_counts['検体数'], color='skyblue')
+            ax1.barh(bacteria_counts['細菌名'], bacteria_counts['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=18)
             ax1.set_ylabel('細菌名', fontsize=18)
             ax1.set_title(f'細菌別の食品検体数 {group_title}', fontsize=20)
@@ -151,11 +186,11 @@ else:
 
         with col3:
             st.write(f'細菌の陽性率 {group_title}')
-            st.dataframe(bacteria_counts[['バクテリア名', '陽性率 (%)']], hide_index=True)
+            st.dataframe(bacteria_counts[['細菌名', '陽性率 (%)']], hide_index=True)
 
         with col4:
             fig2, ax2 = plt.subplots(figsize=(6, 6))
-            ax2.barh(bacteria_counts['バクテリア名'], bacteria_counts['陽性率 (%)'], color='skyblue')
+            ax2.barh(bacteria_counts['細菌名'], bacteria_counts['陽性率 (%)'], color='skyblue')
             ax2.set_xlabel('陽性率 (%)', fontsize=18)
             ax2.set_ylabel('細菌名', fontsize=18)
             ax2.set_title(f'細菌の陽性率 {group_title}', fontsize=20)
