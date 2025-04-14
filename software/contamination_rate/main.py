@@ -12,18 +12,33 @@ def func_round(number, ndigits=0):
     return float(int(number * p + 0.5) / p)
 
 # 細菌名を斜体（属名 種小名）で整形
+## LaTeX
+# def format_bacteria_name(name):
+#     if pd.isna(name):
+#         return name
+#     spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
+#     if spp_match:
+#         genus, spp = spp_match.groups()
+#         return rf"$\it{{{genus}}}$ {spp}"
+#     match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
+#     if match:
+#         genus, species, rest = match.groups()
+#         return rf"$\it{{{genus}\ {species}}}${rest}"
+#     return rf"$\it{{{name}}}$"
+
 def format_bacteria_name(name):
     if pd.isna(name):
         return name
     spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
     if spp_match:
         genus, spp = spp_match.groups()
-        return rf"$\it{{{genus}}}$ {spp}"
+        return f"<i>{genus}</i> {spp}"
     match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
     if match:
         genus, species, rest = match.groups()
-        return rf"$\it{{{genus}\ {species}}}${rest}"
-    return rf"$\it{{{name}}}$"
+        return f"<i>{genus} {species}</i>{rest}"
+    return f"<i>{name}</i>"
+
 
 # HTMLテーブル出力
 def render_bacteria_table(df, title, columns):
