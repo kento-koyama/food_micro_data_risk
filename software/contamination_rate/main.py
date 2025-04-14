@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
+import re
 
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
