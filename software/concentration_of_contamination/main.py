@@ -191,7 +191,7 @@ selected_food = st.sidebar.selectbox(
 df_filtered = df_filtered if selected_food == "" or selected_food == "すべて" else df_filtered[df_filtered['食品名'] == selected_food]
 
 # サイドバーで細菌名を選択
-bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名_表示'].unique())
+bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].unique())
 selected_bacteria_display = st.sidebar.selectbox(
     '細菌名を入力 または 選択してください:',
     bacteria_names_filtered,
