@@ -147,7 +147,7 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 # 細菌名を整形し、latex表記列を作成
 df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 
-df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14]]
+df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14,18]]
 
 # 初期状態の選択肢
 food_categories = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
