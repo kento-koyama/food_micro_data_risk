@@ -7,6 +7,22 @@ from io import BytesIO
 import os
 import re
 
+# 細菌名を斜体（属名 種小名）で整形
+## LaTeXで表記（グラフ用）
+def format_bacteria_name_latex(name):
+    if pd.isna(name):
+        return name
+    spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
+    if spp_match:
+        genus, spp = spp_match.groups()
+        return rf"$\it{{{genus}}}$ {spp}"
+    match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
+    if match:
+        genus, species, rest = match.groups()
+        return rf"$\it{{{genus}\ {species}}}${rest}"
+    return rf"$\it{{{name}}}$"
+
+
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
     if pd.isna(number):  # NaN チェック
@@ -63,10 +79,15 @@ app_ratio_url = "https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app/"
 # フォントファイルのパスを設定
 font_path = 'NotoSansCJKjp-Regular.otf'
 
+# フォントの設定
+fm.fontManager.addfont(font_path)
+font_prop = fm.FontProperties(fname=font_path)
+plt.rcParams['font.family'] = font_prop.get_name()
+plt.rcParams['text.usetex'] = False  # LaTeXをmatplotlibで有効に
+
 # 図のフォントサイズを一括で設定
 size_label = 18
 size_title = 20
-
 
 
 # Streamlit のアプリケーション
@@ -78,10 +99,6 @@ st.write('-----------')
 # サイドバーにタイトルを追加
 st.sidebar.title("検索")
 
-# フォントの設定
-fm.fontManager.addfont(font_path)
-font_prop = fm.FontProperties(fname=font_path)
-plt.rcParams['font.family'] = font_prop.get_name()
 
 # データの読み込み
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
@@ -127,6 +144,8 @@ df['汚染濃度_logCFU/g'] = df['汚染濃度_logCFU/g'].apply(lambda x: func_r
 # 細菌名を"Campylobacter spp."でまとめる
 df['細菌名_詳細'] = df['細菌名']
 df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
+# 細菌名を整形し、latex表記列を作成
+df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 
 df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14]]
 
@@ -216,7 +235,9 @@ else:
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8,6))
-            ax1.barh(bacteria_samplesize['細菌名'], bacteria_samplesize['検体数'], color='skyblue')
+            # ラベルもlatex用に変換
+            bacteria_samplesize = bacteria_samplesize.merge(df_filtered[['細菌名', '細菌名_latex']].drop_duplicates(), on='細菌名', how='left')
+            ax1.barh(bacteria_samplesize['細菌名_latex'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
             ax1.set_ylabel('細菌名', fontsize=size_label)
             ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)
