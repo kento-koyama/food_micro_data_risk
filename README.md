@@ -33,6 +33,7 @@
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
   **[食中毒細菌汚染実態_汚染率.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv)** に定量データを整理
   
+<!-- table:table_contamination_rate -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2024 | **東京都健康安全研究センター** <br> [市販キノコ類からのリステリア属菌の検出状況]() <br> （東京都微生物検査情報 第45巻第5号） |  |
@@ -93,6 +94,7 @@
 | 1999-2001 | **横浜市衛生研究所** <br> 無加熱摂取食品から検出された _Listeria monocytogenes_ <br>（横浜市衛生研究所年報 2002 no.41 p91-93）|  |
 |  | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） |  |
 |  | **東京都健康安全研究センター** <br> インターネット販売食品の衛生学的実態調査 <br>（食品衛生研究, 65-70, 56(1), 2006）<br> 国立国会図書館に所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R100000002-I000000011637-i5462925)） | 済 |
+<!-- endtable -->
 
 
 ### 1.2. 汚染濃度 [CFU/g, MPN/g, CFU/cm<sup>2</sup> or CFU/と体]
@@ -101,7 +103,7 @@
 
 
 #### 1.2.1 カンピロバクター　(_Campylobacter jejuni_ / _Campylobacter coli_)
-
+<!-- table:table_Campylobacter -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「生食用食鳥肉の高度衛生管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A5%20p77-97.pdf) <br> -　関連論文の[リンク](https://www.jstage.jst.go.jp/article/jvms/84/3/84_21-0486/_pdf/-char/ja) |  |
@@ -126,11 +128,11 @@
 | 2000-2001 | **岩手大学** <br> 厚生労働科学研究費（特別研究事業） <br> [鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) |  |
 | 2000 | **埼玉県衛生研究所** <br> [市販鶏肉におけるカンピロバクターの定量検査と分離菌株の血清型](https://www.jstage.jst.go.jp/article/jvma1951/57/9/57_9_595/_pdf/-char/ja) |  |
 | 1999-2002 | **埼玉県衛生研究所** <br> [国産および輸入鶏肉におけるカンピロバクターの汚染状況](https://agriknowledge.affrc.go.jp/RN/2010671140.pdf) |  |
-
+<!-- endtable -->
 
 
 #### 1.2.2 リステリア (_Listeria monocytogenes_)
-
+<!-- table:table_Listeria -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」<br>分担研究報告書[「と畜場におけるリステリア属菌の汚染実態とリスク管理に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/9.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A3%20p64-69.pdf) |  |
@@ -154,10 +156,10 @@
 | 1999-2000 | **大阪市立大学 / 大阪市立環境科学研究所** <br> [_Listeria monocytogenes_ isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk) |  |
 | 1998-2001 | **日本水産（株）食品分析センター** <br> [わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja) |  |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) <br> 2000年以降のデータを登録予定 |  |
-
+<!-- endtable -->
 
 #### 1.2.3 腸管出血性大腸菌 (enterohemorrhagic _Escherichia coli_ :EHEC, 例: O157 など)　
-
+<!-- table:table_EHEC -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2016 | **神奈川県衛生研究所** <br> [冷凍メンチカツによる腸管出血性大腸菌O157 VT2の食中毒検査について―神奈川県](https://www.niid.go.jp/niid/ja/ehec-m/ehec-iasrs/6992-443p08.html) | 済 |
@@ -165,10 +167,10 @@
 | 1998 | **千葉県衛生研究所** <br> [保育園におけるメロンが原因の腸管出血性大腸菌O157:H7により集団食中毒事例](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/kennkyuuhoukoku/documents/22-p31.pdf) | 済 |
 | 1998 | **北海道立衛生研究所** <br> [イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査－北海道](https://idsc.niid.go.jp/iasr/19/224/dj2242.html) | 済 |
 | 1998 | **神奈川県衛生研究所** <br> [イクラからの志賀毒素産生性大腸菌O157:H7の分離と分離株のパルスフィールドゲル電気泳動パターン](https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/73/1/73_1_20/_pdf) <br> [「イクラ」からの腸管出血性大腸菌Ｏ157:H7の検出－神奈川県](https://idsc.niid.go.jp/iasr/19/223/dj2236.html) | 済（保留） |
-
+<!-- endtable -->
 
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
-
+<!-- table:table_Salmonella -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「めん羊枝肉表面の切除法による細菌汚染状況」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/7.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A1%20p46-51.pdf) | 済 |
@@ -179,6 +181,8 @@
 | 2006 | **宮城県保険環境センター** <br> [_Salmonella_ Montevideoが検出された食中毒事例について](https://www.pref.miyagi.jp/documents/1979/209933.pdf) |  |
 | 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://www.jstage.jst.go.jp/article/jsfm1994/23/3/23_3_165/_pdf/-char/ja) | 済 |
 | 1999-2001 | **埼玉県衛生研究所** <br> [市販食肉におけるサルモネラとリステリアの汚染状況](https://www.jstage.jst.go.jp/article/jvma1951/56/3/56_3_167/_pdf/-char/en) |  |
+<!-- endtable -->
+
 
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
