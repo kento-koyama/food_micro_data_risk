@@ -35,3 +35,5 @@ jobs:
           git add README.md tables/
           git commit -m "Auto-synced Excel and Markdown tables" || echo "No changes"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
