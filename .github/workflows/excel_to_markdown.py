@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from pathlib import Path
 
 def df_to_markdown(df):
