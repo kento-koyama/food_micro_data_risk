@@ -4,7 +4,8 @@ from pathlib import Path
 
 st.set_page_config(page_title="Contamination Data Translator", layout="centered")
 
-st.title("🍱 食中毒汚染データ 英語変換アプリ")
+
+st.title("食中毒汚染データ 英語変換アプリ")
 st.markdown("CSVファイルをアップロードすると英語版に変換されたCSVをダウンロードできます。")
 
 uploaded_file = st.file_uploader("日本語のCSVファイルをアップロード（汚染率または汚染濃度）", type="csv")
@@ -33,7 +34,7 @@ if uploaded_file:
         # ダウンロードボタン
         st.success("変換が完了しました。")
         st.download_button(
-            label="📥 英語版CSVをダウンロード",
+            label="英語版CSVをダウンロード",
             data=df.to_csv(index=False).encode('utf-8-sig'),
             file_name=output_name,
             mime="text/csv"

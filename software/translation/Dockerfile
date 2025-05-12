@@ -9,6 +9,8 @@ WORKDIR /app
 # アプリ本体をコピー
 COPY . .
 
+COPY .streamlit /app/.streamlit
+
 # 親ディレクトリの database もマウントされる前提で辞書を参照
 
 # ポート開放 & 実行
