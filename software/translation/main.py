@@ -18,7 +18,7 @@ if uploaded_file:
     if not translation_path.exists():
         st.error(f"翻訳辞書ファイルが見つかりません: {translation_path}")
     else:
-        translation_df = pd.read_csv(translation_path)
+        translation_df = pd.read_csv(translation_path, encoding="cp932")
         translation_dict = dict(zip(translation_df["Japanese"], translation_df["English"]))
 
         # カラム名の翻訳
