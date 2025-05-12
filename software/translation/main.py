@@ -34,7 +34,7 @@ if uploaded_file:
         st.success("変換が完了しました。")
         st.download_button(
             label="📥 英語版CSVをダウンロード",
-            data=df.to_csv(index=False).encode('utf-8'),
+            data=df.to_csv(index=False).encode('utf-8-sig'),
             file_name=output_name,
             mime="text/csv"
         )
