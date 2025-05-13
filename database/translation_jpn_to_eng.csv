@@ -2,7 +2,7 @@ Japanese,English
 調査年,Year
 地域ID,Region ID
 検査施設,Facility
-農産物カテゴリ,Products Category
+農産物カテゴリ,Product Category
 食品カテゴリ,Food Category
 食品名,Food Name
 食品詳細,Food details
@@ -12,7 +12,7 @@ Japanese,English
 単位,Unit
 実施機関,Agency
 調査名,Survey
-備考,detai information
+備考,detail information
 牛肉,Beef
 鶏肉,Chicken
 豚肉,Pork
