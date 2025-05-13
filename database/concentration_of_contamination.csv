@@ -1,4 +1,4 @@
-﻿Year,Region ID,Facility,Products Category,Food Category,Food Name,Food deatails,method,Organism,Concentration,Unit,Agency,Survey,Source URL,detai information
+﻿Year,Region ID,Facility,Products Category,Food Category,Food Name,Food details,method,Organism,Concentration,Unit,Agency,Survey,Source URL,detai information
 2021,-,と畜場,食鳥とたい,Chicken,成鶏 (中抜き),,plate_count,Campylobacter spp.,not detected,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,value: 最小値; 問い合わせ: 要; 
 2021,-,と畜場,食鳥とたい,Chicken,成鶏 (中抜き),,plate_count,Campylobacter spp.,0.49,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,value: 平均値; 問い合わせ: 要; 
 2021,-,と畜場,食鳥とたい,Chicken,成鶏 (中抜き),,plate_count,Campylobacter spp.,3,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,value: 最大値; 問い合わせ: 要; 
