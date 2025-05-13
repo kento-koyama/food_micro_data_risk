@@ -76,7 +76,8 @@ df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
 # === UI ===
 st.title("Contamination Concentration of Foodborne Bacteria")
-st.write("Visualization of [concentration_of_contamination.csv]"% csv_url_gui)
+st.write(f"Visualization of [concentration_of_contamination.csv]({csv_url_gui})")
+
 st.write("Each table can be downloaded as a CSV.")
 st.write("-----------")
 st.sidebar.title("Filter Options")
