@@ -175,11 +175,11 @@ language_switch_html = f"""
         top: 80px;
         right: 20px;
         z-index: 9999;
-        background-color: #f8f8f8;
+        background-color: transparent;  
+        border: none;                   
         padding: 6px 12px;
         border-radius: 6px;
         font-size: 14px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }}
     .language-switch a {{
         margin: 0 5px;
