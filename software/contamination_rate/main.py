@@ -219,18 +219,18 @@ else:
     st.dataframe(positive_df, hide_index=True)
 
 
-# 言語切替リンクの挿入
 language_switch_html = """
     <style>
     .language-switch {
         position: fixed;
-        top: 10px;
-        right: 10px;
-        z-index: 100;
+        top: 80px;
+        right: 20px;
+        z-index: 9999;
         background-color: #f0f0f0;
         padding: 6px 12px;
         border-radius: 6px;
         font-size: 14px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .language-switch a {
         margin: 0 5px;
@@ -241,11 +241,10 @@ language_switch_html = """
     </style>
     <div class="language-switch">
         <a href="/">🇯🇵 Japanese</a> |
-        <a href="/main_eng">🇬🇧 English</a>
+        <a href="/Main_eng">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
-
 
 # お問い合わせリンクの追加
 contact_link = """
