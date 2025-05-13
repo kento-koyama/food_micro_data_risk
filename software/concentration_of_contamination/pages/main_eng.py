@@ -58,7 +58,7 @@ df = df[~((df['Concentration'] == 'Not Detected') |
           (df['Concentration'].isna()) |
           (df['Concentration'].astype(str).str.contains('<')))]
 df = df[~(df['Food Category'].isna() & df['Food Name'].isna())]
-df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['Method'] == 'MPN')]
+df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['method'] == 'MPN')]
 df['Concentration'] = pd.to_numeric(df['Concentration'], errors='coerce')
 df = df[~df['Concentration'].isna()]
 
