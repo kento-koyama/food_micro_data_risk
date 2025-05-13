@@ -29,7 +29,12 @@ def format_bacteria_name_latex(name):
 
 
 # ページの設定
-st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+st.set_page_config( 
+                   page_title="汚染率可視化ソフトウェア", 
+                #    page_icon="", 
+                   layout="wide", 
+                   initial_sidebar_state="expanded"
+                   )
 
 # フォントファイルのパスを設定
 font_path = 'NotoSansCJKjp-Regular.otf'
