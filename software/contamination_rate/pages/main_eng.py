@@ -164,6 +164,44 @@ else:
     st.write(f'Samples with Positive Count >= 1 {group_title}')
     st.dataframe(positive_df, hide_index=True)
 
+
+# setting current page manually
+current_page = "en"  
+
+language_switch_html = f"""
+    <style>
+    .language-switch {{
+        position: fixed;
+        top: 80px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #f8f8f8;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }}
+    .language-switch a {{
+        margin: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }}
+    .language-switch .inactive {{
+        color: #ccc;
+        pointer-events: none;
+        cursor: default;
+    }}
+    .language-switch .active {{
+        color: #0366d6;
+    }}
+    </style>
+    <div class="language-switch">
+        <a href="/" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
+        <a href="/main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+    </div>
+"""
+st.markdown(language_switch_html, unsafe_allow_html=True)
+
 contact_link = """
     <style>
     .footer {
