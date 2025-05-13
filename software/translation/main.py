@@ -1,12 +1,24 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+import unicodedata
+import jaconv
 
 st.set_page_config(page_title="Contamination Data Translator", layout="centered")
 
 
 st.title("食中毒汚染データ 英語変換アプリ")
 st.markdown("CSVファイルをアップロードすると英語版に変換されたCSVをダウンロードできます。")
+
+# 表記揺れ正規化関数
+def normalize_text(text):
+    if pd.isna(text):
+        return text
+    text = str(text)
+    text = unicodedata.normalize("NFKC", text)  # 全角半角の統一
+    text = jaconv.hira2kata(text)               # ひらがな → カタカナに変換
+    return text
+
 
 uploaded_file = st.file_uploader("日本語のCSVファイルをアップロード（汚染率または汚染濃度）", type="csv")
 
@@ -25,7 +37,8 @@ if uploaded_file:
         # カラム名の翻訳
         df.columns = [translation_dict.get(col, col) for col in df.columns]
 
-        # 値の翻訳（可能な限り）
+        # 値の正規化と翻訳
+        df = df.applymap(normalize_text)
         df = df.replace(translation_dict)
 
         # ファイル名の設定
