@@ -219,8 +219,8 @@ else:
     st.dataframe(positive_df, hide_index=True)
 
 
-# 現在のページをマニュアルで指定
-current_page = "jp"  # ← このページは日本語ページ
+# 現在のページを指定（このファイルでは "jp"）
+current_page = "jp"
 
 language_switch_html = f"""
     <style>
@@ -246,12 +246,15 @@ language_switch_html = f"""
         cursor: default;
     }}
     .language-switch .active {{
+        color: #000;
+    }}
+    .language-switch .active:hover {{
         color: #0366d6;
     }}
     </style>
     <div class="language-switch">
         <a href="/" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
-        <a href="/main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+        <a href="/Main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)

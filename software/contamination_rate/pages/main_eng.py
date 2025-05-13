@@ -192,16 +192,20 @@ language_switch_html = f"""
         cursor: default;
     }}
     .language-switch .active {{
+        color: #000;
+    }}
+    .language-switch .active:hover {{
         color: #0366d6;
     }}
     </style>
     <div class="language-switch">
         <a href="/" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
-        <a href="/main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+        <a href="/Main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
 
+# Link
 contact_link = """
     <style>
     .footer {
