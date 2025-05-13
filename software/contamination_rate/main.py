@@ -1,3 +1,30 @@
+# 言語切替リンクの挿入
+language_switch_html = """
+    <style>
+    .language-switch {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+        background-color: #f0f0f0;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    .language-switch a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #0366d6;
+        font-weight: bold;
+    }
+    </style>
+    <div class="language-switch">
+        <a href="/">🇯🇵 Japanese</a> |
+        <a href="/main_eng">🇬🇧 English</a>
+    </div>
+"""
+st.markdown(language_switch_html, unsafe_allow_html=True)
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -218,34 +245,6 @@ else:
     st.write(f'陽性数が1以上のデータ {group_title}')
     st.dataframe(positive_df, hide_index=True)
 
-
-
-# 言語切替リンクの挿入
-language_switch_html = """
-    <style>
-    .language-switch {
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        z-index: 100;
-        background-color: #f0f0f0;
-        padding: 6px 12px;
-        border-radius: 6px;
-        font-size: 14px;
-    }
-    .language-switch a {
-        margin: 0 5px;
-        text-decoration: none;
-        color: #0366d6;
-        font-weight: bold;
-    }
-    </style>
-    <div class="language-switch">
-        <a href="/">🇯🇵 Japanese</a> |
-        <a href="/main_eng">🇬🇧 English</a>
-    </div>
-"""
-st.markdown(language_switch_html, unsafe_allow_html=True)
 
 
 # お問い合わせリンクの追加
