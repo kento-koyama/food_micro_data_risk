@@ -417,6 +417,8 @@ language_switch_html = f"""
         <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
     </div>
 """
+st.markdown(language_switch_html, unsafe_allow_html=True)
+
 
 # お問い合わせリンクの追加
 contact_link = """
