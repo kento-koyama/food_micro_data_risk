@@ -242,7 +242,7 @@ language_switch_html = """
     </style>
     <div class="language-switch">
         <a href="/">🇯🇵 Japanese</a> |
-        <a href="/main_eng">🇺🇸 English</a>
+        <a href="/main_eng">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
