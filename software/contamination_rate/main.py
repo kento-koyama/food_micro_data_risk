@@ -219,7 +219,7 @@ else:
     st.dataframe(positive_df, hide_index=True)
 
 
-# 現在のページを指定（このファイルでは "jp"）
+# 現在のページを指定
 current_page = "jp"
 
 language_switch_html = f"""
@@ -229,11 +229,11 @@ language_switch_html = f"""
         top: 80px;
         right: 20px;
         z-index: 9999;
-        background-color: #f8f8f8;
+        background-color: transparent;  /* 背景を透明に */
+        border: none;                   /* 枠線なし */
         padding: 6px 12px;
         border-radius: 6px;
         font-size: 14px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }}
     .language-switch a {{
         margin: 0 5px;
@@ -258,6 +258,7 @@ language_switch_html = f"""
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
+
 
 # お問い合わせリンクの追加
 contact_link = """
