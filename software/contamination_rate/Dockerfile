@@ -17,4 +17,4 @@ COPY .streamlit /app/.streamlit
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["main.py", "--server.port=8080"]
+CMD ["main.py", "main_eng.py", "--server.port=8080"]
