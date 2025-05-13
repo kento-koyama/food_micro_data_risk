@@ -29,7 +29,12 @@ def format_bacteria_name_latex(name):
 
 
 # Page setup
-st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(
+    page_title="Software visualizing prevalence data", 
+    # page_icon="", 
+    layout="wide", 
+    initial_sidebar_state="expanded"
+    )
 
 # Font setup
 font_path = 'NotoSansCJKjp-Regular.otf'
@@ -44,7 +49,7 @@ csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/da
 
 st.write('### Contamionation rate of Foodborne Bacteria')
 st.write("Visualization of [contamination_rate.csv](%s)" % csv_url_gui)
-st.write('You can download a csv file for each table')
+st.write('Each table can be downloaded as a CSV.')
 st.write('-----------')
 
 # Read CSV
