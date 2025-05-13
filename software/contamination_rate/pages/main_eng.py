@@ -20,12 +20,13 @@ def format_bacteria_name_latex(name):
     spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
     if spp_match:
         genus, spp = spp_match.groups()
-        return rf"$\\it{{{genus}}}$ {spp}"
+        return rf"$\it{{{genus}}}$ {spp}"  # ← \\ を \ に直す
     match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
     if match:
         genus, species, rest = match.groups()
-        return rf"$\\it{{{genus}\\ {species}}}${rest}"
-    return rf"$\\it{{{name}}}$"
+        return rf"$\it{{{genus}\ {species}}}${rest}"
+    return rf"$\it{{{name}}}$"
+
 
 # Page setup
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
