@@ -219,29 +219,39 @@ else:
     st.dataframe(positive_df, hide_index=True)
 
 
-language_switch_html = """
+# 現在のページをマニュアルで指定
+current_page = "jp"  # ← このページは日本語ページ
+
+language_switch_html = f"""
     <style>
-    .language-switch {
+    .language-switch {{
         position: fixed;
         top: 80px;
         right: 20px;
         z-index: 9999;
-        background-color: #f0f0f0;
+        background-color: #f8f8f8;
         padding: 6px 12px;
         border-radius: 6px;
         font-size: 14px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .language-switch a {
+    }}
+    .language-switch a {{
         margin: 0 5px;
         text-decoration: none;
-        color: #0366d6;
         font-weight: bold;
-    }
+    }}
+    .language-switch .inactive {{
+        color: #ccc;
+        pointer-events: none;
+        cursor: default;
+    }}
+    .language-switch .active {{
+        color: #0366d6;
+    }}
     </style>
     <div class="language-switch">
-        <a href="/">🇯🇵 Japanese</a> |
-        <a href="/main_eng">🇬🇧 English</a>
+        <a href="/" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
+        <a href="/main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
