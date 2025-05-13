@@ -20,15 +20,14 @@ Japanese,English
 ソーセージ,Sausage
 その他の肉類,Other or unknown type of meat
 魚介類,Seafood
-ミルク,Milk
+乳類,Milk
 チーズ,Cheese
-その他乳製品,Other or unknown type of dairy
+その他の乳製品,Other or unknown type of dairy
 卵および卵製品,Egg or egg product
 デザート,Dessert food
 ソース・ドレッシング,Sauce/Dressing
 青果物,Vegetable or fruit and their products
 パン,Bread
-乳製品,Infant_food
 飲料,"Juice, beverage"
 水,Water
 その他,"Other, mixed, uncategorised or unknown type of food"
@@ -61,3 +60,7 @@ source URL,Source URL
 岩手大学,Iwate University
 京都市衛生公害研究所,Kyoto City Institute of Health and Enviromental Sciences
 岡山県環境保健センター,Okayama Prefectural Institute for Environmental Science and Pulic Health
+大阪市食肉衛生検査所,"Meat Inspection Center, Osaka City"
+北海道立衛生研究所,Hokkaido Institute of Public Health
+乳児食,Infant_food
+きゅうり,Cucumber
