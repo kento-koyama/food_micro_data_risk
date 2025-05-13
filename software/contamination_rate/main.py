@@ -254,7 +254,7 @@ language_switch_html = f"""
     </style>
     <div class="language-switch">
         <a href="/" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
-        <a href="/Main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+        <a href="/main_eng" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
