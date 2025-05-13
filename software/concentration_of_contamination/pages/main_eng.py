@@ -29,7 +29,7 @@ def convert_to_mpn_per_g(row):
     if isinstance(row['Unit'], str) and 'MPN/' in row['Unit']:
         match = re.search(r'MPN/(\d+)g', row['Unit'])
         weight = int(match.group(1)) if match else 1
-        return row['Concntration'] / weight
+        return row['Concentration'] / weight
     return np.nan
 
 def format_number(number, ndigits=0):
@@ -53,22 +53,22 @@ csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/da
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
 
 # === Data Cleaning ===
-df = df[~((df['Concntration'] == 'Not Detected') |
-          (df['Concntration'] == '-') |
-          (df['Concntration'].isna()) |
-          (df['Concntration'].astype(str).str.contains('<')))]
+df = df[~((df['Concentration'] == 'Not Detected') |
+          (df['Concentration'] == '-') |
+          (df['Concentration'].isna()) |
+          (df['Concentration'].astype(str).str.contains('<')))]
 df = df[~(df['Food Category'].isna() & df['Food Name'].isna())]
 df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['Method'] == 'MPN')]
-df['Concntration'] = pd.to_numeric(df['Concntration'], errors='coerce')
-df = df[~df['Concntration'].isna()]
+df['Concentration'] = pd.to_numeric(df['Concentration'], errors='coerce')
+df = df[~df['Concentration'].isna()]
 
 # === Concentration Transformation ===
 df['MPN per g'] = df.apply(lambda row: convert_to_mpn_per_g(row) if 'MPN' in str(row['Unit']) else np.nan, axis=1)
 df['log CFU/g'] = np.where(df['Unit'].str.contains('MPN', na=False),
                             np.log10(df['MPN per g']),
                             np.where(df['Unit'] == 'CFU/g',
-                                     np.log10(df['Concntration']),
-                                     df['Concntration']))
+                                     np.log10(df['Concentration']),
+                                     df['Concentration']))
 df['log CFU/g'] = df['log CFU/g'].apply(lambda x: func_round(x, ndigits=2))
 df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
@@ -126,7 +126,7 @@ else:
         st.pyplot(fig1)
 
     st.write('-----------')
-    st.subheader(f"Concntration Distribution (log CFU/g) {group_title}")
+    st.subheader(f"Concentration Distribution (log CFU/g) {group_title}")
     df_conc = df_filtered[['Year', 'Organism', 'log CFU/g', 'Food Name', 'Food details']].copy()
     df_conc.columns = ['Year', 'Bacteria', 'log CFU/g', 'Food Name', 'Food Details']
     col3, col4 = st.columns(2)
