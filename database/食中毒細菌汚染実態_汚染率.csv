@@ -1427,20 +1427,20 @@
 2021,,,原料種子,青果物,原料種子（スプラウト）,栽培処理なし,定性検査,Escherichia coli O103,107,0,農林水産省,スプラウトの微生物実態調査の結果,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf,
 2022,,,原料種子,青果物,原料種子（スプラウト）,栽培処理あり,定性検査,Escherichia coli O103,106,0,農林水産省,スプラウトの微生物実態調査の結果,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf,
 2022,,,原料種子,青果物,原料種子（スプラウト）,栽培処理なし,定性検査,Escherichia coli O103,106,0,農林水産省,スプラウトの微生物実態調査の結果,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf,
-2020,全国,,市販鶏卵,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,1870,6,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html,
-2020,全国,,市販鶏卵,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1870,1,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html,
-2007~2008,全国,,市販鶏卵,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,2030,5,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2007~2008,全国,,市販鶏卵,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,2030,0,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2010~2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,,定性検査,Salmonella spp.,1000,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2010~2011,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,,定性検査,Salmonella spp.,1000,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,2,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,36,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,2,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
-2014,,採卵鶏農場内の卵選別包装施設,,卵,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2020,全国,,市販鶏卵,卵および卵製品,鶏卵 卵殻,,定性検査,Salmonella spp.,1870,6,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html,
+2020,全国,,市販鶏卵,卵および卵製品,鶏卵 卵内容,,定性検査,Salmonella spp.,1870,1,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html,
+2007~2008,全国,,市販鶏卵,卵および卵製品,鶏卵 卵殻,,定性検査,Salmonella spp.,2030,5,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2007~2008,全国,,市販鶏卵,卵および卵製品,鶏卵 卵内容,,定性検査,Salmonella spp.,2030,0,農林水産省,市販鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵殻,,定性検査,Salmonella spp.,1000,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2010~2011,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵内容,,定性検査,Salmonella spp.,1000,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,2,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵殻,洗浄前,定性検査,Salmonella spp.,130,36,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵内容,洗浄前,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場A;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵殻,洗浄後,定性検査,Salmonella spp.,130,2,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
+2014,,採卵鶏農場内の卵選別包装施設,,卵および卵製品,鶏卵 卵内容,洗浄後,定性検査,Salmonella spp.,130,0,農林水産省,採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html,origin: 農場B;
 2013~2014,,,,青果物,レタス,結球,定性検査,Listeria monocytogenes,227,0,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
 2014~2015,,,,青果物,レタス,結球,定性検査,Listeria monocytogenes,358,0,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,
 2013~2014,,,,青果物,レタス,結球,定性検査,Escherichia coli O157,227,0,農林水産省,生食用野菜の微生物実態調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf,

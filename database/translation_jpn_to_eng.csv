@@ -1,0 +1,70 @@
+Japanese,English
+調査年,Year
+地域ID,Region ID
+検査施設,Facility
+農産物カテゴリ,Product Category
+食品カテゴリ,Food Category
+食品名,Food Name
+食品詳細,Food details
+検査方法,method
+細菌名,Organism
+汚染濃度,Concentration
+単位,Unit
+実施機関,Agency
+調査名,Survey
+備考,detail information
+牛肉,Beef
+鶏肉,Chicken
+豚肉,Pork
+その他の家禽類,Other Poultry
+ソーセージ,Sausage
+その他の肉類,Other or unknown type of meat
+魚介類,Seafood
+乳類,Milk
+チーズ,Cheese
+その他の乳製品,Other or unknown type of dairy
+卵および卵製品,Egg or egg product
+デザート,Dessert food
+ソース・ドレッシング,Sauce/Dressing
+青果物,Vegetable or fruit and their products
+パン,Bread
+飲料,"Juice, beverage"
+水,Water
+その他,"Other, mixed, uncategorised or unknown type of food"
+胸肉,breast
+不検出,not detected
+厚生労働省,"Ministry of Health, Labour and Welfare"
+農林水産省,"Ministry of Agriculture, Forestry and Fisheries"
+国立医薬品食品衛生研究所,National Institute of Health Sciences
+source URL,Source URL
+検体数,Number of Samples
+陽性数,Number of Positives
+九州大学,Kyushu University
+帯広畜産大学,Obihiro University of Agriculture and Veterinary Medicine
+天使大学,Tenshi College
+東京海洋大学,Tokyo University of Marine Science and Technology
+東京都健康安全研究センター,Tokyo Metropolitan Institute of Public Health
+日本獣医生命科学大学,Nippon Veterinary and Life Science University
+和歌山県環境衛生研究センター,Wakayama Prefectural Research Ｃenter of Environment and Public Health
+大阪健康安全基盤研究所,Osaka Institute of Public Health
+千葉県衛生研究所,Chiba Prefectural Institute of Public Health
+福岡市保健環境研究所,Fukuoka City Institute of Health and Environment
+福岡県保健環境研究所,Fukuoka Institute of Health and Environmental Sciences
+神奈川県衛生研究所,Kanagawa Prefectural Institute of Public Health
+島根県保健環境科学研究所,Shimane Prefectural Institute of Public Health and Environment Science
+宮城県保健環境センター,Miyagi Prefectural Institute of Public Health and Environment
+埼玉県衛生研究所,Saitama Institute of Public Health
+横浜市衛生研究所,Yokohama City Institute of Public Health
+新潟県長岡食肉衛生検査センター,Niigata Prefectural Nagaoka Meat Inspection Center
+一般社団法人岩手県獣医師会食烏検査センター,Chicken Inspection Center. Iwate Veterinary Medical Assosiatio
+岩手大学,Iwate University
+京都市衛生公害研究所,Kyoto City Institute of Health and Enviromental Sciences
+岡山県環境保健センター,Okayama Prefectural Institute for Environmental Science and Pulic Health
+大阪市食肉衛生検査所,"Meat Inspection Center, Osaka City"
+北海道立衛生研究所,Hokkaido Institute of Public Health
+乳児食,Infant_food
+キュウリ,Cucumber
+ホウレンソウ,Spinach
+トマト,Tomato
+市販鶏肉の_Campylobacter_属菌と_Listeria_属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
+埼玉県内の市販食肉における食中毒細菌の汚染実態調査,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"

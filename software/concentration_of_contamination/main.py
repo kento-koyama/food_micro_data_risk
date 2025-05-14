@@ -7,6 +7,22 @@ from io import BytesIO
 import os
 import re
 
+# 細菌名を斜体（属名 種小名）で整形
+## LaTeXで表記（グラフ用）
+def format_bacteria_name_latex(name):
+    if pd.isna(name):
+        return name
+    spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)
+    if spp_match:
+        genus, spp = spp_match.groups()
+        return rf"$\it{{{genus}}}$ {spp}"
+    match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)
+    if match:
+        genus, species, rest = match.groups()
+        return rf"$\it{{{genus}\ {species}}}${rest}"
+    return rf"$\it{{{name}}}$"
+
+
 # 四捨五入で桁丸めるための関数を定義
 def func_round(number, ndigits=0):
     if pd.isna(number):  # NaN チェック
@@ -50,38 +66,12 @@ def calc_df_height(df, max_rows=5, row_height=35):
     rows_to_display = min(len(df), max_rows)+1
     return row_height * rows_to_display
 
-
-def format_bacteria_name(name):
-    """
-    細菌名を学名に応じて斜体のLaTeX形式に変換する。
-    - Escherichia coli O157 → Escherichia coli を斜体、O157は通常
-    - Salmonella spp. → Salmonella のみ斜体
-    - Listeria monocytogenes → 全部斜体
-    """
-    if pd.isna(name):
-        return name
-
-    # 正規表現で属名と種小名を抽出
-    match = re.match(r'^([A-Z][a-z]+)\s+([a-z]+)(.*)$', name)  # Ex: Escherichia coli O157
-    spp_match = re.match(r'^([A-Z][a-z]+)\s+(spp?\.)$', name)  # Ex: Salmonella spp.
-
-    if spp_match:
-        genus, spp = spp_match.groups()
-        return rf"$\it{{{genus}}}$ {spp}"
-    elif match:
-        genus, species, rest = match.groups()
-        return rf"$\it{{{genus} {species}}}${rest}"
-    else:
-        # 属名だけある場合や、それ以外のケース
-        return rf"$\it{{{name}}}$"
-
-
 # ページの設定
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 # CSVファイルのパス（適宜変更してください）
-csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv"
-csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv"
+csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv"
+csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv"
 
 # 汚染率の可視化アプリURL
 app_ratio_url = "https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app/"
@@ -89,10 +79,15 @@ app_ratio_url = "https://m7gk8u5qjmoysfsmf5kgqk.streamlit.app/"
 # フォントファイルのパスを設定
 font_path = 'NotoSansCJKjp-Regular.otf'
 
+# フォントの設定
+fm.fontManager.addfont(font_path)
+font_prop = fm.FontProperties(fname=font_path)
+plt.rcParams['font.family'] = font_prop.get_name()
+plt.rcParams['text.usetex'] = False  # LaTeXをmatplotlibで有効に
+
 # 図のフォントサイズを一括で設定
 size_label = 18
 size_title = 20
-
 
 
 # Streamlit のアプリケーション
@@ -104,10 +99,6 @@ st.write('-----------')
 # サイドバーにタイトルを追加
 st.sidebar.title("検索")
 
-# フォントの設定
-fm.fontManager.addfont(font_path)
-font_prop = fm.FontProperties(fname=font_path)
-plt.rcParams['font.family'] = font_prop.get_name()
 
 # データの読み込み
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
@@ -153,13 +144,10 @@ df['汚染濃度_logCFU/g'] = df['汚染濃度_logCFU/g'].apply(lambda x: func_r
 # 細菌名を"Campylobacter spp."でまとめる
 df['細菌名_詳細'] = df['細菌名']
 df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
-df['細菌名_表示'] = df['細菌名'].apply(format_bacteria_name)
-# 細菌名マッピング（元の名前 <-> 表示名）
-bacteria_display_map = dict(zip(df['細菌名_表示'], df['細菌名']))
-bacteria_inverse_map = {v: k for k, v in bacteria_display_map.items()}
+# 細菌名を整形し、latex表記列を作成
+df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 
-
-df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14]]
+df = df.iloc[:, [0,1,2,3,4,5,6,7,8,17,9,10,16,15,11,12,13,14,18]]
 
 # 初期状態の選択肢
 food_categories = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
@@ -191,16 +179,13 @@ selected_food = st.sidebar.selectbox(
 df_filtered = df_filtered if selected_food == "" or selected_food == "すべて" else df_filtered[df_filtered['食品名'] == selected_food]
 
 # サイドバーで細菌名を選択
-bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名_表示'].unique())
-selected_bacteria_display = st.sidebar.selectbox(
+bacteria_names_filtered = [""] + ["すべて"] + list(df_filtered['細菌名'].unique())
+selected_bacteria = st.sidebar.selectbox(
     '細菌名を入力 または 選択してください:',
     bacteria_names_filtered,
     format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
-
-# 選択された斜体表記から元の細菌名に変換
-selected_bacteria = bacteria_display_map.get(selected_bacteria_display, selected_bacteria_display)
 
 # データをフィルタリング（細菌名に基づく）
 df_filtered = df_filtered if selected_bacteria == "" or selected_bacteria == "すべて" else df_filtered[df_filtered['細菌名'] == selected_bacteria]
@@ -244,13 +229,15 @@ else:
         col1, col2 = st.columns(2)
 
         with col1:
-            bacteria_samplesize = df_filtered['細菌名_表示'].value_counts().reset_index()
+            bacteria_samplesize = df_filtered['細菌名'].value_counts().reset_index()
             bacteria_samplesize.columns = ['細菌名', '検体数']
             st.dataframe(bacteria_samplesize, hide_index=True)
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8,6))
-            ax1.barh(bacteria_samplesize['細菌名_表示'], bacteria_samplesize['検体数'], color='skyblue')
+            # ラベルもlatex用に変換
+            bacteria_samplesize = bacteria_samplesize.merge(df_filtered[['細菌名', '細菌名_latex']].drop_duplicates(), on='細菌名', how='left')
+            ax1.barh(bacteria_samplesize['細菌名_latex'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
             ax1.set_ylabel('細菌名', fontsize=size_label)
             ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)
@@ -390,6 +377,47 @@ else:
     df_filtered.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered)
     st.write("*現在報告書から取得した統計処理済みの文献値（最大値・最小値・平均値など）が混在しているためグラフは参考。今後データ収集を行い分布を可視化していく")
+
+
+# 現在のページを指定
+current_page = "jp"
+
+language_switch_html = f"""
+    <style>
+    .language-switch {{
+        position: fixed;
+        top: 80px;
+        right: 20px;
+        z-index: 9999;
+        background-color: transparent;  /* 背景を透明に */
+        border: none;                   /* 枠線なし */
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }}
+    .language-switch a {{
+        margin: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }}
+    .language-switch .inactive {{
+        color: #ccc;
+        pointer-events: none;
+        cursor: default;
+    }}
+    .language-switch .active {{
+        color: #000;
+    }}
+    .language-switch .active:hover {{
+        color: #0366d6;
+    }}
+    </style>
+    <div class="language-switch">
+        <a href="/" target="_self" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
+        <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+    </div>
+"""
+st.markdown(language_switch_html, unsafe_allow_html=True)
 
 
 # お問い合わせリンクの追加
