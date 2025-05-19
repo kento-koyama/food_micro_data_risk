@@ -25,7 +25,7 @@ table_md_blocks = {}
 
 for excel_file in in_dir.glob("*.xlsx"):
     name = excel_file.stem
-    df = pd.read_excel(excel_file)
+    df = pd.read_excel(excel_file, engine="openpyxl")
     table_md_blocks[name] = df_to_markdown(df)
 
 updated_md = replace_tables_in_md(md_text, table_md_blocks)
