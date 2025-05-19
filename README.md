@@ -36,7 +36,7 @@
 <!-- table:table_contamination_rate -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2024 | **東京都健康安全研究センター** <br> [市販キノコ類からのリステリア属菌の検出状況]() <br> （東京都微生物検査情報 第45巻第5号） | nan |
+| 2024 | **東京都健康安全研究センター** <br> [市販キノコ類からのリステリア属菌の検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf) <br> （東京都微生物検査情報 第45巻第5号） | 済 |
 | 2020 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html) | 済 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) <br>（日本獣医師会雑誌　2021） | 済 |
