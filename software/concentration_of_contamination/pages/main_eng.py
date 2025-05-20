@@ -79,7 +79,7 @@ st.title("Contamination Concentration of Foodborne Bacteria")
 st.write(f"Visualization of [concentration_of_contamination.csv]({csv_url_gui})")
 st.write("Each table can be downloaded as a CSV.")
 st.write("-----------")
-st.sidebar.title("Filter Options")
+st.sidebar.title("Filter")
 
 # === Filters ===
 cat_opts = ["", "All"] + list(df['Food Category'].dropna().unique())
