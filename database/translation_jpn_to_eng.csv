@@ -24,6 +24,7 @@ Japanese,English
 チーズ,Cheese
 その他の乳製品,Other or unknown type of dairy
 卵および卵製品,Egg or egg product
+卵類,Egg or egg product
 デザート,Dessert food
 ソース・ドレッシング,Sauce/Dressing
 青果物,Vegetable or fruit and their products
@@ -66,5 +67,12 @@ source URL,Source URL
 キュウリ,Cucumber
 ホウレンソウ,Spinach
 トマト,Tomato
+ネギ,Leek
+キャベツ,Cabbage
+ホウレンソウ,Spinach
+カイワレ,White radish sprouts
+カット野菜,Cut vegetables
+水菜,Potherb mustard
+アルファルファ,alfalfa
 市販鶏肉の_Campylobacter_属菌と_Listeria_属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
 埼玉県内の市販食肉における食中毒細菌の汚染実態調査,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
