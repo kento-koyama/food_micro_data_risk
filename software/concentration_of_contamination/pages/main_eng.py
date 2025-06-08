@@ -42,7 +42,7 @@ def calc_df_height(df, max_rows=5, row_height=35):
 # === Streamlit Setup ===
 # Page setup
 st.set_page_config(
-    page_title="Software visualizing prevalence data", 
+    page_title="Software visualizing bacterial concentration data", 
     # page_icon="", 
     layout="wide", 
     initial_sidebar_state="expanded"
