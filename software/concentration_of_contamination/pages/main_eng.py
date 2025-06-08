@@ -40,7 +40,14 @@ def calc_df_height(df, max_rows=5, row_height=35):
     return row_height * (min(len(df), max_rows) + 1)
 
 # === Streamlit Setup ===
-st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+# Page setup
+st.set_page_config(
+    page_title="Software visualizing prevalence data", 
+    # page_icon="", 
+    layout="wide", 
+    initial_sidebar_state="expanded"
+    )
+
 font_path = 'NotoSansCJKjp-Regular.otf'
 fm.fontManager.addfont(font_path)
 font_prop = fm.FontProperties(fname=font_path)
