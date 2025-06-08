@@ -1,0 +1,32 @@
+name: Markdown to Excel Sync
+
+on:
+  push:
+    paths:
+      - README.md
+  workflow_dispatch:
+
+jobs:
+  md_to_excel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+      - name: Ensure tables directory exists
+        run: mkdir -p tables
+      - name: Sync Markdown → Excel
+        run: python .github/workflows/markdown_to_excel.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tables/
+          git commit -m "Synced Excel tables from Markdown" || echo "No changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
