@@ -1,0 +1,37 @@
+# Pythonバイトコード/キャッシュ
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# MacやWindowsのゴミファイル
+.DS_Store
+Thumbs.db
+
+# バージョン管理・エディタ設定
+.git
+.gitignore
+.vscode/
+.idea/
+
+# 仮想環境
+venv/
+env/
+.venv/
+
+# テスト/開発/一時ファイル
+*.log
+*.swp
+*.swo
+
+# Jupyter notebook（もし今後追加してもイメージに混ぜたくないなら）
+*.ipynb
+
+# 認証・秘密情報ファイル（念のため。現状はなさそうですが念のため）
+.env
+*.key
+*.pem
+*.crt
+*.secret
+
+# 他に将来不要なものができたら随時ここに追加
