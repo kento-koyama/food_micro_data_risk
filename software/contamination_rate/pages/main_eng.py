@@ -47,7 +47,7 @@ plt.rcParams['text.usetex'] = False
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/contamination_rate.csv"
 csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/contamination_rate.csv"
 
-st.write('### Contamionation rate of Foodborne Bacteria')
+st.write('### Contamination rate of Foodborne Bacteria')
 st.write("Visualization of [contamination_rate.csv](%s)" % csv_url_gui)
 st.write('Each table can be downloaded as a CSV.')
 st.write('-----------')
