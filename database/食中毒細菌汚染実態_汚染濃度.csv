@@ -546,3 +546,9 @@
 2010~2011,,,,鶏肉,中抜きと体,,plate_count,Campylobacter jejuni/coli,5.0E+01未満,CFU/と体,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,"value: 平均値; other: カンピロバクター陰性の鶏群, 陽性鶏群より前に処理された陰性鶏群から製造された中抜きと体;"
 2010~2011,,,,鶏肉,肝臓,,plate_count,Campylobacter jejuni/coli,4.00E+02,CFU/ｇ,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: カンピロバクター陽性の鶏群;
 2010~2011,,,,鶏肉,肝臓,,plate_count,Campylobacter jejuni/coli,1.0E+02未満,CFU/ｇ,農林水産省,ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査,https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf,value: 平均値; other: カンピロバクター陰性の鶏群;
+2006–2008,,,,サラミ,サラミ,-,定量検査,L. monocytogenes,<100,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 1/2c, Aw: 0.884"
+2006–2008,,,,サラミ,サラミ,-,定量検査,L. monocytogenes,<100,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 1/2a, Aw: 0.921"
+2006–2008,,,,生ハム,生ハム,-,定量検査,L. monocytogenes,<100,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 1/2a, Aw: 0.953"
+2006–2008,,,,サラミ,サラミ,-,定量検査,L. monocytogenes,<100,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 1/2b, Aw: 0.819"
+2006–2008,,,,サラミ,サラミ,-,定量検査,L. monocytogenes,100,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 3b, Aw: 0.891"
+2006–2008,,,,生ハム,生ハム,-,定量検査,L. monocytogenes,400,CFU/g,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,"Serotype: 1/2c, Aw: 0.889"
