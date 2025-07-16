@@ -1308,9 +1308,6 @@
 2020,九州,食鳥処理場,処理後食鳥検体,鶏肉,盲腸内容物,,定性検査,Salmonella spp.,5,2,国立医薬品食品衛生研究所,2食鳥処理場におけるブロイラー群および胸肉のカンピロバクター,https://agriknowledge.affrc.go.jp/RN/2010937017.pdf,"origin: 農場H; organism_details: Salmonella Manhattan; others: 第7回, 48日齢; "
 2020,九州,食鳥処理場,処理後食鳥検体,その他の肉類,胸肉,,定性検査,Salmonella spp.,5,1,国立医薬品食品衛生研究所,2食鳥処理場におけるブロイラー群および胸肉のカンピロバクター,https://agriknowledge.affrc.go.jp/RN/2010937017.pdf,"origin: 農場H; organism_details: Salmonella Manhattan; others: 第7回, 48日齢; "
 2020,-,,,鶏肉,鶏もも肉製品,,plate_count,Campylobacter spp.,228,137,"地方衛生研究所, 国立医薬品食品衛生研究所",鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究,https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf,検査方法_詳細: ISO 10272-2：2017; other: 食鳥処理場及び鶏種（銘柄）の情報あり; 
-1998,,,,魚介類,イクラ醤油漬,,定性検査,Escherichia coli O157,45,24,神奈川県衛生研究所,イクラからの志賀毒素産生性大腸菌O157:H7の分離と分離株のパルスフィールドゲル電気泳動パターン,https://www.jstage.jst.go.jp/article/kansenshogakuzasshi1970/73/1/73_1_20/_pdf,"問い合わせ: 要; other: 北海道衛生研究所実施の「イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査」との細かい対応などの情報は不明。重複している可能性もあり。TSB培地での増菌培養によってのみ分離されたものが2検体,mEC-NB培地での増菌培養 によってのみ分離されたものが14検体,8検体からは両増菌培養法で分離された"
-1998,北海道?,,,魚介類,イクラ醤油漬,,定性検査,Escherichia coli O157,85,31,北海道立衛生研究所?,イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査,https://idsc.niid.go.jp/iasr/19/224/dj2242.html,問い合わせ: 要; other: 全国各地で実施されたイクラ醤油漬の0157検査から北海道外で実施された回収品の結果。細かい情報は不明。
-1998,北海道,,,魚介類,イクラ醤油漬,,定性検査,Escherichia coli O157,399,17,北海道立衛生研究所,イクラ醤油漬の腸管出血性大腸菌Ｏ157汚染に関する調査,https://idsc.niid.go.jp/iasr/19/224/dj2242.html,other: 陽性だった17検体中10検体について汚染菌量を測定（汚染濃度のデータシートに記録）
 2020~2021,東京・神奈川,スーパーマーケット・百貨店,鶏肉加工品,鶏肉,つみれ,冷蔵,定性検査,Salmonella spp.,61,24,国立医薬品食品衛生研究所,鶏肉加工製品におけるサルモネラ等の定量汚染の調査,https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf,other: 血清型ごとの汚染率もあるので、食品ごと各血清型の汚染率も問い合わせればわかるかもしれない。
 2020~2021,東京・神奈川,スーパーマーケット・百貨店,鶏肉加工品,鶏肉,肉団子,冷蔵,定性検査,Salmonella spp.,21,6,国立医薬品食品衛生研究所,鶏肉加工製品におけるサルモネラ等の定量汚染の調査,https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf,other: 血清型ごとの汚染率もあるので、食品ごと各血清型の汚染率も問い合わせればわかるかもしれない。
 2020~2021,東京・神奈川,スーパーマーケット・百貨店,鶏肉加工品,鶏肉,串刺肉,冷蔵,定性検査,Salmonella spp.,1,0,国立医薬品食品衛生研究所,鶏肉加工製品におけるサルモネラ等の定量汚染の調査,https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf,other: 血清型ごとの汚染率もあるので、食品ごと各血清型の汚染率も問い合わせればわかるかもしれない。
@@ -1763,7 +1760,7 @@
 2021~2023,,,,青果物,きのこ,マイタケ,定性検査,Listeria monocytogenes,4,0,東京都健康安全研究センター,市販キノコ類からのリステリア属菌の検出状況,https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf,
 2021~2023,,,,青果物,きのこ,エリンギ,定性検査,Listeria monocytogenes,2,0,東京都健康安全研究センター,市販キノコ類からのリステリア属菌の検出状況,https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf,
 2021~2023,,,,青果物,きのこ,ヒラタケ,定性検査,Listeria monocytogenes,2,0,東京都健康安全研究センター,市販キノコ類からのリステリア属菌の検出状況,https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf,
-2006–2008,,,RTE食肉製品,Ready to eat,サラミ,-,定性検査,L. monocytogenes,31,4,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,
-2006–2008,,,RTE食肉製品,Ready to eat,生ハム,-,定性検査,L. monocytogenes,46,2,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,
-2006–2008,,,RTE乳製品,Ready to eat,チーズ,-,定性検査,L. monocytogenes,70,0,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,
-2006–2008,,,RTE食肉製品+乳製品,Ready to eat,生ハム＋チーズ,-,定性検査,L. monocytogenes,3,0,国立医薬品食品衛生研究所,-,https://doi.org/10.1292/jvms.11-0262,
+2006–2008,,,RTE食肉製品,ソーセージ,サラミ,-,定性検査,L. monocytogenes,31,4,国立医薬品食品衛生研究所,The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan,https://doi.org/10.1292/jvms.11-0262,
+2006–2008,,,RTE食肉製品,豚肉,生ハム,-,定性検査,L. monocytogenes,46,2,国立医薬品食品衛生研究所,The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan,https://doi.org/10.1292/jvms.11-0262,
+2006–2008,,,RTE乳製品,チーズ,チーズ,-,定性検査,L. monocytogenes,70,0,国立医薬品食品衛生研究所,The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan,https://doi.org/10.1292/jvms.11-0262,
+2006–2008,,,RTE食肉製品+乳製品,その他の肉類,生ハム＋チーズ,-,定性検査,L. monocytogenes,3,0,国立医薬品食品衛生研究所,The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan,https://doi.org/10.1292/jvms.11-0262,
