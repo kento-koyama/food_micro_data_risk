@@ -85,7 +85,7 @@ df_filtered = df_filtered if selected_institution in ["", "All"] else df_filtere
 MEAT_CATEGORIES = {"Chicken", "Pork", "Beef", "Other or unknown type of meat", "Sausage"}
 
 # Show the checkbox only if selected category is in meat categories
-show_edible_checkbox = (sel_cat in MEAT_CATEGORIES)
+show_edible_checkbox = (selected_group in MEAT_CATEGORIES)
 
 if show_edible_checkbox:
     edible_only = st.sidebar.checkbox(
