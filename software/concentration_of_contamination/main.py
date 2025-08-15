@@ -208,6 +208,25 @@ selected_institution = st.sidebar.selectbox(
 # データをフィルタリング（実施機関に基づく）
 df_filtered = df_filtered if selected_institution == "" or selected_institution == "すべて" else df_filtered[df_filtered['実施機関'] == selected_institution]
 
+# --- 可食部のみ表示（鶏・豚・牛カテゴリ選択時のみ） ---
+MEAT_CATEGORIES = {"鶏肉", "豚肉", "牛肉", "その他の肉類", "ソーセージ"}
+
+# 「鶏・豚・牛」を選んだときだけチェックボックスを表示
+show_edible_checkbox = (selected_group in MEAT_CATEGORIES)
+
+if show_edible_checkbox:
+    edible_only = st.sidebar.checkbox(
+        "可食部のみ表示", value=False,
+        help="消化管内容物などの非可食部を除外して表示します"
+    )
+else:
+    edible_only = False
+
+# チェック時は『食品名』に「内容物」を含む行を除外（= 非可食部を除外）
+if edible_only:
+    if '食品名' in df_filtered.columns:
+        df_filtered = df_filtered[~df_filtered['食品名'].astype(str).str.contains("内容物", na=False)]
+
 # 未選択項目を自動的に "すべて" に設定
 if selected_group == "" and (selected_food != "" or selected_bacteria != "" or selected_institution != ""):
     selected_group = "すべて"
