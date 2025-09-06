@@ -182,6 +182,13 @@
 | 1999-2001 | **埼玉県衛生研究所** <br> [市販食肉におけるサルモネラとリステリアの汚染状況](https://www.jstage.jst.go.jp/article/jvma1951/56/3/56_3_167/_pdf/-char/en) | 未登録 |
 <!-- endtable -->
 
+#### 1.2.5 黄色ブドウ球菌 (_Staphylococcus aureus_)　
+<!-- table:table_Staphylococcus -->
+| 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
+| --- | --- | --- |
+| 2006 | **神戸大学** <br> [市販ミンチ肉 における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) | 未登録 |
+<!-- endtable -->
+
 
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
