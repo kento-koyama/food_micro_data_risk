@@ -39,11 +39,12 @@
 | --- | --- | --- |
 | 2024 | **東京都健康安全研究センター** <br> [市販キノコ類からのリステリア属菌の検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf) <br> （東京都微生物検査情報 第45巻第5号） | 済 |
 | 2020 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html) | 済 |
+| 2019 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況（2019年度）](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2021/tbkj4203.pdf) <br> （東京都微生物検査情報 第42巻第3号） | 未登録 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
 | 2018-2019 | **和歌山県環境衛生研究センター** <br> [県内におけるサルモネラ属菌の薬剤耐性調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo66.pdf) <br>（和歌山県環境衛生研究センター年報, No.66, 2020 p.41-44） | 済 |
 | 2018 | **大阪健康安全基盤研究所** <br> Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察 <br> （[大阪健康安全基盤研究所研究年報, p.107, 2020](http://www.iph.osaka.jp/s004/060/reserch_annual_report-7_2023.pdf) / 月刊 HACCP, 10, 20-25 (2022)）<br> 検査内容不明 | 済 |
 | 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) <br>（日本獣医師会雑誌　2021） | 済 |
-| 2017 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2019/tbkj4001.pdf) <br> （東京都微生物検査情報 第40巻第1号） | 未登録 |
+| 2017 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況（2017年度）](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2019/tbkj4001.pdf) <br> （東京都微生物検査情報 第40巻第1号） | 未登録 |
 | 2016 | **大阪健康安全基盤研究所** <br> [アイスクリーム製造施設の _Listeria monocytogenes_ 汚染状況](https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000428/428619/r2016_05-10.pdf) <br>（大阪市立環科研報告 平成28年度 第79集，5-10 2017 / [研究年報 No.1 (2017) p.131](https://www.iph.osaka.jp/s004/060/reserch_annual_report-1_2017.pdf)） | 済 |
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, p.40-42, 2018） | 済 |
 | 2015 | **千葉県衛生研究所** <br> [千葉県内流通浅漬けの _Listeria monocytogenes_ を中心とした汚染状況調査-平成27年度の収去および買い上げ検体微生物検査成績-](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/shuppanbutsu/nenpou/documents/64s-3.pdf) <br>（千葉県衛生研究所年報 第64号 2015年） | 済 |
@@ -51,6 +52,7 @@
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) | 未登録 |
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
+| 2013-2015 | **大阪健康安全基盤研究所** <br> [浅漬、洋生菓子、魚介類工品の細菌汚染実態調査](https://www.iph.osaka.jp/s008/030/010/010/020/20180106162000.html) | 未登録 |
 | 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) <br>（日本食品微生物学会雑誌　2014） | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html) | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html) | 済 |
@@ -86,7 +88,7 @@
 | 2006-2008 | **国立医薬品食品衛生研究所**<br>[The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan](https://www.jstage.jst.go.jp/article/jvms/74/3/74_11-0262/_pdf/-char/en) <br> (Journal of Veterinary Medical Science, 2012, Volume 74, Issue 3, Pages 373-375) | 済 |
 | 2006-2007 | **宮城県保健環境センター** <br> [芽物野菜等の食中毒菌汚染実態調査](https://www.pref.miyagi.jp/documents/1943/617283.pdf) <br> （宮城県保健環境センター年報　第26号, p.103-104,　2008） | 済 |
 | 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） | 済 |
-| 2006 | **神戸大学** <br> [市販ミンチ肉 における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) | 未登録 |
+| 2006 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br> （日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 未登録 |
 | 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153） | 済 |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
@@ -152,7 +154,6 @@
 | 2005 | **岡山県環境保健センター** <br> [動物を含めた環境中及び食肉のリステリア汚染状況と迅速な菌種同定](https://www.pref.okayama.jp/uploaded/life/49801_174922_misc.pdf) | 未登録 |
 | 2004 | **岡山県環境保健センター** <br> [動物を含めた環境中及び調理用食肉のリステリア汚染状況](https://www.pref.okayama.jp/uploaded/life/49802_174943_misc.pdf) | 未登録 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態調査について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br> (埼玉県衛生研究所報 2005, vol. 39, p.151-153) | 済 |
-| 2002 | **福島県食肉衛生検査所** <br> [食鳥処理場における _Staphylococcus aureus_ の汚染状況と分離株の性状](https://www.jstage.jst.go.jp/article/jvma1951/57/7/57_7_460/_pdf) | 未登録 |
 | 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立各回図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) | 済 |
 | 2001 | **国立感染症研究所** <br> [食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920) | 未登録 |
@@ -189,7 +190,7 @@
 <!-- table:table_Staphylococcus -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2006 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) | 未登録 |
+| 2006 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br> （日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 未登録 |
 <!-- endtable -->
 
 
