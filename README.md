@@ -49,7 +49,7 @@
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, p.40-42, 2018） | 済 |
 | 2015 | **千葉県衛生研究所** <br> [千葉県内流通浅漬けの _Listeria monocytogenes_ を中心とした汚染状況調査-平成27年度の収去および買い上げ検体微生物検査成績-](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/shuppanbutsu/nenpou/documents/64s-3.pdf) <br>（千葉県衛生研究所年報 第64号 2015年） | 済 |
 | 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) <br> (Journal of Food Protection 2017) | 済 |
-| 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) <br>（食品衛生学雑誌, 63巻4号, p.151-157） | 未登録 |
+| 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) <br>（食品衛生学雑誌, 63巻4号, p.151-157） | 済 |
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
 | 2013-2015 | **大阪健康安全基盤研究所** <br> [浅漬、洋生菓子、魚介類工品の細菌汚染実態調査](https://www.iph.osaka.jp/s008/030/010/010/020/20180106162000.html) | 未登録 |
