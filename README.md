@@ -98,8 +98,8 @@
 | 2000-2012 | **東京都健康安全研究センター** <br> [Prevalence and contamination levels of _Listeria monocytogenes_ in ready-to-eat foods in Tokyo, Japan](https://www.jstage.jst.go.jp/article/jvms/78/7/78_15-0708/_pdf/-char/ja) <br> (Jarnal o Veterinary Medical Science (JVMS), 2016) | 済 |
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) | 未登録 |
 | 1999-2001 | **横浜市衛生研究所** <br> 無加熱摂取食品から検出された _Listeria monocytogenes_ <br>（横浜市衛生研究所年報 2002 no.41 p91-93） | 未登録 |
-| nan | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） | 未登録 |
-| nan | **東京都健康安全研究センター** <br> インターネット販売食品の衛生学的実態調査 <br>（食品衛生研究, 65-70, 56(1), 2006）<br> 国立国会図書館に所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R100000002-I000000011637-i5462925)） | 済 |
+| 不明 | **横浜市衛生研究所** <br> 輸入非加熱食肉製品から検出された _Listeria monocytogenes_  <br>（横浜市衛生研究所年報 2008,vol.47,p.105-107） | 未登録 |
+| 不明 | **東京都健康安全研究センター** <br> インターネット販売食品の衛生学的実態調査 <br>（食品衛生研究, 65-70, 56(1), 2006）<br> 国立国会図書館に所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R100000002-I000000011637-i5462925)） | 済 |
 <!-- endtable -->
 
 
