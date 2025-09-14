@@ -61,7 +61,7 @@
 | 2012 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） | 済 |
 | 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) <br> (Japanese Journal of Infectious Diseases, 70, 239-247, 2017) | 済 |
-| 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) | 未登録 <br> （食中毒発生に伴う検査のため登録保留） |
+| 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) | 未登録 <br> （登録保留） |
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
@@ -74,7 +74,7 @@
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2010 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br>  - [関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_03.html#22113) | 済 |
-| 2010 | **福岡県保健環境研究所** <br> [平成22年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np38/pdf/np38report1.pdf) <br> （福岡県保健環境研究所年報第38号, 66-67, 2011） | 未登録 |
+| 2010 | **福岡県保健環境研究所** <br> [平成22年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np38/pdf/np38report1.pdf) <br> （福岡県保健環境研究所年報第38号, 66-67, 2011） | 済 |
 | 2009 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) <br> - [関連リンク](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_06.html) | 済 |
 | 2009 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2009 | **国立医薬品食品衛生研究所**<br>[_Campylobacter_ contamination in retail poultry meats and by-products in Japan: A literature survey](https://www.sciencedirect.com/science/article/pii/S0956713508002247) | 未登録 |
