@@ -61,7 +61,6 @@
 | 2012 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） | 済 |
 | 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) <br> (Japanese Journal of Infectious Diseases, 70, 239-247, 2017) | 済 |
-| 2012 | **静岡県環境衛生科学研究所** <br> [Antibiotic Resistance in Bacterial Pathogens from Retail Raw Meats and Food-Producing Animals in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23039777?via%3Dihub) <br> (Journal of Food Protection, Volume 75, Issue 10, 1 October 2012, Pages 1774-1782) | 済 |
 | 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) | 未登録 |
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
@@ -90,6 +89,7 @@
 | 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） | 済 |
 | 2006 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br> （日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 未登録 |
 | 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
+| 2004-2006 | **静岡県環境衛生科学研究所** <br> [Antibiotic Resistance in Bacterial Pathogens from Retail Raw Meats and Food-Producing Animals in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23039777?via%3Dihub) <br> (Journal of Food Protection, Volume 75, Issue 10, 1 October 2012, Pages 1774-1782) | 済 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153） | 済 |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
 | 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立国会図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
