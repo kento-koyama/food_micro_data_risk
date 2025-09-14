@@ -52,15 +52,15 @@
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf) <br>（食品衛生学雑誌, 63巻4号, p.151-157） | 済 |
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
-| 2013-2015 | **大阪健康安全基盤研究所** <br> [浅漬、洋生菓子、魚介類工品の細菌汚染実態調査](https://www.iph.osaka.jp/s008/030/010/010/020/20180106162000.html) | 未登録 |
+| 2013-2015 | **大阪健康安全基盤研究所** <br> [浅漬、洋生菓子、魚介類工品の細菌汚染実態調査](https://www.iph.osaka.jp/s008/030/010/010/020/20180106162000.html) | 済 |
 | 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) <br>（日本食品微生物学会雑誌　2014） | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html) | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html) | 済 |
 | 2012, 2017 | **九州大学** <br> [Antimicrobial resistance profiles of _Listeria monocytogenes_ isolated from chicken meat in Fukuoka, Japan](https://www.sciencedirect.com/science/article/pii/S0168160519301291) | 済 |
 | 2012-2013 | **帯広畜産大学** <br> [Microbial Assessment and Prevalence of Foodborne Pathogens in Natural Cheeses in Japan](https://onlinelibrary.wiley.com/doi/full/10.1155/2013/205801) <br>（BioMed Research International Volume 2013, Issue 1 205801） | 済 |
 | 2012 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
-| 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） | 未登録 |
-| 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) | 未登録 |
+| 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） | 済 |
+| 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) <br> (Japanese Journal of Infectious Diseases, 70, 239-247, 2017) | 済 |
 | 2012 | **** <br> [Antibiotic Resistance in Bacterial Pathogens from Retail Raw Meats and Food-Producing Animals in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23039777?via%3Dihub) <br> (Journal of Food Protection, Volume 75, Issue 10, 1 October 2012, Pages 1774-1782) | 未登録 |
 | 2011-2014 | **島根県保健環境科学研究所** <br> [ウズラ卵が原因食品と推定された _Salmonella enterica_ serovar 4，［5］，12：i：一による食中毒の発生とウズラ卵のサルモネラ汚染状況調査](https://mol.medicalonline.jp/library/journal/download?GoodsID=ee5jsofm/2016/003303/012&name=0160-0165j&UserID=133.50.190.185&base=jamas_pdf) | 未登録 |
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
