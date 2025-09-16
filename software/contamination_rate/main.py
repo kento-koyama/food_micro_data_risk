@@ -165,16 +165,30 @@ elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
 else:
     if selected_bacteria == "すべて":
+        # --- Ensure numeric types for counts (cleans full-width digits, commas, stray chars) ---
+        fw_map = str.maketrans('０１２３４５６７８９．－，', '0123456789.-,')
+        def _coerce_numeric_col(s):
+            s2 = s.astype(str).str.translate(fw_map) \
+                               .str.replace(',', '', regex=False) \
+                               .str.replace(r'[^0-9\.\-]', '', regex=True)  # 例: "6?" -> "6"
+            return pd.to_numeric(s2, errors='coerce')
+
+        df_filtered = df_filtered.assign(
+            検体数=_coerce_numeric_col(df_filtered['検体数']),
+            陽性数=_coerce_numeric_col(df_filtered['陽性数'])
+        )
         # 細菌ごとの集計
         bacteria_counts = df_filtered.groupby(['細菌名', '細菌名_latex']).agg({
             '検体数': 'sum', '陽性数': 'sum'
         }).reset_index()
-        bacteria_counts['陽性率 (%)'] = bacteria_counts['陽性数'] / bacteria_counts['検体数'] * 100
+        den = bacteria_counts['検体数'].replace(0, pd.NA)
+        bacteria_counts['陽性率 (%)'] = (bacteria_counts['陽性数'] / den * 100)
         bacteria_counts['陽性率 (%)'] = bacteria_counts['陽性率 (%)'].apply(lambda x: func_round(x, 2))
         # 表示用ラベル
         bacteria_counts.rename(columns={
             '細菌名_latex': '表示名_LaTeX'
         }, inplace=True)
+
 
         # 検体数テーブル＆グラフ
         col1, col2 = st.columns(2)
