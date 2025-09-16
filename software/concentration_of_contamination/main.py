@@ -261,6 +261,8 @@ else:
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8,6))
             # ラベルもlatex用に変換
+            if '細菌名_latex' not in df_filtered.columns:
+                df_filtered = df_filtered.assign(細菌名_latex=df_filtered['細菌名'].apply(format_bacteria_name_latex))
             bacteria_samplesize = bacteria_samplesize.merge(df_filtered[['細菌名', '細菌名_latex']].drop_duplicates(), on='細菌名', how='left')
             ax1.barh(bacteria_samplesize['細菌名_latex'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
