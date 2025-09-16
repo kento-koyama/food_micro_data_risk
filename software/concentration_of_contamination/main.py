@@ -73,6 +73,11 @@ st.set_page_config(
                    layout="wide", 
                    initial_sidebar_state="expanded"
                    )
+st.markdown("""
+<style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css');
+</style>
+""", unsafe_allow_html=True)
 
 # CSVファイルのパス（適宜変更してください）
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E6%BF%83%E5%BA%A6.csv"
@@ -440,8 +445,12 @@ language_switch_html = f"""
     }}
     </style>
     <div class="language-switch">
-        <a href="/" target="_self" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
-        <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+        <a href="/" target="_self" class="{ 'inactive' if current_page == 'jp' else 'active' }">
+            <span class="fi fi-jp"></span> Japanese
+        </a> |
+        <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">
+            <span class="fi fi-gb"></span> English
+        </a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
