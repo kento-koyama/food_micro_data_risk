@@ -1,5 +1,7 @@
-# 日本国内における食中毒細菌の汚染実態
+# 日本国内に流通する食品における食中毒細菌の汚染実態
 <br />
+
+*English version is available [**here**](https://github.com/kento-koyama/food_micro_data_risk/blob/main/README.en.md)
 
 ## 食中毒細菌の汚染実態の見える化
 
@@ -13,7 +15,7 @@
 
 
 ## ばく露評価のデジタル化に向けた情報整理
-ばくろ評価とは、人が摂食する細菌数を推定することである。<br>
+ばく露評価とは、人が摂食する細菌数を推定することである。<br>
 国内でのリスク評価を行うためには、日ごろの科学的な知見の集積が必要不可欠である。<br>
 このページでは、2000年以降の食中毒細菌の汚染実態調査をまとめる。<br>
 今後5年かけて、汚染実態解明に向けたデータベースの構築を目指す。
@@ -29,7 +31,6 @@
 
 
 ## 1. 食中毒細菌の汚染実態（国内）
-*English version is available [**here**](https://github.com/kento-koyama/food_micro_data_risk/blob/main/README.en.md)
 ### 1.1. 陽性/陰性の割合
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
   **[食中毒細菌汚染実態_汚染率.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv)** に定量データを整理
