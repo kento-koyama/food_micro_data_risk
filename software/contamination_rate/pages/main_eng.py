@@ -35,6 +35,11 @@ st.set_page_config(
     layout="wide", 
     initial_sidebar_state="expanded"
     )
+st.markdown("""
+<style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css');
+</style>
+""", unsafe_allow_html=True)
 
 # Font setup
 font_path = 'NotoSansCJKjp-Regular.otf'
@@ -225,8 +230,12 @@ language_switch_html = f"""
     }}
     </style>
     <div class="language-switch">
-        <a href="/" target="_self" class="{ 'inactive' if current_page == 'jp' else 'active' }">🇯🇵 Japanese</a> |
-        <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">🇬🇧 English</a>
+        <a href="/" target="_self" class="{ 'inactive' if current_page == 'jp' else 'active' }">
+            <span class="fi fi-jp"></span> Japanese
+        </a> |
+        <a href="/main_eng" target="_self" class="{ 'inactive' if current_page == 'en' else 'active' }">
+            <span class="fi fi-gb"></span> English
+        </a>
     </div>
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
