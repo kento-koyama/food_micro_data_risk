@@ -66,6 +66,16 @@ st.write('-----------')
 # データの読み込み
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
 
+# --- 数値列（検体数・陽性数）の正規化と数値化 ---
+_fw_map = str.maketrans('０１２３４５６７８９．－，', '0123456789.-,')
+def _to_num(s):
+    s2 = s.astype(str).str.translate(_fw_map).str.replace(',', '', regex=False).str.strip()
+    s2 = s2.str.replace(r'[^0-9\.\-]', '', regex=True)   # 例: "6?" -> "6"
+    return pd.to_numeric(s2, errors='coerce')
+
+df['検体数'] = _to_num(df['検体数'])
+df['陽性数'] = _to_num(df['陽性数']
+
 # 必要なカラムの欠損値を削除
 df = df[df['検体数'].notna() & df['陽性数'].notna()]
 
