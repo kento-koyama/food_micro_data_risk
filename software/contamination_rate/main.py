@@ -74,7 +74,7 @@ def _to_num(s):
     return pd.to_numeric(s2, errors='coerce')
 
 df['検体数'] = _to_num(df['検体数'])
-df['陽性数'] = _to_num(df['陽性数']
+df['陽性数'] = _to_num(df['陽性数'])
 
 # 必要なカラムの欠損値を削除
 df = df[df['検体数'].notna() & df['陽性数'].notna()]
