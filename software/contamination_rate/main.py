@@ -244,7 +244,8 @@ else:
     else:
         # 細菌を指定した場合：カテゴリ別に集計
         category_summary = df_filtered.groupby('食品カテゴリ').agg({'検体数': 'sum', '陽性数': 'sum'}).reset_index()
-        category_summary['陽性率 (%)'] = category_summary['陽性数'] / category_summary['検体数'] * 100
+        den_cat = category_summary['検体数'].replace(0, pd.NA)
+        category_summary['陽性率 (%)'] = (category_summary['陽性数'] / den_cat * 100)
         category_summary["陽性率 (%)"] = category_summary["陽性率 (%)"].apply(lambda x: func_round(x, ndigits=2))
 
         col5, col6 = st.columns(2)
