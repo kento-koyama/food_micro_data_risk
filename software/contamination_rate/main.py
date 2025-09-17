@@ -157,7 +157,7 @@ else:
 # チェック時は『食品名』に「内容物」を含む行を除外（= 非可食部を除外）
 if edible_only:
     if '食品名' in df_filtered.columns:
-        df_filtered = df_filtered[~df_filtered['食品名'].astype(str).str.contains("内容物", na=False)]
+        df_filtered = df_filtered[~(df_filtered['食品名'].astype(str).str.contains("内容物", na=False)) | ~(df_filtered['食品名'].astype(str).str.contains("スワブ", na=False))| ~(df_filtered['食品名'].astype(str).str.contains("鼻腔ぬぐい", na=False))]
 
 
 # 未選択項目を自動的に "すべて" に設定
