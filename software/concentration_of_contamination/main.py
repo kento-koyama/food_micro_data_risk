@@ -262,7 +262,7 @@ else:
         with col1:
             bacteria_samplesize = df_filtered['細菌名'].value_counts().reset_index()
             bacteria_samplesize.columns = ['細菌名', '検体数']
-            st.dataframe(bacteria_samplesize, height=calc_df_height(df_bacteria_samplesize), hide_index=True)
+            st.dataframe(bacteria_samplesize, height=calc_df_height(bacteria_samplesize), hide_index=True)
 
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8,6))
