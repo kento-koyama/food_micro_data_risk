@@ -57,8 +57,8 @@ csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/da
 
 
 # Streamlit のアプリケーション
-st.write('### 食中毒細菌の陽性率の統計値')
-st.write("[食中毒細菌汚染実態_汚染率.csv](%s)の可視化です。" % csv_url_gui)
+st.write('### 食中毒細菌の陽性率可視化ソフトウェア')
+st.write("日本国内で流通している食品のうち、2000年から2025年にかけて検査されたものを対象としています。[収録されているデータ](%s)は、行政機関や研究所、大学などが公表した各種行政報告書や学術論文に基づいています。" % csv_url_gui)
 st.write('各表をcsvファイルとしてダウンロードできます。')
 st.write('-----------')
 
