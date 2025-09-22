@@ -26,7 +26,20 @@ def format_bacteria_name_latex(name):
         return rf"$\it{{{genus}\ {species}}}${rest}"
     return rf"$\it{{{name}}}$"
 
-
+def calc_df_height(df, max_rows=5, row_height=35):
+    """
+    指定されたデータフレームの行数に基づき、適切な高さを計算します。
+    
+    Parameters:
+        df (pd.DataFrame): 高さを計算する対象のデータフレーム。
+        max_rows (int): 表示する最大行数。デフォルトは6行。
+        row_height (int): 1行あたりの高さ（ピクセル単位）。デフォルトは35。
+        
+    Returns:
+        int: データフレームの高さ（ピクセル単位）。
+    """
+    rows_to_display = min(len(df), max_rows)+1
+    return row_height * rows_to_display
 
 # ページの設定
 st.set_page_config( 
@@ -212,7 +225,7 @@ else:
         col1, col2 = st.columns(2)
         with col1:
             st.write(f'細菌別の食品検体数 {group_title}')
-            st.dataframe(bacteria_counts[['細菌名', '検体数']], hide_index=True)
+            st.dataframe(bacteria_counts[['細菌名', '検体数']], height=calc_df_height(bacteria_counts), hide_index=True)
         with col2:
             fig1, ax1 = plt.subplots(figsize=(6, 6))
             ax1.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['検体数'], color='skyblue')
@@ -229,7 +242,7 @@ else:
         col3, col4 = st.columns(2)
         with col3:
             st.write(f'細菌の陽性率 {group_title}')
-            st.dataframe(bacteria_counts[['細菌名', '陽性率 (%)']], hide_index=True)
+            st.dataframe(bacteria_counts[['細菌名', '陽性率 (%)']], height=calc_df_height(bacteria_counts), hide_index=True)
         with col4:
             fig2, ax2 = plt.subplots(figsize=(6, 6))
             ax2.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['陽性率 (%)'], color='skyblue')
@@ -252,7 +265,7 @@ else:
         col5, col6 = st.columns(2)
         with col5:
             st.write(f'食品カテゴリごとの陽性率 {group_title}')
-            st.dataframe(category_summary, hide_index=True)
+            st.dataframe(category_summary, height=calc_df_height(category_summary), hide_index=True)
         with col6:
             fig3, ax3 = plt.subplots(figsize=(8, 6))
             ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
