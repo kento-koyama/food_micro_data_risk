@@ -27,6 +27,20 @@ def format_bacteria_name_latex(name):
         return rf"$\it{{{genus}\ {species}}}${rest}"
     return rf"$\it{{{name}}}$"
 
+def calc_df_height(df, max_rows=5, row_height=35):
+    """
+    指定されたデータフレームの行数に基づき、適切な高さを計算します。
+    
+    Parameters:
+        df (pd.DataFrame): 高さを計算する対象のデータフレーム。
+        max_rows (int): 表示する最大行数。デフォルトは6行。
+        row_height (int): 1行あたりの高さ（ピクセル単位）。デフォルトは35。
+        
+    Returns:
+        int: データフレームの高さ（ピクセル単位）。
+    """
+    rows_to_display = min(len(df), max_rows)+1
+    return row_height * rows_to_display
 
 # Page setup
 st.set_page_config(
@@ -52,8 +66,9 @@ plt.rcParams['text.usetex'] = False
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/contamination_rate.csv"
 csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/contamination_rate.csv"
 
-st.write('### Contamination rate of Foodborne Bacteria')
-st.write("Visualization of [contamination_rate.csv](%s)" % csv_url_gui)
+st.write('### Software visualizing contamination rate of Food-borne Bacteria')
+st.write("This dataset covers food products distributed in Japan that were tested between 2000 and 2025.") 
+st.write("The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
 st.write('Each table can be downloaded as a CSV.')
 st.write('-----------')
 
