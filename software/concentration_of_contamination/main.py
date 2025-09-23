@@ -340,7 +340,7 @@ else:
                 col5, col6 = st.columns(2)
 
                 with col5:
-                    df_bacteria_conc = df_bacteria.iloc[:, [0, 8, 12, 5, 6]]
+                    df_bacteria_conc = df_bacteria.loc[:, ['調査年', '細菌名', '汚染濃度_logCFU/g', '食品名', '食品詳細']]
                     df_bacteria_conc.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品名', '食品詳細']
                     st.dataframe(df_bacteria_conc, height=calc_df_height(df_bacteria_conc), hide_index=True)
 
@@ -409,8 +409,9 @@ else:
     
     # 選択された食品カテゴリと食品名に該当するデータを表示
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ{group_title}')
-    df_filtered.reset_index(inplace=True, drop=True)
-    st.dataframe(df_filtered)
+    df_filtered_display = df_filtered.reset_index(inplace=True, drop=True)
+    df_filtered_display = df_filtered_display.loc[:, ['調査年', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '汚染濃度_logCFU/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+    st.dataframe(df_filtered_display)
     st.write("*現在報告書から取得した統計処理済みの文献値（最大値・最小値・平均値など）が混在しているためグラフは参考。今後データ収集を行い分布を可視化していく")
 
 
