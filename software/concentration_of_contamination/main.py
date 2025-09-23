@@ -462,6 +462,7 @@ st.markdown(language_switch_html, unsafe_allow_html=True)
 
 
 # お問い合わせリンクの追加
+
 contact_link = """
     <style>
     .footer {
@@ -473,12 +474,30 @@ contact_link = """
     .footer a {
         text-decoration: none;
         color: #0366d6;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px; /* アイコンと文字の間隔 */
+    }
+    .footer .qa-icon {
+        width: 1em;   /* テキストサイズに追従 */
+        height: 1em;
+        vertical-align: -0.125em;
+        /* アイコンの線色は currentColor を継承（=リンク色と同じ）*/
     }
     </style>
     <div class="footer">
         お問い合わせは
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
-        こちら</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header"
+           target="_blank" rel="noopener noreferrer">
+            <!-- 質問マーク入りの丸アイコン -->
+            <svg class="qa-icon" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.1 9a3 3 0 1 1 5.8 0c0 2-3 2-3 4"/>
+                <circle cx="12" cy="17" r="1.2"/>
+            </svg>
+            こちら
+        </a>
         から
     </div>
 """
