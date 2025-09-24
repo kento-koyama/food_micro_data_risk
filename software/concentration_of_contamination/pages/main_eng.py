@@ -88,8 +88,9 @@ df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylo
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
 # === UI ===
-st.title("Contamination Concentration of Foodborne Bacteria")
-st.write(f"Visualization of [concentration_of_contamination.csv]({csv_url_gui})")
+st.title("Software visualizing concentration of contamination by Food-borne Bacteria")
+st.write("This dataset covers food products distributed in Japan that were tested between 2000 and 2025.") 
+st.write("[The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
 st.write("Each table can be downloaded as a CSV.")
 st.write("-----------")
 st.sidebar.title("Filter")

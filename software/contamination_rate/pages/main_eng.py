@@ -66,9 +66,9 @@ plt.rcParams['text.usetex'] = False
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/contamination_rate.csv"
 csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/contamination_rate.csv"
 
-st.write('### Software visualizing contamination rate of Food-borne Bacteria')
+st.title('Software visualizing contamination rate of Food-borne Bacteria')
 st.write("This dataset covers food products distributed in Japan that were tested between 2000 and 2025.") 
-st.write("The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
+st.write("[The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
 st.write('Each table can be downloaded as a CSV.')
 st.write('-----------')
 
