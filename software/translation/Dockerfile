@@ -1,7 +1,8 @@
 FROM python:3.11-slim
 
 # パッケージインストール
-RUN pip install --no-cache-dir streamlit pandas
+RUN pip install --no-cache-dir 
+RUN pip install -r requirements.txt
 
 # 作業ディレクトリ
 WORKDIR /app
