@@ -171,7 +171,6 @@
 <!-- table:table_EHEC -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2016 | **神奈川県衛生研究所** <br> [冷凍メンチカツによる腸管出血性大腸菌O157 VT2の食中毒検査について―神奈川県](https://www.niid.go.jp/niid/ja/ehec-m/ehec-iasrs/6992-443p08.html) | 済 |
 | 2003 | **大阪市食肉衛生検査所** <br> [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf) | 済 |
 <!-- endtable -->
 
