@@ -1,9 +1,5 @@
 FROM python:3.11-slim
 
-# パッケージインストール
-RUN pip install --no-cache-dir 
-RUN pip install -r requirements.txt
-
 # 作業ディレクトリ
 WORKDIR /app
 
@@ -11,6 +7,9 @@ WORKDIR /app
 COPY . .
 
 COPY .streamlit /app/.streamlit
+
+# パッケージインストール
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 親ディレクトリの database もマウントされる前提で辞書を参照
 
