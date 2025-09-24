@@ -60,7 +60,6 @@
 | 2012, 2017 | **九州大学** <br> [Antimicrobial resistance profiles of _Listeria monocytogenes_ isolated from chicken meat in Fukuoka, Japan](https://www.sciencedirect.com/science/article/pii/S0168160519301291) | 済 |
 | 2012-2013 | **帯広畜産大学** <br> [Microbial Assessment and Prevalence of Foodborne Pathogens in Natural Cheeses in Japan](https://onlinelibrary.wiley.com/doi/full/10.1155/2013/205801) <br>（BioMed Research International Volume 2013, Issue 1 205801） | 済 |
 | 2012 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
-| 2012 | **福岡県保健環境研究所** <br> [平成24年度食品の食中毒菌汚染実態調査](https://www.fihes.pref.fukuoka.jp/nenpoh/np40/pdf/np40report3.pdf) <br> （福岡県保健環境研究所年報第40号, 116-118, 2013） | 済 |
 | 2012 | **神奈川県衛生研究所** <br> [Prevalence and Characteristics of _Salmonella_ and _Campylobacter_ in Retail Poultry Meat in Japan](https://www.jstage.jst.go.jp/article/yoken/70/3/70_JJID.2016.164/_pdf/-char/en) <br> (Japanese Journal of Infectious Diseases, 70, 239-247, 2017) | 済 |
 | 2011 | **農林水産省** <br> [各処理日の 1 番目・2 番目に処理されるブロイラー鶏群から製造された鶏肉のリステリア・モノサイトジェネス汚染状況の比較調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
 | 2011 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染の季節変化調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/attach/pdf/chikusan-1.pdf) | 済 |
