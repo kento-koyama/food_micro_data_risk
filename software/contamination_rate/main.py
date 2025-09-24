@@ -280,12 +280,14 @@ else:
 
     # 選択されたカテゴリと食品名に基づくデータの表示
     st.write(f'選択された食品カテゴリと食品名に該当するデータ {group_title}')
-    st.dataframe(df_filtered, hide_index=True)
+    df_filtered_display = df_filtered.copy()
+    df_filtered_display = df_filtered_display[['調査年', '食品カテゴリ', '食品名', '細菌名', '細菌名_詳細', '検体数', '陽性数', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+    st.dataframe(df_filtered_display, hide_index=True)
 
     st.write('-----------')
 
     # 陽性数が1以上のデータをフィルタリングして表示
-    positive_df = df_filtered[df_filtered['陽性数'] >= 1]
+    positive_df = df_filtered_display[df_filtered_display['陽性数'] >= 1]
     st.write(f'陽性数が1以上のデータ {group_title}')
     st.dataframe(positive_df, hide_index=True)
 
