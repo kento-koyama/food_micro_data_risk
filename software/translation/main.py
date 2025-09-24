@@ -23,10 +23,10 @@ def normalize_text(text):
 uploaded_file = st.file_uploader("日本語のCSVファイルをアップロード（汚染率または汚染濃度）", type="csv")
 
 if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv(uploaded_file, encoding='utf-8-sig')
 
     # 修正ポイント: 辞書ファイルの絶対パス（マウントされた外部フォルダを指す）
-    translation_path = Path("/app_parent/database/translation_jpn_to_eng.csv")
+    translation_path = Path("translation_jpn_to_eng.csv")
 
     if not translation_path.exists():
         st.error(f"翻訳辞書ファイルが見つかりません: {translation_path}")
