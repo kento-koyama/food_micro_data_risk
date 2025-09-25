@@ -27,17 +27,18 @@ def format_bacteria_name_latex(name):
         return rf"$\it{{{genus}\ {species}}}${rest}"
     return rf"$\it{{{name}}}$"
 
+# Dynamic table height adjustment
 def calc_df_height(df, max_rows=5, row_height=35):
     """
-    指定されたデータフレームの行数に基づき、適切な高さを計算します。
-    
+    Calculate the table height dynamically based on dataframe length.
+
     Parameters:
-        df (pd.DataFrame): 高さを計算する対象のデータフレーム。
-        max_rows (int): 表示する最大行数。デフォルトは6行。
-        row_height (int): 1行あたりの高さ（ピクセル単位）。デフォルトは35。
-        
+        df (pd.DataFrame): Target dataframe
+        max_rows (int): Maximum rows to display
+        row_height (int): Height per row (pixels)
+
     Returns:
-        int: データフレームの高さ（ピクセル単位）。
+        int: total display height (pixels)
     """
     rows_to_display = min(len(df), max_rows)+1
     return row_height * rows_to_display
@@ -79,7 +80,7 @@ df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
-st.sidebar.write("### Filters")
+st.sidebar.header("Filter Settings")
 
 food_groups = ["", "All"] + list(df['Food Category'].unique())
 food_names = ["", "All"] + list(df['Food Name'].unique())
@@ -150,7 +151,7 @@ else:
         col1, col2 = st.columns(2)
         with col1:
             st.write(f'Number of Samples by Bacteria {group_title}')
-            st.dataframe(bacteria_counts[['Organism', 'Number of Samples']], hide_index=True)
+            st.dataframe(bacteria_counts[['Organism', 'Number of Samples']], height=calc_df_height(bacteria_counts, max_rows=5), hide_index=True)
         with col2:
             fig1, ax1 = plt.subplots(figsize=(6, 6))
             ax1.barh(bacteria_counts['Display Name (LaTeX)'], bacteria_counts['Number of Samples'], color='skyblue')
@@ -166,7 +167,7 @@ else:
         col3, col4 = st.columns(2)
         with col3:
             st.write(f'Positive Rate by Bacteria {group_title}')
-            st.dataframe(bacteria_counts[['Organism', 'Positive Rate (%)']], hide_index=True)
+            st.dataframe(bacteria_counts[['Organism', 'Positive Rate (%)']], height=calc_df_height(bacteria_counts, max_rows=5), hide_index=True)
         with col4:
             fig2, ax2 = plt.subplots(figsize=(6, 6))
             ax2.barh(bacteria_counts['Display Name (LaTeX)'], bacteria_counts['Positive Rate (%)'], color='skyblue')
@@ -189,7 +190,7 @@ else:
         col5, col6 = st.columns(2)
         with col5:
             st.write(f'Positive Rate by Food Category {group_title}')
-            st.dataframe(category_summary, hide_index=True)
+            st.dataframe(category_summary, height=calc_df_height(category_summary, max_rows=5), hide_index=True)
         with col6:
             fig3, ax3 = plt.subplots(figsize=(8, 6))
             ax3.barh(category_summary['Food Category'], category_summary['Positive Rate (%)'], color='skyblue')
@@ -203,10 +204,12 @@ else:
         st.write("-----------")
 
     st.write(f'Data for Selected Filters {group_title}')
-    st.dataframe(df_filtered, hide_index=True)
+    df_filtered_display = df_filtered.copy()
+    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Organism', 'Organism_Detail', 'Number of Samples', 'Number of Positives', 'Agency', 'Survey', 'Source URL', '閲覧日', 'detail information']]
+    st.dataframe(df_filtered_display, hide_index=True)
     st.write("-----------")
 
-    positive_df = df_filtered[df_filtered['Number of Positives'] >= 1]
+    positive_df = df_filtered_display[df_filtered_display['Number of Positives'] >= 1]
     st.write(f'Samples with Positive Count >= 1 {group_title}')
     st.dataframe(positive_df, hide_index=True)
 
