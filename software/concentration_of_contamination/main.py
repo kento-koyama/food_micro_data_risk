@@ -96,8 +96,8 @@ plt.rcParams['font.family'] = font_prop.get_name()
 plt.rcParams['text.usetex'] = False  # LaTeXをmatplotlibで有効に
 
 # 図のフォントサイズを一括で設定
-size_label = 20
-size_title = 22
+size_label = 22
+size_title = 24
 
 
 # Streamlit のアプリケーション
@@ -265,7 +265,7 @@ else:
             st.dataframe(bacteria_samplesize, height=calc_df_height(bacteria_samplesize), hide_index=True)
 
         with col2:
-            fig1, ax1 = plt.subplots(figsize=(10,8))
+            fig1, ax1 = plt.subplots(figsize=(8,8))
             # ラベルもlatex用に変換
             if '細菌名_latex' not in df_filtered.columns:
                 df_filtered = df_filtered.assign(細菌名_latex=df_filtered['細菌名'].apply(format_bacteria_name_latex))
@@ -305,7 +305,7 @@ else:
             st.dataframe(stats_df, hide_index=True)
 
         with col4:
-            fig2, ax2 = plt.subplots(figsize=(10, 8))
+            fig2, ax2 = plt.subplots(figsize=(8, 8))
             ax2.hist(df_filtered['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_filtered['汚染濃度_logCFU/g'].astype(float).min()), int(df_filtered['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
             ax2.set_xlim([0,10])
             ax2.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
@@ -361,7 +361,7 @@ else:
                     st.dataframe(stats_df, hide_index=True)
 
                 with col6:
-                    fig3, ax3 = plt.subplots(figsize=(10, 8))
+                    fig3, ax3 = plt.subplots(figsize=(8, 8))
                     ax3.set_xlim([0,10])
                     ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
                     ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
@@ -401,7 +401,7 @@ else:
             
             with col6:
                 # 汚染濃度のヒストグラム
-                fig3, ax3 = plt.subplots(figsize=(10, 8))
+                fig3, ax3 = plt.subplots(figsize=(8, 8))
                 ax3.set_xlim([0,10])
                 ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
                 ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
