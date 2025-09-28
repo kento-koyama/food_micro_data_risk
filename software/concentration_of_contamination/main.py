@@ -273,7 +273,7 @@ else:
             ax1.barh(bacteria_samplesize['細菌名_latex'], bacteria_samplesize['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=size_label)
             ax1.set_ylabel('細菌名', fontsize=size_label)
-            ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)
+            ax1.set_title(f'細菌ごとの食品検体数\n{group_title}', fontsize=size_title)
             ax1.tick_params(axis='both', which='major', labelsize=size_label)
             ax1.set_box_aspect(1)
             st.pyplot(fig1)
@@ -310,7 +310,7 @@ else:
             ax2.set_xlim([0,10])
             ax2.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
             ax2.set_ylabel('頻度', fontsize=size_label)
-            ax2.set_title(f'汚染濃度の分布{group_title}', fontsize=size_title)
+            ax2.set_title(f'汚染濃度の分布\n{group_title}', fontsize=size_title)
             ax2.tick_params(axis='both', which='major', labelsize=size_label)
             ax2.set_box_aspect(1)
             st.pyplot(fig2)
@@ -342,8 +342,8 @@ else:
                 col5, col6 = st.columns(2)
 
                 with col5:
-                    df_bacteria_conc = df_bacteria.loc[:, ['調査年', '細菌名', '汚染濃度_logCFU/g', '食品名', '食品詳細']]
-                    df_bacteria_conc.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品名', '食品詳細']
+                    df_bacteria_conc = df_bacteria.loc[:, ['調査年', '細菌名', '汚染濃度_logCFU/g', '食品名']]
+                    df_bacteria_conc.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品名']
                     st.dataframe(df_bacteria_conc, height=calc_df_height(df_bacteria_conc), hide_index=True)
 
                     # 汚染濃度の平均と標本標準偏差、サンプルサイズの計算
@@ -366,7 +366,7 @@ else:
                     ax3.hist(df_bacteria['汚染濃度_logCFU/g'].astype(float), bins=range(int(df_bacteria['汚染濃度_logCFU/g'].astype(float).min()), int(df_bacteria['汚染濃度_logCFU/g'].astype(float).max()) + 2, 1), color='lightsalmon', edgecolor='black')
                     ax3.set_xlabel('汚染濃度 [log CFU/g]', fontsize=size_label)
                     ax3.set_ylabel('頻度', fontsize=size_label)
-                    ax3.set_title(f'{bacteria_name}の汚染濃度の分布{group_title}', fontsize=size_title)
+                    ax3.set_title(f'{bacteria_name}の汚染濃度の分布\n{group_title}', fontsize=size_title)
                     ax3.tick_params(axis='both', which='major', labelsize=size_label)
                     ax3.set_box_aspect(1)
                     st.pyplot(fig3)
