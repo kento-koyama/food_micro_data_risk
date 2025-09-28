@@ -265,7 +265,7 @@ else:
             st.dataframe(bacteria_samplesize, height=calc_df_height(bacteria_samplesize), hide_index=True)
 
         with col2:
-            fig1, ax1 = plt.subplots(figsize=(8,8))
+            fig1, ax1 = plt.subplots(figsize=(10,10))
             # ラベルもlatex用に変換
             if '細菌名_latex' not in df_filtered.columns:
                 df_filtered = df_filtered.assign(細菌名_latex=df_filtered['細菌名'].apply(format_bacteria_name_latex))
