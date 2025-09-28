@@ -43,7 +43,7 @@ def calc_df_height(df, max_rows=5, row_height=35):
 
 # ページの設定
 st.set_page_config( 
-                   page_title="汚染率可視化ソフトウェア", 
+                   page_title="陽性率可視化ソフトウェア", 
                 #    page_icon="", 
                    layout="wide", 
                    initial_sidebar_state="expanded"
