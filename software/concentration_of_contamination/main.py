@@ -96,8 +96,8 @@ plt.rcParams['font.family'] = font_prop.get_name()
 plt.rcParams['text.usetex'] = False  # LaTeXをmatplotlibで有効に
 
 # 図のフォントサイズを一括で設定
-size_label = 18
-size_title = 20
+size_label = 20
+size_title = 22
 
 
 # Streamlit のアプリケーション
@@ -275,6 +275,7 @@ else:
             ax1.set_ylabel('細菌名', fontsize=size_label)
             ax1.set_title(f'細菌ごとの食品検体数{group_title}', fontsize=size_title)
             ax1.tick_params(axis='both', which='major', labelsize=size_label)
+            ax1.set_box_aspect(1)
             st.pyplot(fig1)
 
         st.write('-----------')
@@ -311,6 +312,7 @@ else:
             ax2.set_ylabel('頻度', fontsize=size_label)
             ax2.set_title(f'汚染濃度の分布{group_title}', fontsize=size_title)
             ax2.tick_params(axis='both', which='major', labelsize=size_label)
+            ax2.set_box_aspect(1)
             st.pyplot(fig2)
 
         # 特定の細菌のデータを取得
@@ -366,6 +368,7 @@ else:
                     ax3.set_ylabel('頻度', fontsize=size_label)
                     ax3.set_title(f'{bacteria_name}の汚染濃度の分布{group_title}', fontsize=size_title)
                     ax3.tick_params(axis='both', which='major', labelsize=size_label)
+                    ax3.set_box_aspect(1)
                     st.pyplot(fig3)
         st.write('-----------')
     
@@ -405,6 +408,7 @@ else:
                 ax3.set_ylabel('頻度', fontsize=size_label)
                 ax3.set_title(f'{selected_bacteria} の汚染濃度分布', fontsize=size_title)
                 ax3.tick_params(axis='both', which='major', labelsize=size_label)
+                ax3.set_box_aspect(1)
                 st.pyplot(fig3)
     
     # 選択された食品カテゴリと食品名に該当するデータを表示
