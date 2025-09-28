@@ -64,6 +64,10 @@ font_prop = fm.FontProperties(fname=font_path)
 plt.rcParams['font.family'] = font_prop.get_name()
 plt.rcParams['text.usetex'] = False
 
+# 図のフォントサイズを一括で設定
+size_label = 20
+size_title = 22
+
 # CSVファイルのURL
 csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
 csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv"
@@ -229,10 +233,10 @@ else:
         with col2:
             fig1, ax1 = plt.subplots(figsize=(8, 8))
             ax1.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['検体数'], color='skyblue')
-            ax1.set_xlabel('検体数', fontsize=18)
-            ax1.set_ylabel('細菌名', fontsize=18)
-            ax1.set_title(f'細菌別の食品検体数 {group_title}', fontsize=20)
-            ax1.tick_params(axis='both', labelsize=14)
+            ax1.set_xlabel('検体数', fontsize=size_label)
+            ax1.set_ylabel('細菌名', fontsize=size_label)
+            ax1.set_title(f'細菌別の食品検体数\n{group_title}', fontsize=size_title)
+            ax1.tick_params(axis='both', labelsize=size_label)
             ax1.invert_yaxis()
             ax1.set_box_aspect(1)
             st.pyplot(fig1)
@@ -247,10 +251,10 @@ else:
         with col4:
             fig2, ax2 = plt.subplots(figsize=(8, 8))
             ax2.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['陽性率 (%)'], color='skyblue')
-            ax2.set_xlabel('陽性率 (%)', fontsize=18)
-            ax2.set_ylabel('細菌名', fontsize=18)
-            ax2.set_title(f'細菌の陽性率 {group_title}', fontsize=20)
-            ax2.tick_params(axis='both', labelsize=14)
+            ax2.set_xlabel('陽性率 (%)', fontsize=size_label)
+            ax2.set_ylabel('細菌名', fontsize=size_label)
+            ax2.set_title(f'細菌の陽性率\n{group_title}', fontsize=size_title)
+            ax2.tick_params(axis='both', labelsize=size_label)
             ax2.invert_yaxis()
             ax2.set_box_aspect(1)
             st.pyplot(fig2)
@@ -271,10 +275,10 @@ else:
         with col6:
             fig3, ax3 = plt.subplots(figsize=(8, 8))
             ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
-            ax3.set_xlabel('陽性率 (%)', fontsize=14)
-            ax3.set_ylabel('食品カテゴリ', fontsize=14)
-            ax3.set_title(f'食品カテゴリごとの陽性率 {group_title}', fontsize=16)
-            ax3.tick_params(axis='both', which='major', labelsize=12)
+            ax3.set_xlabel('陽性率 (%)', fontsize=size_label)
+            ax3.set_ylabel('食品カテゴリ', fontsize=size_label)
+            ax3.set_title(f'食品カテゴリごとの陽性率 {group_title}', fontsize=size_title)
+            ax3.tick_params(axis='both', which='major', labelsize=size_label)
             ax3.invert_yaxis()
             ax3.set_box_aspect(1)
             st.pyplot(fig3)
