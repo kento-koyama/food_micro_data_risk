@@ -277,7 +277,7 @@ else:
             ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
             ax3.set_xlabel('陽性率 (%)', fontsize=size_label)
             ax3.set_ylabel('食品カテゴリ', fontsize=size_label)
-            ax3.set_title(f'食品カテゴリごとの陽性率 {group_title}', fontsize=size_title)
+            ax3.set_title(f'食品カテゴリごとの陽性率\n{group_title}', fontsize=size_title)
             ax3.tick_params(axis='both', which='major', labelsize=size_label)
             ax3.invert_yaxis()
             ax3.set_box_aspect(1)
