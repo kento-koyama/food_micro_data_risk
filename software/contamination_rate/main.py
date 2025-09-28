@@ -70,7 +70,7 @@ csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/da
 
 
 # Streamlit のアプリケーション
-st.tittle('食中毒細菌の陽性率可視化ソフトウェア')
+st.title('食中毒細菌の陽性率可視化ソフトウェア')
 st.write("日本国内で流通している食品のうち、2000年から2025年にかけて検査されたものを対象としています。")
 st.write("[収録されているデータ](%s)は、行政機関や研究所、大学などが公表した各種行政報告書や学術論文に基づいています。" % csv_url_gui)
 st.write('各表をcsvファイルとしてダウンロードできます。')
@@ -99,7 +99,7 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 
 # サイドバーにタイトルを追加
-st.sidebar.tittle("検索")
+st.sidebar.title("検索")
 
 
 
