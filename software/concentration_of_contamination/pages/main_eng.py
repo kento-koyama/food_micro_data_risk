@@ -53,15 +53,30 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
+# === Load Data ===
+csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/concentration_of_contamination.csv"
+csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/concentration_of_contamination.csv"
+
+# font settings
 font_path = 'NotoSansCJKjp-Regular.otf'
 fm.fontManager.addfont(font_path)
 font_prop = fm.FontProperties(fname=font_path)
 plt.rcParams['font.family'] = font_prop.get_name()
 plt.rcParams['text.usetex'] = False
 
-# === Load Data ===
-csv_url = "https://raw.githubusercontent.com/kento-koyama/food_micro_data_risk/main/database/concentration_of_contamination.csv"
-csv_url_gui = "https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/concentration_of_contamination.csv"
+size_label = 18
+size_title = 20
+
+# === UI ===
+st.title("Software visualizing concentration of contamination by Food-borne Bacteria")
+st.write("This dataset covers food products distributed in Japan that were tested between 2000 and 2025.") 
+st.write("[The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
+st.write("Each table can be downloaded as a CSV.")
+st.write("-----------")
+st.sidebar.title("Filter Settings")
+
+# Data
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
 
 # === Data Cleaning ===
@@ -87,13 +102,7 @@ df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
-# === UI ===
-st.title("Software visualizing concentration of contamination by Food-borne Bacteria")
-st.write("This dataset covers food products distributed in Japan that were tested between 2000 and 2025.") 
-st.write("[The data](%s) is based on various governmental reports and academic papers published by government agencies, research institutes, and universities." % csv_url_gui)
-st.write("Each table can be downloaded as a CSV.")
-st.write("-----------")
-st.sidebar.title("Filter")
+df = df.loc[:, ['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'Organism_LaTeX', 'method', 'log CFU/g', 'MPN per g', 'Concentration', 'Unit', 'Agency', 'Survey', 'Source URL', '閲覧日', 'detail information']]
 
 # === Filters ===
 cat_opts = ["", "All"] + list(df['Food Category'].dropna().unique())
@@ -154,10 +163,10 @@ else:
     with col2:
         fig1, ax1 = plt.subplots(figsize=(8, 6))
         ax1.barh(bacteria_samples['Organism_LaTeX'], bacteria_samples['Sample Count'], color='skyblue')
-        ax1.set_xlabel('Sample Count', fontsize=14)
-        ax1.set_ylabel('Bacteria', fontsize=14)
-        ax1.set_title(f'Sample Count by Bacteria {group_title}', fontsize=18)
-        ax1.tick_params(axis='both', labelsize=12)
+        ax1.set_xlabel('Sample Count', fontsize=size_label)
+        ax1.set_ylabel('Bacteria', fontsize=size_label)
+        ax1.set_title(f'Sample Count by Bacteria {group_title}', fontsize=size_title)
+        ax1.tick_params(axis='both', labelsize=size_label)
         st.pyplot(fig1)
 
     st.write('-----------')
@@ -177,10 +186,10 @@ else:
         values = df_conc['log CFU/g'].dropna().astype(float)
         ax2.hist(values, bins=range(int(values.min()), int(values.max()) + 2, 1), color='lightsalmon', edgecolor='black')
         ax2.set_xlim([0, 10])
-        ax2.set_xlabel('Concentration [log CFU/g]', fontsize=14)
-        ax2.set_ylabel('Frequency', fontsize=14)
-        ax2.set_title(f'Distribution of Concentration {group_title}', fontsize=18)
-        ax2.tick_params(axis='both', labelsize=12)
+        ax2.set_xlabel('Concentration [log CFU/g]', fontsize=size_label)
+        ax2.set_ylabel('Frequency', fontsize=size_label)
+        ax2.set_title(f'Distribution of Concentration {group_title}', fontsize=size_title)
+        ax2.tick_params(axis='both', labelsize=size_label)
         st.pyplot(fig2)
 
     # === Per-Bacteria Specific Section ===
@@ -210,15 +219,18 @@ else:
                 values = df_bact_conc['log CFU/g'].dropna().astype(float)
                 ax3.hist(values, bins=range(int(values.min()), int(values.max()) + 2, 1), color='lightsalmon', edgecolor='black')
                 ax3.set_xlim([0, 10])
-                ax3.set_xlabel('Concentration [log CFU/g]', fontsize=14)
-                ax3.set_ylabel('Frequency', fontsize=14)
-                ax3.set_title(f"Distribution of Concentration for {bact_label} {group_title}", fontsize=18)
-                ax3.tick_params(axis='both', labelsize=12)
+                ax3.set_xlabel('Concentration [log CFU/g]', fontsize=size_label)
+                ax3.set_ylabel('Frequency', fontsize=size_label)
+                ax3.set_title(f"Distribution of Concentration for {bact_label} {group_title}", fontsize=size_title)
+                ax3.tick_params(axis='both', labelsize=size_label)
                 st.pyplot(fig3)
 
     st.write("-----------")
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
-    st.dataframe(df_filtered.reset_index(drop=True))
+    df_filtered_display = df_filtered.copy()
+    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'method', 'Agency', 'Survey', 'Source URL', '閲覧日', 'detail information']]
+    df_filtered_display.reset_index(inplace=True, drop=True)
+    st.dataframe(df_filtered_display)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
 
 
