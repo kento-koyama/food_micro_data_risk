@@ -224,10 +224,10 @@ else:
         # 検体数テーブル＆グラフ
         col1, col2 = st.columns(2)
         with col1:
-            st.write(f'細菌別の食品検体数 {group_title}')
+            st.subheader(f'細菌別の食品検体数 {group_title}')
             st.dataframe(bacteria_counts[['細菌名', '検体数']], height=calc_df_height(bacteria_counts), hide_index=True)
         with col2:
-            fig1, ax1 = plt.subplots(figsize=(6, 6))
+            fig1, ax1 = plt.subplots(figsize=(8, 8))
             ax1.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['検体数'], color='skyblue')
             ax1.set_xlabel('検体数', fontsize=18)
             ax1.set_ylabel('細菌名', fontsize=18)
@@ -242,10 +242,10 @@ else:
         # 陽性率テーブル＆グラフ
         col3, col4 = st.columns(2)
         with col3:
-            st.write(f'細菌の陽性率 {group_title}')
+            st.subheader(f'細菌の陽性率 {group_title}')
             st.dataframe(bacteria_counts[['細菌名', '陽性率 (%)']], height=calc_df_height(bacteria_counts), hide_index=True)
         with col4:
-            fig2, ax2 = plt.subplots(figsize=(6, 6))
+            fig2, ax2 = plt.subplots(figsize=(8, 8))
             ax2.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['陽性率 (%)'], color='skyblue')
             ax2.set_xlabel('陽性率 (%)', fontsize=18)
             ax2.set_ylabel('細菌名', fontsize=18)
@@ -266,10 +266,10 @@ else:
 
         col5, col6 = st.columns(2)
         with col5:
-            st.write(f'食品カテゴリごとの陽性率 {group_title}')
+            st.subheader(f'食品カテゴリごとの陽性率 {group_title}')
             st.dataframe(category_summary, height=calc_df_height(category_summary), hide_index=True)
         with col6:
-            fig3, ax3 = plt.subplots(figsize=(8, 6))
+            fig3, ax3 = plt.subplots(figsize=(8, 8))
             ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
             ax3.set_xlabel('陽性率 (%)', fontsize=14)
             ax3.set_ylabel('食品カテゴリ', fontsize=14)
@@ -282,7 +282,7 @@ else:
         st.write('-----------')
 
     # 選択されたカテゴリと食品名に基づくデータの表示
-    st.write(f'選択された食品カテゴリと食品名に該当するデータ {group_title}')
+    st.subheader(f'選択された食品カテゴリと食品名に該当するデータ {group_title}')
     df_filtered_display = df_filtered.copy()
     df_filtered_display = df_filtered_display[['調査年', '食品カテゴリ', '食品名', '細菌名', '細菌名_詳細', '検体数', '陽性数', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
     st.dataframe(df_filtered_display, hide_index=True)
@@ -291,7 +291,7 @@ else:
 
     # 陽性数が1以上のデータをフィルタリングして表示
     positive_df = df_filtered_display[df_filtered_display['陽性数'] >= 1]
-    st.write(f'陽性数が1以上のデータ {group_title}')
+    st.subheader(f'陽性数が1以上のデータ {group_title}')
     st.dataframe(positive_df, hide_index=True)
 
 
