@@ -234,6 +234,7 @@ else:
             ax1.set_title(f'細菌別の食品検体数 {group_title}', fontsize=20)
             ax1.tick_params(axis='both', labelsize=14)
             ax1.invert_yaxis()
+            ax1.set_box_aspect(1)
             st.pyplot(fig1)
 
         st.write("-----------")
@@ -251,6 +252,7 @@ else:
             ax2.set_title(f'細菌の陽性率 {group_title}', fontsize=20)
             ax2.tick_params(axis='both', labelsize=14)
             ax2.invert_yaxis()
+            ax2.set_box_aspect(1)
             st.pyplot(fig2)
 
         st.write("-----------")
@@ -274,6 +276,7 @@ else:
             ax3.set_title(f'食品カテゴリごとの陽性率 {group_title}', fontsize=16)
             ax3.tick_params(axis='both', which='major', labelsize=12)
             ax3.invert_yaxis()
+            ax3.set_box_aspect(1)
             st.pyplot(fig3)
 
         st.write('-----------')
