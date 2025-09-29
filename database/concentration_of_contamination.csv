@@ -1,4 +1,4 @@
-﻿Year,Food Category,Food Name,Food details,method,Organism,Concentration,Unit,Agency,Survey,Source URL,閲覧日,detail information
+﻿Year,Food Category,Food Name,Food details,method,Organism,Concentration,Unit,Agency,Survey,Source URL,Access Date,detail information
 2021,Chicken,成鶏 (中抜キ),,plate_count,Campylobacter spp.,0.49,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
 2021,Chicken,肉用若鳥 (中抜キ),,plate_count,Campylobacter spp.,0.73,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
 2021,Chicken,肉用若鳥 (外剥ギ),,plate_count,Campylobacter spp.,0.17,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
