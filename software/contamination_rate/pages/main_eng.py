@@ -205,7 +205,7 @@ else:
 
     st.write(f'Data for Selected Filters {group_title}')
     df_filtered_display = df_filtered.copy()
-    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Organism', 'Organism_Detail', 'Number of Samples', 'Number of Positives', 'Agency', 'Survey', 'Source URL', '閲覧日', 'detail information']]
+    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Organism', 'Organism_Detail', 'Number of Samples', 'Number of Positives', 'Agency', 'Survey', 'Source URL', 'Access date', 'detail information']]
     st.dataframe(df_filtered_display, hide_index=True)
     st.write("-----------")
 
