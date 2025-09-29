@@ -161,8 +161,6 @@
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) | 済 |
 | 2001 | **国立感染症研究所** <br> [食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920) | 未登録 |
 | 2000 | **北海道大学** <br> [Occurrence of _Listeria monocytogenes_ in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf) | 未登録 |
-| 1999-2000 | **大阪市立大学 / 大阪市立環境科学研究所** <br> [_Listeria monocytogenes_ isolated from cold-smoked fish products in Osaka City, Japan](https://www.sciencedirect.com/science/article/pii/S0168160504001126?casa_token=z7HWFC6UP0YAAAAA:plCycZI9Rv_DcFiaRJbgrtIuRKTH_Qx5QOWmDfTQt8wcZu_xUZlgJeW3S73alL6d5L2LPCPvGXk) | 未登録 |
-| 1998-2001 | **日本水産（株）食品分析センター** <br> [わが国における Ready-to-Eat 水産食品の _Listeria monocytogenes_ 汚染](https://www.jstage.jst.go.jp/article/jsfm1994/20/2/20_2_63/_pdf/-char/ja) | 未登録 |
 | 1988-2004 | **国立医薬品食品衛生研究所** <br> [Overview of _Listeria monocytogenes_ contamination in Japan](https://www.sciencedirect.com/science/article/pii/S0168160503006275#BIB13) <br> 2000年以降のデータを登録予定 | 未登録 |
 <!-- endtable -->
 
