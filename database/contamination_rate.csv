@@ -1,4 +1,4 @@
-﻿Year,Food Category,Food Name,Organism,Number of Samples,Number of Positives,Agency,Survey,Source URL,閲覧日,detail information
+﻿Year,Food Category,Food Name,Organism,Number of Samples,Number of Positives,Agency,Survey,Source URL,Access Date,detail information
 2008,Vegetable or fruit and their products,モヤシ,Salmonella spp.,115,1,"Ministry of Health, Labour and Welfare",食品中ノ食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2008,ソノ他ノ肉類,ソノ他ノ加工用食肉等*3,Campylobacter spp.,29,5,"Ministry of Health, Labour and Welfare",食品中ノ食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 実施自治体*1選定品目; "
 2008,ソノ他ノ肉類,ソノ他ノ生食用食肉*4,Salmonella spp.,11,1,"Ministry of Health, Labour and Welfare",食品中ノ食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 実施自治体*1選定品目; "
