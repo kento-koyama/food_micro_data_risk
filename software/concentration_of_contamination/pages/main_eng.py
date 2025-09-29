@@ -228,7 +228,7 @@ else:
     st.write("-----------")
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
     df_filtered_display = df_filtered.copy()
-    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'method', 'Agency', 'Survey', 'Source URL', '閲覧日', 'detail information']]
+    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'detail information']]
     df_filtered_display.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered_display)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
