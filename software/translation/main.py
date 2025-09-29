@@ -31,7 +31,7 @@ if uploaded_file:
     if not translation_path.exists():
         st.error(f"翻訳辞書ファイルが見つかりません: {translation_path}")
     else:
-        translation_df = pd.read_csv(translation_path, encoding="cp932")
+        translation_df = pd.read_csv(translation_path, encoding="utf-8-sig")
         # 辞書のクリーニング
         translation_df["Japanese"] = translation_df["Japanese"].astype(str).str.strip()
         translation_df["English"] = translation_df["English"].astype(str).str.strip()
