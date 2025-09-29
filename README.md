@@ -87,6 +87,7 @@
 | 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） | 済 |
 | 2005 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br> （日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 済 |
 | 2005 | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) | 済 |
+| 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) <br>（日獣会誌, 67, 442~448, 2014） | 済 |
 | 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
 | 2004-2006 | **静岡県環境衛生科学研究所** <br> [Antibiotic Resistance in Bacterial Pathogens from Retail Raw Meats and Food-Producing Animals in Japan](https://www.sciencedirect.com/science/article/pii/S0362028X23039777?via%3Dihub) <br> (Journal of Food Protection, Volume 75, Issue 10, 1 October 2012, Pages 1774-1782) | 済 |
 | 2004 | **広島市衛生研究所** <br> [鶏肉のカンピロバクター培養検査法の検討 -鶏肉の検査方法別検出感度および検出率の比較]() <br>（広島市衛研年報 24, 49-54, 2005） | 未登録 |
@@ -129,7 +130,7 @@
 | 2012 | **岐阜県食肉衛生検査所** <br> [牛胆嚢内胆汁のカンピロバクター汚染と胆汁の生化学的性状](https://warp.ndl.go.jp/info:ndljp/pid/11533510/www.pref.gifu.lg.jp/kurashi/shoku/shokuhin/22513/gakkai-tou-happyou.data/24-13.pdf) | 未登録 |
 | 2011 | **公益財団法人鹿児島市獣医公衆衛生協会** <br> [食鳥処理工程におけるカンピロバクター等微生物汚染防止低減への取り組みについて](https://warp.ndl.go.jp/info:ndljp/pid/12996857/www.jyuieisei-kgo.jp/topics/sozai/researchextract01_2011.pdf) | 未登録 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のカンピロバクター濃度調査](https://warp.ndl.go.jp/info:ndljp/pid/9534028/www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_07.html) <br> - 関連論文の[リンク](https://onlinelibrary.wiley.com/doi/10.1111/j.1863-2378.2012.01509.x) | 済 |
-| 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) | 未登録 |
+| 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) <br>（日獣会誌, 67, 442~448, 2014） | 済 |
 | 2004 | **宮城県保健環境センター** <br> [市販食肉等からのカンピロバクター検出と低温保存での菌消長](https://www.pref.miyagi.jp/documents/1979/209066.pdf) | 未登録 |
 | 2001 | **埼玉県衛生研究所** <br> [MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査](https://www.jstage.jst.go.jp/article/jvma1951/55/7/55_7_447/_pdf/-char/en) | 未登録 |
 | 2000-2001 | **岩手大学** <br> 厚生労働科学研究費（特別研究事業） <br> [鶏肉に起因するカンピロバクター食中毒の予防対策に関する調査研究](https://warp.ndl.go.jp/collections/content/info:ndljp/pid/13046218/mhlw-grants.niph.go.jp/project/3941) | 未登録 |
@@ -183,6 +184,7 @@
 | 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) | 済 |
 | 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://www.jstage.jst.go.jp/article/jsfm1994/23/3/23_3_165/_pdf/-char/ja) | 済 |
+| 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) <br>（日獣会誌, 67, 442~448, 2014） | 済 |
 | 1999-2001 | **埼玉県衛生研究所** <br> [市販食肉におけるサルモネラとリステリアの汚染状況](https://www.jstage.jst.go.jp/article/jvma1951/56/3/56_3_167/_pdf/-char/en) | 未登録 |
 <!-- endtable -->
 
