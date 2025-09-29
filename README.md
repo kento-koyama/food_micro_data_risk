@@ -157,7 +157,7 @@
 | 2005 | **岡山県環境保健センター** <br> [動物を含めた環境中及び食肉のリステリア汚染状況と迅速な菌種同定](https://www.pref.okayama.jp/uploaded/life/49801_174922_misc.pdf) | 未登録 |
 | 2004 | **岡山県環境保健センター** <br> [動物を含めた環境中及び調理用食肉のリステリア汚染状況](https://www.pref.okayama.jp/uploaded/life/49802_174943_misc.pdf) | 未登録 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態調査について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br> (埼玉県衛生研究所報 2005, vol. 39, p.151-153) | 済 |
-| 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立各回図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
+| 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立国会図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) | 済 |
 | 2001 | **国立感染症研究所** <br> [食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920) | 未登録 |
 | 2000 | **北海道大学** <br> [Occurrence of _Listeria monocytogenes_ in retail fish and processed seafood products in Japan](https://www.jstage.jst.go.jp/article/fishsci1994/66/6/66_6_1191/_pdf) | 未登録 |
