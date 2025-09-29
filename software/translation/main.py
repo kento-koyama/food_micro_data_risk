@@ -32,6 +32,11 @@ if uploaded_file:
         st.error(f"翻訳辞書ファイルが見つかりません: {translation_path}")
     else:
         translation_df = pd.read_csv(translation_path, encoding="cp932")
+        # 辞書のクリーニング
+        translation_df["Japanese"] = translation_df["Japanese"].astype(str).str.strip()
+        translation_df["English"] = translation_df["English"].astype(str).str.strip()
+        # DataFrame のカラム名もクリーニング
+        df.columns = df.columns.str.strip()
         translation_dict = dict(zip(translation_df["Japanese"], translation_df["English"]))
 
         # カラム名の翻訳
