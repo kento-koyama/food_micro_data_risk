@@ -1,137 +1,137 @@
-Japanese,English
-’²¸”N,Year
-H•iƒJƒeƒSƒŠ,Food Category
-H•i–¼,Food Name
-H•iÚ×,Food details
-ŒŸ¸•û–@,method
-×‹Û–¼,Organism
-‰˜õ”Z“x,Concentration
-’PˆÊ,Unit
-À{‹@ŠÖ,Agency
-’²¸–¼,Survey
+ï»¿Japanese,English
+èª¿æŸ»å¹´,Year
+é£Ÿå“ã‚«ãƒ†ã‚´ãƒª,Food Category
+é£Ÿå“å,Food Name
+é£Ÿå“è©³ç´°,Food details
+æ¤œæŸ»æ–¹æ³•,method
+ç´°èŒå,Organism
+æ±šæŸ“æ¿ƒåº¦,Concentration
+å˜ä½,Unit
+å®Ÿæ–½æ©Ÿé–¢,Agency
+èª¿æŸ»å,Survey
 source URL,Source URL
-‰{——“ú,Access date
-”õl,detail information
-‹“÷,Beef
-Œ{“÷,Chicken
-“Ø“÷,Pork
-‚»‚Ì‘¼‚Ì‰Æ‹×—Ş,Other Poultry
-ƒ\[ƒZ[ƒW,Sausage
-‚»‚Ì‘¼‚Ì“÷—Ş,Other or unknown type of meat
-‹›‰î—Ş,Seafood
-“û—Ş,Milk
-ƒ`[ƒY,Cheese
-‚»‚Ì‘¼‚Ì“û»•i,Other or unknown type of dairy
-—‘‚¨‚æ‚Ñ—‘»•i,Egg or egg product
-—‘—Ş,Egg or egg product
-ƒfƒU[ƒg,Dessert food
-ƒ\[ƒXEƒhƒŒƒbƒVƒ“ƒO,Sauce/Dressing
-Â‰Ê•¨,Vegetable or fruit and their products
-ƒpƒ“,Bread
-ˆù—¿,"Juice, beverage"
-…,Water
-‚»‚Ì‘¼,"Other, mixed, uncategorised or unknown type of food"
-‹¹“÷,breast
-•sŒŸo,not detected
-–¢ŒŸo,not detected
-Œú¶˜J“­È,"Ministry of Health, Labour and Welfare"
-”_—Ñ…YÈ,"Ministry of Agriculture, Forestry and Fisheries"
-‘—§ˆã–ò•iH•i‰q¶Œ¤‹†Š,National Institute of Health Sciences
-ŒŸ‘Ì”,Number of Samples
-—z«”,Number of Positives
-‹ãB‘åŠw,Kyushu University
-‘ÑL’{Y‘åŠw,Obihiro University of Agriculture and Veterinary Medicine
-“Vg‘åŠw,Tenshi College
-“Œ‹ŠC—m‘åŠw,Tokyo University of Marine Science and Technology
-“Œ‹“sŒ’NˆÀ‘SŒ¤‹†ƒZƒ“ƒ^[,Tokyo Metropolitan Institute of Public Health
-“ú–{bˆã¶–½‰ÈŠw‘åŠw,Nippon Veterinary and Life Science University
-˜a‰ÌRŒ§ŠÂ‹«‰q¶Œ¤‹†ƒZƒ“ƒ^[,Wakayama Prefectural Research ‚benter of Environment and Public Health
-‘åãŒ’NˆÀ‘SŠî”ÕŒ¤‹†Š,Osaka Institute of Public Health
-ç—tŒ§‰q¶Œ¤‹†Š,Chiba Prefectural Institute of Public Health
-•Ÿ‰ªs•ÛŒ’ŠÂ‹«Œ¤‹†Š,Fukuoka City Institute of Health and Environment
-•Ÿ‰ªŒ§•ÛŒ’ŠÂ‹«Œ¤‹†Š,Fukuoka Institute of Health and Environmental Sciences
-_“ŞìŒ§‰q¶Œ¤‹†Š,Kanagawa Prefectural Institute of Public Health
-“‡ªŒ§•ÛŒ’ŠÂ‹«‰ÈŠwŒ¤‹†Š,Shimane Prefectural Institute of Public Health and Environment Science
-‹{éŒ§•ÛŒ’ŠÂ‹«ƒZƒ“ƒ^[,Miyagi Prefectural Institute of Public Health and Environment
-é‹ÊŒ§‰q¶Œ¤‹†Š,Saitama Institute of Public Health
-‰¡•ls‰q¶Œ¤‹†Š,Yokohama City Institute of Public Health
-VŠƒŒ§’·‰ªH“÷‰q¶ŒŸ¸ƒZƒ“ƒ^[,Niigata Prefectural Nagaoka Meat Inspection Center
-ˆê”ÊĞ’c–@lŠâèŒ§bˆãt‰ïH‰GŒŸ¸ƒZƒ“ƒ^[,Chicken Inspection Center. Iwate Veterinary Medical Assosiatio
-Šâè‘åŠw,Iwate University
-ŠâèŒ§ŠÂ‹«•ÛŒ’Œ¤‹†ƒZƒ“ƒ^[,Iwate Prefectural Research Institute for Environmental Science and Public Health
-‹“ss‰q¶ŒöŠQŒ¤‹†Š,Kyoto City Institute of Health and Enviromental Sciences
-‰ªRŒ§ŠÂ‹«•ÛŒ’ƒZƒ“ƒ^[,Okayama Prefectural Institute for Environmental Science and Pulic Health
-‘åãsH“÷‰q¶ŒŸ¸Š,"Meat Inspection Center, Osaka City"
-–kŠC“¹—§‰q¶Œ¤‹†Š,Hokkaido Institute of Public Health
-Šò•ŒŒ§•ÛŒ¯ŠÂ‹«Œ¤‹†Š,Gifu Prefectural Research Institute for Health and Environmental Sciences
-“û™H,Infant_food
-ƒLƒ…ƒEƒŠ,Cucumber
-‚«‚ã‚¤‚è,Cucumber
-ƒzƒEƒŒƒ“ƒ\ƒE,Spinach
-‚Ù‚¤‚ê‚ñ‘,Spinach
-ƒgƒ}ƒg,Tomato
-ƒlƒM,Leek
-‚Ë‚¬,Leek
-ƒLƒƒƒxƒc,Cabbage
-‚Í‚­‚³‚¢,Chinese cabbage
-ƒŒƒ^ƒX,Lettuce
-ƒTƒ‰ƒ_Ø,Butterhead lettuce
-ƒzƒEƒŒƒ“ƒ\ƒE,Spinach
-ƒuƒƒbƒRƒŠ[,Broccoli
-ƒZƒƒŠ,Celery
-ƒs[ƒ}ƒ“,Green bell pepper
-ƒXƒvƒ‰ƒEƒg,Sprout
-ƒJƒCƒƒŒ,White radish sprouts
-‚©‚¢‚í‚ê‘åª,White radish sprouts
-ƒuƒƒbƒRƒŠ[ƒXƒvƒ‰ƒEƒg,Broccoli sprouts
-“¤•c,Pea sprout
-‚à‚â‚µ,Bean sprout
-ƒJƒbƒg–ìØ,Cut vegetables
-…Ø,Potherb mustard
-‘åª,Daikon radish
-ƒAƒ‹ƒtƒ@ƒ‹ƒtƒ@,Alfalfa
-’Ğ•¨,pickled foods
-’Ğ‚¯•¨,pickled foods
-ƒ~ƒ“ƒ`“÷(‹),Minced beef
-ƒ~ƒ“ƒ`“÷(“Ø),Minced pork
-ƒ~ƒ“ƒ`“÷(Œ{),Minced chicken
-ƒ[ƒXƒgƒr[ƒt,Roast beef
-ƒ€ƒl“÷,Breast
-ŠÌ‘Ÿ,Liver
-‚«‚Ì‚±,Mushroom
-ƒiƒ`ƒ…ƒ‰ƒ‹ƒ`[ƒY,Natural cheese
-ƒAƒCƒXƒNƒŠ[ƒ€,Ice cream
-s”ÌŒ{“÷‚Ì_Campylobacter_‘®‹Û‚Æ_Listeria_‘®‹Û‚É‚æ‚é‰˜õ,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
-é‹ÊŒ§“à‚Ìs”ÌH“÷‚É‚¨‚¯‚éH’†“Å×‹Û‚Ì‰˜õÀ‘Ô’²¸,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
-ƒAƒCƒXƒNƒŠ[ƒ€»‘¢{İ‚Ì_Listeria monocytogenes_‰˜õó‹µ,Listeria monocytogenes contamination in ice cream processing plants
-’Ğ‚¯•¨»‘¢{İ‚É‚¨‚¯‚é_Listeria monocytogenes_‚Ì‰˜õÀ‘Ô‚É‚Â‚¢‚Ä,Survey of pollution Listeria monocytogenes in pickle production facility
-“Áê”—¿‚ğ‹‹—^‚µ‚½ƒuƒƒCƒ‰[‚Å‚İ‚ç‚ê‚½ƒJƒ“ƒsƒƒoƒNƒ^[’á‰˜õŒ{ŒQ‚Æ‹ô”­“I‹æ•ªˆ—‚Ìöİ“IŒø‰Ê,Low Prevalence of Canpylobacter-positive Flocks in Branded Broiler Chickens Fed a Special Feed and Potential Effect of Unintentional Implementation of Logistic Slaughter
-s”ÌŒ{“÷‚ÌCampylobacter‘®‹Û‚ÆListeria‘®‹Û‚É‚æ‚é‰˜õ,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
-"“Œ‹“s“à‚É—¬’Ê‚·‚é‹“à‘Ÿ“÷‚©‚ç‚Ì•³•ÖŒn‘å’°‹ÛŒQCƒxƒ“Å‘fY¶«‘å’°‹ÛCCampylobacter jejuni/coli,_Salmonella_‚¨‚æ‚Ñ_Listeria monocytogenes_ŒŸoó‹µ","Prevalence of fecal coliforms, Verotoxin Producing Escherichia coli, Campylobacter jejuni, C. coli, Salmonella and Listeria monocytogenes in Beef Offal"
-s”Ì¶H—pŒ{“÷‚ÌƒJƒ“ƒsƒƒoƒNƒ^[CƒTƒ‹ƒ‚ƒlƒ‰CƒŠƒXƒeƒŠƒAEƒ‚ƒmƒTƒCƒgƒQƒlƒX‚¨‚æ‚ÑƒAƒ‹ƒRƒoƒNƒ^[‰˜õ‚Æ„’è‘å’°‹Û”‚ÌŒŸ“¢,"Campylobacter, Salmonella, Listeria monocytogenes, and Arcobacter butzleri Contamination and Enumeration of Presumptive Escherichia coli in Retail Poultry _Sashimi_"
-H“÷‚É‚¨‚¯‚éƒŠƒXƒeƒŠƒA‰˜õÀ‘Ô’²¸,Survey of Listeria Contamination in Raw meat
-Ready-to-eat H•i»‘¢ŠÂ‹«‚ÌƒŠƒXƒeƒŠƒA‰˜õó‹µ‚ÆH•i‚Ì“Á«‚É‰‚¶‚½‰˜õ§Œä‚É‚Â‚¢‚Ä‚Ìl@,Prevalence of Listeria monocytogenes in Ready-To-Eat food processing environments and consideration of contamination control according to food characteristics
-H•i‚©‚ç‚ÌListeria monocytogenesŒŸo–@‚¨‚æ‚Ñ’è—Ê–@‚Ì”äŠr,"Comparison of the Methods for Detection and Enumeration of
+é–²è¦§æ—¥,Access date
+å‚™è€ƒ,detail information
+ç‰›è‚‰,Beef
+é¶è‚‰,Chicken
+è±šè‚‰,Pork
+ãã®ä»–ã®å®¶ç¦½é¡,Other Poultry
+ã‚½ãƒ¼ã‚»ãƒ¼ã‚¸,Sausage
+ãã®ä»–ã®è‚‰é¡,Other or unknown type of meat
+é­šä»‹é¡,Seafood
+ä¹³é¡,Milk
+ãƒãƒ¼ã‚º,Cheese
+ãã®ä»–ã®ä¹³è£½å“,Other or unknown type of dairy
+åµãŠã‚ˆã³åµè£½å“,Egg or egg product
+åµé¡,Egg or egg product
+ãƒ‡ã‚¶ãƒ¼ãƒˆ,Dessert food
+ã‚½ãƒ¼ã‚¹ãƒ»ãƒ‰ãƒ¬ãƒƒã‚·ãƒ³ã‚°,Sauce/Dressing
+é’æœç‰©,Vegetable or fruit and their products
+ãƒ‘ãƒ³,Bread
+é£²æ–™,"Juice, beverage"
+æ°´,Water
+ãã®ä»–,"Other, mixed, uncategorised or unknown type of food"
+èƒ¸è‚‰,breast
+ä¸æ¤œå‡º,not detected
+æœªæ¤œå‡º,not detected
+åšç”ŸåŠ´åƒçœ,"Ministry of Health, Labour and Welfare"
+è¾²æ—æ°´ç”£çœ,"Ministry of Agriculture, Forestry and Fisheries"
+å›½ç«‹åŒ»è–¬å“é£Ÿå“è¡›ç”Ÿç ”ç©¶æ‰€,National Institute of Health Sciences
+æ¤œä½“æ•°,Number of Samples
+é™½æ€§æ•°,Number of Positives
+ä¹å·å¤§å­¦,Kyushu University
+å¸¯åºƒç•œç”£å¤§å­¦,Obihiro University of Agriculture and Veterinary Medicine
+å¤©ä½¿å¤§å­¦,Tenshi College
+æ±äº¬æµ·æ´‹å¤§å­¦,Tokyo University of Marine Science and Technology
+æ±äº¬éƒ½å¥åº·å®‰å…¨ç ”ç©¶ã‚»ãƒ³ã‚¿ãƒ¼,Tokyo Metropolitan Institute of Public Health
+æ—¥æœ¬ç£åŒ»ç”Ÿå‘½ç§‘å­¦å¤§å­¦,Nippon Veterinary and Life Science University
+å’Œæ­Œå±±çœŒç’°å¢ƒè¡›ç”Ÿç ”ç©¶ã‚»ãƒ³ã‚¿ãƒ¼,Wakayama Prefectural Research ï¼£enter of Environment and Public Health
+å¤§é˜ªå¥åº·å®‰å…¨åŸºç›¤ç ”ç©¶æ‰€,Osaka Institute of Public Health
+åƒè‘‰çœŒè¡›ç”Ÿç ”ç©¶æ‰€,Chiba Prefectural Institute of Public Health
+ç¦å²¡å¸‚ä¿å¥ç’°å¢ƒç ”ç©¶æ‰€,Fukuoka City Institute of Health and Environment
+ç¦å²¡çœŒä¿å¥ç’°å¢ƒç ”ç©¶æ‰€,Fukuoka Institute of Health and Environmental Sciences
+ç¥å¥ˆå·çœŒè¡›ç”Ÿç ”ç©¶æ‰€,Kanagawa Prefectural Institute of Public Health
+å³¶æ ¹çœŒä¿å¥ç’°å¢ƒç§‘å­¦ç ”ç©¶æ‰€,Shimane Prefectural Institute of Public Health and Environment Science
+å®®åŸçœŒä¿å¥ç’°å¢ƒã‚»ãƒ³ã‚¿ãƒ¼,Miyagi Prefectural Institute of Public Health and Environment
+åŸ¼ç‰çœŒè¡›ç”Ÿç ”ç©¶æ‰€,Saitama Institute of Public Health
+æ¨ªæµœå¸‚è¡›ç”Ÿç ”ç©¶æ‰€,Yokohama City Institute of Public Health
+æ–°æ½ŸçœŒé•·å²¡é£Ÿè‚‰è¡›ç”Ÿæ¤œæŸ»ã‚»ãƒ³ã‚¿ãƒ¼,Niigata Prefectural Nagaoka Meat Inspection Center
+ä¸€èˆ¬ç¤¾å›£æ³•äººå²©æ‰‹çœŒç£åŒ»å¸«ä¼šé£Ÿçƒæ¤œæŸ»ã‚»ãƒ³ã‚¿ãƒ¼,Chicken Inspection Center. Iwate Veterinary Medical Assosiatio
+å²©æ‰‹å¤§å­¦,Iwate University
+å²©æ‰‹çœŒç’°å¢ƒä¿å¥ç ”ç©¶ã‚»ãƒ³ã‚¿ãƒ¼,Iwate Prefectural Research Institute for Environmental Science and Public Health
+äº¬éƒ½å¸‚è¡›ç”Ÿå…¬å®³ç ”ç©¶æ‰€,Kyoto City Institute of Health and Enviromental Sciences
+å²¡å±±çœŒç’°å¢ƒä¿å¥ã‚»ãƒ³ã‚¿ãƒ¼,Okayama Prefectural Institute for Environmental Science and Pulic Health
+å¤§é˜ªå¸‚é£Ÿè‚‰è¡›ç”Ÿæ¤œæŸ»æ‰€,"Meat Inspection Center, Osaka City"
+åŒ—æµ·é“ç«‹è¡›ç”Ÿç ”ç©¶æ‰€,Hokkaido Institute of Public Health
+å²é˜œçœŒä¿é™ºç’°å¢ƒç ”ç©¶æ‰€,Gifu Prefectural Research Institute for Health and Environmental Sciences
+ä¹³å…é£Ÿ,Infant_food
+ã‚­ãƒ¥ã‚¦ãƒª,Cucumber
+ãã‚…ã†ã‚Š,Cucumber
+ãƒ›ã‚¦ãƒ¬ãƒ³ã‚½ã‚¦,Spinach
+ã»ã†ã‚Œã‚“è‰,Spinach
+ãƒˆãƒãƒˆ,Tomato
+ãƒã‚®,Leek
+ã­ã,Leek
+ã‚­ãƒ£ãƒ™ãƒ„,Cabbage
+ã¯ãã•ã„,Chinese cabbage
+ãƒ¬ã‚¿ã‚¹,Lettuce
+ã‚µãƒ©ãƒ€èœ,Butterhead lettuce
+ãƒ›ã‚¦ãƒ¬ãƒ³ã‚½ã‚¦,Spinach
+ãƒ–ãƒ­ãƒƒã‚³ãƒªãƒ¼,Broccoli
+ã‚»ãƒ­ãƒª,Celery
+ãƒ”ãƒ¼ãƒãƒ³,Green bell pepper
+ã‚¹ãƒ—ãƒ©ã‚¦ãƒˆ,Sprout
+ã‚«ã‚¤ãƒ¯ãƒ¬,White radish sprouts
+ã‹ã„ã‚ã‚Œå¤§æ ¹,White radish sprouts
+ãƒ–ãƒ­ãƒƒã‚³ãƒªãƒ¼ã‚¹ãƒ—ãƒ©ã‚¦ãƒˆ,Broccoli sprouts
+è±†è‹—,Pea sprout
+ã‚‚ã‚„ã—,Bean sprout
+ã‚«ãƒƒãƒˆé‡èœ,Cut vegetables
+æ°´èœ,Potherb mustard
+å¤§æ ¹,Daikon radish
+ã‚¢ãƒ«ãƒ•ã‚¡ãƒ«ãƒ•ã‚¡,Alfalfa
+æ¼¬ç‰©,pickled foods
+æ¼¬ã‘ç‰©,pickled foods
+ãƒŸãƒ³ãƒè‚‰(ç‰›),Minced beef
+ãƒŸãƒ³ãƒè‚‰(è±š),Minced pork
+ãƒŸãƒ³ãƒè‚‰(é¶),Minced chicken
+ãƒ­ãƒ¼ã‚¹ãƒˆãƒ“ãƒ¼ãƒ•,Roast beef
+ãƒ ãƒè‚‰,Breast
+è‚è‡“,Liver
+ãã®ã“,Mushroom
+ãƒŠãƒãƒ¥ãƒ©ãƒ«ãƒãƒ¼ã‚º,Natural cheese
+ã‚¢ã‚¤ã‚¹ã‚¯ãƒªãƒ¼ãƒ ,Ice cream
+å¸‚è²©é¶è‚‰ã®_Campylobacter_å±èŒã¨_Listeria_å±èŒã«ã‚ˆã‚‹æ±šæŸ“,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
+åŸ¼ç‰çœŒå†…ã®å¸‚è²©é£Ÿè‚‰ã«ãŠã‘ã‚‹é£Ÿä¸­æ¯’ç´°èŒã®æ±šæŸ“å®Ÿæ…‹èª¿æŸ»,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
+ã‚¢ã‚¤ã‚¹ã‚¯ãƒªãƒ¼ãƒ è£½é€ æ–½è¨­ã®_Listeria monocytogenes_æ±šæŸ“çŠ¶æ³,Listeria monocytogenes contamination in ice cream processing plants
+æ¼¬ã‘ç‰©è£½é€ æ–½è¨­ã«ãŠã‘ã‚‹_Listeria monocytogenes_ã®æ±šæŸ“å®Ÿæ…‹ã«ã¤ã„ã¦,Survey of pollution Listeria monocytogenes in pickle production facility
+ç‰¹æ®Šé£¼æ–™ã‚’çµ¦ä¸ã—ãŸãƒ–ãƒ­ã‚¤ãƒ©ãƒ¼ã§ã¿ã‚‰ã‚ŒãŸã‚«ãƒ³ãƒ”ãƒ­ãƒã‚¯ã‚¿ãƒ¼ä½æ±šæŸ“é¶ç¾¤ã¨å¶ç™ºçš„åŒºåˆ†å‡¦ç†ã®æ½œåœ¨çš„åŠ¹æœ,Low Prevalence of Canpylobacter-positive Flocks in Branded Broiler Chickens Fed a Special Feed and Potential Effect of Unintentional Implementation of Logistic Slaughter
+å¸‚è²©é¶è‚‰ã®Campylobacterå±èŒã¨Listeriaå±èŒã«ã‚ˆã‚‹æ±šæŸ“,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
+"æ±äº¬éƒ½å†…ã«æµé€šã™ã‚‹ç‰›å†…è‡“è‚‰ã‹ã‚‰ã®ç³ä¾¿ç³»å¤§è…¸èŒç¾¤ï¼Œãƒ™ãƒ­æ¯’ç´ ç”£ç”Ÿæ€§å¤§è…¸èŒï¼ŒCampylobacter jejuni/coli,_Salmonella_ãŠã‚ˆã³_Listeria monocytogenes_æ¤œå‡ºçŠ¶æ³","Prevalence of fecal coliforms, Verotoxin Producing Escherichia coli, Campylobacter jejuni, C. coli, Salmonella and Listeria monocytogenes in Beef Offal"
+å¸‚è²©ç”Ÿé£Ÿç”¨é¶è‚‰ã®ã‚«ãƒ³ãƒ”ãƒ­ãƒã‚¯ã‚¿ãƒ¼ï¼Œã‚µãƒ«ãƒ¢ãƒãƒ©ï¼Œãƒªã‚¹ãƒ†ãƒªã‚¢ãƒ»ãƒ¢ãƒã‚µã‚¤ãƒˆã‚²ãƒã‚¹ãŠã‚ˆã³ã‚¢ãƒ«ã‚³ãƒã‚¯ã‚¿ãƒ¼æ±šæŸ“ã¨æ¨å®šå¤§è…¸èŒæ•°ã®æ¤œè¨,"Campylobacter, Salmonella, Listeria monocytogenes, and Arcobacter butzleri Contamination and Enumeration of Presumptive Escherichia coli in Retail Poultry _Sashimi_"
+é£Ÿè‚‰ã«ãŠã‘ã‚‹ãƒªã‚¹ãƒ†ãƒªã‚¢æ±šæŸ“å®Ÿæ…‹èª¿æŸ»,Survey of Listeria Contamination in Raw meat
+Ready-to-eat é£Ÿå“è£½é€ ç’°å¢ƒã®ãƒªã‚¹ãƒ†ãƒªã‚¢æ±šæŸ“çŠ¶æ³ã¨é£Ÿå“ã®ç‰¹æ€§ã«å¿œã˜ãŸæ±šæŸ“åˆ¶å¾¡ã«ã¤ã„ã¦ã®è€ƒå¯Ÿ,Prevalence of Listeria monocytogenes in Ready-To-Eat food processing environments and consideration of contamination control according to food characteristics
+é£Ÿå“ã‹ã‚‰ã®Listeria monocytogenesæ¤œå‡ºæ³•ãŠã‚ˆã³å®šé‡æ³•ã®æ¯”è¼ƒ,"Comparison of the Methods for Detection and Enumeration of
 Listeria monocytogenes in Food"
-‰è•¨–ìØ“™‚Ì×‹Û‰˜õÀ‘Ô’²¸i2006~2007j,Contamination of Bacteria in Sprouts (2006~2007)
-s”Ìƒiƒ`ƒ…ƒ‰ƒ‹ƒ`[ƒY‚©‚ç‚ÌƒŠƒXƒeƒŠƒA‹Û‚ÌŒŸo,Detection of Listeria monocytogenes in one imported natural cheese
-Œ§“à‚É‚¨‚¯‚éƒTƒ‹ƒ‚ƒlƒ‰‘®‹Û‚Ì–òÜ‘Ï«’²¸,Salmonella drug resistance survey in Wakayama prefecture
-Listeria monocytogenes_‚É‚æ‚é ready-to-eat H•i‚Ì‰˜õÀ‘Ô,Isolation of Listeria monocytogenes from the ready-to-eat Foods
-‚»‚Ì‘¼*1‚Ì¶H—p–ìØ,Other type of vegetable to be eaten raw
-¶H—p‚ÌH“÷(‹),Beef tobe eaten raw
-ƒ~ƒ“ƒ`“÷(‹“Ø¬‡),Mix miced meat (beef and pork)
-‹ƒŒƒo[(‰Á”M‰ÁH—p),Liver for cooking
-‹ƒŒƒo[(¶H—p),Liver to be eaten raw
-”nh,Horse meat sashimi
-Œ{‚½‚½‚«,Lightly roasted chicken
-Œ{»‚¸‚è,Gizzard
-Œ{h‚µ,Chicken sashimi
-‚İ‚Â‚Î,Japanese honewort
-‚»‚Ì‘¼‚Ì‰ÁH—pH“÷“™*3,Other type of meat for cooking
-ƒ~ƒjƒgƒ}ƒg,grape tomato
-ƒTƒ‰ƒ_ƒzƒEƒŒƒ“‘,Baby spinach
-’Ğ•¨—p–ìØ,Vegetable for pickling
-H“÷‰ÁH•i*4,Meat product
-–Ó’°“à—e•¨,Cecal content
-•³•ÖƒTƒ“ƒvƒ‹,Fecal sample
-”ç•†ƒXƒƒuÌæƒTƒ“ƒvƒ‹,cutaneous swabs
+èŠ½ç‰©é‡èœç­‰ã®ç´°èŒæ±šæŸ“å®Ÿæ…‹èª¿æŸ»ï¼ˆ2006~2007ï¼‰,Contamination of Bacteria in Sprouts (2006~2007)
+å¸‚è²©ãƒŠãƒãƒ¥ãƒ©ãƒ«ãƒãƒ¼ã‚ºã‹ã‚‰ã®ãƒªã‚¹ãƒ†ãƒªã‚¢èŒã®æ¤œå‡º,Detection of Listeria monocytogenes in one imported natural cheese
+çœŒå†…ã«ãŠã‘ã‚‹ã‚µãƒ«ãƒ¢ãƒãƒ©å±èŒã®è–¬å‰¤è€æ€§èª¿æŸ»,Salmonella drug resistance survey in Wakayama prefecture
+Listeria monocytogenes_ã«ã‚ˆã‚‹ ready-to-eat é£Ÿå“ã®æ±šæŸ“å®Ÿæ…‹,Isolation of Listeria monocytogenes from the ready-to-eat Foods
+ãã®ä»–*1ã®ç”Ÿé£Ÿç”¨é‡èœ,Other type of vegetable to be eaten raw
+ç”Ÿé£Ÿç”¨ã®é£Ÿè‚‰(ç‰›),Beef tobe eaten raw
+ãƒŸãƒ³ãƒè‚‰(ç‰›è±šæ··åˆ),Mix miced meat (beef and pork)
+ç‰›ãƒ¬ãƒãƒ¼(åŠ ç†±åŠ å·¥ç”¨),Liver for cooking
+ç‰›ãƒ¬ãƒãƒ¼(ç”Ÿé£Ÿç”¨),Liver to be eaten raw
+é¦¬åˆº,Horse meat sashimi
+é¶ãŸãŸã,Lightly roasted chicken
+é¶ç ‚ãšã‚Š,Gizzard
+é¶åˆºã—,Chicken sashimi
+ã¿ã¤ã°,Japanese honewort
+ãã®ä»–ã®åŠ å·¥ç”¨é£Ÿè‚‰ç­‰*3,Other type of meat for cooking
+ãƒŸãƒ‹ãƒˆãƒãƒˆ,grape tomato
+ã‚µãƒ©ãƒ€ãƒ›ã‚¦ãƒ¬ãƒ³è‰,Baby spinach
+æ¼¬ç‰©ç”¨é‡èœ,Vegetable for pickling
+é£Ÿè‚‰åŠ å·¥å“*4,Meat product
+ç›²è…¸å†…å®¹ç‰©,Cecal content
+ç³ä¾¿ã‚µãƒ³ãƒ—ãƒ«,Fecal sample
+çš®è†šã‚¹ãƒ¯ãƒ–æ¡å–ã‚µãƒ³ãƒ—ãƒ«,cutaneous swabs
