@@ -1,8 +1,5 @@
 Japanese,English
 調査年,Year
-地域ID,Region ID
-検査施設,Facility
-農産物カテゴリ,Product Category
 食品カテゴリ,Food Category
 食品名,Food Name
 食品詳細,Food details
@@ -12,6 +9,8 @@ Japanese,English
 単位,Unit
 実施機関,Agency
 調査名,Survey
+source URL,Source URL
+閲覧日,Access date
 備考,detail information
 牛肉,Beef
 鶏肉,Chicken
@@ -34,10 +33,10 @@ Japanese,English
 その他,"Other, mixed, uncategorised or unknown type of food"
 胸肉,breast
 不検出,not detected
+未検出,not detected
 厚生労働省,"Ministry of Health, Labour and Welfare"
 農林水産省,"Ministry of Agriculture, Forestry and Fisheries"
 国立医薬品食品衛生研究所,National Institute of Health Sciences
-source URL,Source URL
 検体数,Number of Samples
 陽性数,Number of Positives
 九州大学,Kyushu University
@@ -135,3 +134,4 @@ Listeria monocytogenes_による ready-to-eat 食品の汚染実態,Isolation of Listeria 
 食肉加工品*4,Meat product
 盲腸内容物,Cecal content
 糞便サンプル,Fecal sample
+皮膚スワブ採取サンプル,cutaneous swabs
