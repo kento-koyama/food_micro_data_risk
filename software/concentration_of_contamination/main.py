@@ -371,6 +371,7 @@ else:
                     ax3.tick_params(axis='both', which='major', labelsize=size_label)
                     ax3.set_box_aspect(1)
                     st.pyplot(fig3)
+                    plt.close(fig3)
         st.write('-----------')
     
     else:
@@ -411,6 +412,7 @@ else:
                 ax3.tick_params(axis='both', which='major', labelsize=size_label)
                 ax3.set_box_aspect(1)
                 st.pyplot(fig3)
+                plt.close(fig3)
     
     # 選択された食品カテゴリと食品名に該当するデータを表示
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ{group_title}')
