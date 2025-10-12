@@ -224,6 +224,7 @@ else:
                 ax3.set_title(f"Distribution of Concentration for {bact_label} {group_title}", fontsize=size_title)
                 ax3.tick_params(axis='both', labelsize=size_label)
                 st.pyplot(fig3)
+                plt.close(fig3)
 
     st.write("-----------")
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
