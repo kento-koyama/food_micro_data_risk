@@ -168,9 +168,13 @@
 | 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1943/617283.pdf)<br>(宮城県保健環境センター年報　第25号 p45~48) | 未登録 |
 | 2004-2008 | **東京海洋大学** <br> [Risk of _Listeria monocytogenes_ Contamination of Raw Ready-To-Eat Seafood Products Available at Retail Outlets in Japan](https://journals.asm.org/doi/full/10.1128/aem.01456-09) | 未登録 |
 | 2005 | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) | 済 |
+| 2005 | **広島市衛生研究所** <br> [鶏肉からのカンピロバクターの定量および定性検査法の有効性評価](https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/023/132/57088.pdf) <br>（広島市衛生研究所年報, 25, pp.44-46, 2006） | 未登録 |
+| 2005 | **富山県衛生研究所** <br> [富山県におけるカンピロバクター分離状況(2005年)](https://www.pref.toyama.jp/documents/13568/nenpou29h17_1.pdf) <br>（富山県衛生研究所年報, 29 (2006), pp.174-177） | 未登録 |
 | 2005 | **岡山県環境保健センター** <br> [動物を含めた環境中及び食肉のリステリア汚染状況と迅速な菌種同定](https://www.pref.okayama.jp/uploaded/life/49801_174922_misc.pdf) | 未登録 |
+| 2004-2005 | **宮城県保健環境センター** <br> [鶏肉からの効率的なカンピロバクターの分離の検討と分離菌の性状](https://www.pref.miyagi.jp/documents/1943/617297.pdf) <br>（宮城県保健環境センター年報, 第24号, pp.117~120,2006） | 未登録 |
 | 2004 | **岡山県環境保健センター** <br> [動物を含めた環境中及び調理用食肉のリステリア汚染状況](https://www.pref.okayama.jp/uploaded/life/49802_174943_misc.pdf) | 未登録 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態調査について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br> (埼玉県衛生研究所報 2005, vol. 39, p.151-153) | 済 |
+| 2002-2003 | **香川県環境保健研究センター** <br> [鶏肉における _Campylobacter_ および _Salmonella_ の汚染状況](https://www.pref.kagawa.lg.jp/documents/2480/s8cm2a170906165025_f23_1.pdf) <br>（香川県環境保健研究センター所報 第3号, 2004, pp.187-190） | 未登録 |
 | 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立国会図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) | 済 |
 | 2001 | **国立感染症研究所** <br> [食品由来のリステリア菌の健康被害に関する研究(総括研究報告書)](https://mhlw-grants.niph.go.jp/project/5920) | 未登録 |
