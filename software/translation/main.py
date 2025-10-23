@@ -34,7 +34,7 @@ if uploaded_file:
         translation_df = pd.read_csv(translation_path, encoding="utf-8-sig")
         # 辞書のクリーニング
         translation_df["Japanese"] = translation_df["Japanese"].astype(str).str.strip()
-        translation_df["Japanese"] = translation_df["Japanese"].applymap(normalize_text)
+        translation_df["Japanese"] = normalize_text(translation_df["Japanese"])
         translation_df["English"] = translation_df["English"].astype(str).str.strip()
         # DataFrame のカラム名もクリーニング
         df.columns = df.columns.str.strip()
