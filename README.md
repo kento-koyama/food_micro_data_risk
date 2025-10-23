@@ -190,11 +190,9 @@
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業） <br> 「と畜・食鳥処理場におけるHACCP検証方法の確立と食鳥処理工程の高度衛生管理に関する研究」 <br> 分担研究報告書[「めん羊枝肉表面の切除法による細菌汚染状況」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/7.%20%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E2%91%A1%20p46-51.pdf) | 済 |
-| 2022 | **岐阜県保険環境研究所** <br> [_Salmonella_ lnfantisにより軽度に汚染された保育園給食を原因とする食中毒事例](https://www.jstage.jst.go.jp/article/jsfm/39/1/39_33/_pdf) | 済 |
 | 2020 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の定量汚染の調査」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan3.pdf) | 済 |
 | 2019 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉加工製品におけるサルモネラ等の汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0006.pdf) | 済 |
 | 2010 | **農林水産省** <br> [ブロイラー鶏群から製造された中抜きと体及び鶏肉のサルモネラ濃度調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/07.html#21222) | 済 |
-| 2005 | **岩手県環境保健研究センター** <br> [同時期に _Salmonella_ Weltevreden および _Salmonella_ Saintpaul が分離された食中毒2事例](https://www.jstage.jst.go.jp/article/jsfm1994/23/3/23_3_165/_pdf/-char/ja) | 済 |
 | 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) <br>（日本獣医師会雑誌, 67巻, 442~448, 2014） | 済 |
 <!-- endtable -->
 
