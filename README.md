@@ -186,7 +186,7 @@
 <!-- table:table_EHEC -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
-| 2003 | **大阪市食肉衛生検査所** <br> [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://agriknowledge.affrc.go.jp/RN/2010720847.pdf) | 済 |
+| 2003 | **大阪市食肉衛生検査所** <br> [夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性](https://www.jstage.jst.go.jp/article/jvma1951/58/3/58_3_205/_pdf/-char/ja) <br> （日本獣医師会雑誌, 58巻3号, p.205-207, 2005 ([参考]((https://agriknowledge.affrc.go.jp/RN/2010720847.pdf)))） | 済 |
 <!-- endtable -->
 
 #### 1.2.4 サルモネラ (_Salmonella_ spp., 例: _Salmonella_ Infantis など)
