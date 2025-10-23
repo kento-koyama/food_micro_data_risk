@@ -1,7 +1,7 @@
 ﻿調査年,食品カテゴリ,食品名,食品詳細,検査方法,細菌名,汚染濃度,単位,実施機関,調査名,source URL,閲覧日,備考
-2021,鶏肉,成鶏 (中抜き),,plate_count,Campylobacter spp.,0.49,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
-2021,鶏肉,肉用若鳥 (中抜き),,plate_count,Campylobacter spp.,0.73,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
-2021,鶏肉,肉用若鳥 (外剥ぎ),,plate_count,Campylobacter spp.,0.17,log CFU/g,,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
+2021,鶏肉,成鶏 (中抜き),,plate_count,Campylobacter spp.,0.49,log CFU/g,未特定,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
+2021,鶏肉,肉用若鳥 (中抜き),,plate_count,Campylobacter spp.,0.73,log CFU/g,未特定,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
+2021,鶏肉,肉用若鳥 (外剥ぎ),,plate_count,Campylobacter spp.,0.17,log CFU/g,未特定,令和元年度と畜場及び食鳥処理場に関する実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問い合わせ: 要; 
 2018~2019,青果物,スプラウト,かいわれ大根,plate_count,Listeria monocytogenes,50,CFU/g,農林水産省,施設におけるスプラウトの衛生管理の取組状況等に関する調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf,,検査方法_詳細: ISO 11290-2:1998/Amd.1 2004; 
 2000~2015,ソーセージ,ソーセージ,,plate_count,Listeria monocytogenes,65,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,ソーセージ,ソーセージ,,plate_count,Listeria monocytogenes,35,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
@@ -9,7 +9,7 @@
 2000~2015,ソーセージ,ソーセージ,,plate_count,Listeria monocytogenes,5,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,ソーセージ,ソーセージ,,MPN,Listeria monocytogenes,2.1,MPN/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,
 2000~2015,ソーセージ,ソーセージ,,MPN,Listeria monocytogenes,0.36,MPN/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,
-2000~2015,,いかとんび,,plate_count,Listeria monocytogenes,290,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
+2000~2015,魚介類,いかとんび,,plate_count,Listeria monocytogenes,290,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,魚介類,マグロスライス,,plate_count,Listeria monocytogenes,5,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,魚介類,ネギトロ,,plate_count,Listeria monocytogenes,5,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,その他の肉類,生ハム,,plate_count,Listeria monocytogenes,5,CFU/g,東京都健康安全研究センター,食品からのListeria monocytogenes検出法 および定量法の比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
