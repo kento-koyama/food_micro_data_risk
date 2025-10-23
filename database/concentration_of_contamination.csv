@@ -1,7 +1,7 @@
 ﻿Year,Food Category,Food Name,Food details,method,Organism,Concentration,Unit,Agency,Survey,Source URL,Access Date,detail information
-2021,Chicken,成鶏 (中抜キ),,plate_count,Campylobacter spp.,0.49,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
-2021,Chicken,肉用若鳥 (中抜キ),,plate_count,Campylobacter spp.,0.73,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
-2021,Chicken,肉用若鳥 (外剥ギ),,plate_count,Campylobacter spp.,0.17,log CFU/g,,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
+2021,Chicken,成鶏 (中抜キ),,plate_count,Campylobacter spp.,0.49,log CFU/g,unspecified,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
+2021,Chicken,肉用若鳥 (中抜キ),,plate_count,Campylobacter spp.,0.73,log CFU/g,unspecified,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
+2021,Chicken,肉用若鳥 (外剥ギ),,plate_count,Campylobacter spp.,0.17,log CFU/g,unspecified,令和元年度ト畜場及ビ食鳥処理場ニ関スル実態調査,https://www.mhlw.go.jp/content/11130500/000803740.pdf,,value: 平均値; 問イ合ワセ: 要; 
 2018~2019,Vegetable or fruit and their products,Sprout,White radish sprouts,plate_count,Listeria monocytogenes,50,CFU/g,"Ministry of Agriculture, Forestry and Fisheries",施設ニオケルスプラウトノ衛生管理ノ取組状況等ニ関スル調査,https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf,,検査方法_詳細: ISO 11290-2:1998/Amd.1 2004; 
 2000~2015,Sausage,Sausage,,plate_count,Listeria monocytogenes,65,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,Sausage,Sausage,,plate_count,Listeria monocytogenes,35,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
@@ -9,7 +9,7 @@
 2000~2015,Sausage,Sausage,,plate_count,Listeria monocytogenes,5,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,Sausage,Sausage,,MPN,Listeria monocytogenes,2.1,MPN/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,
 2000~2015,Sausage,Sausage,,MPN,Listeria monocytogenes,0.36,MPN/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,
-2000~2015,,イカトンビ,,plate_count,Listeria monocytogenes,290,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
+2000~2015,Seafood,イカトンビ,,plate_count,Listeria monocytogenes,290,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,Seafood,マグロスライス,,plate_count,Listeria monocytogenes,5,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,Seafood,ネギトロ,,plate_count,Listeria monocytogenes,5,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
 2000~2015,Other or unknown type of meat,生ハム,,plate_count,Listeria monocytogenes,5,CFU/g,Tokyo Metropolitan Institute of Public Health,食品カラノListeria monocytogenes検出法 オヨビ定量法ノ比較,https://www.jstage.jst.go.jp/article/jsfm/33/3/33_155/_pdf,,検査方法_詳細: ISO定量法;
