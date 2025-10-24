@@ -142,6 +142,8 @@ if edible_only:
     if 'Food Name' in df_filtered.columns:
         df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("内容物", case=False, na=False))]
         df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Cecal content", case=False, na=False))]
+        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Gut content", case=False, na=False))]
+        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Fecal sample", case=False, na=False))]
 
 # Default condition handling
 group_title = f"({sel_cat} - {sel_name} - {sel_bact} - {sel_inst})" if any(v != 'All' for v in [sel_cat, sel_name, sel_bact, sel_inst]) else "(All)"
