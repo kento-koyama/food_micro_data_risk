@@ -51,6 +51,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
+#MainMenu {visibility: hidden;}
 @import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css');
 </style>
 """, unsafe_allow_html=True)
@@ -297,6 +298,7 @@ else:
     positive_df = df_filtered_display[df_filtered_display['陽性数'] >= 1]
     st.subheader(f'陽性数が1以上のデータ {group_title}')
     st.dataframe(positive_df, hide_index=True)
+
 
 
 # 現在のページを指定
