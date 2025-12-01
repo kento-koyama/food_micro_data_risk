@@ -261,6 +261,20 @@ language_switch_html = f"""
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
 
+HIDE_MENU_STYLE = """
+<style>
+#MainMenu {
+    visibility: hidden;
+    height: 0%;
+}
+header {
+    visibility: hidden;
+    height: 0%;
+}
+</style>
+"""
+st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
+
 # Link
 contact_link = """
     <style>
