@@ -467,6 +467,13 @@ language_switch_html = f"""
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
 
+# デフォルトのメニューバーを非表示
+HIDE_MENU_STYLE = """
+<style>
+#MainMenu {visibility: hidden;}
+</style>
+"""
+st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
 
 # お問い合わせリンクの追加
 contact_link = """
