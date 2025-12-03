@@ -208,6 +208,14 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) <br>（東京健康安全研究センター年報, 55, 2004） | 済 |
 <!-- endtable -->
 
+#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_）
+<!-- table:table_Staphylococcus -->
+| 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
+| --- | --- | --- |
+| 2022-2023 | **国立医薬品食品衛生研究所** <br> [Contamination of Japanese Retail Foods With Enterotoxigenic _Clostridium Perfringens_ Spores](https://www.sciencedirect.com/science/article/pii/S0362028X24002138) <br> (Journal of Food Protection., 2025; 88: 100429) | 未登録 |
+| 2019-2020 | **広島県立大学** <br> [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809) <br> (Anaerobe volume 79, 2023, 102687) | 未登録 |
+| 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 未登録 |
+<!-- endtable -->
 
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
