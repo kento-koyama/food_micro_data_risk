@@ -209,7 +209,7 @@
 <!-- endtable -->
 
 #### 1.2.6 ウェルシュ菌（_Clostridium perfringens_）
-<!-- table:table_Staphylococcus -->
+<!-- table:table_Clostridium -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022-2023 | **国立医薬品食品衛生研究所** <br> [Contamination of Japanese Retail Foods With Enterotoxigenic _Clostridium Perfringens_ Spores](https://www.sciencedirect.com/science/article/pii/S0362028X24002138) <br> (Journal of Food Protection., 2025; 88: 100429) | 未登録 |
