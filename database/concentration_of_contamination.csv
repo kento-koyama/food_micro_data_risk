@@ -1,4 +1,4 @@
-﻿Year,Food Category,Food Name,Food Details,Method,Organism,Concentration,Unit,Agency,Survey,Source URL,Access Date,detailed information
+﻿Year,Food Category,Food Name,Food Details,Method,Organism,Concentration,Unit,Agency,Survey,Source URL,Access Date,detail information
 2021,Chicken,Broiler Chicken (Boneless),,plate_count,Campylobacter spp.,0.49,log CFU/g,unspecified,Survey on the Actual Conditions of Slaughterhouses and Poultry Processing Plants in Fiscal Year 2019,https://www.mhlw.go.jp/content/11130500/000803740.pdf,, value: average value; inquiry: required; 
 2021,Chicken,Broiler chickens (gutted),,plate_count,Campylobacter spp.,0.73,log CFU/g,unspecified,Survey on the Actual Conditions of Slaughterhouses and Poultry Processing Plants in Fiscal Year 2019,https://www.mhlw.go.jp/content/11130500/000803740.pdf,, value: average value; inquiry: required; 
 2021,Chicken,Broiler Chicken (Hulled),,plate_count,Campylobacter spp.,0.17,log CFU/g,unspecified,Survey on the Actual Conditions of Slaughterhouses and Poultry Processing Plants in Fiscal Year 2019,https://www.mhlw.go.jp/content/11130500/000803740.pdf,, value: average value; inquiry: required; 
