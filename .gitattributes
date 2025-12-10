@@ -1,0 +1,7 @@
+# 全てのテキストファイルを自動的にLFに統一する
+* text=auto eol=lf
+
+# 必要であれば拡張子ごとに明示も可能
+*.csv text eol=lf
+*.R text eol=lf
+*.py text eol=lf
