@@ -251,6 +251,7 @@ else:
         with col4:
             fig2, ax2 = plt.subplots(figsize=(8, 8))
             ax2.barh(bacteria_counts['表示名_LaTeX'], bacteria_counts['陽性率 (%)'], color='skyblue')
+            ax2.set_xlim([0,100])
             ax2.set_xlabel('陽性率 (%)', fontsize=size_label)
             ax2.set_ylabel('細菌名', fontsize=size_label)
             ax2.set_title(f'細菌の陽性率\n{group_title}', fontsize=size_title)
@@ -275,6 +276,7 @@ else:
         with col6:
             fig3, ax3 = plt.subplots(figsize=(8, 8))
             ax3.barh(category_summary['食品カテゴリ'], category_summary['陽性率 (%)'], color='skyblue')
+            ax3.set_xlim([0,100])
             ax3.set_xlabel('陽性率 (%)', fontsize=size_label)
             ax3.set_ylabel('食品カテゴリ', fontsize=size_label)
             ax3.set_title(f'食品カテゴリごとの陽性率\n{group_title}', fontsize=size_title)
