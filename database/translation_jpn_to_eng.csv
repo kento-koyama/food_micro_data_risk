@@ -27,6 +27,7 @@ Ready-to-eat,Ready-to-Eat (RTE)
 きくらげ,Wood ear mushrooms
 きのこ,Mushroom
 キャベツ,Cabbage
+鶏豚混合ミンチ肉,Mix miced meat (chicken and pork)
 牛豚混合ミンチ肉,Mix miced meat (beef and pork)
 牛ミンチ肉,Minced beef
 きゅうり,Cucumber
@@ -91,7 +92,7 @@ Ready-to-eat,Ready-to-Eat (RTE)
 スプラウト(原料種子),Sprouting seeds
 魚卵(生),Roe
 スモークサーモン,Smoked salmon
-エンドウ,Pea
+えんどう,Pea
 卵殻,Chicken eggshell
 鶏卵,Chicken egg
 液卵,Liquid egg products
@@ -185,6 +186,11 @@ RTE食品など,RTE foods and similar products
 卵・卵製品,Egg or egg product
 加熱加工用,For heat processing
 生食用,For raw consumption
+冷蔵,Chilled
+国産,Domestic
+輸入,Imported
+定性検査,Qualitative test
+定量検査,Quantitative test
 2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性,Prevalence and Antimicrobial Resistance of Campylobacter and Salmonella in Broiler Flocks and Breast Meat at Two Processing Plants
 Listeria monocytogenes_による ready-to-eat 食品の汚染実態,Isolation of Listeria monocytogenes from the ready-to-eat Foods
 MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査,MPN and Direct-plate Methods Used to Enumerate Campylobacter spp. in Commercial Chicken Livers
