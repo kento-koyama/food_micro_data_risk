@@ -37,7 +37,8 @@ Ready-to-eat,Ready-to-Eat (RTE)
 サラダ菜,Butterhead lettuce
 しょうが,Ginger
 スイートコーン,Sweet corn
-水産物,Seafood
+水産物,Aquatic food product
+魚介類,Seafood
 ズッキーニ,Courgette
 スプラウト,Sprout
 セロリ,Celery
@@ -76,6 +77,40 @@ Ready-to-eat,Ready-to-Eat (RTE)
 ローストビーフ,Roast beef
 牛レバー（肝臓）,Beef liver
 牛肉,Beef
+鶏内臓肉,Chicken organ meat
+バター,Butter
+クリーム,Cream
+スプラウト(原料種子),Sprouting seeds
+魚卵(生),Roe
+卵殻,Chicken eggshell
+鶏卵,Chicken egg
+牛ハツ(心臓),Beef heart
+ハラミ(横隔膜肉),Outside Skirt
+テール(尾),Beef tail
+牛タン(舌),Beef tongue
+ハチノス(第2胃),Honeycomb Tripe
+センマイ(第3胃),Book Tripe
+ギアラ(第4胃),Abomasum
+モウチョウ(盲腸),Caecum
+サラミ,Salami
+生ハム,Prosciutto
+正肉,Lean meat
+豚タン(舌),Pork tongue
+カシラ,Pork head
+シロ(小腸),Pork small intestine
+豚ハツ(心臓),Pork heart
+豚マメ(腎臓),Pork kidney
+手羽先,Chicken wing
+果物,Fruits
+根菜,Root vegetables
+合鴨肉,Duck meat
+洋生菓子,Unbaked cake
+枝肉拭き取り検体,Carcass swab
+その他のミンチ肉,Other minced meat
+皮膚拭き取りサンプル,Cutaneous swabs
+鼻腔拭き取りサンプル,Nasal swab
+牛結着肉,Restructured beef
+牛刺し,Beef sashimi
 鶏レバー（肝臓）,Chicken liver
 鶏刺し,Chicken sashimi
 鶏肉,Chicken
@@ -93,7 +128,6 @@ Ready-to-eat,Ready-to-Eat (RTE)
 乳・乳製品,"Milk, other or unknown type of daily"
 馬刺し,Horse meat sashimi
 白ネギ,Japanese long onion (white)
-皮膚スワブ採取サンプル,Cutaneous swabs
 糞便サンプル,Fecal sample
 羊肉,Sheep meat
 卵・卵製品,Egg or egg product
