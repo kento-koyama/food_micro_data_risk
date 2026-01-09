@@ -4,7 +4,7 @@
 食品カテゴリ,Food Category
 食品名,Food Name
 食品詳細,Food details
-検査方法,method
+検査方法,Method
 細菌名,Organism
 汚染濃度,Concentration
 単位,Unit
@@ -12,7 +12,7 @@
 調査名,Survey
 source URL,Source URL
 閲覧日,Access Date
-備考,detail information
+備考,Remarks
 食材,Ingredients
 Ready-to-eat,Ready-to-Eat (RTE)
 非可食部,Non-edible Parts
@@ -128,7 +128,7 @@ Ready-to-eat,Ready-to-Eat (RTE)
 鼻腔拭き取りサンプル,Nasal swab
 クラゲとウニ,Jellyfish with urchin eggs
 ゆで魚介,Boiled seafood
-貝類,shellfish
+貝類,Shellfish
 浅漬け,Lightly pickled vegetables
 直腸拭き取りサンプル,Rectal swab
 魚卵加工品,Processed fish roe
@@ -169,7 +169,7 @@ RTE食品など,RTE foods and similar products
 水菜,Potherb mustard
 大根,Daikon radish
 猪肉,Brawn
-漬け物,pickled foods
+漬け物,Pickled foods
 漬物野菜,Vegetable for pickling
 豆苗,Pea sprout
 豚肉,Pork
