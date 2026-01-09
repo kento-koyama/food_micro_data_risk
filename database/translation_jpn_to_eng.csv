@@ -1,5 +1,6 @@
 ﻿Japanese,English
 調査年,Year
+食品取扱区分,Food Handling Classification
 食品カテゴリ,Food Category
 食品名,Food Name
 食品詳細,Food details
@@ -12,6 +13,9 @@
 source URL,Source URL
 閲覧日,Access Date
 備考,detail information
+食材,Ingredients
+Ready-to-eat,Ready-to-Eat (RTE)
+非可食部,Non-edible Parts
 アイスクリーム,Ice cream
 アスパラガス,Asparagus
 アボカド,Avocado
@@ -77,6 +81,7 @@ source URL,Source URL
 鶏肉,Chicken
 砂肝,Gizzard
 消化管内容物,Gut content
+盲腸内容物,Cecal content
 食肉加工品,Meat product
 水菜,Potherb mustard
 大根,Daikon radish
