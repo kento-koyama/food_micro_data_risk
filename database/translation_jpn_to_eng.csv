@@ -12,26 +12,86 @@
 source URL,Source URL
 閲覧日,Access Date
 備考,detail information
-牛肉,Beef
-鶏肉,Chicken
-豚肉,Pork
-その他の家禽類,Other Poultry
+アイスクリーム,Ice cream
+アスパラガス,Asparagus
+アボカド,Avocado
+アルファルファ,Alfalfa
+かいわれ大根,White radish sprouts
+カット野菜,Cut vegetables
+かぼちゃ,Squash
+キウイ,Kiwi fruit
+きくらげ,Wood ear mushrooms
+きのこ,Mushroom
+キャベツ,Cabbage
+牛豚混合ミンチ肉,Mix miced meat (beef and pork)
+牛ミンチ肉,Minced beef
+きゅうり,Cucumber
+ゴボウ,Burdock
+ササミ,Sasami
+サラダ,Salad
+サラダホウレン草,Baby spinach
+サラダ菜,Butterhead lettuce
+しょうが,Ginger
+スイートコーン,Sweet corn
+水産物,Seafood
+ズッキーニ,Courgette
+スプラウト,Sprout
+セロリ,Celery
 ソーセージ,Sausage
-その他の肉類,Other or unknown type of meat
-魚介類,Seafood
-乳類,Milk
-チーズ,Cheese
-その他の乳製品,Other or unknown type of dairy
-卵および卵製品,Egg or egg product
-卵類,Egg or egg product
-デザート,Dessert food
-ソース・ドレッシング,Sauce/Dressing
-青果物,Vegetable or fruit and their products
-パン,Bread
-飲料,"Juice, beverage"
-水,Water
 その他,"Other, mixed, uncategorised or unknown type of food"
-胸肉,breast
+その他の生食用野菜,Other type of vegetable to be eaten raw
+その他の加工用食肉等,Other type of meat for cooking
+チーズ,Cheese
+チェリー,Cherry
+トマト,Tomato
+鶏ミンチ肉,Minced chicken
+ナチュラルチーズ,Natural cheese
+肉類（その他）,Other or unknown type of meat
+ニンジン,Carrot
+ネギ,Leek
+農産物,Vegetable or fruit and their products
+はくさい,Chinese cabbage
+バナナ,Banana
+ピーマン,Green bell pepper
+豚レバー（肝臓）,Pork liver
+豚ミンチ肉,Minced pork
+ブドウ,Grape
+ブロッコリー,Broccoli
+ブロッコリースプラウト,Broccoli sprouts
+ほうれん草,Spinach
+マンゴー,Mango
+みつば,Japanese honewort
+ミニトマト,grape tomato
+みょうが,Myoga (Japanese ginger)
+むね肉,breast
+もも肉,Leg
+もやし,Bean sprout
+ライチ,Litchee
+レタス,Lettuce
+レンコン,Lotus root
+ローストビーフ,Roast beef
+牛レバー（肝臓）,Beef liver
+牛肉,Beef
+鶏レバー（肝臓）,Chicken liver
+鶏刺し,Chicken sashimi
+鶏肉,Chicken
+砂肝,Gizzard
+消化管内容物,Gut content
+食肉加工品,Meat product
+水菜,Potherb mustard
+大根,Daikon radish
+猪肉,Brawn
+漬け物,pickled foods
+漬物野菜,Vegetable for pickling
+豆苗,Pea sprout
+豚肉,Pork
+乳・乳製品,"Milk, other or unknown type of daily"
+馬刺し,Horse meat sashimi
+白ネギ,Japanese long onion (white)
+皮膚スワブ採取サンプル,Cutaneous swabs
+糞便サンプル,Fecal sample
+羊肉,Sheep meat
+卵・卵製品,Egg or egg product
 不検出,not detected
 未検出,not detected
 厚生労働省,"Ministry of Health, Labour and Welfare"
@@ -64,43 +124,6 @@ source URL,Source URL
 大阪市食肉衛生検査所,"Meat Inspection Center, Osaka City"
 北海道立衛生研究所,Hokkaido Institute of Public Health
 岐阜県保険環境研究所,Gifu Prefectural Research Institute for Health and Environmental Sciences
-乳児食,Infant_food
-キュウリ,Cucumber
-きゅうり,Cucumber
-ホウレンソウ,Spinach
-ほうれん草,Spinach
-トマト,Tomato
-ネギ,Leek
-白ねぎ,Japanese long onion (white)
-キャベツ,Cabbage
-はくさい,Chinese cabbage
-レタス,Lettuce
-サラダ菜,Butterhead lettuce
-ホウレンソウ,Spinach
-ブロッコリー,Broccoli
-セロリ,Celery
-ピーマン,Green bell pepper
-スプラウト,Sprout
-カイワレ,White radish sprouts
-かいわれ大根,White radish sprouts
-ブロッコリースプラウト,Broccoli sprouts
-豆苗,Pea sprout
-もやし,Bean sprout
-カット野菜,Cut vegetables
-水菜,Potherb mustard
-大根,Daikon radish
-アルファルファ,Alfalfa
-漬物,pickled foods
-漬け物,pickled foods
-ミンチ肉(牛),Minced beef
-ミンチ肉(豚),Minced pork
-ミンチ肉(鶏),Minced chicken
-ローストビーフ,Roast beef
-ムネ肉,Breast
-肝臓,Liver
-きのこ,Mushroom
-ナチュラルチーズ,Natural cheese
-アイスクリーム,Ice cream
 市販鶏肉の_Campylobacter_属菌と_Listeria_属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
 埼玉県内の市販食肉における食中毒細菌の汚染実態調査,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
 アイスクリーム製造施設の_Listeria monocytogenes_汚染状況,Listeria monocytogenes contamination in ice cream processing plants
@@ -116,24 +139,6 @@ Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性�
 市販ナチュラルチーズからのリステリア菌の検出,Detection of Listeria monocytogenes in one imported natural cheese
 県内におけるサルモネラ属菌の薬剤耐性調査,Salmonella drug resistance survey in Wakayama prefecture
 Listeria monocytogenes_による ready-to-eat 食品の汚染実態,Isolation of Listeria monocytogenes from the ready-to-eat Foods
-その他*1の生食用野菜,Other type of vegetable to be eaten raw
-生食用の食肉(牛),Beef tobe eaten raw
-ミンチ肉(牛豚混合),Mix miced meat (beef and pork)
-牛レバー(加熱加工用),Liver for cooking
-牛レバー(生食用),Liver to be eaten raw
-馬刺,Horse meat sashimi
-鶏たたき,Lightly roasted chicken
-鶏砂ずり,Gizzard
-鶏刺し,Chicken sashimi
-みつば,Japanese honewort
-その他の加工用食肉等*3,Other type of meat for cooking
-ミニトマト,grape tomato
-サラダホウレン草,Baby spinach
-漬物用野菜,Vegetable for pickling
-食肉加工品*4,Meat product
-糞便サンプル,Fecal sample
-消化管内容物,Gut content
-皮膚スワブ採取サンプル,Cutaneous swabs
 MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査,MPN and Direct-plate Methods Used to Enumerate Campylobacter spp. in Commercial Chicken Livers
 未特定,unspecified
 食品中の食中毒菌汚染実態調査,Results of the Survey on the Prevalence of Foodborne Pathogens in Foods (in Japanese)
@@ -152,26 +157,3 @@ MPN法および直接平板塗抹法による市販鶏レバーのカンピロ�
 漬け物製造施設におけるListeria monocytogenenes 汚染実態調査について,Survey of pollution Listeria monocytogenes in pickle production facility
 市販ミンチ肉 における黄色ブドウ球菌汚染調査と分離株の性状,Prevalence and Characterization of Staphylococcus aureus in Retail Raw Minced Meat
 市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性,Quantitative Contamination Level of Campylobacter and Salmonella Species in Commercial Chicken Meat and their Drug Susceptibility
-サラダ,Salad
-もも肉,Leg
-アスパラガス,Asparagus
-にんじん,Carrot
-アボカド,Avocado
-キウイ,Kiwi fruit
-マンゴー,Mango
-バナナ,Banana
-ブドウ,Grape
-ライチ,Litchee
-チェリー,Cherry
-かぼちゃ,Squash
-ズッキーニ,Courgette
-きくらげ,Wood ear mushrooms
-スイートコーン,Sweet corn
-みょうが,Myoga (Japanese ginger)
-しょうが,Ginger
-ゴボウ,Burdock
-レンコン,Lotus root
-ササミ,Sasami
-猪肉,Brawn
-羊肉,Sheep meat
-砂肝,Gizzard
