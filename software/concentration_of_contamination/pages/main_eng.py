@@ -86,7 +86,7 @@ df = df[~((df['Concentration'] == 'Not Detected') |
           (df['Concentration'].astype(str).str.contains('<')))]
 df = df[~(df['Food Category'].isna() & df['Food Name'].isna())]
 df = df[df['Unit']!='CFU/と体']
-df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['method'] == 'MPN')]
+df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['Method'] == 'MPN')]
 df['Concentration'] = pd.to_numeric(df['Concentration'], errors='coerce')
 df = df[~df['Concentration'].isna()]
 
@@ -102,7 +102,7 @@ df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
-df = df.loc[:, ['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'Organism_LaTeX', 'method', 'log CFU/g', 'MPN per g', 'Concentration', 'Unit', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+df = df.loc[:, ['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'Organism_LaTeX', 'Method', 'log CFU/g', 'MPN per g', 'Concentration', 'Unit', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
 
 # === Filters ===
 cat_opts = ["", "All"] + list(df['Food Category'].dropna().unique())
@@ -232,7 +232,7 @@ else:
     st.write("-----------")
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
     df_filtered_display = df_filtered.copy()
-    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'Method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
     df_filtered_display.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered_display)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
