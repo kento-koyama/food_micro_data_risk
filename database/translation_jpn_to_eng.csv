@@ -30,10 +30,10 @@ Ready-to-eat,Ready-to-Eat (RTE)
 牛豚混合ミンチ肉,Mix miced meat (beef and pork)
 牛ミンチ肉,Minced beef
 きゅうり,Cucumber
-ゴボウ,Burdock
+ごぼう,Burdock
 ササミ,Sasami
 サラダ,Salad
-サラダホウレン草,Baby spinach
+サラダほうれん草,Baby spinach
 サラダ菜,Butterhead lettuce
 しょうが,Ginger
 スイートコーン,Sweet corn
@@ -43,15 +43,16 @@ Ready-to-eat,Ready-to-Eat (RTE)
 スプラウト,Sprout
 セロリ,Celery
 ソーセージ,Sausage
-その他,"Other, mixed, uncategorised or unknown type of food"
-その他の生食用野菜,Other type of vegetable to be eaten raw
-その他の加工用食肉等,Other type of meat for cooking
+その他,"Other, mixed, uncategorised or unknown types of food"
+その他の生食用野菜,Other types of vegetable to be eaten raw
+その他の加工用食肉等,Other meat products for processing
+その他の生食用食肉,Other raw meat for raw consumption
 チーズ,Cheese
 チェリー,Cherry
 トマト,Tomato
 鶏ミンチ肉,Minced chicken
 ナチュラルチーズ,Natural cheese
-肉類（その他）,Other or unknown type of meat
+肉類（その他）,Other or unknown types of meat
 ニンジン,Carrot
 ネギ,Leek
 農産物,Vegetable or fruit and their products
@@ -73,17 +74,21 @@ Ready-to-eat,Ready-to-Eat (RTE)
 もやし,Bean sprout
 ライチ,Litchee
 レタス,Lettuce
-レンコン,Lotus root
+れんこん,Lotus root
 ローストビーフ,Roast beef
 牛レバー（肝臓）,Beef liver
+鶏ハツ（心臓）,Chicken heart
 牛肉,Beef
 鶏内臓肉,Chicken organ meat
 バター,Butter
 クリーム,Cream
 スプラウト(原料種子),Sprouting seeds
 魚卵(生),Roe
+スモークサーモン,Smoked salmon
+エンドウ,Pea
 卵殻,Chicken eggshell
 鶏卵,Chicken egg
+液卵,Liquid egg products
 牛ハツ(心臓),Beef heart
 ハラミ(横隔膜肉),Outside Skirt
 テール(尾),Beef tail
@@ -93,7 +98,9 @@ Ready-to-eat,Ready-to-Eat (RTE)
 ギアラ(第4胃),Abomasum
 モウチョウ(盲腸),Caecum
 サラミ,Salami
+生ハム+チーズ,Prosciutto and cheese
 生ハム,Prosciutto
+粉ミルク,Powdered infant formula
 正肉,Lean meat
 豚タン(舌),Pork tongue
 カシラ,Pork head
@@ -102,13 +109,35 @@ Ready-to-eat,Ready-to-Eat (RTE)
 豚マメ(腎臓),Pork kidney
 手羽先,Chicken wing
 果物,Fruits
-根菜,Root vegetables
+根菜類,Root vegetables
+茎菜類,Stem vegetables
+葉菜,Leafy vegetables
+果菜類,Fruit-bearing vegetables
 合鴨肉,Duck meat
 洋生菓子,Unbaked cake
 枝肉拭き取り検体,Carcass swab
-その他のミンチ肉,Other minced meat
+その他のミンチ肉,Other minced meats
 皮膚拭き取りサンプル,Cutaneous swabs
 鼻腔拭き取りサンプル,Nasal swab
+クラゲとウニ,Jellyfish with urchin eggs
+ゆで魚介,Boiled seafood
+貝類,shellfish
+浅漬け,Lightly pickled vegetables
+直腸拭き取りサンプル,Rectal swab
+魚卵加工品,Processed fish roe
+乾燥食肉製品,Dried meat products
+水産発酵食品,Fermented seafood products
+魚介乾製品,Dried seafood products
+その他の水産加工品,Other processed seafood products
+生乳,Raw milk
+魚肉ねり製品,Surimi products
+冷凍食品,Frozen foods
+惣菜,Prepared foods
+その他の乳製品,Other dairy products
+アイスクリーム類,Ice cream
+ネギトロ,Negitoro (minced tuna)
+大腸内容物,Large intestine content
+牛革拭き取り検体,Cattle hide swab
 牛結着肉,Restructured beef
 牛刺し,Beef sashimi
 鶏レバー（肝臓）,Chicken liver
@@ -117,7 +146,7 @@ Ready-to-eat,Ready-to-Eat (RTE)
 砂肝,Gizzard
 消化管内容物,Gut content
 盲腸内容物,Cecal content
-食肉加工品,Meat product
+その他の食肉加工品,Other processed meat products
 水菜,Potherb mustard
 大根,Daikon radish
 猪肉,Brawn
@@ -125,74 +154,74 @@ Ready-to-eat,Ready-to-Eat (RTE)
 漬物野菜,Vegetable for pickling
 豆苗,Pea sprout
 豚肉,Pork
-乳・乳製品,"Milk, other or unknown type of daily"
+乳・乳製品,"Milk, other or unknown types of dairy"
 馬刺し,Horse meat sashimi
 白ネギ,Japanese long onion (white)
 糞便サンプル,Fecal sample
+ニンニクの芽,Garlic scape
+たけのこの水煮,Boiled bamboo shoots
+山菜ミックス,Wild vegetable mix
+中抜きと体,Eviscerated whole chicken
+椎茸,Chinese mushroom
 羊肉,Sheep meat
 卵・卵製品,Egg or egg product
-不検出,not detected
-未検出,not detected
-厚生労働省,"Ministry of Health, Labour and Welfare"
-農林水産省,"Ministry of Agriculture, Forestry and Fisheries"
-国立医薬品食品衛生研究所,National Institute of Health Sciences
-検体数,Number of Samples
-陽性数,Number of Positives
-九州大学,Kyushu University
-帯広畜産大学,Obihiro University of Agriculture and Veterinary Medicine
-天使大学,Tenshi College
-東京海洋大学,Tokyo University of Marine Science and Technology
-東京都健康安全研究センター,Tokyo Metropolitan Institute of Public Health
-日本獣医生命科学大学,Nippon Veterinary and Life Science University
-和歌山県環境衛生研究センター,Wakayama Prefectural Research Ｃenter of Environment and Public Health
-大阪健康安全基盤研究所,Osaka Institute of Public Health
-千葉県衛生研究所,Chiba Prefectural Institute of Public Health
-福岡市保健環境研究所,Fukuoka City Institute of Health and Environment
-福岡県保健環境研究所,Fukuoka Institute of Health and Environmental Sciences
-神奈川県衛生研究所,Kanagawa Prefectural Institute of Public Health
-島根県保健環境科学研究所,Shimane Prefectural Institute of Public Health and Environment Science
-宮城県保健環境センター,Miyagi Prefectural Institute of Public Health and Environment
-埼玉県衛生研究所,Saitama Institute of Public Health
-横浜市衛生研究所,Yokohama City Institute of Public Health
-新潟県長岡食肉衛生検査センター,Niigata Prefectural Nagaoka Meat Inspection Center
-一般社団法人岩手県獣医師会食烏検査センター,Chicken Inspection Center. Iwate Veterinary Medical Assosiatio
-岩手大学,Iwate University
-岩手県環境保健研究センター,Iwate Prefectural Research Institute for Environmental Science and Public Health
-京都市衛生公害研究所,Kyoto City Institute of Health and Enviromental Sciences
-岡山県環境保健センター,Okayama Prefectural Institute for Environmental Science and Pulic Health
-大阪市食肉衛生検査所,"Meat Inspection Center, Osaka City"
-北海道立衛生研究所,Hokkaido Institute of Public Health
-岐阜県保険環境研究所,Gifu Prefectural Research Institute for Health and Environmental Sciences
-市販鶏肉の_Campylobacter_属菌と_Listeria_属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
-埼玉県内の市販食肉における食中毒細菌の汚染実態調査,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
-アイスクリーム製造施設の_Listeria monocytogenes_汚染状況,Listeria monocytogenes contamination in ice cream processing plants
-漬け物製造施設における_Listeria monocytogenes_の汚染実態について,Survey of pollution Listeria monocytogenes in pickle production facility
-特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果,Low Prevalence of Canpylobacter-positive Flocks in Branded Broiler Chickens Fed a Special Feed and Potential Effect of Unintentional Implementation of Logistic Slaughter
-市販鶏肉のCampylobacter属菌とListeria属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
-"東京都内に流通する牛内臓肉からの糞便系大腸菌群，ベロ毒素産生性大腸菌，Campylobacter jejuni/coli,_Salmonella_および_Listeria monocytogenes_検出状況","Prevalence of fecal coliforms, Verotoxin Producing Escherichia coli, Campylobacter jejuni, C. coli, Salmonella and Listeria monocytogenes in Beef Offal"
-市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討,"Campylobacter, Salmonella, Listeria monocytogenes, and Arcobacter butzleri Contamination and Enumeration of Presumptive Escherichia coli in Retail Poultry _Sashimi_"
-食肉におけるリステリア汚染実態調査,Survey of Listeria Contamination in Raw meat
-Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察,Prevalence of Listeria monocytogenes in Ready-To-Eat food processing environments and consideration of contamination control according to food characteristics
-食品からのListeria monocytogenes検出法および定量法の比較,Comparison of the Methods for Detection and Enumeration of Listeria monocytogenes in Food
-芽物野菜等の細菌汚染実態調査（2006~2007）,Contamination of Bacteria in Sprouts (2006~2007)
-市販ナチュラルチーズからのリステリア菌の検出,Detection of Listeria monocytogenes in one imported natural cheese
-県内におけるサルモネラ属菌の薬剤耐性調査,Salmonella drug resistance survey in Wakayama prefecture
+2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性,Prevalence and Antimicrobial Resistance of Campylobacter and Salmonella in Broiler Flocks and Breast Meat at Two Processing Plants
 Listeria monocytogenes_による ready-to-eat 食品の汚染実態,Isolation of Listeria monocytogenes from the ready-to-eat Foods
 MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査,MPN and Direct-plate Methods Used to Enumerate Campylobacter spp. in Commercial Chicken Livers
-未特定,unspecified
-食品中の食中毒菌汚染実態調査,Results of the Survey on the Prevalence of Foodborne Pathogens in Foods (in Japanese)
-市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性,Quantitative Contamination Level of Campylobacter and Salmonella Species in Commercial Chicken Meat and their Drug Susceptibility
-市販の輸入生野菜および果物における病原菌汚染の実態調査,Investigation of the Actual Conditions of Pathogenic Bacteria among Imported Fresh Vegetables and Fruits
-神戸市健康科学研究所,Kobe Institute of Health
-神戸市環境保健研究所,Kobe Institute of Health
-神戸大学,Kobe University
-埼玉県,Saitama Prefecture
-静岡県環境衛生科学研究所,Shizuoka Environmental and Hygiene Institute
-"地方衛生研究所, 国立医薬品食品衛生研究所","Prefectural and Municipal Public Health Institute, National Institute of Health Science"
-2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性,Prevalence and Antimicrobial Resistance of Campylobacter and Salmonella in Broiler Flocks and Breast Meat at Two Processing Plants
+Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察,Prevalence of Listeria monocytogenes in Ready-To-Eat food processing environments and consideration of contamination control according to food characteristics
+アイスクリーム製造施設の_Listeria monocytogenes_汚染状況,Listeria monocytogenes contamination in ice cream processing plants
+一般社団法人岩手県獣医師会食烏検査センター,Chicken Inspection Center. Iwate Veterinary Medical Assosiatio
+横浜市衛生研究所,Yokohama City Institute of Public Health
+岡山県環境保健センター,Okayama Prefectural Institute for Environmental Science and Pulic Health
 夏季における牛の腸管出血性大腸菌O157保菌状況と分離株の薬剤感受性,Prevalence and Drug-susceptibility of Enterohemorrhagic Escherichia coli O157 in Cattle during the Summer
-"東京都内に流通する牛内臓肉からの糞便系大腸菌群，ベロ毒素産生性大腸菌，Campylobacter jejuni/coli, Salmonella およびListeria monocytogenes検出状況","Prevalence of fecal coliforms, Verotoxin Producing Escherichia coli, Campylobacter jejuni, C. coli, Salmonella and Listeria monocytogenes in Beef Offal"
-アイスクリーム製造施設の Listeria monocytogenes 汚染状況,Listeria monocytogenes contamination in ice cream processing plants
-漬け物製造施設におけるListeria monocytogenenes 汚染実態調査について,Survey of pollution Listeria monocytogenes in pickle production facility
+芽物野菜等の細菌汚染実態調査（2006~2007）,Contamination of Bacteria in Sprouts (2006~2007)
+岩手県環境保健研究センター,Iwate Prefectural Research Institute for Environmental Science and Public Health
+岩手大学,Iwate University
+岐阜県保険環境研究所,Gifu Prefectural Research Institute for Health and Environmental Sciences
+宮城県保健環境センター,Miyagi Prefectural Institute of Public Health and Environment
+京都市衛生公害研究所,Kyoto City Institute of Health and Enviromental Sciences
+九州大学,Kyushu University
+検体数,Number of Samples
+県内におけるサルモネラ属菌の薬剤耐性調査,Salmonella drug resistance survey in Wakayama prefecture
+厚生労働省,"Ministry of Health, Labour and Welfare"
+国立医薬品食品衛生研究所,National Institute of Health Sciences
+埼玉県,Saitama Prefecture
+埼玉県衛生研究所,Saitama Institute of Public Health
+埼玉県内の市販食肉における食中毒細菌の汚染実態調査,"Prevalence of Foodborne Pathogens in Retail Meat in Saitama, Japan"
+市販ナチュラルチーズからのリステリア菌の検出,Detection of Listeria monocytogenes in one imported natural cheese
+市販の輸入生野菜および果物における病原菌汚染の実態調査,Investigation of the Actual Conditions of Pathogenic Bacteria among Imported Fresh Vegetables and Fruits
 市販ミンチ肉 における黄色ブドウ球菌汚染調査と分離株の性状,Prevalence and Characterization of Staphylococcus aureus in Retail Raw Minced Meat
+市販鶏肉のCampylobacter属菌とListeria属菌による汚染,Campylobacter spp. and Listeria spp. Contamination of Commercial Chickens
 市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性,Quantitative Contamination Level of Campylobacter and Salmonella Species in Commercial Chicken Meat and their Drug Susceptibility
+市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討,"Campylobacter, Salmonella, Listeria monocytogenes, and Arcobacter butzleri Contamination and Enumeration of Presumptive Escherichia coli in Retail Poultry _Sashimi_"
+食肉におけるリステリア汚染実態調査,Survey of Listeria Contamination in Raw meat
+食品からのListeria monocytogenes検出法および定量法の比較,Comparison of the Methods for Detection and Enumeration of Listeria monocytogenes in Food
+食品中の食中毒菌汚染実態調査,Results of the Survey on the Prevalence of Foodborne Pathogens in Foods (in Japanese)
+新潟県長岡食肉衛生検査センター,Niigata Prefectural Nagaoka Meat Inspection Center
+神戸市環境保健研究所,Kobe Institute of Health
+神戸市健康科学研究所,Kobe Institute of Health
+神戸大学,Kobe University
+神奈川県衛生研究所,Kanagawa Prefectural Institute of Public Health
+静岡県環境衛生科学研究所,Shizuoka Environmental and Hygiene Institute
+千葉県衛生研究所,Chiba Prefectural Institute of Public Health
+帯広畜産大学,Obihiro University of Agriculture and Veterinary Medicine
+大阪健康安全基盤研究所,Osaka Institute of Public Health
+大阪市食肉衛生検査所,"Meat Inspection Center, Osaka City"
+"地方衛生研究所, 国立医薬品食品衛生研究所","Prefectural and Municipal Public Health Institute, National Institute of Health Science"
+漬け物製造施設におけるListeria monocytogenenes 汚染実態調査について,Survey of pollution Listeria monocytogenes in pickle production facility
+天使大学,Tenshi College
+島根県保健環境科学研究所,Shimane Prefectural Institute of Public Health and Environment Science
+東京海洋大学,Tokyo University of Marine Science and Technology
+東京都健康安全研究センター,Tokyo Metropolitan Institute of Public Health
+"東京都内に流通する牛内臓肉からの糞便系大腸菌群，ベロ毒素産生性大腸菌，Campylobacter jejuni/coli, Salmonella およびListeria monocytogenes検出状況","Prevalence of fecal coliforms, Verotoxin Producing Escherichia coli, Campylobacter jejuni, C. coli, Salmonella and Listeria monocytogenes in Beef Offal"
+特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果,Low Prevalence of Canpylobacter-positive Flocks in Branded Broiler Chickens Fed a Special Feed and Potential Effect of Unintentional Implementation of Logistic Slaughter
+日本獣医生命科学大学,Nippon Veterinary and Life Science University
+農林水産省,"Ministry of Agriculture, Forestry and Fisheries"
+不検出,not detected
+福岡県保健環境研究所,Fukuoka Institute of Health and Environmental Sciences
+福岡市保健環境研究所,Fukuoka City Institute of Health and Environment
+北海道立衛生研究所,Hokkaido Institute of Public Health
+未検出,not detected
+未特定,unspecified
+陽性数,Number of Positives
+和歌山県環境衛生研究センター,Wakayama Prefectural Research Ｃenter of Environment and Public Health
