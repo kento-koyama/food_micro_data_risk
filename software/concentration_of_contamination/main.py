@@ -322,6 +322,7 @@ else:
         df_EHEC_counts = df_filtered[df_filtered['細菌名'].str.contains('Escherichia coli')]
         df_Salmonella_counts = df_filtered[df_filtered['細菌名'].str.contains('Salmonella')]
         df_Staphylococcus_counts = df_filtered[df_filtered['細菌名'].str.contains('Staphylococcus aureus')]
+        df_Cperfringens_counts = df_filtered[df_filtered['細菌名'].str.contains('Clostridium perfringens')]
 
         # 各細菌のデータフレームとその行数をリストに格納
         bacteria_data = [
@@ -329,7 +330,8 @@ else:
             ('リステリア', df_Listeria_counts),
             ('腸管出血性大腸菌', df_EHEC_counts),
             ('サルモネラ', df_Salmonella_counts),
-            ('黄色ブドウ球菌', df_Staphylococcus_counts)
+            ('黄色ブドウ球菌', df_Staphylococcus_counts), 
+            ('ウェルシュ菌', df_Cperfringens_counts)
         ]
 
         # 行数が多い順にソート

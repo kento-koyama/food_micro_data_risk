@@ -201,7 +201,8 @@ else:
     df_EHEC = df_filtered[df_filtered['Organism'].str.contains('Escherichia coli', na=False)]
     df_Salmonella = df_filtered[df_filtered['Organism'].str.contains('Salmonella', na=False)]
     df_Staphylococcus = df_filtered[df_filtered['Organism'].str.contains('Staphylococcus aureus', na=False)]
-    bacteria_data = [('Campylobacter spp.', df_Campy), ('Listeria monocytogenes', df_Listeria), ('Escherichia coli (EHEC)', df_EHEC), ('Salmonella spp.', df_Salmonella), ('Staphylococcus aureus', df_Staphylococcus)]
+    df_Cperfringens = df_filtered[df_filtered['Organism'].str.contains('Clostridium perfringens', na=False)]
+    bacteria_data = [('Campylobacter spp.', df_Campy), ('Listeria monocytogenes', df_Listeria), ('Escherichia coli (EHEC)', df_EHEC), ('Salmonella spp.', df_Salmonella), ('Staphylococcus aureus', df_Staphylococcus), ('Clostridium perfringens', df_Cperfringens)]
     bacteria_data.sort(key=lambda x: len(x[1]), reverse=True)
 
     for bact_label, df_bact in bacteria_data:
