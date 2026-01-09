@@ -174,6 +174,7 @@ else:
         with col4:
             fig2, ax2 = plt.subplots(figsize=(6, 6))
             ax2.barh(bacteria_counts['Display Name (LaTeX)'], bacteria_counts['Positive Rate (%)'], color='skyblue')
+            ax2.set_xlim([0,100])
             ax2.set_xlabel('Positive Rate (%)', fontsize=18)
             ax2.set_ylabel('Bacteria', fontsize=18)
             ax2.set_title(f'Positive Rate by Bacteria {group_title}', fontsize=20)
