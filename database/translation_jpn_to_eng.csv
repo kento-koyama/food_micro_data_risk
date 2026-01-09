@@ -47,6 +47,12 @@ Ready-to-eat,Ready-to-Eat (RTE)
 その他の生食用野菜,Other types of vegetable to be eaten raw
 その他の加工用食肉等,Other meat products for processing
 その他の生食用食肉,Other raw meat for raw consumption
+その他の加工済み食肉,Other processed meat products
+その他の鶏肉加工品,Other processed chicken products
+その他の非加熱食肉製品,Other non-heat-treated meat products
+いかとんび,Squid beak
+マグロスライス,Sliced tuna
+めん羊枝肉,Sheep carcass
 チーズ,Cheese
 チェリー,Cherry
 トマト,Tomato
@@ -129,6 +135,18 @@ Ready-to-eat,Ready-to-Eat (RTE)
 水産発酵食品,Fermented seafood products
 魚介乾製品,Dried seafood products
 その他の水産加工品,Other processed seafood products
+アイスミルク(半製品),Ice cream–type frozen dessert (Semi-finished product)
+アイスミルク,Ice cream–type frozen dessert
+氷菓,Frozen confection
+ラクトアイス,Frozen dairy dessert
+ウォッシュチーズ,Washed-rind cheese
+カマンベールチーズ,Camembert cheese
+セミハードチーズ,Semi-hard cheese
+白カビチーズ,Bloomy-rind cheese
+辛子明太子,Karashi mentaiko (spicy seasoned pollock roe)
+たらこ,Tarako (salted pollock roe)
+明太子,Mentaiko (seasoned pollock roe)
+RTE食品など,RTE foods and similar products
 生乳,Raw milk
 魚肉ねり製品,Surimi products
 冷凍食品,Frozen foods
@@ -165,6 +183,8 @@ Ready-to-eat,Ready-to-Eat (RTE)
 椎茸,Chinese mushroom
 羊肉,Sheep meat
 卵・卵製品,Egg or egg product
+加熱加工用,For heat processing
+生食用,For raw consumption
 2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性,Prevalence and Antimicrobial Resistance of Campylobacter and Salmonella in Broiler Flocks and Breast Meat at Two Processing Plants
 Listeria monocytogenes_による ready-to-eat 食品の汚染実態,Isolation of Listeria monocytogenes from the ready-to-eat Foods
 MPN法および直接平板塗抹法による市販鶏レバーのカンピロバクターの定量検査,MPN and Direct-plate Methods Used to Enumerate Campylobacter spp. in Commercial Chicken Livers
