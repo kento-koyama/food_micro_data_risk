@@ -122,11 +122,9 @@ df_filtered = df_filtered if sel_bact in ["", "All"] else df_filtered[df_filtere
 sel_inst = st.sidebar.selectbox("Select Agency:", ["", "All"] + list(df_filtered['Agency'].unique()))
 df_filtered = df_filtered if sel_inst in ["", "All"] else df_filtered[df_filtered['Agency'] == sel_inst]
 
-# --- Show Edible Parts Only (only when meat categories are selected) ---
-MEAT_CATEGORIES = {"Chicken", "Pork", "Beef", "Other or unknown type of meat", "Sausage"}
-
-# Show the checkbox only if selected category is in meat categories
-show_edible_checkbox = (sel_cat in MEAT_CATEGORIES)
+# --- Show Edible Parts Only (when some category is selected) ---
+# Show the checkbox only if selected category is selected
+show_edible_checkbox = (selected_group not in ["", "All"])
 
 if show_edible_checkbox:
     edible_only = st.sidebar.checkbox(
@@ -138,13 +136,8 @@ else:
     edible_only = False
 
 # If checked, exclude rows where 'Food Name' contains 'contents' (inedible parts)
-if edible_only:
-    if 'Food Name' in df_filtered.columns:
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("内容物", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Cecal content", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Gut content", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Fecal sample", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Cutaneous swabs", case=False, na=False))]
+if edible_only and 'Food Handling Classification' in df_filtered.columns:
+        df_filtered = df_filtered[df_filtered['Food Handling Classification']!="Non-edible Parts"]
 
 # Default condition handling
 group_title = f"({sel_cat} - {sel_name} - {sel_bact} - {sel_inst})" if any(v != 'All' for v in [sel_cat, sel_name, sel_bact, sel_inst]) else "(All)"
