@@ -120,6 +120,7 @@ Ready-to-eat,Ready-to-Eat (RTE)
 茎菜類,Stem vegetables
 葉菜,Leafy vegetables
 果菜類,Fruit-bearing vegetables
+鴨肉,Duck meat
 合鴨肉,Duck meat
 洋生菓子,Unbaked cake
 枝肉拭き取り検体,Carcass swab
@@ -135,7 +136,10 @@ Ready-to-eat,Ready-to-Eat (RTE)
 乾燥食肉製品,Dried meat products
 水産発酵食品,Fermented seafood products
 魚介乾製品,Dried seafood products
+乾燥海藻類,Dried seaweeds
+魚・エビ,"Fishes, shrimps"
 その他の水産加工品,Other processed seafood products
+畜水産加工品,Processed livestock and fishery products
 アイスミルク(半製品),Ice cream–type frozen dessert (Semi-finished product)
 アイスミルク,Ice cream–type frozen dessert
 氷菓,Frozen confection
@@ -147,6 +151,8 @@ Ready-to-eat,Ready-to-Eat (RTE)
 辛子明太子,Karashi mentaiko (spicy seasoned pollock roe)
 たらこ,Tarako (salted pollock roe)
 明太子,Mentaiko (seasoned pollock roe)
+数の子,Salted herring roe
+すじこ,Salmon roe in skein
 RTE食品など,RTE foods and similar products
 生乳,Raw milk
 魚肉ねり製品,Surimi products
@@ -160,11 +166,13 @@ RTE食品など,RTE foods and similar products
 牛結着肉,Restructured beef
 牛刺し,Beef sashimi
 鶏レバー（肝臓）,Chicken liver
+市販チキンレバー,Commercial chicken liver
 鶏刺し,Chicken sashimi
 鶏肉,Chicken
 砂肝,Gizzard
 消化管内容物,Gut content
 盲腸内容物,Cecal content
+表面付着土壌,Soil adhering to potatoes
 その他の食肉加工品,Other processed meat products
 水菜,Potherb mustard
 大根,Daikon radish
@@ -182,6 +190,13 @@ RTE食品など,RTE foods and similar products
 山菜ミックス,Wild vegetable mix
 中抜きと体,Eviscerated whole chicken
 椎茸,Chinese mushroom
+じゃがいも,Potato
+香辛料,Spices
+コリアンダーパウダー,Coriander powder
+カレーミックス,Curry mixes
+乾燥エビ,Dried shrimp
+乾燥イワシ,Dried sardines
+カレー粉、カレールウ、コリアンダーパウダー,"Curry mixes, spices (such as coriander)"
 羊肉,Sheep meat
 卵・卵製品,Egg or egg product
 加熱加工用,For heat processing
