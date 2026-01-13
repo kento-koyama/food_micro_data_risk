@@ -102,11 +102,9 @@ institutions_filtered = ["", "All"] + list(df_filtered['Agency'].unique())
 selected_institution = st.sidebar.selectbox('Select or input an Agency:', institutions_filtered, format_func=lambda x: "" if x == "" else x, key="institution_selected")
 df_filtered = df_filtered if selected_institution in ["", "All"] else df_filtered[df_filtered['Agency'] == selected_institution]
 
-# --- Show Edible Parts Only (only when meat categories are selected) ---
-MEAT_CATEGORIES = {"Chicken", "Pork", "Beef", "Other or unknown type of meat", "Sausage"}
-
-# Show the checkbox only if selected category is in meat categories
-show_edible_checkbox = (selected_group in MEAT_CATEGORIES)
+# --- Show Edible Parts Only (when some category is selected) ---
+# Show the checkbox only if selected category is selected
+show_edible_checkbox = (selected_group not in ["", "All"])
 
 if show_edible_checkbox:
     edible_only = st.sidebar.checkbox(
@@ -118,13 +116,8 @@ else:
     edible_only = False
 
 # If checked, exclude rows where 'Food Name' contains 'contents' (inedible parts)
-if edible_only:
-    if 'Food Name' in df_filtered.columns:
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("内容物", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Cecal content", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Fecal sample", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Gut content", case=False, na=False))]
-        df_filtered = df_filtered[~(df_filtered['Food Name'].astype(str).str.contains("Cutaneous swabs", case=False, na=False))]
+if edible_only and 'Food Handling Classification' in df_filtered.columns:
+        df_filtered = df_filtered[df_filtered['Food Handling Classification']!="Non-edible Parts"]
 
 if selected_group == "" and (selected_food != "" or selected_bacteria != "" or selected_institution != ""):
     selected_group = "All"
