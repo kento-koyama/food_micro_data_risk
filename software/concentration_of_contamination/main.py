@@ -283,8 +283,8 @@ else:
 
         with col3:
             df_bacteria_counts = df_filtered.copy()
-            df_bacteria_counts = df_bacteria_counts.loc[:, ['調査年', '細菌名', '汚染濃度_logCFU/g', '食品名', '食品詳細']]
-            df_bacteria_counts.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品名', '食品詳細']
+            df_bacteria_counts = df_bacteria_counts.loc[:, ['調査年', '細菌名', '汚染濃度_logCFU/g', '食品カテゴリ', '食品名']]
+            df_bacteria_counts.columns = ['調査年', '細菌名', '汚染濃度 [log CFU/g]', '食品カテゴリ', '食品名']
             st.dataframe(df_bacteria_counts, height=calc_df_height(df_bacteria_counts), hide_index=True)
 
             # 汚染濃度の平均と標本標準偏差の計算
@@ -416,7 +416,7 @@ else:
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ{group_title}')
     df_filtered_display = df_filtered.copy()
     df_filtered_display.reset_index(inplace=True, drop=True)
-    df_filtered_display = df_filtered_display.loc[:, ['調査年', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '汚染濃度_logCFU/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+    df_filtered_display = df_filtered_display.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '汚染濃度_logCFU/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
     st.dataframe(df_filtered_display)
     st.write("*現在報告書から取得した統計処理済みの文献値（最大値・最小値・平均値など）が混在しているためグラフは参考。今後データ収集を行い分布を可視化していく")
 
