@@ -63,7 +63,10 @@
  - cpe-positive → エンテロトキシン産生菌
   - エンテロトキシン産生の場合食中毒の原因になるが、cpe-negative（エンテロトキシンを産生する遺伝子がない）からと言って食中毒の原因にならないとは言い切れないらしい → どちらのデータを入れるべきか？
  - 下記文献は、ウェルシュ菌の濃度が推定値だったので、データへは陽性率のみ追加
-  [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809)
+  "Miki, Y., Miyamoto, K., Kaneko-Hirano, I., Fujiguchi, K., Akimoto, S., 2008. Prevalence and characterization of enterotoxin gene-carrying Clostridium perfringens isolates from retail meat products in Japan. Appl Environ Microbiol 74, 5366-5372."
+ - 下記論文の汚染濃度データは、”Sulfite-reducing clostridial spore count”が定量データとしており、ウェルシュ菌のみの完全な定量データではなかった。推定値で出せるものもあるが、検出されたSulfite-reducing clostridial spore countが多いサンプルではウェルシュ菌の検査を一部からしかやっていない。
+  "Hashimoto, A., Suzuki, H., Oonaka, K., 2023. Prevalence of cpe-positive Clostridium perfringens in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning. Anaerobe 79, 102687."
+
 
 # 2025/09/13（細江）
 ・腸管出血性大腸菌の血清型ごとのデータが無い場合の対処をどうするか？
