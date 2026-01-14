@@ -167,8 +167,8 @@ else:
 
     st.write('-----------')
     st.subheader(f"Concentration Distribution (log CFU/g) {group_title}")
-    df_conc = df_filtered[['Year', 'Organism', 'log CFU/g', 'Food Name', 'Food details']].copy()
-    df_conc.columns = ['Year', 'Bacteria', 'log CFU/g', 'Food Name', 'Food Details']
+    df_conc = df_filtered[['Year', 'Organism', 'log CFU/g', 'Food Category', 'Food Name']].copy()
+    df_conc.columns = ['Year', 'Bacteria', 'log CFU/g', 'Food Category', 'Food Name']
     col3, col4 = st.columns(2)
     with col3:
         st.dataframe(df_conc, height=calc_df_height(df_conc), hide_index=True)
@@ -204,8 +204,8 @@ else:
             st.subheader(f"Contamination Concentration of {bact_label} {group_title}")
             col5, col6 = st.columns(2)
             with col5:
-                df_bact_conc = df_bact[['Year', 'Organism', 'log CFU/g', 'Food Name', 'Food details']].copy()
-                df_bact_conc.columns = ['Year', 'Bacteria', 'log CFU/g', 'Food Name', 'Food Details']
+                df_bact_conc = df_bact[['Year', 'Organism', 'log CFU/g', 'Food Category', 'Food Name']].copy()
+                df_bact_conc.columns = ['Year', 'Bacteria', 'log CFU/g', 'Food Category', 'Food Name']
                 st.dataframe(df_bact_conc, height=calc_df_height(df_bact_conc), hide_index=True)
                 n_bacteria = len(df_bact_conc['log CFU/g'])
                 mean_conc = func_round(df_bact_conc['log CFU/g'].mean(), 2)
@@ -227,7 +227,7 @@ else:
     st.write("-----------")
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
     df_filtered_display = df_filtered.copy()
-    df_filtered_display = df_filtered_display[['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'Method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+    df_filtered_display = df_filtered_display[['Year', 'Food Handling Classification', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'Method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
     df_filtered_display.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered_display)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
