@@ -102,7 +102,7 @@ df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
-df = df.loc[:, ['Year', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'Organism_LaTeX', 'Method', 'log CFU/g', 'MPN per g', 'Concentration', 'Unit', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+df = df.loc[:, ['Year', 'Food Handling Classification', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'Organism_LaTeX', 'Method', 'log CFU/g', 'MPN per g', 'Concentration', 'Unit', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
 
 # === Filters ===
 cat_opts = ["", "All"] + list(df['Food Category'].dropna().unique())
