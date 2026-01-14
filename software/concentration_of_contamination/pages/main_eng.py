@@ -124,7 +124,7 @@ df_filtered = df_filtered if sel_inst in ["", "All"] else df_filtered[df_filtere
 
 # --- Show Edible Parts Only (when some category is selected) ---
 # Show the checkbox only if selected category is selected
-show_edible_checkbox = (selected_group not in ["", "All"])
+show_edible_checkbox = (sel_cat not in ["", "All"])
 
 if show_edible_checkbox:
     edible_only = st.sidebar.checkbox(
