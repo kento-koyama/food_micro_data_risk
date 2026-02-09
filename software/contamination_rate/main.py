@@ -158,8 +158,8 @@ selected_institution = st.sidebar.selectbox(
 # データをフィルタリング（実施機関に基づく）
 df_filtered = df_filtered if selected_institution == "" or selected_institution == "すべて" else df_filtered[df_filtered['実施機関'] == selected_institution]
 
-# --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（"" と "すべて" は除外）)
-show_edible_checkbox = (selected_group not in ["", "すべて"])
+# --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（""は除外）)
+show_edible_checkbox = (selected_group not in [""])
 
 if show_edible_checkbox:
     edible_only = st.sidebar.checkbox(
