@@ -219,7 +219,7 @@ if all(x == EMPTY for x in [selected_group, selected_category, selected_food, se
 elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
 else:
-    if selected_bacteria == "すべて" or "":
+    if selected_bacteria in ["", "すべて"]:
         # --- Ensure numeric types for counts (cleans full-width digits, commas, stray chars) ---
         fw_map = str.maketrans('０１２３４５６７８９．－，', '0123456789.-,')
         def _coerce_numeric_col(s):
