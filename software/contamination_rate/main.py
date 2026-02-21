@@ -116,6 +116,8 @@ bacteria_names = [""] + ["すべて"] + list(df['細菌名'].unique())
 institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  
 
 
+df_filtered = df.copy()
+
 # サイドバーで食品取扱区分を選択
 selected_group = st.sidebar.selectbox(
     '食品取扱区分を入力 または 選択してください:',
@@ -124,7 +126,7 @@ selected_group = st.sidebar.selectbox(
     key="group_selected"
 )
 # データをフィルタリング（食品取扱区分に基づく）
-df_filtered = df if selected_group == "" or selected_group == "すべて" else df[df['食品取扱区分'] == selected_group]
+df_filtered = df_filtered if selected_group == "" or selected_group == "すべて" else df[df['食品取扱区分'] == selected_group]
 
 # サイドバーで食品カテゴリを選択
 selected_category = st.sidebar.selectbox(
@@ -134,7 +136,7 @@ selected_category = st.sidebar.selectbox(
     key="category_selected"
 )
 # データをフィルタリング（食品カテゴリに基づく）
-df_filtered = df if selected_category == "" or selected_category == "すべて" else df[df['食品カテゴリ'] == selected_category]
+df_filtered = df_filtered if selected_category == "" or selected_category == "すべて" else df[df['食品カテゴリ'] == selected_category]
 
 # サイドバーで食品名を選択
 food_names_filtered = [""] + ["すべて"] + list(df_filtered['食品名'].unique())
