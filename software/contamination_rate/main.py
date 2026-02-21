@@ -106,82 +106,91 @@ df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 # サイドバーにタイトルを追加
 st.sidebar.title("検索")
 
-# --- 選択肢（必要ならdropna/strip済み前提） ---
-handling_groups = ["", "すべて"] + sorted(df["食品取扱区分"].fillna("不明（欠損値）").unique().tolist())
-food_categories  = ["", "すべて"] + sorted(df["食品カテゴリ"].fillna("不明（欠損値）").unique().tolist())
-food_names       = ["", "すべて"] + sorted(df["食品名"].fillna("不明（欠損値）").unique().tolist())
-bacteria_names   = ["", "すべて"] + sorted(df["細菌名"].fillna("不明（欠損値）").unique().tolist())
-institutions     = ["", "すべて"] + sorted(df["実施機関"].fillna("不明（欠損値）").unique().tolist())
+# =========================
+# 完全連動フィルタ（上流候補のみ表示）
+# =========================
+MISSING = "不明（欠損値）"
+ALL = "すべて"
+EMPTY = ""
 
+FILTER_COLS = ["食品取扱区分", "食品カテゴリ", "食品名", "細菌名", "実施機関"]
+for col in FILTER_COLS:
+    # 欠損の統一 + 前後空白除去（選択肢との不一致を防止）
+    df[col] = df[col].astype("string").str.strip().fillna(MISSING)
+
+def make_options(s: pd.Series) -> list:
+    vals = sorted(pd.unique(s).tolist())
+    return [EMPTY, ALL] + vals
+
+def apply_filter(df_in: pd.DataFrame, col: str, selected: str) -> pd.DataFrame:
+    if selected in [EMPTY, ALL]:
+        return df_in
+    return df_in[df_in[col] == selected]
+
+def label_selected(x: str) -> str:
+    return "未選択" if x == EMPTY else x
+
+# --- 累積フィルタ（候補も連動させるため df_work を使う）---
+df_work = df.copy()
+
+# 1) 食品取扱区分
+handling_groups = make_options(df_work["食品取扱区分"])
 selected_group = st.sidebar.selectbox("食品取扱区分", handling_groups, key="group_selected")
+df_work = apply_filter(df_work, "食品取扱区分", selected_group)
+
+# 2) 食品カテゴリ（上流で絞った df_work から候補生成）
+food_categories = make_options(df_work["食品カテゴリ"])
 selected_category = st.sidebar.selectbox("食品カテゴリ", food_categories, key="category_selected")
+df_work = apply_filter(df_work, "食品カテゴリ", selected_category)
 
-# --- 累積フィルタ ---
-df_filtered = df.copy()
 
-if selected_group not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["食品取扱区分"] == selected_group]
-
-if selected_category not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["食品カテゴリ"] == selected_category]
-
-# サイドバーで食品名を選択
-food_names_filtered = ["", "すべて"] + list(df_filtered['食品名'].unique())
+# 3) 食品名
+food_names = make_options(df_work["食品名"])
 selected_food = st.sidebar.selectbox(
-    '食品名を入力 または 選択してください:',
-    food_names_filtered,
+    "食品名を入力 または 選択してください:",
+    food_names,
     format_func=lambda x: "" if x == "" else x,
     key="food_selected"
 )
-# データをフィルタリング（食品名に基づく）
-if selected_food not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["食品名"] == selected_food]
+df_work = apply_filter(df_work, "食品名", selected_food)
 
-# サイドバーで細菌名を選択（細菌名 → 実データ）
-bacteria_names_filtered = ["", "すべて"] + list(df_filtered['細菌名'].unique())
+# 4) 細菌名
+bacteria_names = make_options(df_work["細菌名"])
 selected_bacteria = st.sidebar.selectbox(
-    '細菌名を入力 または 選択してください:',
-    bacteria_names_filtered,
+    "細菌名を入力 または 選択してください:",
+    bacteria_names,
     format_func=lambda x: "" if x == "" else x,
     key="bacteria_selected"
 )
-# データをフィルタリング（細菌名に基づく）
-if selected_bacteria not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["細菌名"] == selected_bacteria]
+df_work = apply_filter(df_work, "細菌名", selected_bacteria)
 
-# サイドバーで実施機関を選択
-institutions_filtered = ["", "すべて"] + list(df_filtered['実施機関'].unique())
+# 5) 実施機関
+institutions = make_options(df_work["実施機関"])
 selected_institution = st.sidebar.selectbox(
-    '実施機関を入力 または 選択してください:',
-    institutions_filtered,
+    "実施機関を入力 または 選択してください:",
+    institutions,
     format_func=lambda x: "" if x == "" else x,
     key="institution_selected"
 )
-# データをフィルタリング（実施機関に基づく）
-if selected_institution not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["実施機関"] == selected_institution]
+df_work = apply_filter(df_work, "実施機関", selected_institution)
 
+# 最終結果
+df_filtered = df_work
 
-# 未選択項目を自動的に "すべて" に設定
-if selected_group == "" and (selected_category != "" or selected_food != "" or selected_bacteria != "" or selected_institution != ""):
-    selected_group = "すべて"
-if selected_category == "" and (selected_group != "" or selected_food != "" or selected_bacteria != "" or selected_institution != ""):
-    selected_category = "すべて"
-if selected_food == "" and (selected_group != "" or selected_category != "" or selected_bacteria != "" or selected_institution != ""):
-    selected_food = "すべて"
-if selected_bacteria == "" and (selected_group != "" or selected_category != "" or selected_food != "" or selected_institution != ""):
-    selected_bacteria = "すべて"
-if selected_institution == "" and (selected_group != "" or selected_category != "" or selected_food != "" or selected_bacteria != ""):
-    selected_institution = "すべて"
+# group_title (表示用タイトル) を定義
+if all(x in [EMPTY, ALL] for x in [selected_group, selected_category, selected_food, selected_bacteria, selected_institution]):
+    group_title = "（すべて）"
+else:
+    group_title = (
+        f"（{label_selected(selected_group)} - {label_selected(selected_category)} - "
+        f"{label_selected(selected_food)} - {label_selected(selected_bacteria)} - "
+        f"{label_selected(selected_institution)}）"
+    )
 
-# 常に group_title (表示用タイトル) を定義
-group_title = f"（{selected_group} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_institution}）" \
-              if any(v != 'すべて' for v in [selected_group, selected_category, selected_food, selected_bacteria, selected_institution]) else "（すべて）"
 
 # 表示条件を確認して出力制御
-if selected_group == "" and selected_category == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
+if all(x == EMPTY for x in [selected_group, selected_category, selected_food, selected_bacteria, selected_institution]):
     st.info("入力または選択を行ってください。")
-# データがない場合は処理を中止して警告を表示
 elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
 else:
