@@ -109,20 +109,32 @@ st.sidebar.title("検索")
 
 
 # 初期状態の選択肢
-food_groups = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
+handling_groups = [""] + ["すべて"] + list(df['食品取扱区分'].unique())
+food_categories = [""] + ["すべて"] + list(df['食品カテゴリ'].unique())
 food_names = [""] + ["すべて"] + list(df['食品名'].unique())
 bacteria_names = [""] + ["すべて"] + list(df['細菌名'].unique())
 institutions = [""] + ["すべて"] + list(df['実施機関'].unique())  
 
-# サイドバーで食品カテゴリを選択
+
+# サイドバーで食品取扱区分を選択
 selected_group = st.sidebar.selectbox(
-    '食品カテゴリを入力 または 選択してください:',
-    food_groups,
+    '食品取扱区分を入力 または 選択してください:',
+    handling_groups,
     format_func=lambda x: "" if x == "" else x,
     key="group_selected"
 )
+# データをフィルタリング（食品取扱区分に基づく）
+df_filtered = df if selected_group == "" or selected_group == "すべて" else df[df['食品取扱区分'] == selected_group]
+
+# サイドバーで食品カテゴリを選択
+selected_category = st.sidebar.selectbox(
+    '食品カテゴリを入力 または 選択してください:',
+    food_categories,
+    format_func=lambda x: "" if x == "" else x,
+    key="category_selected"
+)
 # データをフィルタリング（食品カテゴリに基づく）
-df_filtered = df if selected_group == "" or selected_group == "すべて" else df[df['食品カテゴリ'] == selected_group]
+df_filtered = df if selected_category == "" or selected_category == "すべて" else df[df['食品カテゴリ'] == selected_category]
 
 # サイドバーで食品名を選択
 food_names_filtered = [""] + ["すべて"] + list(df_filtered['食品名'].unique())
@@ -159,40 +171,42 @@ selected_institution = st.sidebar.selectbox(
 # データをフィルタリング（実施機関に基づく）
 df_filtered = df_filtered if selected_institution == "" or selected_institution == "すべて" else df_filtered[df_filtered['実施機関'] == selected_institution]
 
-# --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（"", "すべて"は除外）)
-show_edible_checkbox = (selected_group not in ["", "すべて"])
+# # --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（"", "すべて"は除外）)
+# show_edible_checkbox = (selected_group not in ["", "すべて"])
 
-if show_edible_checkbox:
-    edible_only = st.sidebar.checkbox(
-        "可食部のみ表示",
-        value=False,
-        help="消化管内容物などの非可食部を除外して表示します",
-        key="edible_only"
-    )
-else:
-    edible_only = False
+# if show_edible_checkbox:
+#     edible_only = st.sidebar.checkbox(
+#         "可食部のみ表示",
+#         value=False,
+#         help="消化管内容物などの非可食部を除外して表示します",
+#         key="edible_only"
+#     )
+# else:
+#     edible_only = False
 
-# 非可食部の除外（列の存在チェックは 食品取扱区分 の方が正しい）
-if edible_only and "食品取扱区分" in df_filtered.columns:
-    df_filtered = df_filtered[df_filtered["食品取扱区分"] != "非可食部"]
+# # 非可食部の除外（列の存在チェックは 食品取扱区分 の方が正しい）
+# if edible_only and "食品取扱区分" in df_filtered.columns:
+#     df_filtered = df_filtered[df_filtered["食品取扱区分"] != "非可食部"]
 
 
 # 未選択項目を自動的に "すべて" に設定
-if selected_group == "" and (selected_food != "" or selected_bacteria != "" or selected_institution != ""):
+if selected_group == "" and (selected_category != "" or selected_food != "" or selected_bacteria != "" or selected_institution != ""):
     selected_group = "すべて"
-if selected_food == "" and (selected_group != "" or selected_bacteria != "" or selected_institution != ""):
+if selected_category == "" and (selected_group != "" or selected_food != "" or selected_bacteria != "" or selected_institution != ""):
+    selected_category = "すべて"
+if selected_food == "" and (selected_group != "" or selected_category != "" or selected_bacteria != "" or selected_institution != ""):
     selected_food = "すべて"
-if selected_bacteria == "" and (selected_group != "" or selected_food != "" or selected_institution != ""):
+if selected_bacteria == "" and (selected_group != "" or selected_category != "" or selected_food != "" or selected_institution != ""):
     selected_bacteria = "すべて"
-if selected_institution == "" and (selected_group != "" or selected_food != "" or selected_bacteria != ""):
+if selected_institution == "" and (selected_group != "" or selected_category != "" or selected_food != "" or selected_bacteria != ""):
     selected_institution = "すべて"
 
 # 常に group_title (表示用タイトル) を定義
-group_title = f"（{selected_group} - {selected_food} - {selected_bacteria} - {selected_institution}）" \
-              if any(v != 'すべて' for v in [selected_group, selected_food, selected_bacteria, selected_institution]) else "（すべて）"
+group_title = f"（{selected_group} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_institution}）" \
+              if any(v != 'すべて' for v in [selected_group, selected_category, selected_food, selected_bacteria, selected_institution]) else "（すべて）"
 
 # 表示条件を確認して出力制御
-if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
+if selected_group == "" and selected_category == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
     st.info("入力または選択を行ってください。")
 # データがない場合は処理を中止して警告を表示
 elif df_filtered.empty:
