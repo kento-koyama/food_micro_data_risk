@@ -159,7 +159,7 @@ selected_institution = st.sidebar.selectbox(
 )
 # データをフィルタリング（実施機関に基づく）
 if selected_institution not in ["", "すべて"]:
-    df_filtered = df_filtered[df_filtered["調査機関"] == selected_institution]
+    df_filtered = df_filtered[df_filtered["実施機関"] == selected_institution]
 
 
 # 未選択項目を自動的に "すべて" に設定
