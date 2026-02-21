@@ -390,7 +390,7 @@ header, header[data-testid="stHeader"] {
 }
 
 /* ----------------------------
-   3) ついでに不要UI（任意）
+   3) ついでに不要UI
    - Deployボタン/StatusWidget を隠す（ある場合のみ）
 ---------------------------- */
 [data-testid="stDeployButton"] {
@@ -401,7 +401,7 @@ header, header[data-testid="stHeader"] {
 }
 
 /* ----------------------------
-   4) フッター（任意）
+   4) フッター
 ---------------------------- */
 footer {
     visibility: hidden;
