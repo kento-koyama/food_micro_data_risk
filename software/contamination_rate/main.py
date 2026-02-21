@@ -113,6 +113,15 @@ MISSING = "不明（欠損値）"
 ALL = "すべて"
 EMPTY = ""
 
+RESET_VALUE = ""  # 下流を未選択に戻す
+
+def reset_downstream(*keys: str) -> None:
+    """指定した session_state のキーを未選択に戻す（存在しなければ無視）"""
+    for k in keys:
+        if k in st.session_state:
+            st.session_state[k] = RESET_VALUE
+
+
 FILTER_COLS = ["食品取扱区分", "食品カテゴリ", "食品名", "細菌名", "実施機関"]
 for col in FILTER_COLS:
     # 欠損の統一 + 前後空白除去（選択肢との不一致を防止）
@@ -135,12 +144,24 @@ df_work = df.copy()
 
 # 1) 食品取扱区分
 handling_groups = make_options(df_work["食品取扱区分"])
-selected_group = st.sidebar.selectbox("食品取扱区分", handling_groups, key="group_selected")
+selected_group = st.sidebar.selectbox(
+    "食品取扱区分",
+    handling_groups,
+    key="group_selected",
+    on_change=reset_downstream,
+    args=("category_selected", "food_selected", "bacteria_selected", "institution_selected"),
+)
 df_work = apply_filter(df_work, "食品取扱区分", selected_group)
 
 # 2) 食品カテゴリ（上流で絞った df_work から候補生成）
 food_categories = make_options(df_work["食品カテゴリ"])
-selected_category = st.sidebar.selectbox("食品カテゴリ", food_categories, key="category_selected")
+selected_category = st.sidebar.selectbox(
+    "食品カテゴリ",
+    food_categories,
+    key="category_selected",
+    on_change=reset_downstream,
+    args=("food_selected", "bacteria_selected", "institution_selected"),
+)
 df_work = apply_filter(df_work, "食品カテゴリ", selected_category)
 
 
@@ -150,7 +171,9 @@ selected_food = st.sidebar.selectbox(
     "食品名を入力 または 選択してください:",
     food_names,
     format_func=lambda x: "" if x == "" else x,
-    key="food_selected"
+    key="food_selected",
+    on_change=reset_downstream,
+    args=("bacteria_selected", "institution_selected"),
 )
 df_work = apply_filter(df_work, "食品名", selected_food)
 
@@ -160,7 +183,9 @@ selected_bacteria = st.sidebar.selectbox(
     "細菌名を入力 または 選択してください:",
     bacteria_names,
     format_func=lambda x: "" if x == "" else x,
-    key="bacteria_selected"
+    key="bacteria_selected",
+    on_change=reset_downstream,
+    args=("institution_selected",),
 )
 df_work = apply_filter(df_work, "細菌名", selected_bacteria)
 
@@ -170,7 +195,7 @@ selected_institution = st.sidebar.selectbox(
     "実施機関を入力 または 選択してください:",
     institutions,
     format_func=lambda x: "" if x == "" else x,
-    key="institution_selected"
+    key="institution_selected",
 )
 df_work = apply_filter(df_work, "実施機関", selected_institution)
 
