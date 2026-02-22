@@ -107,110 +107,94 @@ df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 st.sidebar.title("検索")
 
 # =========================
-# 完全連動フィルタ（上流候補のみ表示）
+# 相互連動フィルタ（候補は「当該項目以外」の条件で決める）
+# 矛盾（交差が空）のときだけ、現行の上流優先で自動リセット
 # =========================
 MISSING = "不明（欠損値）"
 ALL = "すべて"
 EMPTY = ""
 
-RESET_VALUE = ""  # 下流を未選択に戻す
+FILTERS = [
+    # (session_key, df_column, label)
+    ("group_selected", "食品取扱区分", "食品取扱区分"),
+    ("category_selected", "食品カテゴリ", "食品カテゴリ"),
+    ("food_selected", "食品名", "食品名"),
+    ("bacteria_selected", "細菌名", "細菌名"),
+    ("institution_selected", "実施機関", "実施機関"),
+]
 
-def reset_downstream(*keys: str) -> None:
-    """指定した session_state のキーを未選択に戻す（存在しなければ無視）"""
-    for k in keys:
-        if k in st.session_state:
-            st.session_state[k] = RESET_VALUE
-
-
-FILTER_COLS = ["食品取扱区分", "食品カテゴリ", "食品名", "細菌名", "実施機関"]
-for col in FILTER_COLS:
-    # 欠損の統一 + 前後空白除去（選択肢との不一致を防止）
+# 欠損・前後空白の正規化（選択肢と一致させる）
+for _, col, _ in FILTERS:
     df[col] = df[col].astype("string").str.strip().fillna(MISSING)
 
-def make_options(s: pd.Series) -> list:
-    vals = sorted(pd.unique(s).tolist())
+def is_active(v: str) -> bool:
+    return v not in [EMPTY, ALL]
+
+def apply_constraints(df_in: pd.DataFrame, exclude_key: str | None = None) -> pd.DataFrame:
+    """exclude_key 以外の選択条件を df_in に適用"""
+    out = df_in
+    for key, col, _ in FILTERS:
+        if key == exclude_key:
+            continue
+        v = st.session_state.get(key, EMPTY)
+        if is_active(v):
+            out = out[out[col] == v]
+    return out
+
+def make_options(series: pd.Series) -> list[str]:
+    vals = sorted(pd.unique(series).tolist())
     return [EMPTY, ALL] + vals
 
-def apply_filter(df_in: pd.DataFrame, col: str, selected: str) -> pd.DataFrame:
-    if selected in [EMPTY, ALL]:
-        return df_in
-    return df_in[df_in[col] == selected]
+# session_state 初期化
+for key, _, _ in FILTERS:
+    st.session_state.setdefault(key, EMPTY)
 
-def label_selected(x: str) -> str:
-    return "未選択" if x == EMPTY else x
+# 1) まず「当該項目以外の条件」で各候補を作る
+options_map: dict[str, list[str]] = {}
+for key, col, _ in FILTERS:
+    df_others = apply_constraints(df, exclude_key=key)  # ★ここがご希望の仕様
+    options_map[key] = make_options(df_others[col])
 
-# --- 累積フィルタ（候補も連動させるため df_work を使う）---
-df_work = df.copy()
+# 2) 現在の選択が候補に無いなら未選択へ（不整合の自己修復）
+for key, _, _ in FILTERS:
+    if st.session_state[key] not in options_map[key]:
+        st.session_state[key] = EMPTY
 
-# 1) 食品取扱区分
-handling_groups = make_options(df_work["食品取扱区分"])
-selected_group = st.sidebar.selectbox(
-    "食品取扱区分",
-    handling_groups,
-    key="group_selected",
-    on_change=reset_downstream,
-    args=("category_selected", "food_selected", "bacteria_selected", "institution_selected"),
-)
-df_work = apply_filter(df_work, "食品取扱区分", selected_group)
+# 3) selectbox描画（順序は並べるだけで、ロジックは順序非依存）
+for key, _, label in FILTERS:
+    st.sidebar.selectbox(label, options_map[key], key=key)
 
-# 2) 食品カテゴリ（上流で絞った df_work から候補生成）
-food_categories = make_options(df_work["食品カテゴリ"])
-selected_category = st.sidebar.selectbox(
-    "食品カテゴリ",
-    food_categories,
-    key="category_selected",
-    on_change=reset_downstream,
-    args=("food_selected", "bacteria_selected", "institution_selected"),
-)
-df_work = apply_filter(df_work, "食品カテゴリ", selected_category)
+# 4) 最終的な絞り込み（全条件のAND）
+df_filtered = apply_constraints(df, exclude_key=None)
 
+# 5) 矛盾（交差が空）のときだけ「現行の上流優先」で解除して復帰
+any_selected = any(is_active(st.session_state[k]) for k, _, _ in FILTERS)
+if any_selected and df_filtered.empty:
+    df_tmp = df.copy()
+    for i, (key, col, label) in enumerate(FILTERS):
+        v = st.session_state[key]
+        if is_active(v):
+            next_df = df_tmp[df_tmp[col] == v]
+            if next_df.empty:
+                # この階層が矛盾点：ここ以降を未選択に戻す（現行仕様）
+                for j in range(i, len(FILTERS)):
+                    st.session_state[FILTERS[j][0]] = EMPTY
+                st.warning(f"選択条件が矛盾したため、「{label}」以降を未選択に戻しました。")
+                st.rerun()
+            df_tmp = next_df
+    df_filtered = apply_constraints(df, exclude_key=None)
 
-# 3) 食品名
-food_names = make_options(df_work["食品名"])
-selected_food = st.sidebar.selectbox(
-    "食品名を入力 または 選択してください:",
-    food_names,
-    format_func=lambda x: "" if x == "" else x,
-    key="food_selected",
-    on_change=reset_downstream,
-    args=("bacteria_selected", "institution_selected"),
-)
-df_work = apply_filter(df_work, "食品名", selected_food)
+# 表示用タイトル等
+def _lab(v: str) -> str:
+    return "未選択" if v == EMPTY else v
 
-# 4) 細菌名
-bacteria_names = make_options(df_work["細菌名"])
-selected_bacteria = st.sidebar.selectbox(
-    "細菌名を入力 または 選択してください:",
-    bacteria_names,
-    format_func=lambda x: "" if x == "" else x,
-    key="bacteria_selected",
-    on_change=reset_downstream,
-    args=("institution_selected",),
-)
-df_work = apply_filter(df_work, "細菌名", selected_bacteria)
+selected_group = st.session_state["group_selected"]
+selected_category = st.session_state["category_selected"]
+selected_food = st.session_state["food_selected"]
+selected_bacteria = st.session_state["bacteria_selected"]
+selected_institution = st.session_state["institution_selected"]
 
-# 5) 実施機関
-institutions = make_options(df_work["実施機関"])
-selected_institution = st.sidebar.selectbox(
-    "実施機関を入力 または 選択してください:",
-    institutions,
-    format_func=lambda x: "" if x == "" else x,
-    key="institution_selected",
-)
-df_work = apply_filter(df_work, "実施機関", selected_institution)
-
-# 最終結果
-df_filtered = df_work
-
-# group_title (表示用タイトル) を定義
-if all(x in [EMPTY, ALL] for x in [selected_group, selected_category, selected_food, selected_bacteria, selected_institution]):
-    group_title = "（すべて）"
-else:
-    group_title = (
-        f"（{label_selected(selected_group)} - {label_selected(selected_category)} - "
-        f"{label_selected(selected_food)} - {label_selected(selected_bacteria)} - "
-        f"{label_selected(selected_institution)}）"
-    )
+group_title = f"（{_lab(selected_group)} - {_lab(selected_category)} - {_lab(selected_food)} - {_lab(selected_bacteria)} - {_lab(selected_institution)}）"
 
 
 # 表示条件を確認して出力制御
