@@ -322,19 +322,49 @@ language_switch_html = f"""
 """
 st.markdown(language_switch_html, unsafe_allow_html=True)
 
-HIDE_MENU_STYLE = """
+HIDE_UI_STYLE = """
 <style>
-#MainMenu {
-    visibility: hidden;
-    height: 0%;
+
+header, header[data-testid="stHeader"] {
+    visibility: visible !important;
+    height: auto !important;
 }
-header {
+
+
+[data-testid="stMainMenu"] { 
+    display: none !important; 
+}
+#MainMenu { 
+    visibility: hidden; 
+}
+
+
+[data-testid="stDeployButton"] {
+    display: none !important;
+}
+[data-testid="stStatusWidget"] {
+    display: none !important;
+}
+
+
+footer {
     visibility: hidden;
-    height: 0%;
+}
+
+button[data-testid="collapsedControl"],
+button[data-testid="stSidebarCollapseButton"],
+button[aria-label="Close sidebar"],
+button[aria-label="Open sidebar"] {
+    display: inline-flex !important;
+    visibility: visible !important;
+}
+
+div[data-testid="stToolbar"] {
+    visibility: visible !important;
 }
 </style>
 """
-st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
+st.markdown(HIDE_UI_STYLE, unsafe_allow_html=True)
 
 # Link
 contact_link = """
