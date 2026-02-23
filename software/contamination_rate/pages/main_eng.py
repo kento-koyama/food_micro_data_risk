@@ -80,63 +80,130 @@ df['Organism_Detail'] = df['Organism']
 df['Organism'] = df['Organism'].apply(lambda x: 'Campylobacter spp.' if 'Campylobacter' in str(x) else x)
 df['Organism_LaTeX'] = df['Organism'].apply(format_bacteria_name_latex)
 
+# =========================
+# Mutually-linked filters (same logic as main.py)
+# - Options for each filter are determined by "all other filters"
+# - If contradiction happens (intersection is empty), reset downstream filters (upstream priority)
+# =========================
+MISSING = "Unknown (missing)"
+ALL = "All"
+EMPTY = ""
+
+FILTERS = [
+    # (session_key, df_column, label)
+    ("handling_selected", "Food Handling Classification", "Food Handling Classification"),
+    ("group_selected", "Food Category", "Food Category"),
+    ("food_selected", "Food Name", "Food Name"),
+    ("bacteria_selected", "Organism", "Bacteria"),
+    ("institution_selected", "Agency", "Agency"),
+]
+
+# Normalize missing / whitespace (make options match actual stored values)
+for _, col, _ in FILTERS:
+    if col in df.columns:
+        df[col] = df[col].astype("string").str.strip().fillna(MISSING)
+
+# session_state init
+for key, _, _ in FILTERS:
+    st.session_state.setdefault(key, EMPTY)
+st.session_state.setdefault("edible_only", False)
+
+def is_active(v: str) -> bool:
+    return v not in [EMPTY, ALL]
+
+def apply_constraints(df_in: pd.DataFrame, exclude_key: str | None = None) -> pd.DataFrame:
+    """Apply all selected constraints except exclude_key."""
+    out = df_in
+
+    # Extra constraint: edible only (kept from your EN UI)
+    if st.session_state.get("edible_only", False) and "Food Handling Classification" in out.columns:
+        out = out[out["Food Handling Classification"] != "Non-edible Parts"]
+
+    for key, col, _ in FILTERS:
+        if key == exclude_key:
+            continue
+        v = st.session_state.get(key, EMPTY)
+        if is_active(v) and col in out.columns:
+            out = out[out[col] == v]
+    return out
+
+def make_options(series: pd.Series) -> list[str]:
+    vals = sorted(pd.unique(series).tolist())
+    return [EMPTY, ALL] + vals
+
 st.sidebar.header("Filter Settings")
 
-food_groups = ["", "All"] + list(df['Food Category'].unique())
-food_names = ["", "All"] + list(df['Food Name'].unique())
-bacteria_names = ["", "All"] + list(df['Organism'].unique())
-institutions = ["", "All"] + list(df['Agency'].unique())
+# 1) Build options by applying "other filters"
+options_map: dict[str, list[str]] = {}
+for key, col, _ in FILTERS:
+    if col not in df.columns:
+        options_map[key] = [EMPTY, ALL]
+        continue
+    df_others = apply_constraints(df, exclude_key=key)   # ★ main.pyの肝
+    options_map[key] = make_options(df_others[col])
 
-selected_group = st.sidebar.selectbox('Select or input a Food Category:', food_groups, format_func=lambda x: "" if x == "" else x, key="group_selected")
-df_filtered = df if selected_group in ["", "All"] else df[df['Food Category'] == selected_group]
+# 2) Self-heal: if current selection is not in candidates, clear it
+for key, _, _ in FILTERS:
+    if st.session_state[key] not in options_map.get(key, [EMPTY, ALL]):
+        st.session_state[key] = EMPTY
 
-food_names_filtered = ["", "All"] + list(df_filtered['Food Name'].unique())
-selected_food = st.sidebar.selectbox('Select or input a Food Name:', food_names_filtered, format_func=lambda x: "" if x == "" else x, key="food_selected")
-df_filtered = df_filtered if selected_food in ["", "All"] else df_filtered[df_filtered['Food Name'] == selected_food]
+# 3) Draw selectboxes (order is UI-only; logic is order-independent)
+for key, _, label in FILTERS:
+    st.sidebar.selectbox(f"Select {label}:", options_map[key], key=key)
 
-bacteria_names_filtered = ["", "All"] + list(df_filtered['Organism'].unique())
-selected_bacteria = st.sidebar.selectbox('Select or input a Bacteria:', bacteria_names_filtered, format_func=lambda x: "" if x == "" else x, key="bacteria_selected")
-df_filtered = df_filtered if selected_bacteria in ["", "All"] else df_filtered[df_filtered['Organism'] == selected_bacteria]
-
-institutions_filtered = ["", "All"] + list(df_filtered['Agency'].unique())
-selected_institution = st.sidebar.selectbox('Select or input an Agency:', institutions_filtered, format_func=lambda x: "" if x == "" else x, key="institution_selected")
-df_filtered = df_filtered if selected_institution in ["", "All"] else df_filtered[df_filtered['Agency'] == selected_institution]
-
-# --- Show Edible Parts Only (when some category is selected) ---
-# Show the checkbox only if selected category is selected
-show_edible_checkbox = (selected_group not in ["", "All"])
-
+# --- Show Edible Parts Only (only when some Food Category is selected) ---
+show_edible_checkbox = is_active(st.session_state["group_selected"])
 if show_edible_checkbox:
-    edible_only = st.sidebar.checkbox(
+    st.sidebar.checkbox(
         "Show edible parts only",
-        value=False,
+        key="edible_only",
         help="Exclude inedible parts such as gastrointestinal contents."
     )
 else:
-    edible_only = False
+    st.session_state["edible_only"] = False
 
-# If checked, exclude rows where 'Food Name' contains 'contents' (inedible parts)
-if edible_only and 'Food Handling Classification' in df_filtered.columns:
-        df_filtered = df_filtered[df_filtered['Food Handling Classification']!="Non-edible Parts"]
+# 4) Final AND filtering
+df_filtered = apply_constraints(df, exclude_key=None)
 
-if selected_group == "" and (selected_food != "" or selected_bacteria != "" or selected_institution != ""):
-    selected_group = "All"
-if selected_food == "" and (selected_group != "" or selected_bacteria != "" or selected_institution != ""):
-    selected_food = "All"
-if selected_bacteria == "" and (selected_group != "" or selected_food != "" or selected_institution != ""):
-    selected_bacteria = "All"
-if selected_institution == "" and (selected_group != "" or selected_food != "" or selected_bacteria != ""):
-    selected_institution = "All"
+# 5) If contradiction (intersection empty), reset downstream filters (upstream priority)
+any_selected = any(is_active(st.session_state[k]) for k, _, _ in FILTERS) or st.session_state.get("edible_only", False)
+if any_selected and df_filtered.empty:
+    df_tmp = df.copy()
 
-group_title = f"({selected_group} - {selected_food} - {selected_bacteria} - {selected_institution})" \
-              if any(v != 'All' for v in [selected_group, selected_food, selected_bacteria, selected_institution]) else "(All)"
+    if st.session_state.get("edible_only", False) and "Food Handling Classification" in df_tmp.columns:
+        df_tmp = df_tmp[df_tmp["Food Handling Classification"] != "Non-edible Parts"]
 
-if selected_group == "" and selected_food == "" and selected_bacteria == "" and selected_institution == "":
+    for i, (key, col, label) in enumerate(FILTERS):
+        v = st.session_state[key]
+        if is_active(v) and col in df_tmp.columns:
+            next_df = df_tmp[df_tmp[col] == v]
+            if next_df.empty:
+                for j in range(i, len(FILTERS)):
+                    st.session_state[FILTERS[j][0]] = EMPTY
+                st.warning(f"Conflicting selections detected. Filters from '{label}' onward were reset.")
+                st.rerun()
+            df_tmp = next_df
+
+    df_filtered = apply_constraints(df, exclude_key=None)
+
+# For titles / downstream logic (keep your original variable names as much as possible)
+def _lab(v: str) -> str:
+    return "Unselected" if v == EMPTY else v
+
+selected_handling = st.session_state["handling_selected"]
+selected_group = st.session_state["group_selected"]
+selected_food = st.session_state["food_selected"]
+selected_bacteria = st.session_state["bacteria_selected"]
+selected_institution = st.session_state["institution_selected"]
+
+group_title = f"({_lab(selected_handling)} - {_lab(selected_group)} - {_lab(selected_food)} - {_lab(selected_bacteria)} - {_lab(selected_institution)})"
+
+if all(x == "" for x in [selected_handling, selected_group, selected_food, selected_bacteria, selected_institution]):
     st.info("Please input or select from the sidebar.")
 elif df_filtered.empty:
     st.warning("No matching data found. Try adjusting the filters.")
 else:
-    if selected_bacteria == "All":
+    if selected_bacteria in ["", "All"]:
         bacteria_counts = df_filtered.groupby(['Organism', 'Organism_LaTeX']).agg({
             'Number of Samples': 'sum', 'Number of Positives': 'sum'
         }).reset_index()
