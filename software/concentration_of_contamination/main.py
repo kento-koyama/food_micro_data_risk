@@ -163,7 +163,10 @@ df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 df = df.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '細菌名_latex', '検査方法', '汚染濃度_logCFU/g', '汚染濃度_MPN/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
 
 # =========================
-# 相互連動フィルタ（食品取扱区分を追加 / main.py 構成）
+# 相互連動フィルタ（main.py 構成準拠）
+# - 候補は「当該項目以外」の条件で決める
+# - 矛盾（交差が空）のときだけ上流優先で自動リセット
+# - 既存仕様維持のため、未選択("")は他が選ばれていれば「すべて」として扱う（表示・分岐用）
 # =========================
 MISSING = "不明（欠損値）"
 ALL = "すべて"
@@ -171,7 +174,7 @@ EMPTY = ""
 
 FILTERS = [
     # (session_key, df_column, label)
-    ("handling_selected", "食品取扱区分", "食品取扱区分"),
+    ("group_selected", "食品取扱区分", "食品取扱区分"),
     ("category_selected", "食品カテゴリ", "食品カテゴリ"),
     ("food_selected", "食品名", "食品名"),
     ("bacteria_selected", "細菌名", "細菌名"),
@@ -182,6 +185,9 @@ FILTERS = [
 for _, col, _ in FILTERS:
     if col in df.columns:
         df[col] = df[col].astype("string").str.strip().fillna(MISSING)
+    else:
+        # 想定外の欠損カラム対策（通常は通りません）
+        df[col] = MISSING
 
 def is_active(v: str) -> bool:
     return v not in [EMPTY, ALL]
@@ -208,7 +214,7 @@ for key, _, _ in FILTERS:
 # 1) まず「当該項目以外の条件」で各候補を作る
 options_map: dict[str, list[str]] = {}
 for key, col, _ in FILTERS:
-    df_others = apply_constraints(df, exclude_key=key)  # ★候補は「当該項目以外」で決める
+    df_others = apply_constraints(df, exclude_key=key)
     options_map[key] = make_options(df_others[col])
 
 # 2) 現在の選択が候補に無いなら未選択へ（不整合の自己修復）
@@ -216,7 +222,7 @@ for key, _, _ in FILTERS:
     if st.session_state[key] not in options_map[key]:
         st.session_state[key] = EMPTY
 
-# 3) selectbox描画（順序は並べるだけで、ロジックは順序非依存）
+# 3) selectbox 描画（順序は表示順。ロジックは順序非依存）
 for key, _, label in FILTERS:
     st.sidebar.selectbox(
         f"{label}を入力 または 選択してください:",
@@ -228,9 +234,9 @@ for key, _, label in FILTERS:
 # 4) 最終的な絞り込み（全条件のAND）
 df_filtered = apply_constraints(df, exclude_key=None)
 
-# 5) 矛盾（交差が空）のときだけ「現行の上流優先」で解除して復帰
-any_selected = any(is_active(st.session_state[k]) for k, _, _ in FILTERS)
-if any_selected and df_filtered.empty:
+# 5) 矛盾（交差が空）のときだけ「上流優先」で解除して復帰（main.py 踏襲）
+any_selected_active = any(is_active(st.session_state[k]) for k, _, _ in FILTERS)
+if any_selected_active and df_filtered.empty:
     df_tmp = df.copy()
     for i, (key, col, label) in enumerate(FILTERS):
         v = st.session_state[key]
@@ -245,30 +251,52 @@ if any_selected and df_filtered.empty:
             df_tmp = next_df
     df_filtered = apply_constraints(df, exclude_key=None)
 
-# 既存コードが使う変数名に合わせて取り出す
-selected_handling = st.session_state["handling_selected"]
-selected_group = st.session_state["category_selected"]
+# --- 既存仕様（空欄の扱い）を維持するための「表示・分岐用」正規化 ---
+# どれか1つでも入力があれば、未選択("")は「すべて」として扱う（フィルタ自体は変えない）
+any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
+
+selected_handling = st.session_state["group_selected"]
+selected_category = st.session_state["category_selected"]          # ★既存コードの selected_category は「食品カテゴリ」を維持
 selected_food = st.session_state["food_selected"]
 selected_bacteria = st.session_state["bacteria_selected"]
 selected_institution = st.session_state["institution_selected"]
 
-def _lab(v: str) -> str:
-    return "未選択" if v == EMPTY else v
+if any_input:
+    if selected_handling == EMPTY: selected_handling = ALL
+    if selected_category == EMPTY: selected_category = ALL
+    if selected_food == EMPTY: selected_food = ALL
+    if selected_bacteria == EMPTY: selected_bacteria = ALL
+    if selected_institution == EMPTY: selected_institution = ALL
 
-group_title = (
-    f"（{_lab(selected_handling)} - {_lab(selected_group)} - {_lab(selected_food)}"
-    f" - {_lab(selected_bacteria)} - {_lab(selected_institution)}）"
-)
+# --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（"" と "すべて" は除外）) ---
+show_edible_checkbox = (selected_category not in ["", "すべて"])
+
+if show_edible_checkbox:
+    edible_only = st.sidebar.checkbox(
+        "可食部のみ表示", value=False,
+        help="消化管内容物などの非可食部を除外して表示します"
+    )
+else:
+    edible_only = False
+
+# 非可食部の除外
+if edible_only and "食品取扱区分" in df_filtered.columns:
+    df_filtered = df_filtered[df_filtered["食品取扱区分"] != "非可食部"]
+
+# 常に group_title を定義（食品取扱区分を先頭に追加）
+if all(v == ALL for v in [selected_handling, selected_category, selected_food, selected_bacteria, selected_institution]):
+    group_title = "（すべて）"
+else:
+    group_title = f"（{selected_handling} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_institution}）"
 
 # 表示条件を確認して出力制御
-if all(x == "" for x in [selected_handling, selected_group, selected_food, selected_bacteria, selected_institution]):
+if all(x == EMPTY for x in [selected_handling, selected_category, selected_food, selected_bacteria, selected_institution]):
     st.info("入力または選択を行ってください。")
-
 # データがない場合は処理を中止して警告を表示
 elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
 else:
-    if selected_bacteria == "すべて":  # 細菌名の絞り込みがない場合に表示
+    if selected_bacteria in ["", "すべて"]:  # 細菌名の絞り込みがない場合に表示
         # 細菌ごとの検体数の合計を表示
         st.subheader(f'細菌ごとの食品検体数{group_title}')
         col1, col2 = st.columns(2)
