@@ -218,18 +218,21 @@ def make_options(series: pd.Series) -> list[str]:
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
-# 1) まず「当該項目以外の条件」で各候補を作る
-# 現在の選択値は候補に含める（矛盾チェックはStep 5で行う）
+# 1) 上流フィルタのみで各候補を生成
+# 「上流（自分より前のフィルタ）の選択」だけで選択肢を絞る。
+# 下流フィルタの変化が上流フィルタの選択肢を狭めないようにすることで、
+# 下流を変えても上流の選択がリセットされる問題を防ぐ。
 options_map: dict[str, list[str]] = {}
-for key, col, _ in FILTERS:
-    df_others = apply_constraints(df, exclude_key=key)
-    opts = make_options(df_others[col])
-    current = st.session_state.get(key, EMPTY)
-    if is_active(current) and current not in opts:
-        opts.append(current)  # 他の選択肢と矛盾していても選択中の値は残す
-    options_map[key] = opts
+for i, (key, col, _) in enumerate(FILTERS):
+    df_up = df.copy()
+    for j in range(i):
+        up_key, up_col, _ = FILTERS[j]
+        v = st.session_state.get(up_key, EMPTY)
+        if is_active(v):
+            df_up = df_up[df_up[up_col] == v]
+    options_map[key] = make_options(df_up[col])
 
-# 2) 現在の選択が候補に無い場合のフォールバック（通常は通らない）
+# 2) 上流の変化で候補から外れた選択だけリセット
 for key, _, _ in FILTERS:
     if st.session_state[key] not in options_map[key]:
         st.session_state[key] = EMPTY
