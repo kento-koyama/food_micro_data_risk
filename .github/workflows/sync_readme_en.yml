@@ -1,0 +1,31 @@
+name: Sync README.en.md tables
+
+on:
+  push:
+    paths:
+      - README.md
+  workflow_dispatch:
+
+jobs:
+  sync_readme_en:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Sync README.md tables → README.en.md
+        run: python .github/workflows/sync_readme_en.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.en.md
+          git commit -m "Sync README.en.md tables from README.md" || echo "No changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
