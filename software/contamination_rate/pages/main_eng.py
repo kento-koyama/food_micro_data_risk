@@ -133,16 +133,25 @@ def make_options(series: pd.Series) -> list[str]:
 
 st.sidebar.header("Filter Settings")
 
-# 1) Build options by applying "other filters"
+# 1) Build options using only upstream filters
+# Each filter's options are narrowed only by filters above it in the list.
+# This prevents downstream filter changes from resetting upstream selections.
 options_map: dict[str, list[str]] = {}
-for key, col, _ in FILTERS:
+for i, (key, col, _) in enumerate(FILTERS):
     if col not in df.columns:
         options_map[key] = [EMPTY, ALL]
         continue
-    df_others = apply_constraints(df, exclude_key=key)   # ★ main.pyの肝
-    options_map[key] = make_options(df_others[col])
+    df_up = df.copy()
+    for j in range(i):
+        up_key, up_col, _ = FILTERS[j]
+        if up_col not in df.columns:
+            continue
+        v = st.session_state.get(up_key, EMPTY)
+        if is_active(v):
+            df_up = df_up[df_up[up_col] == v]
+    options_map[key] = make_options(df_up[col])
 
-# 2) Self-heal: if current selection is not in candidates, clear it
+# 2) Reset only when an upstream change makes the current selection invalid
 for key, _, _ in FILTERS:
     if st.session_state[key] not in options_map.get(key, [EMPTY, ALL]):
         st.session_state[key] = EMPTY
