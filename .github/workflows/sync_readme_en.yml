@@ -1,13 +1,15 @@
 name: Sync README.en.md tables
 
 on:
-  push:
-    paths:
-      - README.md
+  workflow_run:
+    workflows: ["Markdown to Excel Sync", "Excel to Markdown Sync"]
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
   sync_readme_en:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
