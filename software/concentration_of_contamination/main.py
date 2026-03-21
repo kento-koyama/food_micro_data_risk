@@ -219,12 +219,17 @@ for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
 # 1) まず「当該項目以外の条件」で各候補を作る
+# 現在の選択値は候補に含める（矛盾チェックはStep 5で行う）
 options_map: dict[str, list[str]] = {}
 for key, col, _ in FILTERS:
     df_others = apply_constraints(df, exclude_key=key)
-    options_map[key] = make_options(df_others[col])
+    opts = make_options(df_others[col])
+    current = st.session_state.get(key, EMPTY)
+    if is_active(current) and current not in opts:
+        opts.append(current)  # 他の選択肢と矛盾していても選択中の値は残す
+    options_map[key] = opts
 
-# 2) 現在の選択が候補に無いなら未選択へ（不整合の自己修復）
+# 2) 現在の選択が候補に無い場合のフォールバック（通常は通らない）
 for key, _, _ in FILTERS:
     if st.session_state[key] not in options_map[key]:
         st.session_state[key] = EMPTY
