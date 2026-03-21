@@ -114,14 +114,21 @@ st.sidebar.title("検索")
 # データの読み込み
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
 
-# "不検出" または "-" または NaN または "<" または "未満" を含む値を除外
-df = df[~((df['食品カテゴリ'].isna()) | 
-          (df['汚染濃度'] == '不検出') | 
-          (df['汚染濃度'] == '未検出') | 
-          (df['汚染濃度'] == '-') | 
-          (df['汚染濃度'].isna()) | 
-          (df['汚染濃度'].astype(str).str.contains('<')) | 
-          (df['汚染濃度'].astype(str).str.contains('未満')))]
+# 汚染濃度列の該当値を "Not detected" に置き換え
+not_detected_mask = (
+    (df['汚染濃度'] == '不検出') |
+    (df['汚染濃度'] == '未検出') |
+    (df['汚染濃度'] == '-') |
+    (df['汚染濃度'] == '0') |
+    (df['汚染濃度'].astype(str).str.contains('<', na=False)) |
+    (df['汚染濃度'].astype(str).str.contains('未満', na=False))
+)
+df.loc[not_detected_mask, '汚染濃度'] = 'Not detected'
+
+# 食品カテゴリがNaNの行を除外
+df = df[~df['食品カテゴリ'].isna()]
+# 汚染濃度がNaNまたは "Not detected" の行を除外
+df = df[~(df['汚染濃度'].isna() | (df['汚染濃度'] == 'Not detected'))]
 # 食品カテゴリと食品名が共にNaNの行を除外
 df = df[~(df['食品カテゴリ'].isna() & df['食品名'].isna())]
 # 単位を指定

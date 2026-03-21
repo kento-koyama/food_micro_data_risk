@@ -80,10 +80,18 @@ st.sidebar.title("Filter Settings")
 df = pd.read_csv(csv_url, encoding='utf-8-sig')
 
 # === Data Cleaning ===
-df = df[~((df['Concentration'] == 'Not Detected') |
-          (df['Concentration'] == '-') |
-          (df['Concentration'].isna()) |
-          (df['Concentration'].astype(str).str.contains('<')))]
+# Replace matching values with "Not detected"
+not_detected_mask = (
+    (df['Concentration'] == 'Not Detected') |
+    (df['Concentration'] == '-') |
+    (df['Concentration'] == '0') |
+    (df['Concentration'].astype(str).str.contains('<', na=False)) |
+    (df['Concentration'].astype(str).str.contains('未満', na=False))
+)
+df.loc[not_detected_mask, 'Concentration'] = 'Not detected'
+
+# Exclude rows where Concentration is NaN or "Not detected"
+df = df[~(df['Concentration'].isna() | (df['Concentration'] == 'Not detected'))]
 df = df[~(df['Food Category'].isna() & df['Food Name'].isna())]
 df = df[df['Unit']!='CFU/と体']
 df = df[(df['Unit'].isin(['log CFU/g', 'CFU/g'])) | (df['Method'] == 'MPN')]
