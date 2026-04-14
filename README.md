@@ -206,7 +206,7 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) <br>（東京健康安全研究センター年報, 55, 2004） | 済 |
 <!-- endtable -->
 
-#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positiveが対象）
+#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positiveのデータのみ収集）
 <!-- table:table_Clostridium -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
