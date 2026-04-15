@@ -42,6 +42,7 @@
 | 2020 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html) | 済 |
 | 2019 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況（2019年度）](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2021/tbkj4203.pdf) <br> （東京都微生物検査情報 第42巻第3号） | 済 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
+| 2019-2020 | **広島県立大学** <br> [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809) <br> (Anaerobe volume 79, 2023, 102687) | 済 |
 | 2018-2019 | **和歌山県環境衛生研究センター** <br> [県内におけるサルモネラ属菌の薬剤耐性調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo66.pdf) <br>（和歌山県環境衛生研究センター年報, No.66, 2020 p.41-44） | 済 |
 | 2018 | **大阪健康安全基盤研究所** <br> Ready-to-eat 食品製造環境のリステリア汚染状況と食品の特性に応じた汚染制御についての考察 <br> （[大阪健康安全基盤研究所研究年報, p.107, 2020](http://www.iph.osaka.jp/s004/060/reserch_annual_report-7_2023.pdf) / 月刊 HACCP, 10, 20-25 (2022)）<br> 検査内容不明のため未登録 | 未登録 |
 | 2017-2018 | **日本獣医生命科学大学** <br> [市販鶏肉の _Campylobacter_ 属菌と _Listeria_ 属菌による汚染](https://www.jstage.jst.go.jp/article/jvma/74/5/74_321/_pdf/-char/ja) <br>（日本獣医師会雑誌　2021） | 済 |
@@ -85,6 +86,7 @@
 | 2007 | **日本獣医生命科学大学** <br> [Isolation of _Listeria monocytogenes_ from the Skin of Slaughtered Beef Cattle](https://agriknowledge.affrc.go.jp/RN/2030760055.pdf) <br> (The Journal of Veterinary Medical Science, 69(10): 1077-1079，2007) | 済 |
 | 2006-2008 | **国立医薬品食品衛生研究所**<br>[The Occurrence of Listeria monocytogenes in Imported Ready-to-Eat Foods in Japan](https://www.jstage.jst.go.jp/article/jvms/74/3/74_11-0262/_pdf/-char/en)（[訂正](https://www.jstage.jst.go.jp/article/jvms/75/2/75_11-0262e/_article/-char/ja)） <br> (Journal of Veterinary Medical Science, 2012, Volume 74, Issue 3, Pages 373-375) | 済 |
 | 2006 | **宮城県保健環境センター** <br> [_Listeria monocytogenes_ による ready-to-eat 食品の汚染実態](https://www.pref.miyagi.jp/documents/1979/210526.pdf) <br>（宮城県保健環境センター年報　第 25 号　2007） | 済 |
+| 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 済 |
 | 2005 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br>（日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 済 |
 | 2005 | **麻布大学** <br> [LAMP法および培養法による市販鶏肉からのカンピロバクターの検出比較](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_237/_pdf/-char/ja) <br>（日本食品微生物学雑誌, 23(4), 237-241, 2006） | 未登録 |
 | 2005 | **福岡県保健環境研究所** <br> [平成17年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np33/pdf/np33Material3.pdf) <br>（福岡県保健環境研究所年報, 第33号, 89-91, 2006）  | 未登録 |
@@ -206,13 +208,13 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) <br>（東京健康安全研究センター年報, 55, 2004） | 済 |
 <!-- endtable -->
 
-#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positiveのデータのみ収集）
+#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positive（エンテロトキシン生成性）のデータのみ収集）
 <!-- table:table_Clostridium -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022-2023 | **国立医薬品食品衛生研究所** <br> [Contamination of Japanese Retail Foods With Enterotoxigenic _Clostridium Perfringens_ Spores](https://www.sciencedirect.com/science/article/pii/S0362028X24002138) <br> (Journal of Food Protection., 2025; 88: 100429) | 済 |
-| 2019-2020 | **広島県立大学** <br> [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809) <br> (Anaerobe volume 79, 2023, 102687) | 済 <br>（陽性率のみ反映） |
-| 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 済 |
+| 2019-2020 | **広島県立大学** <br> [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809) <br> (Anaerobe volume 79, 2023, 102687) | 済 <br>（陽性率のみ登録） |
+| 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 済 <br> （陽性率のみ登録） |
 <!-- endtable -->
 
 ## 2. 喫食量（国内）
