@@ -430,6 +430,32 @@ div[data-testid="stToolbar"] {
 """
 st.markdown(HIDE_UI_STYLE, unsafe_allow_html=True)
 
+# 左下リンク（GitHubリポジトリ・汚染濃度ソフトウェア）
+bottom_left_links = """
+    <style>
+    .footer-left {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .footer-left a {
+        text-decoration: none;
+        color: #0366d6;
+        display: block;
+    }
+    </style>
+    <div class="footer-left">
+        <a href="https://github.com/kento-koyama/food_micro_data_risk" target="_blank">
+            📁 GitHubリポジトリ
+        </a>
+        <a href="https://concentration-of-contamination1-624097414875.asia-northeast1.run.app/" target="_blank">
+            🦠 汚染濃度ソフトウェア
+        </a>
+    </div>
+"""
+
 # お問い合わせリンクの追加
 contact_link = """
     <style>
