@@ -39,6 +39,7 @@
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2024 | **東京都健康安全研究センター** <br> [市販キノコ類からのリステリア属菌の検出状況](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2024/tbkj4505.pdf) <br> （東京都微生物検査情報 第45巻第5号） | 済 |
+| 2021 | **よつ葉乳業** <br> [Distribution of cereulide-producing Bacillus cereus in raw milk in Hokkaido, Japan, and evaluation of cereulide production](https://www.sciencedirect.com/science/article/pii/S0958694623001127) <br> （International Dairy Journal 144 (2023) 105693） | 済 |
 | 2020 | **農林水産省** <br> [市販鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_06.html) | 済 |
 | 2019 | **東京都健康安全研究センター** <br> [東京都内の畜水産食品における食中毒菌検出状況（2019年度）](https://idsc.tmiph.metro.tokyo.lg.jp/assets/epid/2021/tbkj4203.pdf) <br> （東京都微生物検査情報 第42巻第3号） | 済 |
 | 2018-2022 | **農林水産省** <br> [スプラウトの微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-7.pdf) | 済 |
@@ -50,11 +51,13 @@
 | 2016 | **大阪健康安全基盤研究所** <br> [アイスクリーム製造施設の _Listeria monocytogenes_ 汚染状況](https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000428/428619/r2016_05-10.pdf) <br>（大阪市立環科研報告 平成28年度 第79集，5-10 2017 / [研究年報 No.1 (2017) p.131](https://www.iph.osaka.jp/s004/060/reserch_annual_report-1_2017.pdf)） | 済 |
 | 2015-2017 | **和歌山県環境衛生研究センター** <br> [食肉におけるリステリア汚染実態調査](https://www.pref.wakayama.lg.jp/prefg/031801/shohou/nenpo/shohou_d/fil/nenpo64.pdf) <br>（和歌山県環境衛生研究センター年報, No.64, p.40-42, 2018） | 済 |
 | 2015 | **千葉県衛生研究所** <br> [千葉県内流通浅漬けの _Listeria monocytogenes_ を中心とした汚染状況調査-平成27年度の収去および買い上げ検体微生物検査成績-](https://www.pref.chiba.lg.jp/eiken/eiseikenkyuu/shuppanbutsu/nenpou/documents/64s-3.pdf) <br>（千葉県衛生研究所年報 第64号 2015年） | 済 |
+| 2015 | **東京家政大学** <br> [Prevalence of Bacterial Contamination in Samples of Uncooked Rice fromMarkets and Homes in Asian Countries](https://web.archive.org/web/20220511134834id_/https://www.jstage.jst.go.jp/article/jhej/69/7/69_496/_pdf) <br>（日本家政学会誌 Vol. 69 No.7 496-502 (2018)） | 済 |
 | 2014, 2015 | **大阪健康安全基盤研究所** <br> [Prevalence of _Listeria monocytogenes_ in Retail Lightly Pickled Vegetables and Its Successful Control at Processing Plants](https://www.sciencedirect.com/science/article/pii/S0362028X22097186) <br> (Journal of Food Protection 2017) | 済 |
 | 2014-2021 | **埼玉県** <br> [埼玉県内の市販食肉における食中毒細菌の汚染実態調査](https://agriknowledge.affrc.go.jp/RN/2030945004.pdf)（[関連リンク](https://www.jstage.jst.go.jp/article/shokueishi/63/4/63_151/_article/-char/ja/)） <br>（食品衛生学雑誌, 63巻4号, p.151-157） | 済 |
 | 2014 | **農林水産省** <br> [採卵鶏農場のサルモネラ保有状況・鶏卵のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiran/keiran_sal_05.html) | 済 |
 | 2013-2016 | **農林水産省** <br> [生食用野菜の微生物実態調査](https://www.maff.go.jp/j/syouan/nouan/kome/k_yasai/attach/pdf/index-17.pdf) | 済 |
 | 2013-2015 | **大阪健康安全基盤研究所** <br> [浅漬、洋生菓子、魚介類工品の細菌汚染実態調査](https://www.iph.osaka.jp/s008/030/010/010/020/20180106162000.html) | 済 |
+| 2013-2016 | **東京都健康安全研究センター** <br> [パスチャライズド牛乳におけるセレウリド産生性 _Bacillus cereus_ の汚染状況](https://www.jstage.jst.go.jp/article/shokueishi/61/5/61_178/_pdf/-char/ja) <br>（食品衛生学雑誌 61.5 (2020): 178-182） | 済 |
 | 2013 | **福岡市保健環境研究所** <br> [市販生食用鶏肉のカンピロバクター，サルモネラ，リステリア・モノサイトゲネスおよびアルコバクター汚染と推定大腸菌数の検討](https://www.jstage.jst.go.jp/article/jsfm/31/3/31_171/_pdf/-char/ja) <br>（日本食品微生物学会雑誌　2014） | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のカンピロバクター汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku_cam_12.html) | 済 |
 | 2013 | **農林水産省** <br> [ブロイラー鶏群から製造された鶏肉のサルモネラ汚染状況調査](https://www.maff.go.jp/j/syouan/seisaku/kekka/keiniku/sal/12.html) | 済 |
@@ -209,13 +212,23 @@
 <!-- endtable -->
 
 #### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positive（エンテロトキシン生成性）のデータのみ収集）
-<!-- table:table_Clostridium -->
+<!-- table:table_ClostridiumPerfringens -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2022-2023 | **国立医薬品食品衛生研究所** <br> [Contamination of Japanese Retail Foods With Enterotoxigenic _Clostridium Perfringens_ Spores](https://www.sciencedirect.com/science/article/pii/S0362028X24002138) <br> (Journal of Food Protection., 2025; 88: 100429) | 済 |
 | 2019-2020 | **広島県立大学** <br> [Prevalence of cpe-positive _Clostridium perfringens_ in surface-attached soil of commercially available potatoes and its significance as a potential source of food poisoning](https://www.sciencedirect.com/science/article/pii/S1075996422001809) <br> (Anaerobe volume 79, 2023, 102687) | 済 <br>（陽性率のみ登録） |
 | 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 済 <br> （陽性率のみ登録） |
 <!-- endtable -->
+
+#### 1.2.7 毒素産生性セレウス菌 (cereulide, enterotoxin-producing　_Bacillus cereus_)　
+<!-- table:table_BacillusCereus -->
+| 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 <br> (文献ファイル名) |
+| --- | --- | --- |
+| 2013-2016 | **東京都健康安全研究センター** <br> [パスチャライズド牛乳におけるセレウリド産生性 _Bacillus cereus_ の汚染状況](https://www.jstage.jst.go.jp/article/shokueishi/61/5/61_178/_pdf/-char/ja) <br>（食品衛生学雑誌 61.5 (2020): 178-182） | 済 |
+| 2015 | **東京家政大学** <br> [Prevalence of Bacterial Contamination in Samples of Uncooked Rice fromMarkets and Homes in Asian Countries](https://web.archive.org/web/20220511134834id_/https://www.jstage.jst.go.jp/article/jhej/69/7/69_496/_pdf) <br>（日本家政学会誌 Vol. 69 No.7 496-502 (2018)） | 済 |
+<!-- endtable -->
+
+
 
 ## 2. 喫食量（国内）
 一人当たり、一食で何をどれだけ食べているのかを推定する必要がある。喫食量の調査は以下で行われている。
