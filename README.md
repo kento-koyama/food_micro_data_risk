@@ -92,7 +92,7 @@
 | 2006 | **和歌山県立医科大学** <br> [Prevalence and Characterization of Enterotoxin Gene-Carrying _Clostridium perfringens_ Isolates from Retail Meat Products in Japan](https://journals.asm.org/doi/10.1128/aem.00783-08) <br> (Applied and Environmental Microbiology 74, 5366-5372) | 済 |
 | 2005 | **神戸大学** <br> [市販ミンチ肉における黄色ブドウ球菌汚染調査と分離株の性状](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_217/_pdf/-char/ja) <br>（日本食品微生物学会雑誌, 23 (4), 217-222, 2006） | 済 |
 | 2005 | **麻布大学** <br> [LAMP法および培養法による市販鶏肉からのカンピロバクターの検出比較](https://www.jstage.jst.go.jp/article/jsfm1994/23/4/23_4_237/_pdf/-char/ja) <br>（日本食品微生物学雑誌, 23(4), 237-241, 2006） | 未登録 |
-| 2005 | **福岡県保健環境研究所** <br> [平成17年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np33/pdf/np33Material3.pdf) <br>（福岡県保健環境研究所年報, 第33号, 89-91, 2006）  | 未登録 |
+| 2005 | **福岡県保健環境研究所** <br> [平成17年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np33/pdf/np33Material3.pdf) <br>（福岡県保健環境研究所年報, 第33号, 89-91, 2006） | 未登録 |
 | 2005 | **京都市衛生公害研究所** <br> [市販ナチュラルチーズからのリステリア菌の検出](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000118/118277/o-5.pdf) | 済 |
 | 2004-2011 | **埼玉県衛生研究所** <br> [市販鶏肉のカンピロバクター及びサルモネラ汚染状況と分離株の薬剤感受性](https://jvma-vet.jp/mag/06706/d2.pdf) <br>（日本獣医師会雑誌, 67, 442~448, 2014） | 済 |
 | 2004-2007 | **日本獣医生命科学大学** <br> [Sequence-Based Characterization of _Listeria monocytogenes_ Strains Isolated from Domestic Retail Meat in the Tokyo Metropolitan Area of Japan](https://www.jstage.jst.go.jp/article/yoken/71/5/71_JJID.2017.582/_pdf/-char/en) | 済 |
@@ -100,11 +100,11 @@
 | 2004 | **埼玉県衛生研究所** <br> [試験管培養法による鶏肉からのカンピロバクター分離法の検討](https://www.jstage.jst.go.jp/article/jsfm1994/22/3/22_3_116/_pdf/-char/en) <br>（日本食品微生物学会雑誌, 22(3), 116-119, 2005） | 未登録 |
 | 2004 | **埼玉県衛生研究所** <br> [冷凍保存鶏肉における _Campylobacter jejuni_ の生存性とパルスフィールド・ゲル電気泳動法による分離菌株の遺伝子解析](https://www.jstage.jst.go.jp/article/jsfm1994/22/2/22_2_59/_pdf/-char/en) <br>（日本食品微生物学会雑誌, 22(2), 59-65, 2005） | 未登録 |
 | 2004 | **広島市衛生研究所** <br> [鶏肉のカンピロバクター培養検査法の検討 -鶏肉の検査方法別検出感度および検出率の比較](https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/023/131/57062.pdf) <br>（広島市衛研年報 24, 49-54, 2005） | 未登録 |
-| 2004 | **福岡県保健環境研究所** <br> [平成16年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np32/pdf/np32Material2.pdf) <br>（福岡県保健環境研究所年報, 第32号, 83-85, 2005）  | 未登録 |
-| 2003 | **福岡県保健環境研究所** <br> [平成15年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np31/np31_d03.pdf) <br>（福岡県保健環境研究所年報, 第31号, 81-83, 2004）  | 未登録 |
+| 2004 | **福岡県保健環境研究所** <br> [平成16年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np32/pdf/np32Material2.pdf) <br>（福岡県保健環境研究所年報, 第32号, 83-85, 2005） | 未登録 |
+| 2003 | **福岡県保健環境研究所** <br> [平成15年度収去食品中の食中毒細菌検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np31/np31_d03.pdf) <br>（福岡県保健環境研究所年報, 第31号, 81-83, 2004） | 未登録 |
 | 2002-2004 | **埼玉県衛生研究所** <br> [漬け物製造施設における _Listeria monocytogenes_ の汚染実態について](https://www.pref.saitama.lg.jp/documents/231581/no39h17-2_p94~191.pdf) <br>（埼玉県衛生研究所年報 2005 Vol.39 p151-153） | 済 |
 | 2002-2003 | **東京海洋大学** <br> [Incidence of _Listeria monocytogenes_ in Raw Seafood Products in Japanese Retail Stores](https://www.sciencedirect.com/science/article/pii/S0362028X22009371/pdf?md5=a3083f06f33e1de915e2df49fbcf05af&pid=1-s2.0-S0362028X22009371-main.pdf) | 済 |
-| 2002 | **福岡県保健環境研究所** <br> [食品衛生法に基づく収去検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np30/np3029.pdf) <br>（福岡県保健環境研究所年報, 第30号, 183-185, 2003）  | 未登録 |
+| 2002 | **福岡県保健環境研究所** <br> [食品衛生法に基づく収去検査](https://www.fihes.pref.fukuoka.jp/nenpoh/np30/np3029.pdf) <br>（福岡県保健環境研究所年報, 第30号, 183-185, 2003） | 未登録 |
 | 2001-2002 | **東京都健康安全研究センター** <br> 全国食品衛生監視員研修会優秀課題 <br> 加工食品のリステリア菌汚染に関する衛生学的実態調査 <br>（食品衛生研究 54 (6), 2004, p. 53~57）<br> 国立国会図書館などに所蔵（[参考](https://ndlsearch.ndl.go.jp/books/R000000004-I6983248)） | 済 |
 | 2001 | **埼玉県衛生研究所** <br> [市販鶏肉の細菌汚染調査](https://www.pref.saitama.lg.jp/documents/231581/no36h14r.pdf) <br>（埼玉県衛生研究所報, 第36号, 2002, pp. 80-82） | 未登録 |
 | 2001 | **帯広畜産大学** <br> [An outbreak of food-borne listeriosis due to cheese in Japan, during 2001](https://www.sciencedirect.com/science/article/pii/S0168160505002497) | 済 |
@@ -138,7 +138,7 @@
 | 2022 | **国立医薬品食品衛生研究所** <br> 食品健康影響評価技術研究 <br> [鶏肉のフードチェーンを通じたカンピロバクターの定量的動態解析とリスク低減効果の評価に向けた研究（鶏肉中のカンピロバクターのリスク評価手法に関する研究）](https://www.fsc.go.jp/fsciis/attachedFile/download?retrievalId=cho99920222202&fileId=001) | 未登録 |
 | 2021 | **厚生労働省** <br> [と畜検査員及び食鳥検査員による外部検証の実施について](https://www.mhlw.go.jp/content/11130500/000803740.pdf) <br>（生食発 0528 第6号 令和3年5月31日） | 済 |
 | 2020 | **国立医薬品食品衛生研究所** <br> [食鳥処理場における鶏肉のカンピロバクター汚染の定量調査](https://agriknowledge.affrc.go.jp/RN/2010942163.pdf) | 済 |
-| 2019-2021 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) <br>（参考: [令和1年度報告書](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0004.pdf)、[令和2年度報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)、[令和3年度報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) ）| 済 |
+| 2019-2021 | **国立医薬品食品衛生研究所** <br> 厚生労働科学研究費（食品の安全確保推進研究事業）<br>「畜産食品の生物学的ハザードとそのリスクを低減するための研究」<br>分担研究報告書[「鶏肉食品におけるカンピロバクター等の定量的汚染実態に関する研究」](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) <br>（参考: [令和1年度報告書](https://mhlw-grants.niph.go.jp/system/files/2019/193031/201924021A_upload/201924021A0004.pdf)、[令和2年度報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/202024029A-buntan1.pdf)、[令和3年度報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/R3%E6%9C%9D%E5%80%89%E5%88%86%E6%8B%85%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E6%9B%B8.doc__0.pdf) ） | 済 |
 | 2018, 2020 | **国立医薬品食品衛生研究所** <br> [2食鳥処理場におけるブロイラー群および胸肉のカンピロバクターおよびサルモネラ汚染状況と薬剤耐性](https://agriknowledge.affrc.go.jp/RN/2010937017.pdf) | 済 |
 | 2016-2017 | **新潟県長岡食肉衛生検査センター** <br> [新潟県における市販鶏肉のカンピロバクター汚染調査](https://www.jstage.jst.go.jp/article/jvma/71/3/71_149/_pdf) | 未登録 |
 | 2014-2015 | **一般社団法人岩手県獣医師会食烏検査センター** <br> [特殊飼料を給与したブロイラーでみられたカンピロバクター低汚染鶏群と偶発的区分処理の潜在的効果](https://agriknowledge.affrc.go.jp/RN/2010902975.pdf) | 済 |
