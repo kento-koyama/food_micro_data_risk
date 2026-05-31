@@ -455,6 +455,7 @@ bottom_left_links = """
         </a>
     </div>
 """
+st.markdown(bottom_left_links, unsafe_allow_html=True)
 
 # お問い合わせリンクの追加
 contact_link = """
