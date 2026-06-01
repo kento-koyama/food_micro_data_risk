@@ -168,8 +168,26 @@ def apply_constraints(df_in: pd.DataFrame, exclude_key: str | None = None) -> pd
             out = out[out[col] == v]
     return out
 
+# === セレクトボックスの表示順設定 ===
+# 先頭に固定するグループ（この順番で上から並べる。主に食品カテゴリ用）
+CATEGORY_HEAD_ORDER = ["牛肉", "鶏肉", "豚肉", "肉類（その他）"]
+# 末尾に固定する値（"その他" は常に最後）
+CATEGORY_TAIL_ORDER = ["その他"]
+
+def _option_sort_key(v: str):
+    """選択肢の並び順キー
+    1) CATEGORY_HEAD_ORDER の値を指定順で先頭に
+    2) CATEGORY_TAIL_ORDER（完全一致の "その他"）を末尾に
+    3) それ以外は通常の昇順
+    """
+    if v in CATEGORY_HEAD_ORDER:
+        return (0, CATEGORY_HEAD_ORDER.index(v), "")
+    if v in CATEGORY_TAIL_ORDER:
+        return (2, 0, v)
+    return (1, 0, v)
+
 def make_options(series: pd.Series) -> list[str]:
-    vals = sorted(pd.unique(series).tolist())
+    vals = sorted(pd.unique(series).tolist(), key=_option_sort_key)
     return [EMPTY, ALL] + vals
 
 # session_state 初期化
