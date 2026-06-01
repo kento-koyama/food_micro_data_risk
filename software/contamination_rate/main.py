@@ -125,7 +125,6 @@ FILTERS = [
 # === 食品取扱区分（チェックボックス）設定 ===
 # 注意: 下記のカテゴリ文字列は、実データの「食品取扱区分」列の値と完全一致している必要があります。
 HANDLING_CATEGORIES = ["食材", "Ready-to-eat", "非可食部"]
-HANDLING_ALL_KEY = "handling_all"
 
 def _handling_key(cat: str) -> str:
     return f"handling_{cat}"
@@ -177,8 +176,7 @@ def make_options(series: pd.Series) -> list[str]:
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
-# 食品取扱区分チェックボックスの初期状態（デフォルト: すべて選択）
-st.session_state.setdefault(HANDLING_ALL_KEY, True)
+# 食品取扱区分チェックボックスの初期状態（デフォルト: 全カテゴリ選択）
 for cat in HANDLING_CATEGORIES:
     st.session_state.setdefault(_handling_key(cat), True)
 
@@ -241,12 +239,10 @@ any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 # --- 食品取扱区分チェックボックスの描画（any_input のときだけ・食品カテゴリ直後の位置に） ---
 if any_input and handling_container is not None:
     with handling_container:
-        # **食品取扱区分**
-        # 「すべて」: マスターチェックボックス（ON で全カテゴリ選択、OFF で全カテゴリ解除）
-        st.checkbox("すべて", key=HANDLING_ALL_KEY, on_change=on_toggle_handling_all)
-        # 子チェックボックス（食材・Ready-to-eat・非可食部）
+        # 食品取扱区分
+        # 各カテゴリのチェックボックス（食材・Ready-to-eat・非可食部）
         for cat in HANDLING_CATEGORIES:
-            st.checkbox(cat, key=_handling_key(cat), on_change=on_toggle_handling_child)
+            st.checkbox(cat, key=_handling_key(cat))
 
 # --- 選択されている食品取扱区分のリストを取得 ---
 if any_input:
