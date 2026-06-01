@@ -314,7 +314,7 @@ any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 # --- 食品取扱区分チェックボックスの描画（any_input のときだけ・食品カテゴリ直後の位置に） ---
 if any_input and handling_container is not None:
     with handling_container:
-        st.markdown("**食品取扱区分**")
+        # **食品取扱区分**
         # 「すべて」: マスターチェックボックス（ON で全カテゴリ選択、OFF で全カテゴリ解除）
         st.checkbox("すべて", key=HANDLING_ALL_KEY, on_change=on_toggle_handling_all)
         # 子チェックボックス（食材・Ready-to-eat・非可食部）
