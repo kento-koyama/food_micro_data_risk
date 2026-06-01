@@ -303,15 +303,15 @@ else:
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ {group_title}')
     df_filtered_display = df_filtered.copy()
     df_filtered_display = df_filtered_display[['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '細菌名', '細菌名_詳細',
-                                            '検体数', '陽性数', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+                                            '検体数', '陽性数', '実施機関', '調査名', 'Source URL', '閲覧日', '備考']]
 
     # URL整形（空/NaN対策 + 前後空白除去）
-    df_filtered_display["source URL"] = (
-        df_filtered_display["source URL"].astype("string").fillna("").str.strip()
+    df_filtered_display["Source URL"] = (
+        df_filtered_display["Source URL"].astype("string").fillna("").str.strip()
     )
 
     link_cfg = {
-        "source URL": st.column_config.LinkColumn("source URL")
+        "Source URL": st.column_config.LinkColumn("Source URL")
     }
 
     st.dataframe(df_filtered_display, hide_index=True, column_config=link_cfg)
