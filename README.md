@@ -5,7 +5,7 @@
 
 ## 食中毒細菌の汚染実態の見える化
 
-|汚染率|汚染濃度| 
+|陽性率|汚染濃度| 
 | --- | --- |
 |📊[**可視化ソフトウェア**](https://contamination-rate1-624097414875.asia-northeast1.run.app) |📊[**可視化ソフトウェア**](https://concentration-of-contamination1-624097414875.asia-northeast1.run.app)| 
 |<a href="https://github.com/kento-koyama/food_micro_data_risk/tree/main/software/contamination_rate" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"></a>[プログラムのソースコード](https://github.com/kento-koyama/food_micro_data_risk/tree/main/software/contamination_rate)|<a href="https://github.com/kento-koyama/food_micro_data_risk/tree/main/software/concentration_of_contamination" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"></a>[プログラムのソースコード](https://github.com/kento-koyama/food_micro_data_risk/tree/main/software/concentration_of_contamination)|
@@ -24,7 +24,7 @@
 ばく露評価を実施するにあたり必要なデータは以下の通りである。
 |収集範囲|要素| 
 | --- | --- |
-|国内|微生物汚染率と汚染濃度、喫食量と頻度、食品加工や流通の温度履歴|
+|国内|微生物汚染陽性率と汚染濃度、喫食量と頻度、食品加工や流通の温度履歴|
 |全世界|微生物の増殖・死滅速度、微生物種内に見られる増殖・死滅速度のバラつき|
 <br />
 
@@ -33,7 +33,7 @@
 ## 1. 食中毒細菌の汚染実態（国内）
 ### 1.1. 陽性/陰性の割合
 <a href= "https://github.com/kento-koyama/food_micro_data_risk/blob/main/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv" title="CSV"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/.xlsx_icon.svg" alt="CSV" width="21px" height="21px">
-  **[食中毒細菌汚染実態_汚染率.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv)** に定量データを整理
+  **[食中毒細菌汚染実態_陽性率.csv](https://github.com/kento-koyama/food_micro_data_risk/blob/main/database/%E9%A3%9F%E4%B8%AD%E6%AF%92%E7%B4%B0%E8%8F%8C%E6%B1%9A%E6%9F%93%E5%AE%9F%E6%85%8B_%E6%B1%9A%E6%9F%93%E7%8E%87.csv)** に定量データを整理
   
 <!-- table:table_contamination_rate -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
