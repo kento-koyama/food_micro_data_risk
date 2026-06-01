@@ -246,6 +246,14 @@ for key, _, label in FILTERS:
         key=key
     )
 
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "[📁 GitHubリポジトリ](https://github.com/kento-koyama/food_micro_data_risk)"
+)
+st.sidebar.markdown(
+    "[🦠 陽性率ソフトウェア](https://contamination-rate1-624097414875.asia-northeast1.run.app/)"
+)
+
 # 4) 最終的な絞り込み（全条件のAND）
 df_filtered = apply_constraints(df, exclude_key=None)
 
