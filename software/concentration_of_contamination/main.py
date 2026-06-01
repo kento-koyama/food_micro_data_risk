@@ -181,12 +181,32 @@ EMPTY = ""
 
 FILTERS = [
     # (session_key, df_column, label)
-    ("group_selected", "食品取扱区分", "食品取扱区分"),
     ("category_selected", "食品カテゴリ", "食品カテゴリ"),
     ("food_selected", "食品名", "食品名"),
     ("bacteria_selected", "細菌名", "細菌名"),
     ("institution_selected", "実施機関", "実施機関"),
 ]
+
+# === 食品取扱区分（チェックボックス）設定 ===
+# 注意: 下記のカテゴリ文字列は、実データの「食品取扱区分」列の値と完全一致している必要があります。
+HANDLING_CATEGORIES = ["食材", "Ready-to-eat", "非可食部"]
+HANDLING_ALL_KEY = "handling_all"
+
+def _handling_key(cat: str) -> str:
+    return f"handling_{cat}"
+
+def on_toggle_handling_all():
+    """「すべて」チェックボックスの状態を全ての子チェックボックスへ反映する"""
+    new_val = st.session_state[HANDLING_ALL_KEY]
+    for cat in HANDLING_CATEGORIES:
+        st.session_state[_handling_key(cat)] = new_val
+
+def on_toggle_handling_child():
+    """子チェックボックスの状態に応じて「すべて」チェックボックスを同期する
+    （全ての子がチェックされていれば「すべて」もON、そうでなければOFF）"""
+    st.session_state[HANDLING_ALL_KEY] = all(
+        st.session_state.get(_handling_key(cat), False) for cat in HANDLING_CATEGORIES
+    )
 
 # 欠損・前後空白の正規化（選択肢と一致させる）
 for _, col, _ in FILTERS:
@@ -195,6 +215,10 @@ for _, col, _ in FILTERS:
     else:
         # 想定外の欠損カラム対策（通常は通りません）
         df[col] = MISSING
+
+# 食品取扱区分はチェックボックスで制御するため、ここで個別に正規化（欠損はそのまま）
+if "食品取扱区分" in df.columns:
+    df["食品取扱区分"] = df["食品取扱区分"].astype("string").str.strip()
 
 def is_active(v: str) -> bool:
     return v not in [EMPTY, ALL]
@@ -218,6 +242,11 @@ def make_options(series: pd.Series) -> list[str]:
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
+# 食品取扱区分チェックボックスの初期状態（デフォルト: すべて選択）
+st.session_state.setdefault(HANDLING_ALL_KEY, True)
+for cat in HANDLING_CATEGORIES:
+    st.session_state.setdefault(_handling_key(cat), True)
+
 # 1) 上流フィルタのみで各候補を生成
 # 「上流（自分より前のフィルタ）の選択」だけで選択肢を絞る。
 # 下流フィルタの変化が上流フィルタの選択肢を狭めないようにすることで、
@@ -238,6 +267,9 @@ for key, _, _ in FILTERS:
         st.session_state[key] = EMPTY
 
 # 3) selectbox 描画（順序は表示順。ロジックは順序非依存）
+# 「食品カテゴリ」の直後に、食品取扱区分チェックボックス用のコンテナを差し込む
+# （スケッチ通りの表示位置。中身は後で any_input が確定してから埋める）
+handling_container = None
 for key, _, label in FILTERS:
     st.sidebar.selectbox(
         f"{label}を入力 または 選択してください:",
@@ -245,6 +277,8 @@ for key, _, label in FILTERS:
         format_func=lambda x: "" if x == EMPTY else x,
         key=key
     )
+    if key == "category_selected":
+        handling_container = st.sidebar.container()
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(
@@ -274,47 +308,71 @@ if any_selected_active and df_filtered.empty:
             df_tmp = next_df
     df_filtered = apply_constraints(df, exclude_key=None)
 
-# --- 既存仕様（空欄の扱い）を維持するための「表示・分岐用」正規化 ---
-# どれか1つでも入力があれば、未選択("")は「すべて」として扱う（フィルタ自体は変えない）
+# --- 図が表示される状態か（4フィルタのいずれかが選択されているか）を判定 ---
 any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 
-selected_handling = st.session_state["group_selected"]
+# --- 食品取扱区分チェックボックスの描画（any_input のときだけ・食品カテゴリ直後の位置に） ---
+if any_input and handling_container is not None:
+    with handling_container:
+        st.markdown("**食品取扱区分**")
+        # 「すべて」: マスターチェックボックス（ON で全カテゴリ選択、OFF で全カテゴリ解除）
+        st.checkbox("すべて", key=HANDLING_ALL_KEY, on_change=on_toggle_handling_all)
+        # 子チェックボックス（食材・Ready-to-eat・非可食部）
+        for cat in HANDLING_CATEGORIES:
+            st.checkbox(cat, key=_handling_key(cat), on_change=on_toggle_handling_child)
+
+# --- 選択されている食品取扱区分のリストを取得 ---
+if any_input:
+    selected_handling_list = [
+        cat for cat in HANDLING_CATEGORIES if st.session_state.get(_handling_key(cat), False)
+    ]
+else:
+    selected_handling_list = list(HANDLING_CATEGORIES)  # 既定値（未表示時は使用しない）
+
+# --- 食品取扱区分でのフィルタ適用 ---
+# 全カテゴリ選択時は従来の「すべて」と同じ＝フィルタ無し（欠損やその他値も表示）
+# 一部のみ選択時は isin で絞り込み
+# 全て未選択時は下の表示制御で警告（フィルタはここでは適用しない）
+if any_input and "食品取扱区分" in df_filtered.columns:
+    if set(selected_handling_list) == set(HANDLING_CATEGORIES):
+        pass  # 全選択 = 絞り込みなし
+    elif selected_handling_list:
+        df_filtered = df_filtered[df_filtered["食品取扱区分"].isin(selected_handling_list)]
+
+# --- 既存仕様（空欄の扱い）を維持するための「表示・分岐用」正規化 ---
+# どれか1つでも入力があれば、未選択("")は「すべて」として扱う（フィルタ自体は変えない）
 selected_category = st.session_state["category_selected"]          # ★既存コードの selected_category は「食品カテゴリ」を維持
 selected_food = st.session_state["food_selected"]
 selected_bacteria = st.session_state["bacteria_selected"]
 selected_institution = st.session_state["institution_selected"]
 
 if any_input:
-    if selected_handling == EMPTY: selected_handling = ALL
     if selected_category == EMPTY: selected_category = ALL
     if selected_food == EMPTY: selected_food = ALL
     if selected_bacteria == EMPTY: selected_bacteria = ALL
     if selected_institution == EMPTY: selected_institution = ALL
 
-# --- 可食部のみ表示（「食品カテゴリ」が具体的に選ばれている時だけ表示（"" と "すべて" は除外）) ---
-show_edible_checkbox = (selected_category not in ["", "すべて"])
-
-if show_edible_checkbox:
-    edible_only = st.sidebar.checkbox(
-        "可食部のみ表示", value=False,
-        help="消化管内容物などの非可食部を除外して表示します"
-    )
+# 食品取扱区分の表示ラベル（group_title 用）
+if any_input and selected_handling_list and set(selected_handling_list) != set(HANDLING_CATEGORIES):
+    handling_label = "・".join(selected_handling_list)
+elif any_input and not selected_handling_list:
+    handling_label = "（なし）"
 else:
-    edible_only = False
-
-# 非可食部の除外
-if edible_only and "食品取扱区分" in df_filtered.columns:
-    df_filtered = df_filtered[df_filtered["食品取扱区分"] != "非可食部"]
+    handling_label = ALL
 
 # 常に group_title を定義（食品取扱区分を先頭に追加）
-if all(v == ALL for v in [selected_handling, selected_category, selected_food, selected_bacteria, selected_institution]):
+if all(v == ALL for v in [selected_category, selected_food, selected_bacteria, selected_institution]) and handling_label == ALL:
     group_title = "（すべて）"
 else:
-    group_title = f"（{selected_handling} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_institution}）"
+    group_title = f"（{handling_label} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_institution}）"
+
 
 # 表示条件を確認して出力制御
-if all(x == EMPTY for x in [selected_handling, selected_category, selected_food, selected_bacteria, selected_institution]):
+if not any_input:
     st.info("入力または選択を行ってください。")
+# 食品取扱区分が一つも選択されていない場合（チェックを全て外した場合）
+elif not selected_handling_list:
+    st.warning("食品取扱区分が選択されていません。チェックボックスから少なくとも一つ選択してください。")
 # データがない場合は処理を中止して警告を表示
 elif df_filtered.empty:
     st.warning("該当するデータがありません。条件を変更してください。")
