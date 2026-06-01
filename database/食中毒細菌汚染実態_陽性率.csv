@@ -1,4 +1,4 @@
-﻿調査年,食品取扱区分,食品カテゴリ,食品名,食品詳細,細菌名,検体数,陽性数,実施機関,調査名,source URL,閲覧日,備考
+﻿調査年,食品取扱区分,食品カテゴリ,食品名,食品詳細,細菌名,検体数,陽性数,実施機関,調査名,Source URL,閲覧日,備考
 2008,食材,農産物,もやし,,Salmonella spp.,115,1,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 厚生労働省指定品目; "
 2008,食材,肉類（その他）,その他の加工用食肉等,"鶏肉, 羊肉など",Campylobacter spp.,29,5,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 実施自治体*1選定品目; "
 2008,Ready-to-eat,肉類（その他）,その他の生食用食肉,,Salmonella spp.,11,1,厚生労働省,食品中の食中毒菌汚染実態調査,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/01.html,,"value: 検体数, 陽性数; 品目カテゴリ: 実施自治体*1選定品目; "
