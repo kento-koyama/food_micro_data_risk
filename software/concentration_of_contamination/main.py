@@ -294,8 +294,8 @@ for i, (key, col, _) in enumerate(FILTERS):
     if key == "food_selected":
             # 食品名は食品カテゴリのまとまりを維持して並べる
             options_map[key] = make_food_options(df_up)
-        else:
-            options_map[key] = make_options(df_up[col])
+    else:
+        options_map[key] = make_options(df_up[col])
 
 # 2) 上流の変化で候補から外れた選択だけリセット
 for key, _, _ in FILTERS:
