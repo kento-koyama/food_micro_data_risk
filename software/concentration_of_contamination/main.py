@@ -234,9 +234,41 @@ def apply_constraints(df_in: pd.DataFrame, exclude_key: str | None = None) -> pd
             out = out[out[col] == v]
     return out
 
+# === セレクトボックスの表示順設定 ===
+# 先頭に固定するグループ（この順番で上から並べる。主に食品カテゴリ用）
+CATEGORY_HEAD_ORDER = ["牛肉", "鶏肉", "豚肉", "肉類（その他）"]
+# 末尾に固定する値（完全一致の "その他" は常に最後）
+CATEGORY_TAIL_ORDER = ["その他"]
+
+def _option_sort_key(v: str):
+    """選択肢の並び順キー
+    1) CATEGORY_HEAD_ORDER の値を指定順で先頭に
+    2) CATEGORY_TAIL_ORDER（完全一致の "その他"）を末尾に
+    3) それ以外は通常の昇順
+    """
+    if v in CATEGORY_HEAD_ORDER:
+        return (0, CATEGORY_HEAD_ORDER.index(v), "")
+    if v in CATEGORY_TAIL_ORDER:
+        return (2, 0, v)
+    return (1, 0, v)
+
 def make_options(series: pd.Series) -> list[str]:
-    vals = sorted(pd.unique(series).tolist())
+    vals = sorted(pd.unique(series).tolist(), key=_option_sort_key)
     return [EMPTY, ALL] + vals
+
+def make_food_options(df_in: pd.DataFrame, cat_col: str = "食品カテゴリ", food_col: str = "食品名") -> list[str]:
+    """食品名の選択肢を、食品カテゴリのまとまりを維持して並べる。
+    カテゴリは CATEGORY_HEAD_ORDER / CATEGORY_TAIL_ORDER の並び順、
+    カテゴリ内の食品名は昇順。複数カテゴリに跨る食品名は最初の出現位置を採用。
+    """
+    pairs = df_in[[cat_col, food_col]].astype(str).drop_duplicates()
+    records = list(pairs.itertuples(index=False, name=None))  # (category, food)
+    records.sort(key=lambda r: (_option_sort_key(r[0]), r[1]))
+    seen: list[str] = []
+    for _cat, food in records:
+        if food not in seen:
+            seen.append(food)
+    return [EMPTY, ALL] + seen
 
 # session_state 初期化
 for key, _, _ in FILTERS:
@@ -259,7 +291,11 @@ for i, (key, col, _) in enumerate(FILTERS):
         v = st.session_state.get(up_key, EMPTY)
         if is_active(v):
             df_up = df_up[df_up[up_col] == v]
-    options_map[key] = make_options(df_up[col])
+    if key == "food_selected":
+            # 食品名は食品カテゴリのまとまりを維持して並べる
+            options_map[key] = make_food_options(df_up)
+        else:
+            options_map[key] = make_options(df_up[col])
 
 # 2) 上流の変化で候補から外れた選択だけリセット
 for key, _, _ in FILTERS:
