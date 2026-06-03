@@ -351,8 +351,6 @@ any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 if any_input and handling_container is not None:
     with handling_container:
         # **食品取扱区分**
-        # 「すべて」: マスターチェックボックス（ON で全カテゴリ選択、OFF で全カテゴリ解除）
-        st.checkbox("すべて", key=HANDLING_ALL_KEY, on_change=on_toggle_handling_all)
         # 子チェックボックス（食材・Ready-to-eat・非可食部）
         for cat in HANDLING_CATEGORIES:
             st.checkbox(cat, key=_handling_key(cat), on_change=on_toggle_handling_child)
