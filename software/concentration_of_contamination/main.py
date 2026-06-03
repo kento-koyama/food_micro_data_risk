@@ -190,23 +190,19 @@ FILTERS = [
 # === 食品取扱区分（チェックボックス）設定 ===
 # 注意: 下記のカテゴリ文字列は、実データの「食品取扱区分」列の値と完全一致している必要があります。
 HANDLING_CATEGORIES = ["食材", "Ready-to-eat", "非可食部"]
-HANDLING_ALL_KEY = "handling_all"
 
 def _handling_key(cat: str) -> str:
+    """チェックボックス本体のキー（ウィジェット用。未描画時に破棄され得る）"""
     return f"handling_{cat}"
 
-def on_toggle_handling_all():
-    """「すべて」チェックボックスの状態を全ての子チェックボックスへ反映する"""
-    new_val = st.session_state[HANDLING_ALL_KEY]
-    for cat in HANDLING_CATEGORIES:
-        st.session_state[_handling_key(cat)] = new_val
+def _handling_state_key(cat: str) -> str:
+    """選択状態を保持する永続キー（ウィジェットに紐づかないため破棄されない）"""
+    return f"handling_state_{cat}"
 
-def on_toggle_handling_child():
-    """子チェックボックスの状態に応じて「すべて」チェックボックスを同期する
-    （全ての子がチェックされていれば「すべて」もON、そうでなければOFF）"""
-    st.session_state[HANDLING_ALL_KEY] = all(
-        st.session_state.get(_handling_key(cat), False) for cat in HANDLING_CATEGORIES
-    )
+def _sync_handling(cat: str):
+    """チェックボックスの値を永続キーへ書き戻す"""
+    st.session_state[_handling_state_key(cat)] = st.session_state[_handling_key(cat)]
+
 
 # 欠損・前後空白の正規化（選択肢と一致させる）
 for _, col, _ in FILTERS:
@@ -274,10 +270,9 @@ def make_food_options(df_in: pd.DataFrame, cat_col: str = "食品カテゴリ", 
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
-# 食品取扱区分チェックボックスの初期状態（デフォルト: すべて選択）
-st.session_state.setdefault(HANDLING_ALL_KEY, True)
+# 食品取扱区分の選択状態（永続キーで保持。デフォルト: 全カテゴリ選択）
 for cat in HANDLING_CATEGORIES:
-    st.session_state.setdefault(_handling_key(cat), True)
+    st.session_state.setdefault(_handling_state_key(cat), True)
 
 # 1) 上流フィルタのみで各候補を生成
 # 「上流（自分より前のフィルタ）の選択」だけで選択肢を絞る。
@@ -350,15 +345,22 @@ any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 # --- 食品取扱区分チェックボックスの描画（any_input のときだけ・食品カテゴリ直後の位置に） ---
 if any_input and handling_container is not None:
     with handling_container:
-        # **食品取扱区分**
-        # 子チェックボックス（食材・Ready-to-eat・非可食部）
+        # **食品取扱区分**        # 各カテゴリのチェックボックス（食材・Ready-to-eat・非可食部）
+        # value で永続キーの状態を初期値に反映し、on_change で永続キーへ書き戻す
         for cat in HANDLING_CATEGORIES:
-            st.checkbox(cat, key=_handling_key(cat), on_change=on_toggle_handling_child)
+            st.checkbox(
+                cat,
+                key=_handling_key(cat),
+                value=st.session_state[_handling_state_key(cat)],
+                on_change=_sync_handling,
+                args=(cat,),
+            )
 
 # --- 選択されている食品取扱区分のリストを取得 ---
 if any_input:
+    # 永続キー（状態の保持元）から選択状態を取得（既定 True）
     selected_handling_list = [
-        cat for cat in HANDLING_CATEGORIES if st.session_state.get(_handling_key(cat), False)
+        cat for cat in HANDLING_CATEGORIES if st.session_state.get(_handling_state_key(cat), True)
     ]
 else:
     selected_handling_list = list(HANDLING_CATEGORIES)  # 既定値（未表示時は使用しない）
