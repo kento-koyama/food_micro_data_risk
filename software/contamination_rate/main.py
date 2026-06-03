@@ -278,7 +278,7 @@ if any_input and handling_container is not None:
         # 食品取扱区分
         # 各カテゴリのチェックボックス（食材・Ready-to-eat・非可食部）
         for cat in HANDLING_CATEGORIES:
-            st.checkbox(cat, key=_handling_key(cat))
+            st.checkbox(cat, key=_handling_key(cat), on_change=on_toggle_handling_child)
 
 # --- 選択されている食品取扱区分のリストを取得 ---
 if any_input:
