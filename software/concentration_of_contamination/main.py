@@ -167,7 +167,7 @@ df['細菌名'] = df['細菌名'].apply(lambda x: 'Campylobacter spp.' if 'Campy
 # 細菌名を整形し、latex表記列を作成
 df['細菌名_latex'] = df['細菌名'].apply(format_bacteria_name_latex)
 
-df = df.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '細菌名_latex', '検査方法', '汚染濃度_logCFU/g', '汚染濃度_MPN/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+df = df.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '細菌名_latex', '検査方法', '汚染濃度_logCFU/g', '汚染濃度_MPN/g', '汚染濃度', '単位', '実施機関', '調査名', 'Source URL', '閲覧日', '備考']]
 
 # =========================
 # 相互連動フィルタ（main.py 構成準拠）
@@ -578,12 +578,12 @@ else:
     st.subheader(f'選択された食品カテゴリと食品名に該当するデータ{group_title}')
     df_filtered_display = df_filtered.copy()
     df_filtered_display.reset_index(inplace=True, drop=True)
-    df_filtered_display = df_filtered_display.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '汚染濃度_logCFU/g', '汚染濃度', '単位', '実施機関', '調査名', 'source URL', '閲覧日', '備考']]
+    df_filtered_display = df_filtered_display.loc[:, ['調査年', '食品取扱区分', '食品カテゴリ', '食品名', '食品詳細', '細菌名', '細菌名_詳細', '汚染濃度_logCFU/g', '汚染濃度', '単位', '実施機関', '調査名', 'Source URL', '閲覧日', '備考']]
     # --- 追加：URL列をリンクとして表示（空/NaN対策 + 前後空白除去） ---
-    df_filtered_display["source URL"] = (
-        df_filtered_display["source URL"].astype("string").fillna("").str.strip()
+    df_filtered_display["Source URL"] = (
+        df_filtered_display["Source URL"].astype("string").fillna("").str.strip()
     )
-    link_cfg = {"source URL": st.column_config.LinkColumn("source URL")}
+    link_cfg = {"Source URL": st.column_config.LinkColumn("Source URL")}
     st.dataframe(df_filtered_display, hide_index=False, column_config=link_cfg)
     st.write("*現在報告書から取得した統計処理済みの文献値（最大値・最小値・平均値など）が混在しているためグラフは参考。今後データ収集を行い分布を可視化していく")
 
