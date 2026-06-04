@@ -124,12 +124,28 @@ EMPTY = ""
 
 FILTERS = [
     # (session_key, df_column, label)
-    ("handling_selected", "Food Handling Classification", "Food Handling Classification"),
     ("category_selected", "Food Category", "Food Category"),
     ("food_selected", "Food Name", "Food Name"),
     ("bacteria_selected", "Organism", "Bacteria"),
     ("agency_selected", "Agency", "Agency"),
 ]
+
+# === Food Handling Classification (checkboxes) ===
+# NOTE: These strings must EXACTLY match the values in the
+#       "Food Handling Classification" column of your data.
+HANDLING_CATEGORIES = ["Ingredient", "Ready-to-eat", "Non-edible Parts"]
+
+def _handling_key(cat: str) -> str:
+    """Widget key for the checkbox (may be discarded when not rendered)."""
+    return f"handling_{cat}"
+
+def _handling_state_key(cat: str) -> str:
+    """Persistent key holding the selection state (not tied to a widget)."""
+    return f"handling_state_{cat}"
+
+def _sync_handling(cat: str):
+    """Write the checkbox value back to the persistent key."""
+    st.session_state[_handling_state_key(cat)] = st.session_state[_handling_key(cat)]
 
 # normalize (strip + fillna) so option labels and filtering match
 for _, col, _ in FILTERS:
@@ -137,6 +153,10 @@ for _, col, _ in FILTERS:
         df[col] = df[col].astype("string").str.strip().fillna(MISSING)
     else:
         df[col] = MISSING
+
+# Food Handling Classification is controlled by checkboxes -> normalize separately (keep missing as-is)
+if "Food Handling Classification" in df.columns:
+    df["Food Handling Classification"] = df["Food Handling Classification"].astype("string").str.strip()
 
 def is_active(v: str) -> bool:
     return v not in [EMPTY, ALL]
@@ -160,6 +180,10 @@ def make_options(series: pd.Series) -> list[str]:
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
 
+# Food Handling Classification selection state (persistent keys; default: all selected)
+for cat in HANDLING_CATEGORIES:
+    st.session_state.setdefault(_handling_state_key(cat), True)
+
 # 1) Build options using only upstream filters
 # Each filter's options are narrowed only by filters above it in the list.
 # This prevents downstream filter changes from resetting upstream selections.
@@ -179,6 +203,9 @@ for key, _, _ in FILTERS:
         st.session_state[key] = EMPTY
 
 # 3) render selectboxes (order is UI order; logic itself is order-independent)
+# Insert a container for the handling-classification checkboxes right after "Food Category"
+# (position fixed here; contents filled later once any_input is known)
+handling_container = None
 for key, _, label in FILTERS:
     st.sidebar.selectbox(
         f"Enter or select {label}:",
@@ -186,6 +213,8 @@ for key, _, label in FILTERS:
         format_func=lambda x: "" if x == EMPTY else x,
         key=key,
     )
+    if key == "category_selected":
+        handling_container = st.sidebar.container()
 
 # 4) final AND filtering
 df_filtered = apply_constraints(df, exclude_key=None)
