@@ -216,6 +216,14 @@ for key, _, label in FILTERS:
     if key == "category_selected":
         handling_container = st.sidebar.container()
 
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "[📁 GitHub repository](https://github.com/kento-koyama/food_micro_data_risk/blob/main/README.en.md)"
+)
+st.sidebar.markdown(
+    "[🦠 Software for Contamination Rate](https://contamination-rate1-624097414875.asia-northeast1.run.app/main_eng)"
+)
+
 # 4) final AND filtering
 df_filtered = apply_constraints(df, exclude_key=None)
 
