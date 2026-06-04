@@ -244,46 +244,70 @@ if any_selected_active and df_filtered.empty:
             df_tmp = next_df
     df_filtered = apply_constraints(df, exclude_key=None)
 
-# --- display-only normalization (legacy behavior) ---
+# --- whether charts should be shown (any of the 4 filters selected) ---
 any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
 
-selected_handling = st.session_state["handling_selected"]
+# --- render handling checkboxes (only when any_input; right after "Food Category") ---
+if any_input and handling_container is not None:
+    with handling_container:
+        st.markdown("**Food Handling Classification**")
+        # value reflects the persistent state; on_change writes it back
+        for cat in HANDLING_CATEGORIES:
+            st.checkbox(
+                cat,
+                key=_handling_key(cat),
+                value=st.session_state[_handling_state_key(cat)],
+                on_change=_sync_handling,
+                args=(cat,),
+            )
+
+# --- selected handling categories (read from persistent keys; default True) ---
+if any_input:
+    selected_handling_list = [
+        cat for cat in HANDLING_CATEGORIES if st.session_state.get(_handling_state_key(cat), True)
+    ]
+else:
+    selected_handling_list = list(HANDLING_CATEGORIES)  # default (unused when not shown)
+
+# --- apply handling filter ---
+# all selected -> no filtering (legacy "All"); subset -> isin; none -> warning below
+if any_input and "Food Handling Classification" in df_filtered.columns:
+    if set(selected_handling_list) == set(HANDLING_CATEGORIES):
+        pass
+    elif selected_handling_list:
+        df_filtered = df_filtered[df_filtered["Food Handling Classification"].isin(selected_handling_list)]
+
+# --- display-only normalization (legacy behavior) ---
 selected_category = st.session_state["category_selected"]
 selected_food = st.session_state["food_selected"]
 selected_bacteria = st.session_state["bacteria_selected"]
 selected_agency = st.session_state["agency_selected"]
 
 if any_input:
-    if selected_handling == EMPTY: selected_handling = ALL
     if selected_category == EMPTY: selected_category = ALL
     if selected_food == EMPTY: selected_food = ALL
     if selected_bacteria == EMPTY: selected_bacteria = ALL
     if selected_agency == EMPTY: selected_agency = ALL
 
-# --- Show edible parts only (only when a specific category is selected) ---
-show_edible_checkbox = (selected_category not in [EMPTY, ALL])
-if show_edible_checkbox:
-    edible_only = st.sidebar.checkbox(
-        "Show edible parts only",
-        value=False,
-        help="Exclude inedible parts such as gastrointestinal contents.",
-    )
+# handling label for the group title
+if any_input and selected_handling_list and set(selected_handling_list) != set(HANDLING_CATEGORIES):
+    handling_label = " / ".join(selected_handling_list)
+elif any_input and not selected_handling_list:
+    handling_label = "(None)"
 else:
-    edible_only = False
-
-if edible_only and "Food Handling Classification" in df_filtered.columns:
-    df_filtered = df_filtered[df_filtered["Food Handling Classification"] != "Non-edible Parts"]
+    handling_label = ALL
 
 # --- group title ---
-if all(v == ALL for v in [selected_handling, selected_category, selected_food, selected_bacteria, selected_agency]):
+if all(v == ALL for v in [selected_category, selected_food, selected_bacteria, selected_agency]) and handling_label == ALL:
     group_title = "(All)"
 else:
-    group_title = f"({selected_handling} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_agency})"
+    group_title = f"({handling_label} - {selected_category} - {selected_food} - {selected_bacteria} - {selected_agency})"
 
-# --- gatekeeping (same structure as JP main.py) ---
-raw_all_empty = all(st.session_state[k] == EMPTY for k, _, _ in FILTERS)
-if raw_all_empty:
+# --- gatekeeping ---
+if not any_input:
     st.info("Please enter or select from the sidebar.")
+elif not selected_handling_list:
+    st.warning("No Food Handling Classification selected. Please check at least one box.")
 elif df_filtered.empty:
     st.warning("No matching data. Please adjust filters.")
 else:
