@@ -211,7 +211,7 @@
 | 2000-2002 | **東京都健康安全研究センター** <br> [市販生鮮青果物の食品細菌学的調査](https://www.tmiph.metro.tokyo.lg.jp/files/archive/issue/kenkyunenpo/nenpou55/55-21.pdf) <br>（東京健康安全研究センター年報, 55, 2004） | 済 |
 <!-- endtable -->
 
-#### 1.2.6 ウェルシュ菌（_Clostridium perfringens_, cpe-positive（エンテロトキシン生成性）のデータのみ収集）
+#### 1.2.6 毒素産生性ウェルシュ菌（_Clostridium perfringens_, cpe-positive（エンテロトキシン生成性）のデータのみ収集）
 <!-- table:table_ClostridiumPerfringens -->
 | 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
@@ -222,7 +222,7 @@
 
 #### 1.2.7 毒素産生性セレウス菌 (cereulide, enterotoxin-producing　_Bacillus cereus_)　
 <!-- table:table_BacillusCereus -->
-| 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 <br> (文献ファイル名) |
+| 年度 | 報告機関 ／ 報告プロジェクト | 整理状況 |
 | --- | --- | --- |
 | 2013-2016 | **東京都健康安全研究センター** <br> [パスチャライズド牛乳におけるセレウリド産生性 _Bacillus cereus_ の汚染状況](https://www.jstage.jst.go.jp/article/shokueishi/61/5/61_178/_pdf/-char/ja) <br>（食品衛生学雑誌 61.5 (2020): 178-182） | 済 |
 | 2015 | **東京家政大学** <br> [Prevalence of Bacterial Contamination in Samples of Uncooked Rice fromMarkets and Homes in Asian Countries](https://web.archive.org/web/20220511134834id_/https://www.jstage.jst.go.jp/article/jhej/69/7/69_496/_pdf) <br>（日本家政学会誌 Vol. 69 No.7 496-502 (2018)） | 済 |
