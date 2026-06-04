@@ -91,22 +91,45 @@ EMPTY = ""
 
 FILTERS = [
     # (session_key, df_column, label)
-    ("handling_selected", "Food Handling Classification", "Food Handling Classification"),
     ("group_selected", "Food Category", "Food Category"),
     ("food_selected", "Food Name", "Food Name"),
     ("bacteria_selected", "Organism", "Bacteria"),
     ("institution_selected", "Agency", "Agency"),
 ]
 
+# === Food Handling Classification (checkboxes) ===
+# NOTE: These strings must EXACTLY match the values in the
+#       "Food Handling Classification" column of your data.
+HANDLING_CATEGORIES = ["Ingredient", "Ready-to-eat", "Non-edible Parts"]
+
+def _handling_key(cat: str) -> str:
+    """Widget key for the checkbox (may be discarded when not rendered)."""
+    return f"handling_{cat}"
+
+def _handling_state_key(cat: str) -> str:
+    """Persistent key holding the selection state (not tied to a widget)."""
+    return f"handling_state_{cat}"
+
+def _sync_handling(cat: str):
+    """Write the checkbox value back to the persistent key."""
+    st.session_state[_handling_state_key(cat)] = st.session_state[_handling_key(cat)]
+
 # Normalize missing / whitespace (make options match actual stored values)
 for _, col, _ in FILTERS:
     if col in df.columns:
         df[col] = df[col].astype("string").str.strip().fillna(MISSING)
 
+# Food Handling Classification is controlled by checkboxes -> normalize separately (keep missing as-is)
+if "Food Handling Classification" in df.columns:
+    df["Food Handling Classification"] = df["Food Handling Classification"].astype("string").str.strip()
+
 # session_state init
 for key, _, _ in FILTERS:
     st.session_state.setdefault(key, EMPTY)
-st.session_state.setdefault("edible_only", False)
+
+# Food Handling Classification selection state (persistent keys; default: all selected)
+for cat in HANDLING_CATEGORIES:
+    st.session_state.setdefault(_handling_state_key(cat), True)
 
 def is_active(v: str) -> bool:
     return v not in [EMPTY, ALL]
@@ -114,11 +137,6 @@ def is_active(v: str) -> bool:
 def apply_constraints(df_in: pd.DataFrame, exclude_key: str | None = None) -> pd.DataFrame:
     """Apply all selected constraints except exclude_key."""
     out = df_in
-
-    # Extra constraint: edible only (kept from your EN UI)
-    if st.session_state.get("edible_only", False) and "Food Handling Classification" in out.columns:
-        out = out[out["Food Handling Classification"] != "Non-edible Parts"]
-
     for key, col, _ in FILTERS:
         if key == exclude_key:
             continue
@@ -157,31 +175,21 @@ for key, _, _ in FILTERS:
         st.session_state[key] = EMPTY
 
 # 3) Draw selectboxes (order is UI-only; logic is order-independent)
+# Insert a container for the handling-classification checkboxes right after "Food Category"
+# (position fixed here; contents filled later once any_input is known)
+handling_container = None
 for key, _, label in FILTERS:
     st.sidebar.selectbox(f"Select {label}:", options_map[key], key=key)
-
-# --- Show Edible Parts Only (only when some Food Category is selected) ---
-show_edible_checkbox = is_active(st.session_state["group_selected"])
-if show_edible_checkbox:
-    st.sidebar.checkbox(
-        "Show edible parts only",
-        key="edible_only",
-        help="Exclude inedible parts such as gastrointestinal contents."
-    )
-else:
-    st.session_state["edible_only"] = False
+    if key == "group_selected":
+        handling_container = st.sidebar.container()
 
 # 4) Final AND filtering
 df_filtered = apply_constraints(df, exclude_key=None)
 
 # 5) If contradiction (intersection empty), reset downstream filters (upstream priority)
-any_selected = any(is_active(st.session_state[k]) for k, _, _ in FILTERS) or st.session_state.get("edible_only", False)
+any_selected = any(is_active(st.session_state[k]) for k, _, _ in FILTERS)
 if any_selected and df_filtered.empty:
     df_tmp = df.copy()
-
-    if st.session_state.get("edible_only", False) and "Food Handling Classification" in df_tmp.columns:
-        df_tmp = df_tmp[df_tmp["Food Handling Classification"] != "Non-edible Parts"]
-
     for i, (key, col, label) in enumerate(FILTERS):
         v = st.session_state[key]
         if is_active(v) and col in df_tmp.columns:
@@ -195,20 +203,63 @@ if any_selected and df_filtered.empty:
 
     df_filtered = apply_constraints(df, exclude_key=None)
 
+# --- whether charts should be shown (any of the 4 filters selected) ---
+any_input = any(st.session_state[k] != EMPTY for k, _, _ in FILTERS)
+
+# --- render handling checkboxes (only when any_input; right after "Food Category") ---
+if any_input and handling_container is not None:
+    with handling_container:
+        st.markdown("**Food Handling Classification**")
+        # value reflects the persistent state; on_change writes it back
+        for cat in HANDLING_CATEGORIES:
+            st.checkbox(
+                cat,
+                key=_handling_key(cat),
+                value=st.session_state[_handling_state_key(cat)],
+                on_change=_sync_handling,
+                args=(cat,),
+            )
+
+# --- selected handling categories (read from persistent keys; default True) ---
+if any_input:
+    selected_handling_list = [
+        cat for cat in HANDLING_CATEGORIES if st.session_state.get(_handling_state_key(cat), True)
+    ]
+else:
+    selected_handling_list = list(HANDLING_CATEGORIES)  # default (unused when not shown)
+
+# --- apply handling filter ---
+# all selected -> no filtering (legacy "All"); subset -> isin; none -> warning below
+if any_input and "Food Handling Classification" in df_filtered.columns:
+    if set(selected_handling_list) == set(HANDLING_CATEGORIES):
+        pass
+    elif selected_handling_list:
+        df_filtered = df_filtered[df_filtered["Food Handling Classification"].isin(selected_handling_list)]
+
 # For titles / downstream logic (keep your original variable names as much as possible)
 def _lab(v: str) -> str:
     return "Unselected" if v == EMPTY else v
 
-selected_handling = st.session_state["handling_selected"]
 selected_group = st.session_state["group_selected"]
 selected_food = st.session_state["food_selected"]
 selected_bacteria = st.session_state["bacteria_selected"]
 selected_institution = st.session_state["institution_selected"]
 
-group_title = f"({_lab(selected_handling)} - {_lab(selected_group)} - {_lab(selected_food)} - {_lab(selected_bacteria)} - {_lab(selected_institution)})"
+# handling label for the group title
+if any_input and selected_handling_list and set(selected_handling_list) != set(HANDLING_CATEGORIES):
+    handling_label = " / ".join(selected_handling_list)
+elif any_input and not selected_handling_list:
+    handling_label = "(None)"
+else:
+    handling_label = ALL
 
-if all(x == "" for x in [selected_handling, selected_group, selected_food, selected_bacteria, selected_institution]):
+group_title = f"({handling_label} - {_lab(selected_group)} - {_lab(selected_food)} - {_lab(selected_bacteria)} - {_lab(selected_institution)})"
+
+# --- gatekeeping ---
+if not any_input:
     st.info("Please input or select from the sidebar.")
+elif not selected_handling_list:
+    st.warning("No Food Handling Classification selected. Please check at least one box.")
 elif df_filtered.empty:
     st.warning("No matching data found. Try adjusting the filters.")
 else:
