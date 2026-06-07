@@ -579,12 +579,31 @@ contact_link = """
     .footer a {
         text-decoration: none;
         color: #0366d6;
+        position: relative;
+        padding-left: 1.4em; /* アイコン分の余白 */
+    }
+    .footer a::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.15em;
+        width: 1em;
+        height: 1em;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* SVG（質問マーク丸）をそのまま埋め込み。# は %23 にエスケープ */
+        background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230366d6' stroke-width='2'>\
+<circle cx='12' cy='12' r='10'/>\
+<path d='M9.1 9a3 3 0 1 1 5.8 0c0 2-3 2-3 4'/>\
+<circle cx='12' cy='17' r='1.2'/>\
+</svg>");
     }
     </style>
     <div class="footer">
         お問い合わせは
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">
-        こちら</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header"
+           target="_blank" rel="noopener noreferrer">こちら</a>
         から
     </div>
 """
