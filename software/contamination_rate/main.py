@@ -245,6 +245,14 @@ for key, _, label in FILTERS:
     if key == "category_selected":
         handling_container = st.sidebar.container()
 
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "[📁 GitHubリポジトリ](https://github.com/kento-koyama/food_micro_data_risk)"
+)
+st.sidebar.markdown(
+    "[🦠 汚染濃度ソフトウェア](https://concentration-of-contamination1-624097414875.asia-northeast1.run.app/)"
+)
+
 # 4) 最終的な絞り込み（全条件のAND）
 df_filtered = apply_constraints(df, exclude_key=None)
 
@@ -558,33 +566,6 @@ div[data-testid="stToolbar"] {
 </style>
 """
 st.markdown(HIDE_UI_STYLE, unsafe_allow_html=True)
-
-# 左下リンク（GitHubリポジトリ・汚染濃度ソフトウェア）
-bottom_left_links = """
-    <style>
-    .footer-left {
-        position: fixed;
-        bottom: 10px;
-        left: 10px;
-        font-size: 16px;
-        line-height: 1.8;
-    }
-    .footer-left a {
-        text-decoration: none;
-        color: #0366d6;
-        display: block;
-    }
-    </style>
-    <div class="footer-left">
-        <a href="https://github.com/kento-koyama/food_micro_data_risk" target="_blank">
-            📁 GitHubリポジトリ
-        </a>
-        <a href="https://concentration-of-contamination1-624097414875.asia-northeast1.run.app/" target="_blank">
-            🦠 汚染濃度ソフトウェア
-        </a>
-    </div>
-"""
-st.markdown(bottom_left_links, unsafe_allow_html=True)
 
 # お問い合わせリンクの追加
 contact_link = """
