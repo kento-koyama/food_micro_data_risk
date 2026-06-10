@@ -245,7 +245,7 @@ st.sidebar.markdown(
     '<path d="M2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5z"></path>'
     '<path d="M8.5.015V7.5h7.485A8 8 0 0 0 8.5.015z"></path>'
     '</svg>'
-    '<span>Software for Contamination Rate</span>'
+    '<span>Software Visualizing Prevalence of Contamination</span>'
     '</a>',
     unsafe_allow_html=True,
 )
