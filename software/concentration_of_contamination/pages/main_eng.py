@@ -493,6 +493,6 @@ st.markdown("""
 }
 </style>
 <div class="footer">
-    For inquiries, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">here</a>.
+    For inquiries or data submission, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header" target="_blank">here</a>.
 </div>
 """, unsafe_allow_html=True)
