@@ -661,12 +661,60 @@ st.markdown(language_switch_html, unsafe_allow_html=True)
 # デフォルトのメニューバーを非表示
 HIDE_MENU_STYLE = """
 <style>
-/* 右上のハンバーガーメニューを非表示 */
-#MainMenu {visibility: hidden;}
-/* Deployボタン・実行状況などのツールバーを非表示（開閉ボタンは含まれないので残る） */
-[data-testid="stToolbar"] {visibility: hidden; height: 0;}
-/* 最上部の装飾バー（カラーバー）を非表示 */
-[data-testid="stDecoration"] {display: none;}
+/* ----------------------------
+   1) ヘッダーは残す（サイドバー開閉トグルのため）
+---------------------------- */
+header, header[data-testid="stHeader"] {
+    visibility: visible !important;
+    height: auto !important;
+}
+
+/* ----------------------------
+   2) MainMenu（…/kebab）を隠す
+   - 新しめ: data-testid="stMainMenu"
+   - 旧: #MainMenu
+---------------------------- */
+[data-testid="stMainMenu"] { 
+    display: none !important; 
+}
+#MainMenu { 
+    visibility: hidden; 
+}
+
+/* ----------------------------
+   3) ついでに不要UI
+   - Deployボタン/StatusWidget を隠す（ある場合のみ）
+---------------------------- */
+[data-testid="stDeployButton"] {
+    display: none !important;
+}
+[data-testid="stStatusWidget"] {
+    display: none !important;
+}
+
+/* ----------------------------
+   4) フッター
+---------------------------- */
+footer {
+    visibility: hidden;
+}
+
+/* ----------------------------
+   5) サイドバー開閉トグルを明示的に残す
+   - バージョンによって data-testid が違うことがあるので複数指定
+---------------------------- */
+button[data-testid="collapsedControl"],
+button[data-testid="stSidebarCollapseButton"],
+button[aria-label="Close sidebar"],
+button[aria-label="Open sidebar"] {
+    display: inline-flex !important;
+    visibility: visible !important;
+}
+
+/* 見た目が崩れる場合の保険（トグル周辺のコンテナが潰れるのを防ぐ） */
+div[data-testid="stToolbar"] {
+    visibility: visible !important;
+}
 </style>
 """
 st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
