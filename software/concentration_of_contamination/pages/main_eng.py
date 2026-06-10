@@ -470,9 +470,56 @@ st.markdown(language_switch_html, unsafe_allow_html=True)
 # Header
 HIDE_MENU_STYLE = """
 <style>
-#MainMenu {visibility: hidden;}
-[data-testid="stToolbar"] {visibility: hidden; height: 0;}
-[data-testid="stDecoration"] {display: none;}
+/* ----------------------------
+   1) Show Header (for sidebar toggle)
+---------------------------- */
+header, header[data-testid="stHeader"] {
+    visibility: visible !important;
+    height: auto !important;
+}
+
+/* ----------------------------
+   2) Hide MainMenu（…/kebab）
+---------------------------- */
+[data-testid="stMainMenu"] { 
+    display: none !important; 
+}
+#MainMenu { 
+    visibility: hidden; 
+}
+
+/* ----------------------------
+   3) Hide Deploy Button/StatusWidget (if present; may depend on deployment platform and Streamlit version)
+---------------------------- */
+[data-testid="stDeployButton"] {
+    display: none !important;
+}
+[data-testid="stStatusWidget"] {
+    display: none !important;
+}
+
+/* ----------------------------
+   4) Hide Footer 
+---------------------------- */
+footer {
+    visibility: hidden;
+}
+
+/* ----------------------------
+   5) Show Sidebar Toggle
+   - Version-dependent data-testid may vary, so multiple are specified
+---------------------------- */
+button[data-testid="collapsedControl"],
+button[data-testid="stSidebarCollapseButton"],
+button[aria-label="Close sidebar"],
+button[aria-label="Open sidebar"] {
+    display: inline-flex !important;
+    visibility: visible !important;
+}
+
+div[data-testid="stToolbar"] {
+    visibility: visible !important;
+}
 </style>
 """
 st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
