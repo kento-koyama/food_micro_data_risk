@@ -661,20 +661,12 @@ st.markdown(language_switch_html, unsafe_allow_html=True)
 # デフォルトのメニューバーを非表示
 HIDE_MENU_STYLE = """
 <style>
-#MainMenu {
-    visibility: hidden;
-    height: 0%;
-}
-header {
-    visibility: hidden;
-    height: 0%;
-}
-/* 折りたたみ時にサイドバーを開き直すボタンだけは表示に戻す */
-[data-testid="stSidebarCollapseButton"],
-[data-testid="stSidebarCollapsedControl"],
-[data-testid="collapsedControl"] {
-    visibility: visible;
-}
+/* 右上のハンバーガーメニューを非表示 */
+#MainMenu {visibility: hidden;}
+/* Deployボタン・実行状況などのツールバーを非表示（開閉ボタンは含まれないので残る） */
+[data-testid="stToolbar"] {visibility: hidden; height: 0;}
+/* 最上部の装飾バー（カラーバー）を非表示 */
+[data-testid="stDecoration"] {display: none;}
 </style>
 """
 st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
