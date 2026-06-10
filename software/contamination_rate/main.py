@@ -510,12 +510,12 @@ language_switch_html = f"""
         font-weight: bold;
     }}
     .language-switch .inactive {{
-        color: #ccc;
+        color: #000;
         pointer-events: none;
         cursor: default;
     }}
     .language-switch .active {{
-        color: #000;
+        color: #ccc;
     }}
     .language-switch .active:hover {{
         color: #0366d6;
