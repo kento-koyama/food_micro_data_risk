@@ -198,7 +198,7 @@ st.sidebar.markdown(
     '.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.46-.55.38'
     'A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8z"></path>'
     '</svg>'
-    '<span>GitHub repository</span>'
+    '<span>GitHub Repository</span>'
     '</a>',
     unsafe_allow_html=True,
 )
@@ -212,7 +212,7 @@ st.sidebar.markdown(
     '<rect x="6.4" y="5" width="3.2" height="10" rx="0.3"></rect>'
     '<rect x="11.8" y="2" width="3.2" height="13" rx="0.3"></rect>'
     '</svg>'
-    '<span>Software visualizing concentration of contamination</span>'
+    '<span>Software Visualizing Concentration of Contamination</span>'
     '</a>',
     unsafe_allow_html=True,
 )
