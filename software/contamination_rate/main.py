@@ -265,7 +265,18 @@ st.sidebar.markdown(
     unsafe_allow_html=True,
 )
 st.sidebar.markdown(
-    "[🦠 汚染濃度ソフトウェア](https://concentration-of-contamination1-624097414875.asia-northeast1.run.app/)"
+    '<a href="https://concentration-of-contamination1-624097414875.asia-northeast1.run.app/" '
+    'target="_blank" rel="noopener noreferrer" '
+    'style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">'
+    '<svg width="16" height="16" fill="currentColor" aria-hidden="true" '
+    'xmlns="http://www.w3.org/2000/svg">'
+    '<rect x="1" y="9" width="3.2" height="6" rx="0.3"></rect>'
+    '<rect x="6.4" y="5" width="3.2" height="10" rx="0.3"></rect>'
+    '<rect x="11.8" y="2" width="3.2" height="13" rx="0.3"></rect>'
+    '</svg>'
+    '<span>汚染濃度ソフトウェア</span>'
+    '</a>',
+    unsafe_allow_html=True,
 )
 
 # 4) 最終的な絞り込み（全条件のAND）
