@@ -669,6 +669,12 @@ header {
     visibility: hidden;
     height: 0%;
 }
+/* 折りたたみ時にサイドバーを開き直すボタンだけは表示に戻す */
+[data-testid="stSidebarCollapseButton"],
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"] {
+    visibility: visible;
+}
 </style>
 """
 st.markdown(HIDE_MENU_STYLE, unsafe_allow_html=True)
