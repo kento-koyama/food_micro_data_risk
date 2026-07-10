@@ -364,6 +364,14 @@ else:
     st.write(f'Data for Selected Filters {group_title}')
     df_filtered_display = df_filtered.copy()
     df_filtered_display = df_filtered_display[['Year', 'Food Handling Classification', 'Food Category', 'Food Name', 'Organism', 'Organism_Detail', 'Number of Samples', 'Number of Positives', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+    
+    df_filtered_display["Source URL"] = (
+        df_filtered_display["Source URL"].astype("string").fillna("").str.strip()
+    )
+    link_cfg = {
+        "Source URL": st.column_config.LinkColumn("Source URL")
+    }
+
     st.dataframe(df_filtered_display, hide_index=True)
     st.write("-----------")
 
