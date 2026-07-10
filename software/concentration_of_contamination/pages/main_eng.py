@@ -418,6 +418,10 @@ else:
     st.subheader(f"Filtered Data for Selected Food Category and Name {group_title}")
     df_filtered_display = df_filtered.copy()
     df_filtered_display = df_filtered_display[['Year', 'Food Handling Classification', 'Food Category', 'Food Name', 'Food details', 'Organism', 'Organism_Detail', 'log CFU/g', 'Concentration', 'Unit', 'Method', 'Agency', 'Survey', 'Source URL', 'Access Date', 'Remarks']]
+    df_filtered_display["Source URL"] = (
+        df_filtered_display["Source URL"].astype("string").fillna("").str.strip()
+    )
+    link_cfg = {"Source URL": st.column_config.LinkColumn("Source URL")}
     df_filtered_display.reset_index(inplace=True, drop=True)
     st.dataframe(df_filtered_display)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
