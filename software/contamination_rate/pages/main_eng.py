@@ -372,12 +372,12 @@ else:
         "Source URL": st.column_config.LinkColumn("Source URL")
     }
 
-    st.dataframe(df_filtered_display, hide_index=True)
+    st.dataframe(df_filtered_display, hide_index=True, column_config=link_cfg)
     st.write("-----------")
 
     positive_df = df_filtered_display[df_filtered_display['Number of Positives'] >= 1]
     st.write(f'Samples with Positive Count >= 1 {group_title}')
-    st.dataframe(positive_df, hide_index=True)
+    st.dataframe(positive_df, hide_index=True, column_config=link_cfg)
 
 
 # setting current page manually
