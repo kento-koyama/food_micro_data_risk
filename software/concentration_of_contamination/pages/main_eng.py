@@ -423,7 +423,7 @@ else:
     )
     link_cfg = {"Source URL": st.column_config.LinkColumn("Source URL")}
     df_filtered_display.reset_index(inplace=True, drop=True)
-    st.dataframe(df_filtered_display)
+    st.dataframe(df_filtered_display, hide_index=False, column_config=link_cfg)
     st.write("*Note: This graph includes processed literature values such as max/min/mean from reports. Ongoing updates will improve this with raw data.*")
 
 
