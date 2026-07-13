@@ -628,7 +628,7 @@ contact_link = """
     </style>
     <div class="footer">
         お問い合わせ・データの提供については
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2FwkiAWmr3g_50BpPAx5_87w3pwLMPRYeKwCFSfqgSJ1iTA/viewform?usp=header"
+        <a href="https://forms.gle/4FJXcpF2Q7hiufpRA"
            target="_blank" rel="noopener noreferrer">こちら</a>
         から
     </div>
